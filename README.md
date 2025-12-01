@@ -24,7 +24,7 @@ Our custom Biomni approach achieved higher precision in identifying relevant non
 
 ## Publication
 
-Presented at [分子生物学会 2025], [3Dec2025]
+Presented at the 48th Annual Meeting of the Molecular Biology Society of Japan (第48回日本分子生物学会年会), December 3-6, 2025
 
 ## Data Availability
 
