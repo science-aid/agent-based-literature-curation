@@ -1,0 +1,4249 @@
+{
+  "39614765": {
+    "species": [
+      {
+        "name": "horses",
+        "id": "9796"
+      }
+    ],
+    "genes": []
+  },
+  "39614779": {
+    "species": [
+      {
+        "name": "Chimpanzees",
+        "id": "9598"
+      },
+      {
+        "name": "Pan troglodytes verus",
+        "id": "37012"
+      },
+      {
+        "name": "chimpanzees",
+        "id": "9598"
+      }
+    ],
+    "genes": []
+  },
+  "39614781": {
+    "species": [
+      {
+        "name": "Listeria",
+        "id": "1639"
+      },
+      {
+        "name": "Listeria monocytogenes",
+        "id": "1639"
+      },
+      {
+        "name": "bacteria",
+        "id": "629395"
+      },
+      {
+        "name": "Listeria innocua",
+        "id": "1642"
+      },
+      {
+        "name": "Listeria",
+        "id": "1642"
+      }
+    ],
+    "genes": []
+  },
+  "39614804": {
+    "species": [
+      {
+        "name": "elasmobranchs",
+        "id": "7778"
+      },
+      {
+        "name": "whale shark",
+        "id": "259920"
+      },
+      {
+        "name": "Rhincodon typus",
+        "id": "259920"
+      },
+      {
+        "name": "Cetorhinus maximus",
+        "id": "57982"
+      },
+      {
+        "name": "Megachasma pelagios",
+        "id": "57985"
+      },
+      {
+        "name": "C. maximus",
+        "id": "57982"
+      },
+      {
+        "name": "M. pelagios",
+        "id": "57985"
+      }
+    ],
+    "genes": []
+  },
+  "39614880": {
+    "species": [
+      {
+        "name": "koala",
+        "id": "38626"
+      },
+      {
+        "name": "Phascolarctos cinereus",
+        "id": "38626"
+      },
+      {
+        "name": "koala retrovirus",
+        "id": "394239"
+      }
+    ],
+    "genes": []
+  },
+  "39614888": {
+    "species": [
+      {
+        "name": "house dust mites",
+        "id": "6952"
+      },
+      {
+        "name": "HDM",
+        "id": "6952"
+      }
+    ],
+    "genes": []
+  },
+  "39615007": {
+    "species": [
+      {
+        "name": "black-headed gulls",
+        "id": "8914"
+      },
+      {
+        "name": "Black-headed gulls",
+        "id": "8914"
+      },
+      {
+        "name": "Chroicocephalus ridibundus",
+        "id": "1192867"
+      }
+    ],
+    "genes": []
+  },
+  "39615027": {
+    "species": [
+      {
+        "name": "Synechococcus",
+        "id": "1129"
+      }
+    ],
+    "genes": []
+  },
+  "39615039": {
+    "species": [
+      {
+        "name": "sorghum",
+        "id": "4558"
+      },
+      {
+        "name": "Cuphea",
+        "id": "3929"
+      }
+    ],
+    "genes": []
+  },
+  "39615327": {
+    "species": [
+      {
+        "name": "Muscovy ducks",
+        "id": "8855"
+      }
+    ],
+    "genes": []
+  },
+  "39615343": {
+    "species": [
+      {
+        "name": "rotavirus",
+        "id": "10912"
+      },
+      {
+        "name": "Rotavirus",
+        "id": "10912"
+      }
+    ],
+    "genes": []
+  },
+  "39615459": {
+    "species": [
+      {
+        "name": "Wolbachia",
+        "id": "955"
+      },
+      {
+        "name": "Wolbachia pipientis",
+        "id": "955"
+      },
+      {
+        "name": "Aedes aegypti",
+        "id": "7159"
+      }
+    ],
+    "genes": []
+  },
+  "39615498": {
+    "species": [
+      {
+        "name": "Mycobacterium tuberculosis complex",
+        "id": "77643"
+      },
+      {
+        "name": "MTBC",
+        "id": "77643"
+      }
+    ],
+    "genes": []
+  },
+  "39615517": {
+    "species": [
+      {
+        "name": "rabbit",
+        "id": "9986"
+      },
+      {
+        "name": "rabbits",
+        "id": "9986"
+      },
+      {
+        "name": "Staphylococcus aureus",
+        "id": "1280"
+      },
+      {
+        "name": "bacteria",
+        "id": "629395"
+      }
+    ],
+    "genes": []
+  },
+  "39615687": {
+    "species": [
+      {
+        "name": "Thermus thermophilus",
+        "id": "274"
+      },
+      {
+        "name": "Vibrio cholerae",
+        "id": "666"
+      }
+    ],
+    "genes": []
+  },
+  "39616083": {
+    "species": [
+      {
+        "name": "Porphyromonasgingivalis",
+        "id": "837"
+      },
+      {
+        "name": "P. gingivalis",
+        "id": "837"
+      },
+      {
+        "name": "Staphylococcus aureus",
+        "id": "1280"
+      },
+      {
+        "name": "S. aureus",
+        "id": "1280"
+      }
+    ],
+    "genes": []
+  },
+  "39616174": {
+    "species": [
+      {
+        "name": "Zymomonas mobilis",
+        "id": "542"
+      },
+      {
+        "name": "Z. mobilis",
+        "id": "542"
+      }
+    ],
+    "genes": []
+  },
+  "39616196": {
+    "species": [
+      {
+        "name": "Metacarcinus edwardsii",
+        "id": "598739"
+      }
+    ],
+    "genes": []
+  },
+  "39616201": {
+    "species": [
+      {
+        "name": "apple",
+        "id": "3750"
+      }
+    ],
+    "genes": []
+  },
+  "39616203": {
+    "species": [
+      {
+        "name": "Octopus",
+        "id": "6643"
+      }
+    ],
+    "genes": []
+  },
+  "39616220": {
+    "species": [
+      {
+        "name": "Anopheles gambiae",
+        "id": "7165"
+      },
+      {
+        "name": "Pseudomonas",
+        "id": "286"
+      },
+      {
+        "name": "bacteria",
+        "id": "629395"
+      },
+      {
+        "name": "A. gambiae",
+        "id": "7165"
+      }
+    ],
+    "genes": []
+  },
+  "39616241": {
+    "species": [
+      {
+        "name": "Brassica juncea",
+        "id": "3707"
+      },
+      {
+        "name": "B. napus",
+        "id": "3708"
+      }
+    ],
+    "genes": []
+  },
+  "39616255": {
+    "species": [
+      {
+        "name": "monkeypox virus",
+        "id": "10244"
+      },
+      {
+        "name": "hepatitis B virus",
+        "id": "10407"
+      },
+      {
+        "name": "gorilla",
+        "id": "9592"
+      }
+    ],
+    "genes": []
+  },
+  "39616283": {
+    "species": [
+      {
+        "name": "Ocimum basilicum L.",
+        "id": "39350"
+      }
+    ],
+    "genes": []
+  },
+  "39616346": {
+    "species": [
+      {
+        "name": "Sambucus nigra",
+        "id": "4202"
+      },
+      {
+        "name": "SAM",
+        "id": "4202"
+      }
+    ],
+    "genes": []
+  },
+  "39616353": {
+    "species": [
+      {
+        "name": "Clostridium beijerinckii NCIMB 8052",
+        "id": "290402"
+      },
+      {
+        "name": "C. beijerinckii NCIMB 8052",
+        "id": "290402"
+      }
+    ],
+    "genes": []
+  },
+  "39616358": {
+    "species": [
+      {
+        "name": "apple",
+        "id": "3750"
+      },
+      {
+        "name": "Ruminococcus bromii",
+        "id": "40518"
+      },
+      {
+        "name": "Faecalibacterium prausnitzii",
+        "id": "853"
+      },
+      {
+        "name": "Bacteroides",
+        "id": "816"
+      },
+      {
+        "name": "Acidaminococcus intestini",
+        "id": "187327"
+      },
+      {
+        "name": "Akkermansia",
+        "id": "239934"
+      },
+      {
+        "name": "Apple",
+        "id": "3750"
+      },
+      {
+        "name": "Klebsiella pneumoniae",
+        "id": "573"
+      },
+      {
+        "name": "Bifidobacterium longum",
+        "id": "216816"
+      },
+      {
+        "name": "Megasphaera sp.",
+        "id": "2023260"
+      },
+      {
+        "name": "Bifidobacterium adolescentis",
+        "id": "1680"
+      }
+    ],
+    "genes": []
+  },
+  "39616384": {
+    "species": [
+      {
+        "name": "hepatitis B virus",
+        "id": "10407"
+      }
+    ],
+    "genes": []
+  },
+  "39616387": {
+    "species": [
+      {
+        "name": "Bithynia",
+        "id": "6477"
+      },
+      {
+        "name": "liver fluke",
+        "id": "6192"
+      }
+    ],
+    "genes": []
+  },
+  "39616396": {
+    "species": [
+      {
+        "name": "sugar beet",
+        "id": "3555"
+      },
+      {
+        "name": "beet necrotic yellow vein virus",
+        "id": "31721"
+      }
+    ],
+    "genes": []
+  },
+  "39616404": {
+    "species": [
+      {
+        "name": "potatoes",
+        "id": "4113"
+      }
+    ],
+    "genes": []
+  },
+  "39616410": {
+    "species": [
+      {
+        "name": "mushrooms",
+        "id": "5341"
+      },
+      {
+        "name": "Mushroom",
+        "id": "5341"
+      },
+      {
+        "name": "mushroom",
+        "id": "5341"
+      }
+    ],
+    "genes": []
+  },
+  "39616518": {
+    "species": [
+      {
+        "name": "Staphylococcus aureus",
+        "id": "1280"
+      }
+    ],
+    "genes": []
+  },
+  "39616619": {
+    "species": [
+      {
+        "name": "Asparagopsis taxiformis",
+        "id": "260499"
+      },
+      {
+        "name": "A. taxiformis",
+        "id": "260499"
+      },
+      {
+        "name": "algae",
+        "id": "569578"
+      }
+    ],
+    "genes": []
+  },
+  "39616720": {
+    "species": [
+      {
+        "name": "taro",
+        "id": "4460"
+      },
+      {
+        "name": "Taro",
+        "id": "4460"
+      }
+    ],
+    "genes": []
+  },
+  "39616999": {
+    "species": [
+      {
+        "name": "Brucella melitensis",
+        "id": "29459"
+      },
+      {
+        "name": "Brucella",
+        "id": "234"
+      },
+      {
+        "name": "B. melitensis",
+        "id": "29459"
+      }
+    ],
+    "genes": []
+  },
+  "39617439": {
+    "species": [
+      {
+        "name": "Porcine Circovirus Type 2",
+        "id": "85708"
+      },
+      {
+        "name": "Mycoplasma hyopneumoniae",
+        "id": "2099"
+      },
+      {
+        "name": "PCV2",
+        "id": "85708"
+      },
+      {
+        "name": "Aujeszky's Disease Virus",
+        "id": "10345"
+      },
+      {
+        "name": "ADV",
+        "id": "10345"
+      },
+      {
+        "name": "Porcine Reproductive and Respiratory Syndrome Virus",
+        "id": "28344"
+      },
+      {
+        "name": "PRRSV",
+        "id": "28344"
+      },
+      {
+        "name": "M. hyopneumoniae",
+        "id": "2099"
+      }
+    ],
+    "genes": []
+  },
+  "39617715": {
+    "species": [
+      {
+        "name": "Bilophila",
+        "id": "35832"
+      },
+      {
+        "name": "Alistipes",
+        "id": "239759"
+      }
+    ],
+    "genes": []
+  },
+  "39617747": {
+    "species": [
+      {
+        "name": "potato",
+        "id": "4113"
+      },
+      {
+        "name": "carrot",
+        "id": "4039"
+      },
+      {
+        "name": "potatoes",
+        "id": "4113"
+      },
+      {
+        "name": "carrots",
+        "id": "4039"
+      }
+    ],
+    "genes": []
+  },
+  "39617772": {
+    "species": [
+      {
+        "name": "Brassica juncea",
+        "id": "3707"
+      },
+      {
+        "name": "B. juncea",
+        "id": "3707"
+      }
+    ],
+    "genes": []
+  },
+  "39617774": {
+    "species": [
+      {
+        "name": "Cataglyphis velox",
+        "id": "72786"
+      }
+    ],
+    "genes": []
+  },
+  "39617805": {
+    "species": [
+      {
+        "name": "Streptomyces fulvorobeus",
+        "id": "284028"
+      },
+      {
+        "name": "Elephas maximus",
+        "id": "9783"
+      },
+      {
+        "name": "Cryptococcus neoformans",
+        "id": "5207"
+      },
+      {
+        "name": "Cryptococcus",
+        "id": "5207"
+      }
+    ],
+    "genes": []
+  },
+  "39617890": {
+    "species": [
+      {
+        "name": "jujube",
+        "id": "326968"
+      },
+      {
+        "name": "Ziziphus jujuba Mill",
+        "id": "326968"
+      }
+    ],
+    "genes": []
+  },
+  "39617927": {
+    "species": [
+      {
+        "name": "kiwifruit",
+        "id": "3627"
+      },
+      {
+        "name": "Kiwifruit",
+        "id": "3627"
+      }
+    ],
+    "genes": []
+  },
+  "39617929": {
+    "species": [
+      {
+        "name": "banana",
+        "id": "4641"
+      },
+      {
+        "name": "Musa acuminata",
+        "id": "4641"
+      },
+      {
+        "name": "Musa",
+        "id": "4640"
+      },
+      {
+        "name": "bananas",
+        "id": "4641"
+      }
+    ],
+    "genes": []
+  },
+  "39617948": {
+    "species": [
+      {
+        "name": "dogs",
+        "id": "9615"
+      },
+      {
+        "name": "cats",
+        "id": "9685"
+      },
+      {
+        "name": "horses",
+        "id": "9796"
+      },
+      {
+        "name": "dog",
+        "id": "9615"
+      },
+      {
+        "name": "cat",
+        "id": "9685"
+      },
+      {
+        "name": "horse",
+        "id": "9796"
+      }
+    ],
+    "genes": []
+  },
+  "39617958": {
+    "species": [
+      {
+        "name": "Sclerotinia sclerotiorum",
+        "id": "5180"
+      },
+      {
+        "name": "S. sclerotiorum",
+        "id": "5180"
+      }
+    ],
+    "genes": []
+  },
+  "39617959": {
+    "species": [
+      {
+        "name": "Streptomyces scabies",
+        "id": "1930"
+      },
+      {
+        "name": "Streptomyces",
+        "id": "1930"
+      },
+      {
+        "name": "S. scabies",
+        "id": "1930"
+      }
+    ],
+    "genes": []
+  },
+  "39618024": {
+    "species": [
+      {
+        "name": "eastern elliptio",
+        "id": "55832"
+      },
+      {
+        "name": "Elliptio complanata",
+        "id": "55832"
+      },
+      {
+        "name": "Lampsilis radiata",
+        "id": "227612"
+      },
+      {
+        "name": "Margaritifera margaritifera",
+        "id": "2505931"
+      },
+      {
+        "name": "Strophitus undulatus",
+        "id": "85054"
+      },
+      {
+        "name": "midge",
+        "id": "7154"
+      },
+      {
+        "name": "Xenochironomus canterburyensis",
+        "id": "1707135"
+      }
+    ],
+    "genes": []
+  },
+  "39618115": {
+    "species": [
+      {
+        "name": "Vibrio cholerae",
+        "id": "666"
+      }
+    ],
+    "genes": []
+  },
+  "39618122": {
+    "species": [
+      {
+        "name": "Serratia sp.",
+        "id": "616"
+      }
+    ],
+    "genes": []
+  },
+  "39618182": {
+    "species": [
+      {
+        "name": "sunflower",
+        "id": "4232"
+      }
+    ],
+    "genes": []
+  },
+  "39618192": {
+    "species": [
+      {
+        "name": "dogs",
+        "id": "9615"
+      }
+    ],
+    "genes": []
+  },
+  "39618298": {
+    "species": [
+      {
+        "name": "Epstein-Barr virus",
+        "id": "10376"
+      }
+    ],
+    "genes": []
+  },
+  "39618497": {
+    "species": [
+      {
+        "name": "flax",
+        "id": "4006"
+      },
+      {
+        "name": "Linum usitatissimum L.",
+        "id": "4006"
+      }
+    ],
+    "genes": []
+  },
+  "39618504": {
+    "species": [
+      {
+        "name": "Miscanthus x Giganteus",
+        "id": "183674"
+      },
+      {
+        "name": "Miscanthus x giganteus",
+        "id": "183674"
+      },
+      {
+        "name": "mxg",
+        "id": "183674"
+      }
+    ],
+    "genes": []
+  },
+  "39618529": {
+    "species": [
+      {
+        "name": "Cutibacterium acnes",
+        "id": "1747"
+      },
+      {
+        "name": "C. acnes",
+        "id": "1747"
+      }
+    ],
+    "genes": []
+  },
+  "39618539": {
+    "species": [
+      {
+        "name": "HEPATITIS B VIRUS",
+        "id": "10407"
+      },
+      {
+        "name": "hepatitis B virus",
+        "id": "10407"
+      },
+      {
+        "name": "HBV",
+        "id": "10407"
+      }
+    ],
+    "genes": []
+  },
+  "39618556": {
+    "species": [
+      {
+        "name": "jujube",
+        "id": "326968"
+      },
+      {
+        "name": "CF",
+        "id": "2003652"
+      }
+    ],
+    "genes": []
+  },
+  "39618557": {
+    "species": [
+      {
+        "name": "Lactococcus",
+        "id": "1357"
+      },
+      {
+        "name": "Lactobacillus",
+        "id": "1578"
+      }
+    ],
+    "genes": []
+  },
+  "39618639": {
+    "species": [
+      {
+        "name": "Acinetobacter baumannii",
+        "id": "470"
+      },
+      {
+        "name": "Klebsiella pneumoniae",
+        "id": "573"
+      }
+    ],
+    "genes": []
+  },
+  "39618662": {
+    "species": [
+      {
+        "name": "roundworms",
+        "id": "6231"
+      },
+      {
+        "name": "Platyhelminthes",
+        "id": "6157"
+      },
+      {
+        "name": "flatworms",
+        "id": "6157"
+      },
+      {
+        "name": "flukes",
+        "id": "6179"
+      },
+      {
+        "name": "tapeworms",
+        "id": "6199"
+      },
+      {
+        "name": "Ascaris lumbricoides",
+        "id": "6252"
+      },
+      {
+        "name": "Ancylostoma duodenale",
+        "id": "51022"
+      },
+      {
+        "name": "Trichuris trichiura",
+        "id": "36087"
+      },
+      {
+        "name": "Enterobius vermicularis",
+        "id": "51028"
+      },
+      {
+        "name": "Taenia",
+        "id": "6202"
+      }
+    ],
+    "genes": []
+  },
+  "39618724": {
+    "species": [
+      {
+        "name": "Ipomoea",
+        "id": "4119"
+      },
+      {
+        "name": "sweet potato",
+        "id": "4120"
+      }
+    ],
+    "genes": []
+  },
+  "39618725": {
+    "species": [
+      {
+        "name": "Ipomoea L.",
+        "id": "4119"
+      },
+      {
+        "name": "Ipomoea ophiodes",
+        "id": "2613457"
+      },
+      {
+        "name": "I. regnellii",
+        "id": "2607166"
+      },
+      {
+        "name": "I. velardei",
+        "id": "2607181"
+      },
+      {
+        "name": "I. jujuyensis",
+        "id": "2613421"
+      }
+    ],
+    "genes": []
+  },
+  "39618739": {
+    "species": [
+      {
+        "name": "varicella-zoster virus",
+        "id": "10335"
+      },
+      {
+        "name": "VZV",
+        "id": "10335"
+      }
+    ],
+    "genes": []
+  },
+  "39618809": {
+    "species": [
+      {
+        "name": "Agriphila straminella",
+        "id": "572809"
+      }
+    ],
+    "genes": []
+  },
+  "39618884": {
+    "species": [
+      {
+        "name": "Capsulimonas",
+        "id": "2494209"
+      },
+      {
+        "name": "Armatimonadota",
+        "id": "67819"
+      },
+      {
+        "name": "Jatrophihabitans",
+        "id": "1434010"
+      }
+    ],
+    "genes": []
+  },
+  "39618969": {
+    "species": [
+      {
+        "name": "Cedrela odorata L.",
+        "id": "124947"
+      },
+      {
+        "name": "Toona ciliata M. Roem",
+        "id": "67918"
+      },
+      {
+        "name": "Cedrela",
+        "id": "124946"
+      },
+      {
+        "name": "Cedrela odorata",
+        "id": "124947"
+      },
+      {
+        "name": "C. odorata",
+        "id": "124947"
+      }
+    ],
+    "genes": []
+  },
+  "39618971": {
+    "species": [
+      {
+        "name": "bacteria",
+        "id": "629395"
+      }
+    ],
+    "genes": []
+  },
+  "39619020": {
+    "species": [
+      {
+        "name": "Streptococcus sanguinis",
+        "id": "1305"
+      }
+    ],
+    "genes": []
+  },
+  "39619038": {
+    "species": [
+      {
+        "name": "Treponema Pallidum",
+        "id": "160"
+      }
+    ],
+    "genes": []
+  },
+  "39619080": {
+    "species": [
+      {
+        "name": "Nodularia spumigena",
+        "id": "70799"
+      },
+      {
+        "name": "N. spumigena",
+        "id": "70799"
+      }
+    ],
+    "genes": []
+  },
+  "39619088": {
+    "species": [
+      {
+        "name": "cats",
+        "id": "9685"
+      }
+    ],
+    "genes": []
+  },
+  "39619090": {
+    "species": [
+      {
+        "name": "cat",
+        "id": "9685"
+      },
+      {
+        "name": "cats",
+        "id": "9685"
+      }
+    ],
+    "genes": []
+  },
+  "39619108": {
+    "species": [
+      {
+        "name": "Amur Grayling",
+        "id": "201378"
+      },
+      {
+        "name": "Thymallus grubii",
+        "id": "201378"
+      },
+      {
+        "name": "Amur grayling",
+        "id": "201378"
+      },
+      {
+        "name": "Lactococcus",
+        "id": "1357"
+      },
+      {
+        "name": "Staphylococcus",
+        "id": "1279"
+      },
+      {
+        "name": "Bacillus",
+        "id": "1392"
+      },
+      {
+        "name": "Bacillus anthracis",
+        "id": "1392"
+      },
+      {
+        "name": "Pedobacter",
+        "id": "84567"
+      }
+    ],
+    "genes": []
+  },
+  "39619179": {
+    "species": [
+      {
+        "name": "wedge-tailed shearwaters",
+        "id": "48683"
+      },
+      {
+        "name": "Ardenna pacifica",
+        "id": "48683"
+      }
+    ],
+    "genes": []
+  },
+  "39619187": {
+    "species": [
+      {
+        "name": "Scomber australasicus",
+        "id": "29150"
+      }
+    ],
+    "genes": []
+  },
+  "39619192": {
+    "species": [
+      {
+        "name": "red deer",
+        "id": "9860"
+      },
+      {
+        "name": "Cervus canadensis wallichi",
+        "id": "170496"
+      },
+      {
+        "name": "Red Deer",
+        "id": "9860"
+      }
+    ],
+    "genes": []
+  },
+  "39619194": {
+    "species": [
+      {
+        "name": "switchgrass",
+        "id": "38727"
+      },
+      {
+        "name": "Switchgrass",
+        "id": "38727"
+      },
+      {
+        "name": "Panicum virgatum",
+        "id": "38727"
+      }
+    ],
+    "genes": []
+  },
+  "39619195": {
+    "species": [
+      {
+        "name": "sea urchin",
+        "id": "7656"
+      },
+      {
+        "name": "Tripneustes ventricosus",
+        "id": "105367"
+      },
+      {
+        "name": "sea urchins",
+        "id": "7625"
+      },
+      {
+        "name": "Propionigenium",
+        "id": "2332"
+      },
+      {
+        "name": "Roseimarinus",
+        "id": "1827484"
+      },
+      {
+        "name": "Hepatoplasma",
+        "id": "295595"
+      },
+      {
+        "name": "Kistimonas",
+        "id": "1036132"
+      }
+    ],
+    "genes": []
+  },
+  "39619205": {
+    "species": [
+      {
+        "name": "echinoderms",
+        "id": "7586"
+      },
+      {
+        "name": "Diadema antillarum",
+        "id": "105358"
+      },
+      {
+        "name": "Holothuria floridana",
+        "id": "481845"
+      },
+      {
+        "name": "Holothuria",
+        "id": "481845"
+      },
+      {
+        "name": "Echinoderms",
+        "id": "7586"
+      },
+      {
+        "name": "sea cucumbers",
+        "id": "7705"
+      }
+    ],
+    "genes": []
+  },
+  "39619279": {
+    "species": [
+      {
+        "name": "Saprochaete capitata",
+        "id": "1095183"
+      }
+    ],
+    "genes": []
+  },
+  "39619280": {
+    "species": [
+      {
+        "name": "human immunodeficiency virus",
+        "id": "12721"
+      },
+      {
+        "name": "HIV",
+        "id": "12721"
+      }
+    ],
+    "genes": []
+  },
+  "39619291": {
+    "species": [
+      {
+        "name": "Truncocolumella",
+        "id": "48596"
+      }
+    ],
+    "genes": []
+  },
+  "39619292": {
+    "species": [
+      {
+        "name": "P.aquatica",
+        "id": "663922"
+      }
+    ],
+    "genes": []
+  },
+  "39619293": {
+    "species": [
+      {
+        "name": "Cervusnipponkopschi",
+        "id": "501781"
+      },
+      {
+        "name": "sika deer",
+        "id": "9863"
+      },
+      {
+        "name": "Potentillafreyniana",
+        "id": "667250"
+      },
+      {
+        "name": "Persicariaperfoliata",
+        "id": "371028"
+      },
+      {
+        "name": "Ardisiajaponica",
+        "id": "276775"
+      }
+    ],
+    "genes": []
+  },
+  "39619297": {
+    "species": [
+      {
+        "name": "Varicella-zoster virus",
+        "id": "10335"
+      }
+    ],
+    "genes": []
+  },
+  "39619335": {
+    "species": [
+      {
+        "name": "tobacco",
+        "id": "4097"
+      }
+    ],
+    "genes": []
+  },
+  "39619407": {
+    "species": [
+      {
+        "name": "tobacco",
+        "id": "4097"
+      }
+    ],
+    "genes": []
+  },
+  "39619432": {
+    "species": [
+      {
+        "name": "Candida albicans",
+        "id": "5476"
+      },
+      {
+        "name": "C. albicans",
+        "id": "5476"
+      }
+    ],
+    "genes": []
+  },
+  "39619475": {
+    "species": [
+      {
+        "name": "funnel-weavers",
+        "id": "6906"
+      },
+      {
+        "name": "T.averni",
+        "id": "889934"
+      },
+      {
+        "name": "Eratigenafuesslini",
+        "id": "2747061"
+      }
+    ],
+    "genes": []
+  },
+  "39619476": {
+    "species": [
+      {
+        "name": "Peromyscus",
+        "id": "10040"
+      },
+      {
+        "name": "P.beatae",
+        "id": "99538"
+      },
+      {
+        "name": "P.stirtoni",
+        "id": "414443"
+      }
+    ],
+    "genes": []
+  },
+  "39619514": {
+    "species": [
+      {
+        "name": "bacteria",
+        "id": "629395"
+      }
+    ],
+    "genes": []
+  },
+  "39619529": {
+    "species": [
+      {
+        "name": "carpet grass",
+        "id": "158091"
+      }
+    ],
+    "genes": []
+  },
+  "39619575": {
+    "species": [
+      {
+        "name": "Codonopsis pilosula",
+        "id": "86864"
+      }
+    ],
+    "genes": []
+  },
+  "39619645": {
+    "species": [
+      {
+        "name": "camelina",
+        "id": "71323"
+      }
+    ],
+    "genes": []
+  },
+  "39619665": {
+    "species": [
+      {
+        "name": "Reticulofenestra",
+        "id": "1856764"
+      }
+    ],
+    "genes": []
+  },
+  "39619667": {
+    "species": [
+      {
+        "name": "Trichoderma",
+        "id": "5543"
+      },
+      {
+        "name": "Strophariarugosoannulata",
+        "id": "68746"
+      },
+      {
+        "name": "mushroom",
+        "id": "5341"
+      },
+      {
+        "name": "S.rugosoannulata",
+        "id": "68746"
+      }
+    ],
+    "genes": []
+  },
+  "39619689": {
+    "species": [
+      {
+        "name": "Agaricus subrufescens",
+        "id": "87252"
+      },
+      {
+        "name": "Thermopolyspora",
+        "id": "359169"
+      }
+    ],
+    "genes": []
+  },
+  "39619691": {
+    "species": [
+      {
+        "name": "Microcerotermes sp.",
+        "id": "2904732"
+      },
+      {
+        "name": "Pericapritermes nitobei",
+        "id": "64674"
+      },
+      {
+        "name": "P. nitobei",
+        "id": "64674"
+      }
+    ],
+    "genes": []
+  },
+  "39619707": {
+    "species": [
+      {
+        "name": "propolis",
+        "id": "931589"
+      }
+    ],
+    "genes": []
+  },
+  "39619742": {
+    "species": [
+      {
+        "name": "bacteria",
+        "id": "629395"
+      },
+      {
+        "name": "Bacteria",
+        "id": "629395"
+      }
+    ],
+    "genes": []
+  },
+  "39619751": {
+    "species": [
+      {
+        "name": "Nigella sativa",
+        "id": "555479"
+      }
+    ],
+    "genes": []
+  },
+  "39619777": {
+    "species": [
+      {
+        "name": "Petrocodon",
+        "id": "656701"
+      }
+    ],
+    "genes": []
+  },
+  "39619778": {
+    "species": [
+      {
+        "name": "bull shark",
+        "id": "46612"
+      }
+    ],
+    "genes": []
+  },
+  "39619781": {
+    "species": [
+      {
+        "name": "Tenebrio molitor",
+        "id": "7067"
+      },
+      {
+        "name": "T. molitor",
+        "id": "7067"
+      },
+      {
+        "name": "S. sichuanensis",
+        "id": "1048828"
+      }
+    ],
+    "genes": []
+  },
+  "39619786": {
+    "species": [
+      {
+        "name": "Trichosurus vulpecula",
+        "id": "9337"
+      }
+    ],
+    "genes": []
+  },
+  "39619788": {
+    "species": [
+      {
+        "name": "Etisus laevimanus Randall, 1840",
+        "id": "1606861"
+      }
+    ],
+    "genes": []
+  },
+  "39619789": {
+    "species": [
+      {
+        "name": "Varanus panoptes",
+        "id": "169847"
+      },
+      {
+        "name": "lizards",
+        "id": "8504"
+      },
+      {
+        "name": "cane toads",
+        "id": "8386"
+      },
+      {
+        "name": "Rhinella marina",
+        "id": "8386"
+      },
+      {
+        "name": "lizard",
+        "id": "8524"
+      }
+    ],
+    "genes": []
+  },
+  "39619791": {
+    "species": [
+      {
+        "name": "Diomedea exulans",
+        "id": "46550"
+      }
+    ],
+    "genes": []
+  },
+  "39619839": {
+    "species": [
+      {
+        "name": "potato",
+        "id": "4113"
+      },
+      {
+        "name": "Solanum tuberosum",
+        "id": "4113"
+      }
+    ],
+    "genes": []
+  },
+  "39619845": {
+    "species": [
+      {
+        "name": "E. ulmoides",
+        "id": "4392"
+      }
+    ],
+    "genes": []
+  },
+  "39619847": {
+    "species": [
+      {
+        "name": "Wolffia microscopica",
+        "id": "161119"
+      },
+      {
+        "name": "W. microscopica",
+        "id": "161119"
+      },
+      {
+        "name": "Aspergillus sclerotiorum",
+        "id": "138282"
+      },
+      {
+        "name": "cassava",
+        "id": "3983"
+      }
+    ],
+    "genes": []
+  },
+  "39619850": {
+    "species": [
+      {
+        "name": "Zanthoxylum bungeanum",
+        "id": "328401"
+      },
+      {
+        "name": "Z. bungeanum",
+        "id": "328401"
+      }
+    ],
+    "genes": []
+  },
+  "39619870": {
+    "species": [
+      {
+        "name": "Mycoplasma pneumoniae",
+        "id": "2104"
+      }
+    ],
+    "genes": []
+  },
+  "39619920": {
+    "species": [
+      {
+        "name": "cats",
+        "id": "9685"
+      }
+    ],
+    "genes": []
+  },
+  "39619929": {
+    "species": [
+      {
+        "name": "sardines",
+        "id": "27697"
+      },
+      {
+        "name": "Sardina pilchardus",
+        "id": "27697"
+      },
+      {
+        "name": "Morganella morganii",
+        "id": "582"
+      },
+      {
+        "name": "Proteus mirabilis",
+        "id": "584"
+      },
+      {
+        "name": "Klebsiella ozaenae",
+        "id": "574"
+      },
+      {
+        "name": "Serratia plymuthica",
+        "id": "82996"
+      },
+      {
+        "name": "M. morganii",
+        "id": "582"
+      },
+      {
+        "name": "K. ozaenae",
+        "id": "574"
+      }
+    ],
+    "genes": []
+  },
+  "39619939": {
+    "species": [
+      {
+        "name": "Cephalopina titillator",
+        "id": "2707115"
+      },
+      {
+        "name": "C. titillator",
+        "id": "2707115"
+      }
+    ],
+    "genes": []
+  },
+  "39619945": {
+    "species": [
+      {
+        "name": "Angelica",
+        "id": "54703"
+      },
+      {
+        "name": "Angelica sylvestris L.",
+        "id": "54703"
+      },
+      {
+        "name": "Angelica sylvestris",
+        "id": "54703"
+      }
+    ],
+    "genes": []
+  },
+  "39619952": {
+    "species": [
+      {
+        "name": "cumin",
+        "id": "52462"
+      }
+    ],
+    "genes": []
+  },
+  "39619954": {
+    "species": [
+      {
+        "name": "Carrots",
+        "id": "4039"
+      },
+      {
+        "name": "carrots",
+        "id": "4039"
+      },
+      {
+        "name": "carrot",
+        "id": "4039"
+      }
+    ],
+    "genes": []
+  },
+  "39619959": {
+    "species": [
+      {
+        "name": "black tea",
+        "id": "4442"
+      }
+    ],
+    "genes": []
+  },
+  "39619960": {
+    "species": [
+      {
+        "name": "sweet potato",
+        "id": "4120"
+      }
+    ],
+    "genes": []
+  },
+  "39619967": {
+    "species": [
+      {
+        "name": "Cape gooseberry",
+        "id": "126903"
+      },
+      {
+        "name": "Physalis",
+        "id": "24663"
+      },
+      {
+        "name": "Azotobacter",
+        "id": "352"
+      }
+    ],
+    "genes": []
+  },
+  "39619974": {
+    "species": [
+      {
+        "name": "LAB",
+        "id": "103236"
+      }
+    ],
+    "genes": []
+  },
+  "39619975": {
+    "species": [
+      {
+        "name": "LR",
+        "id": "1445722"
+      },
+      {
+        "name": "CSM",
+        "id": "2052939"
+      },
+      {
+        "name": "CSP",
+        "id": "1964372"
+      },
+      {
+        "name": "bacteria",
+        "id": "629395"
+      }
+    ],
+    "genes": []
+  },
+  "39619984": {
+    "species": [
+      {
+        "name": "Salvia sclarea",
+        "id": "38869"
+      },
+      {
+        "name": "S. sclarea",
+        "id": "38869"
+      }
+    ],
+    "genes": []
+  },
+  "39619985": {
+    "species": [
+      {
+        "name": "PG",
+        "id": "1985360"
+      }
+    ],
+    "genes": []
+  },
+  "39619986": {
+    "species": [
+      {
+        "name": "cocoa",
+        "id": "3641"
+      }
+    ],
+    "genes": []
+  },
+  "39619988": {
+    "species": [
+      {
+        "name": "Byssochlamys nivea",
+        "id": "5093"
+      },
+      {
+        "name": "Byssochlamys fulva",
+        "id": "89137"
+      },
+      {
+        "name": "Neosartorya fischeri",
+        "id": "36630"
+      }
+    ],
+    "genes": []
+  },
+  "39619993": {
+    "species": [
+      {
+        "name": "sweet potato",
+        "id": "4120"
+      }
+    ],
+    "genes": []
+  },
+  "39620006": {
+    "species": [
+      {
+        "name": "Curcuma longa",
+        "id": "136217"
+      }
+    ],
+    "genes": []
+  },
+  "39620008": {
+    "species": [
+      {
+        "name": "bacteria",
+        "id": "629395"
+      }
+    ],
+    "genes": []
+  },
+  "39620009": {
+    "species": [
+      {
+        "name": "Strawberry",
+        "id": "3747"
+      },
+      {
+        "name": "strawberry",
+        "id": "3747"
+      }
+    ],
+    "genes": []
+  },
+  "39620010": {
+    "species": [
+      {
+        "name": "carrots",
+        "id": "4039"
+      }
+    ],
+    "genes": []
+  },
+  "39620011": {
+    "species": [
+      {
+        "name": "broccoli",
+        "id": "36774"
+      }
+    ],
+    "genes": []
+  },
+  "39620016": {
+    "species": [
+      {
+        "name": "Bacteroides ovatus",
+        "id": "28116"
+      },
+      {
+        "name": "Paeniclostridium",
+        "id": "1849828"
+      },
+      {
+        "name": "Paraclostridium",
+        "id": "1849822"
+      },
+      {
+        "name": "Peptostreptococcus",
+        "id": "1257"
+      },
+      {
+        "name": "Dielma",
+        "id": "1472649"
+      },
+      {
+        "name": "Bifidobacterium",
+        "id": "1680"
+      },
+      {
+        "name": "Bifidobacterium adolescentis",
+        "id": "1680"
+      },
+      {
+        "name": "bacteria",
+        "id": "629395"
+      }
+    ],
+    "genes": []
+  },
+  "39620019": {
+    "species": [
+      {
+        "name": "Lactobacillus acidophilus",
+        "id": "1579"
+      },
+      {
+        "name": "Bifidobacterium bifidum",
+        "id": "1681"
+      },
+      {
+        "name": "L. acidophilus",
+        "id": "1579"
+      }
+    ],
+    "genes": []
+  },
+  "39620020": {
+    "species": [
+      {
+        "name": "Peanuts",
+        "id": "3818"
+      },
+      {
+        "name": "peanuts",
+        "id": "3818"
+      },
+      {
+        "name": "BPs",
+        "id": "422289"
+      },
+      {
+        "name": "peanut",
+        "id": "3818"
+      }
+    ],
+    "genes": []
+  },
+  "39620023": {
+    "species": [
+      {
+        "name": "Chlorella vulgaris",
+        "id": "3077"
+      }
+    ],
+    "genes": []
+  },
+  "39620026": {
+    "species": [
+      {
+        "name": "L. casei",
+        "id": "1582"
+      }
+    ],
+    "genes": []
+  },
+  "39620028": {
+    "species": [
+      {
+        "name": "grapefruit",
+        "id": "37656"
+      },
+      {
+        "name": "jujube",
+        "id": "326968"
+      }
+    ],
+    "genes": []
+  },
+  "39620032": {
+    "species": [
+      {
+        "name": "pea",
+        "id": "252690"
+      }
+    ],
+    "genes": []
+  },
+  "39620033": {
+    "species": [
+      {
+        "name": "Trout",
+        "id": "8032"
+      },
+      {
+        "name": "rainbow trout",
+        "id": "8022"
+      },
+      {
+        "name": "Oncorhynchus mykiss Walbaum, 1792",
+        "id": "8022"
+      }
+    ],
+    "genes": []
+  },
+  "39620040": {
+    "species": [
+      {
+        "name": "Olea europaea L.",
+        "id": "4146"
+      }
+    ],
+    "genes": []
+  },
+  "39620051": {
+    "species": [
+      {
+        "name": "human papillomavirus",
+        "id": "10566"
+      },
+      {
+        "name": "HPV",
+        "id": "10566"
+      }
+    ],
+    "genes": []
+  },
+  "39620067": {
+    "species": [
+      {
+        "name": "tobacco",
+        "id": "4097"
+      }
+    ],
+    "genes": []
+  },
+  "39620068": {
+    "species": [
+      {
+        "name": "cocoa",
+        "id": "3641"
+      }
+    ],
+    "genes": []
+  },
+  "39620076": {
+    "species": [
+      {
+        "name": "Salinispora tropica",
+        "id": "168695"
+      },
+      {
+        "name": "CNB-440",
+        "id": "168695"
+      }
+    ],
+    "genes": []
+  },
+  "39620098": {
+    "species": [
+      {
+        "name": "Bacillus subtilis",
+        "id": "1423"
+      },
+      {
+        "name": "Aspergillus flavus",
+        "id": "5059"
+      },
+      {
+        "name": "Penicillium expansum",
+        "id": "27334"
+      },
+      {
+        "name": "Trichoderma",
+        "id": "5543"
+      }
+    ],
+    "genes": []
+  },
+  "39620112": {
+    "species": [
+      {
+        "name": "dogs",
+        "id": "9615"
+      },
+      {
+        "name": "dog",
+        "id": "9615"
+      }
+    ],
+    "genes": []
+  },
+  "39620152": {
+    "species": [
+      {
+        "name": "Vibrio cholerae",
+        "id": "666"
+      },
+      {
+        "name": "Kirkia acuminata",
+        "id": "992719"
+      },
+      {
+        "name": "Ziziphus mucronata",
+        "id": "345811"
+      }
+    ],
+    "genes": []
+  },
+  "39620154": {
+    "species": [
+      {
+        "name": "tobacco",
+        "id": "4097"
+      }
+    ],
+    "genes": []
+  },
+  "39620245": {
+    "species": [
+      {
+        "name": "Neisseria",
+        "id": "495"
+      },
+      {
+        "name": "Porphyromonas Gingivalis",
+        "id": "837"
+      },
+      {
+        "name": "Porphyromonas gingivalis",
+        "id": "837"
+      },
+      {
+        "name": "P. gingivalis",
+        "id": "837"
+      },
+      {
+        "name": "Neisseria mucosa",
+        "id": "488"
+      },
+      {
+        "name": "Neisseria elongata",
+        "id": "495"
+      },
+      {
+        "name": "N. mucosa",
+        "id": "488"
+      },
+      {
+        "name": "N. elongata",
+        "id": "92658"
+      }
+    ],
+    "genes": []
+  },
+  "39620264": {
+    "species": [
+      {
+        "name": "sweetpotato",
+        "id": "4120"
+      },
+      {
+        "name": "Ipomoea batatas (",
+        "id": "4120"
+      }
+    ],
+    "genes": []
+  },
+  "39620271": {
+    "species": [
+      {
+        "name": "human immunodeficiency virus",
+        "id": "12721"
+      }
+    ],
+    "genes": []
+  },
+  "39620402": {
+    "species": [
+      {
+        "name": "cats",
+        "id": "9685"
+      }
+    ],
+    "genes": []
+  },
+  "39620474": {
+    "species": [
+      {
+        "name": "tobacco",
+        "id": "4097"
+      },
+      {
+        "name": "Tobacco",
+        "id": "4097"
+      }
+    ],
+    "genes": []
+  },
+  "39620492": {
+    "species": [
+      {
+        "name": "hellbenders",
+        "id": "43048"
+      },
+      {
+        "name": "Cryptobranchus alleganiensis",
+        "id": "43048"
+      },
+      {
+        "name": "salamanders",
+        "id": "8293"
+      },
+      {
+        "name": "Batrachochytrium dendrobatidis",
+        "id": "109871"
+      },
+      {
+        "name": "Bd",
+        "id": "109871"
+      },
+      {
+        "name": "B. salamandrivorans",
+        "id": "1357716"
+      },
+      {
+        "name": "Aeromonas hydrophila",
+        "id": "644"
+      }
+    ],
+    "genes": []
+  },
+  "39620516": {
+    "species": [
+      {
+        "name": "tobacco",
+        "id": "4097"
+      }
+    ],
+    "genes": []
+  },
+  "39620536": {
+    "species": [
+      {
+        "name": "Tobacco",
+        "id": "4097"
+      },
+      {
+        "name": "tobacco",
+        "id": "4097"
+      }
+    ],
+    "genes": []
+  },
+  "39620915": {
+    "species": [
+      {
+        "name": "Varroa destructor",
+        "id": "109461"
+      },
+      {
+        "name": "Apis mellifera",
+        "id": "7460"
+      },
+      {
+        "name": "Honeybee",
+        "id": "7460"
+      },
+      {
+        "name": "honeybees",
+        "id": "7460"
+      },
+      {
+        "name": "honeybee",
+        "id": "7460"
+      },
+      {
+        "name": "V. destructor",
+        "id": "109461"
+      }
+    ],
+    "genes": []
+  },
+  "39621159": {
+    "species": [
+      {
+        "name": "soybean cyst nematode",
+        "id": "51029"
+      },
+      {
+        "name": "soybean",
+        "id": "51029"
+      },
+      {
+        "name": "SCN",
+        "id": "51029"
+      },
+      {
+        "name": "Soybean",
+        "id": "51029"
+      }
+    ],
+    "genes": []
+  },
+  "39621245": {
+    "species": [
+      {
+        "name": "Acipenser ruthenus",
+        "id": "7906"
+      }
+    ],
+    "genes": []
+  },
+  "39621492": {
+    "species": [
+      {
+        "name": "Ruminococcus",
+        "id": "1263"
+      }
+    ],
+    "genes": []
+  },
+  "39621533": {
+    "species": [
+      {
+        "name": "Methanosaeta",
+        "id": "2222"
+      },
+      {
+        "name": "Methanobacterium",
+        "id": "2160"
+      },
+      {
+        "name": "Spirochaetae",
+        "id": "203691"
+      }
+    ],
+    "genes": []
+  },
+  "39621595": {
+    "species": [
+      {
+        "name": "Ceratitis capitata",
+        "id": "7213"
+      },
+      {
+        "name": "medfly",
+        "id": "7213"
+      },
+      {
+        "name": "Enterobacter sp",
+        "id": "42895"
+      }
+    ],
+    "genes": []
+  },
+  "39621613": {
+    "species": [
+      {
+        "name": "bats",
+        "id": "9397"
+      },
+      {
+        "name": "Myotis grisescens",
+        "id": "384635"
+      },
+      {
+        "name": "bat",
+        "id": "1196779"
+      },
+      {
+        "name": "Bats",
+        "id": "9397"
+      }
+    ],
+    "genes": []
+  },
+  "39621614": {
+    "species": [
+      {
+        "name": "HIV",
+        "id": "11676"
+      }
+    ],
+    "genes": []
+  },
+  "39621618": {
+    "species": [
+      {
+        "name": "bats",
+        "id": "9397"
+      },
+      {
+        "name": "Bats",
+        "id": "9397"
+      },
+      {
+        "name": "bat",
+        "id": "1196779"
+      }
+    ],
+    "genes": []
+  },
+  "39621654": {
+    "species": [
+      {
+        "name": "HIV",
+        "id": "11676"
+      }
+    ],
+    "genes": []
+  },
+  "39621667": {
+    "species": [
+      {
+        "name": "Cavendish banana",
+        "id": "214697"
+      },
+      {
+        "name": "banana",
+        "id": "4641"
+      },
+      {
+        "name": "bananas",
+        "id": "4641"
+      },
+      {
+        "name": "spp",
+        "id": "2956385"
+      }
+    ],
+    "genes": []
+  },
+  "39621710": {
+    "species": [
+      {
+        "name": "Alkalibacterium",
+        "id": "99906"
+      },
+      {
+        "name": "Vibrio",
+        "id": "662"
+      },
+      {
+        "name": "Thioalkalivibrio",
+        "id": "106633"
+      },
+      {
+        "name": "Cecembia",
+        "id": "1187078"
+      },
+      {
+        "name": "Nitrincola",
+        "id": "267849"
+      }
+    ],
+    "genes": []
+  },
+  "39621726": {
+    "species": [
+      {
+        "name": "Aquilaria Lam",
+        "id": "69461"
+      }
+    ],
+    "genes": []
+  },
+  "39621750": {
+    "species": [
+      {
+        "name": "Campylobacter jejuni",
+        "id": "197"
+      }
+    ],
+    "genes": []
+  },
+  "39621765": {
+    "species": [
+      {
+        "name": "Trypanosoma brucei",
+        "id": "5691"
+      }
+    ],
+    "genes": []
+  },
+  "39621766": {
+    "species": [
+      {
+        "name": "sesame",
+        "id": "4182"
+      },
+      {
+        "name": "Sesamum indicum L.",
+        "id": "4182"
+      },
+      {
+        "name": "Sesame",
+        "id": "4182"
+      }
+    ],
+    "genes": []
+  },
+  "39621775": {
+    "species": [
+      {
+        "name": "Alle alle",
+        "id": "28691"
+      }
+    ],
+    "genes": []
+  },
+  "39621778": {
+    "species": [
+      {
+        "name": "C. elegans",
+        "id": "328850"
+      }
+    ],
+    "genes": []
+  },
+  "39621811": {
+    "species": [
+      {
+        "name": "Pseudomonas fluorescens SBW25",
+        "id": "216595"
+      }
+    ],
+    "genes": []
+  },
+  "39621904": {
+    "species": [
+      {
+        "name": "AMB-1",
+        "id": "342108"
+      },
+      {
+        "name": "Magnetospirillum magneticum (AMB)-1",
+        "id": "342108"
+      }
+    ],
+    "genes": []
+  },
+  "39621906": {
+    "species": [
+      {
+        "name": "pea",
+        "id": "252690"
+      },
+      {
+        "name": "fava bean",
+        "id": "3906"
+      }
+    ],
+    "genes": []
+  },
+  "39621921": {
+    "species": [
+      {
+        "name": "HIV",
+        "id": "11676"
+      }
+    ],
+    "genes": []
+  },
+  "39621923": {
+    "species": [
+      {
+        "name": "Chlamydomonas reinhardtii",
+        "id": "3055"
+      }
+    ],
+    "genes": []
+  },
+  "39621924": {
+    "species": [
+      {
+        "name": "Asparagopsis taxiformis",
+        "id": "260499"
+      }
+    ],
+    "genes": []
+  },
+  "39622218": {
+    "species": [
+      {
+        "name": "Cobitis",
+        "id": "47718"
+      },
+      {
+        "name": "Cobitis bilseli",
+        "id": "352908"
+      },
+      {
+        "name": "C. fahireae",
+        "id": "1483009"
+      },
+      {
+        "name": "C. bilseli",
+        "id": "352908"
+      }
+    ],
+    "genes": []
+  },
+  "39622294": {
+    "species": [
+      {
+        "name": "H5N1",
+        "id": "102793"
+      },
+      {
+        "name": "avian influenza virus",
+        "id": "11309"
+      }
+    ],
+    "genes": []
+  },
+  "39622491": {
+    "species": [
+      {
+        "name": "Nicotiana tabacum",
+        "id": "4097"
+      }
+    ],
+    "genes": []
+  },
+  "39622652": {
+    "species": [
+      {
+        "name": "Acanthamoeba castellanii",
+        "id": "5755"
+      },
+      {
+        "name": "Acanthamoeba",
+        "id": "5755"
+      },
+      {
+        "name": "A. castellanii",
+        "id": "5755"
+      }
+    ],
+    "genes": []
+  },
+  "39622655": {
+    "species": [
+      {
+        "name": "dogs",
+        "id": "9615"
+      },
+      {
+        "name": "dog",
+        "id": "9615"
+      },
+      {
+        "name": "Toxocara canis",
+        "id": "6265"
+      },
+      {
+        "name": "Toxascaris leonina",
+        "id": "59264"
+      },
+      {
+        "name": "Trichuris vulpis",
+        "id": "219738"
+      },
+      {
+        "name": "Ancylostoma caninum",
+        "id": "29170"
+      },
+      {
+        "name": "Cystoisospora sp.",
+        "id": "2653713"
+      },
+      {
+        "name": "Giardia duodenalis",
+        "id": "5741"
+      },
+      {
+        "name": "Cryptosporidium canis",
+        "id": "195482"
+      }
+    ],
+    "genes": []
+  },
+  "39622656": {
+    "species": [
+      {
+        "name": "Clonorchis sinensis",
+        "id": "79923"
+      },
+      {
+        "name": "trematodes",
+        "id": "1290878"
+      },
+      {
+        "name": "C. sinensis",
+        "id": "128511"
+      },
+      {
+        "name": "Xenopus laevis",
+        "id": "8355"
+      }
+    ],
+    "genes": []
+  },
+  "39622657": {
+    "species": [
+      {
+        "name": "Bithynia siamensis siamensis",
+        "id": "479250"
+      },
+      {
+        "name": "B. siamensis siamensis",
+        "id": "479250"
+      },
+      {
+        "name": "Wattebledia siamensis",
+        "id": "479260"
+      }
+    ],
+    "genes": []
+  },
+  "39622660": {
+    "species": [
+      {
+        "name": "Sebastes schlegelii",
+        "id": "214486"
+      },
+      {
+        "name": "Microcotyle sebastis",
+        "id": "116890"
+      },
+      {
+        "name": "M. sebastis",
+        "id": "116890"
+      }
+    ],
+    "genes": []
+  },
+  "39622772": {
+    "species": [
+      {
+        "name": "Magnaporthe oryzae",
+        "id": "318829"
+      }
+    ],
+    "genes": []
+  },
+  "39622781": {
+    "species": [
+      {
+        "name": "Staphylococcus aureus",
+        "id": "1280"
+      }
+    ],
+    "genes": []
+  },
+  "39622813": {
+    "species": [
+      {
+        "name": "bat",
+        "id": "1196779"
+      },
+      {
+        "name": "bats",
+        "id": "9397"
+      },
+      {
+        "name": "Bats",
+        "id": "9397"
+      }
+    ],
+    "genes": []
+  },
+  "39622837": {
+    "species": [
+      {
+        "name": "Ferns",
+        "id": "241806"
+      },
+      {
+        "name": "ferns",
+        "id": "241806"
+      }
+    ],
+    "genes": []
+  },
+  "39622839": {
+    "species": [
+      {
+        "name": "Dosidicus gigas",
+        "id": "346249"
+      }
+    ],
+    "genes": []
+  },
+  "39622841": {
+    "species": [
+      {
+        "name": "Bacillus subtilis",
+        "id": "1423"
+      }
+    ],
+    "genes": []
+  },
+  "39622850": {
+    "species": [
+      {
+        "name": "Zanthoxylum nitidum",
+        "id": "354528"
+      }
+    ],
+    "genes": []
+  },
+  "39622851": {
+    "species": [
+      {
+        "name": "sunflower",
+        "id": "4232"
+      }
+    ],
+    "genes": []
+  },
+  "39622852": {
+    "species": [
+      {
+        "name": "Petitella georgiae",
+        "id": "2283134"
+      }
+    ],
+    "genes": []
+  },
+  "39622886": {
+    "species": [
+      {
+        "name": "Liposcelis tricolor",
+        "id": "948454"
+      }
+    ],
+    "genes": []
+  },
+  "39622905": {
+    "species": [
+      {
+        "name": "Borrelia",
+        "id": "138"
+      },
+      {
+        "name": "Borrelia burgdorferi",
+        "id": "139"
+      },
+      {
+        "name": "B. burgdorferi",
+        "id": "139"
+      }
+    ],
+    "genes": []
+  },
+  "39622925": {
+    "species": [
+      {
+        "name": "Ilex asprella",
+        "id": "185493"
+      },
+      {
+        "name": "I. asprella",
+        "id": "185493"
+      }
+    ],
+    "genes": []
+  },
+  "39622934": {
+    "species": [
+      {
+        "name": "Avena sativa",
+        "id": "4498"
+      },
+      {
+        "name": "Blumeria graminis",
+        "id": "34373"
+      },
+      {
+        "name": "Puccinia coronata",
+        "id": "27344"
+      },
+      {
+        "name": "Puccinia graminis",
+        "id": "5297"
+      }
+    ],
+    "genes": []
+  },
+  "39622961": {
+    "species": [
+      {
+        "name": "Amur tigers",
+        "id": "74533"
+      },
+      {
+        "name": "Amur tiger",
+        "id": "74533"
+      }
+    ],
+    "genes": []
+  },
+  "39622997": {
+    "species": [
+      {
+        "name": "S. glauca",
+        "id": "4543"
+      }
+    ],
+    "genes": []
+  },
+  "39623006": {
+    "species": [
+      {
+        "name": "kenaf",
+        "id": "229543"
+      },
+      {
+        "name": "Kenaf",
+        "id": "229543"
+      }
+    ],
+    "genes": []
+  },
+  "39623040": {
+    "species": [
+      {
+        "name": "Aedes aegypti",
+        "id": "7159"
+      },
+      {
+        "name": "bacteria",
+        "id": "629395"
+      }
+    ],
+    "genes": []
+  },
+  "39623089": {
+    "species": [
+      {
+        "name": "Fusarium oxysporum",
+        "id": "5507"
+      },
+      {
+        "name": "bacteria",
+        "id": "629395"
+      },
+      {
+        "name": "F. oxysporum",
+        "id": "5507"
+      }
+    ],
+    "genes": []
+  },
+  "39623141": {
+    "species": [
+      {
+        "name": "Bacillus subtilis",
+        "id": "1423"
+      }
+    ],
+    "genes": []
+  },
+  "39623167": {
+    "species": [
+      {
+        "name": "Naegleria gruberi",
+        "id": "5762"
+      }
+    ],
+    "genes": []
+  },
+  "39623304": {
+    "species": [
+      {
+        "name": "Viola diffusa",
+        "id": "591085"
+      }
+    ],
+    "genes": []
+  },
+  "39623330": {
+    "species": [
+      {
+        "name": "Lonicera caerulea L.",
+        "id": "134520"
+      }
+    ],
+    "genes": []
+  },
+  "39623355": {
+    "species": [
+      {
+        "name": "goats",
+        "id": "9925"
+      },
+      {
+        "name": "Goatpox virus",
+        "id": "186805"
+      },
+      {
+        "name": "GTPV",
+        "id": "186805"
+      }
+    ],
+    "genes": []
+  },
+  "39623467": {
+    "species": [
+      {
+        "name": "Bovine leukemia virus",
+        "id": "11901"
+      },
+      {
+        "name": "BLV",
+        "id": "11901"
+      }
+    ],
+    "genes": []
+  },
+  "39623550": {
+    "species": [
+      {
+        "name": "HIV",
+        "id": "11676"
+      }
+    ],
+    "genes": []
+  },
+  "39623592": {
+    "species": [
+      {
+        "name": "Galba truncatula",
+        "id": "401862"
+      },
+      {
+        "name": "Fasciola hepatica",
+        "id": "6192"
+      },
+      {
+        "name": "Calicophoron daubneyi",
+        "id": "300641"
+      },
+      {
+        "name": "G. truncatula",
+        "id": "401862"
+      }
+    ],
+    "genes": []
+  },
+  "39623703": {
+    "species": [
+      {
+        "name": "LAB",
+        "id": "103236"
+      },
+      {
+        "name": "bacteria",
+        "id": "629395"
+      },
+      {
+        "name": "Lactobacillus",
+        "id": "1578"
+      }
+    ],
+    "genes": []
+  },
+  "39623778": {
+    "species": [
+      {
+        "name": "Cydia pomonella",
+        "id": "82600"
+      },
+      {
+        "name": "apple",
+        "id": "3750"
+      },
+      {
+        "name": "pear",
+        "id": "23211"
+      }
+    ],
+    "genes": []
+  },
+  "39623883": {
+    "species": [
+      {
+        "name": "influenza viruses",
+        "id": "11308"
+      }
+    ],
+    "genes": []
+  },
+  "39624001": {
+    "species": [
+      {
+        "name": "Streptococcus Mutans",
+        "id": "1309"
+      },
+      {
+        "name": "Streptococcus mutans",
+        "id": "1309"
+      },
+      {
+        "name": "S. mutans",
+        "id": "1309"
+      }
+    ],
+    "genes": []
+  },
+  "39624061": {
+    "species": [
+      {
+        "name": "dog",
+        "id": "9615"
+      },
+      {
+        "name": "cats",
+        "id": "9685"
+      },
+      {
+        "name": "dogs",
+        "id": "9615"
+      }
+    ],
+    "genes": []
+  },
+  "39624064": {
+    "species": [
+      {
+        "name": "dogs",
+        "id": "9615"
+      },
+      {
+        "name": "cats",
+        "id": "9685"
+      }
+    ],
+    "genes": []
+  },
+  "39624104": {
+    "species": [
+      {
+        "name": "Alistipes",
+        "id": "239759"
+      },
+      {
+        "name": "Desulfovibrionaceae",
+        "id": "194924"
+      }
+    ],
+    "genes": []
+  },
+  "39624125": {
+    "species": [
+      {
+        "name": "Foraminifera",
+        "id": "29178"
+      },
+      {
+        "name": "foraminifera",
+        "id": "29178"
+      },
+      {
+        "name": "Amphistegina lessonii",
+        "id": "2070223"
+      }
+    ],
+    "genes": []
+  },
+  "39624126": {
+    "species": [
+      {
+        "name": "Chinese jujube",
+        "id": "326968"
+      },
+      {
+        "name": "Ziziphus jujuba Mill",
+        "id": "326968"
+      },
+      {
+        "name": "jujube",
+        "id": "326968"
+      }
+    ],
+    "genes": []
+  },
+  "39624128": {
+    "species": [
+      {
+        "name": "pink bollworm",
+        "id": "13191"
+      },
+      {
+        "name": "Pectinophora gossypiella",
+        "id": "13191"
+      },
+      {
+        "name": "P. gossypiella",
+        "id": "13191"
+      }
+    ],
+    "genes": []
+  },
+  "39624132": {
+    "species": [
+      {
+        "name": "Cupressus funebris",
+        "id": "74301"
+      }
+    ],
+    "genes": []
+  },
+  "39624140": {
+    "species": [
+      {
+        "name": "Muscardinus avellanarius",
+        "id": "39082"
+      }
+    ],
+    "genes": []
+  },
+  "39624158": {
+    "species": [
+      {
+        "name": "yellow perch",
+        "id": "8167"
+      },
+      {
+        "name": "Perca flavescens",
+        "id": "8167"
+      },
+      {
+        "name": "Plesiomonas shigelloides",
+        "id": "703"
+      },
+      {
+        "name": "Aeromonas veronii",
+        "id": "654"
+      }
+    ],
+    "genes": []
+  },
+  "39624193": {
+    "species": [
+      {
+        "name": "donkeys",
+        "id": "9793"
+      },
+      {
+        "name": "Equus asinus",
+        "id": "9793"
+      }
+    ],
+    "genes": []
+  },
+  "39624196": {
+    "species": [
+      {
+        "name": "canine",
+        "id": "9615"
+      },
+      {
+        "name": "dogs",
+        "id": "9615"
+      },
+      {
+        "name": "S. pseudintermedius",
+        "id": "283734"
+      },
+      {
+        "name": "Staphylococcus pseudintermedius",
+        "id": "283734"
+      }
+    ],
+    "genes": []
+  },
+  "39624208": {
+    "species": [
+      {
+        "name": "Anopheles coluzzii",
+        "id": "1518534"
+      },
+      {
+        "name": "s.s",
+        "id": "573870"
+      }
+    ],
+    "genes": []
+  },
+  "39624232": {
+    "species": [
+      {
+        "name": "tomato spotted wilt virus",
+        "id": "1933298"
+      }
+    ],
+    "genes": []
+  },
+  "39624240": {
+    "species": [
+      {
+        "name": "trifoliate orange",
+        "id": "37690"
+      },
+      {
+        "name": "Citrus trifoliata",
+        "id": "37690"
+      },
+      {
+        "name": "Trifoliate orange",
+        "id": "37690"
+      },
+      {
+        "name": "Citrus trifoliata (L.",
+        "id": "37690"
+      },
+      {
+        "name": "citrus",
+        "id": "2706"
+      }
+    ],
+    "genes": []
+  },
+  "39624242": {
+    "species": [
+      {
+        "name": "Brassica napus",
+        "id": "3708"
+      },
+      {
+        "name": "Canola",
+        "id": "138011"
+      },
+      {
+        "name": "Brassica napus L.",
+        "id": "3708"
+      },
+      {
+        "name": "canola",
+        "id": "138011"
+      }
+    ],
+    "genes": []
+  },
+  "39624245": {
+    "species": [
+      {
+        "name": "Allium tuberosum",
+        "id": "4683"
+      },
+      {
+        "name": "garlic",
+        "id": "4682"
+      },
+      {
+        "name": "Allium",
+        "id": "4678"
+      }
+    ],
+    "genes": []
+  },
+  "39624265": {
+    "species": [
+      {
+        "name": "Amblyomma",
+        "id": "251386"
+      },
+      {
+        "name": "Haemaphysalis",
+        "id": "34622"
+      },
+      {
+        "name": "Ixodes",
+        "id": "6944"
+      },
+      {
+        "name": "Amblyomma longirostre",
+        "id": "251386"
+      },
+      {
+        "name": "Rickettsia",
+        "id": "780"
+      },
+      {
+        "name": "Francisella",
+        "id": "262"
+      },
+      {
+        "name": "Spiroplasma",
+        "id": "2132"
+      },
+      {
+        "name": "Cutibacterium",
+        "id": "1912216"
+      }
+    ],
+    "genes": []
+  },
+  "39624266": {
+    "species": [
+      {
+        "name": "Macrocybe",
+        "id": "56472"
+      },
+      {
+        "name": "M. gigantea",
+        "id": "1559511"
+      },
+      {
+        "name": "M. crassa",
+        "id": "1806088"
+      },
+      {
+        "name": "M. titans",
+        "id": "56473"
+      },
+      {
+        "name": "M. lobayensis",
+        "id": "2950985"
+      }
+    ],
+    "genes": []
+  },
+  "39624271": {
+    "species": [
+      {
+        "name": "Fusarium equiseti",
+        "id": "61235"
+      },
+      {
+        "name": "F. equiseti",
+        "id": "61235"
+      }
+    ],
+    "genes": []
+  },
+  "39624279": {
+    "species": [
+      {
+        "name": "Bipolaris sorokiniana",
+        "id": "45130"
+      }
+    ],
+    "genes": []
+  },
+  "39624284": {
+    "species": [
+      {
+        "name": "cyanobacteria",
+        "id": "1117"
+      },
+      {
+        "name": "Cyanobacteria",
+        "id": "1117"
+      }
+    ],
+    "genes": []
+  },
+  "39624306": {
+    "species": [
+      {
+        "name": "Varroa destructor",
+        "id": "109461"
+      },
+      {
+        "name": "Apis mellifera",
+        "id": "7460"
+      },
+      {
+        "name": "honey bee",
+        "id": "7460"
+      },
+      {
+        "name": "honey bees",
+        "id": "7460"
+      },
+      {
+        "name": "Paenibacillus sp",
+        "id": "58172"
+      },
+      {
+        "name": "A. mellifera",
+        "id": "7460"
+      },
+      {
+        "name": "V. destructor",
+        "id": "109461"
+      }
+    ],
+    "genes": []
+  },
+  "39624314": {
+    "species": [
+      {
+        "name": "Lactobacillus delbrueckii",
+        "id": "1584"
+      },
+      {
+        "name": "L. delbrueckii",
+        "id": "1584"
+      }
+    ],
+    "genes": []
+  },
+  "39624330": {
+    "species": [
+      {
+        "name": "lactobacillus",
+        "id": "1578"
+      },
+      {
+        "name": "alfalfa",
+        "id": "3879"
+      },
+      {
+        "name": "Lactobacillus",
+        "id": "1578"
+      }
+    ],
+    "genes": []
+  },
+  "39624356": {
+    "species": [
+      {
+        "name": "Bacillus anthracis",
+        "id": "1392"
+      },
+      {
+        "name": "carabao",
+        "id": "346063"
+      },
+      {
+        "name": "B. anthracis",
+        "id": "1392"
+      }
+    ],
+    "genes": []
+  },
+  "39624364": {
+    "species": [
+      {
+        "name": "Clinostomum",
+        "id": "648569"
+      },
+      {
+        "name": "spp",
+        "id": "2956385"
+      },
+      {
+        "name": "Trichopodus pectoralis",
+        "id": "313238"
+      },
+      {
+        "name": "Clinostomum piscidium",
+        "id": "648569"
+      }
+    ],
+    "genes": []
+  },
+  "39624437": {
+    "species": [
+      {
+        "name": "Echinodermata",
+        "id": "7586"
+      }
+    ],
+    "genes": []
+  },
+  "39624476": {
+    "species": [
+      {
+        "name": "Clostridium tetani",
+        "id": "1513"
+      }
+    ],
+    "genes": []
+  },
+  "39624499": {
+    "species": [
+      {
+        "name": "tobacco",
+        "id": "4097"
+      }
+    ],
+    "genes": []
+  },
+  "39624517": {
+    "species": [
+      {
+        "name": "Penaeus vannamei",
+        "id": "6689"
+      },
+      {
+        "name": "Vibrio parahaemolyticus",
+        "id": "670"
+      }
+    ],
+    "genes": []
+  },
+  "39624535": {
+    "species": [
+      {
+        "name": "Enterococcus",
+        "id": "1351"
+      },
+      {
+        "name": "Enterococcus faecalis",
+        "id": "1351"
+      },
+      {
+        "name": "Enterococcus faecium",
+        "id": "1352"
+      },
+      {
+        "name": "Enterococcus",
+        "id": "1352"
+      }
+    ],
+    "genes": []
+  },
+  "39624580": {
+    "species": [
+      {
+        "name": "Listeria monocytogenes",
+        "id": "1639"
+      },
+      {
+        "name": "LM",
+        "id": "1639"
+      }
+    ],
+    "genes": []
+  },
+  "39624600": {
+    "species": [
+      {
+        "name": "Syringodium isoetifolium",
+        "id": "55323"
+      }
+    ],
+    "genes": []
+  },
+  "39624643": {
+    "species": [
+      {
+        "name": "Gryllus firmus",
+        "id": "7000"
+      },
+      {
+        "name": "Gryllus pennsylvanicus",
+        "id": "51074"
+      },
+      {
+        "name": "G. firmus",
+        "id": "7000"
+      }
+    ],
+    "genes": []
+  },
+  "39624662": {
+    "species": [
+      {
+        "name": "European beech",
+        "id": "28930"
+      }
+    ],
+    "genes": []
+  },
+  "39624666": {
+    "species": [
+      {
+        "name": "HIV",
+        "id": "11676"
+      }
+    ],
+    "genes": []
+  },
+  "39624687": {
+    "species": [
+      {
+        "name": "Ophiopogon japonicus",
+        "id": "100506"
+      }
+    ],
+    "genes": []
+  },
+  "39624713": {
+    "species": [
+      {
+        "name": "cucumber",
+        "id": "3659"
+      }
+    ],
+    "genes": []
+  },
+  "39624717": {
+    "species": [
+      {
+        "name": "Scenedesmus sp.",
+        "id": "2909984"
+      }
+    ],
+    "genes": []
+  },
+  "39624722": {
+    "species": [
+      {
+        "name": "Prevotella",
+        "id": "838"
+      },
+      {
+        "name": "Haemophilus",
+        "id": "724"
+      },
+      {
+        "name": "Neisseria",
+        "id": "482"
+      },
+      {
+        "name": "Actinobacillus",
+        "id": "713"
+      },
+      {
+        "name": "Aggregatibacter",
+        "id": "416916"
+      }
+    ],
+    "genes": []
+  },
+  "39624727": {
+    "species": [
+      {
+        "name": "Phytophthora capsici",
+        "id": "4784"
+      },
+      {
+        "name": "Phytophthora capsici Leonian",
+        "id": "4784"
+      },
+      {
+        "name": "Piper nigrum L.",
+        "id": "13216"
+      }
+    ],
+    "genes": []
+  },
+  "39624758": {
+    "species": [
+      {
+        "name": "Mycoplasma pneumoniae",
+        "id": "2104"
+      },
+      {
+        "name": "MP",
+        "id": "2104"
+      }
+    ],
+    "genes": []
+  },
+  "39624788": {
+    "species": [
+      {
+        "name": "mushroom",
+        "id": "5341"
+      },
+      {
+        "name": "button mushroom",
+        "id": "5341"
+      },
+      {
+        "name": "Agaricus bisporus",
+        "id": "5341"
+      }
+    ],
+    "genes": []
+  },
+  "39624843": {
+    "species": [
+      {
+        "name": "Rhodococcus equi",
+        "id": "43767"
+      },
+      {
+        "name": "R. equi",
+        "id": "43767"
+      },
+      {
+        "name": "bacteria",
+        "id": "629395"
+      }
+    ],
+    "genes": []
+  },
+  "39624889": {
+    "species": [
+      {
+        "name": "Kudoa thyrsites",
+        "id": "69470"
+      },
+      {
+        "name": "Sarda sarda",
+        "id": "8232"
+      }
+    ],
+    "genes": []
+  },
+  "39625066": {
+    "species": [
+      {
+        "name": "Vibrio",
+        "id": "662"
+      },
+      {
+        "name": "Sepiola atlantica",
+        "id": "70193"
+      },
+      {
+        "name": "V. fischeri",
+        "id": "668"
+      },
+      {
+        "name": "V. logei",
+        "id": "688"
+      }
+    ],
+    "genes": []
+  },
+  "39625302": {
+    "species": [
+      {
+        "name": "Pseudomonas aeruginosa",
+        "id": "287"
+      }
+    ],
+    "genes": []
+  },
+  "39625383": {
+    "species": [
+      {
+        "name": "Mussaenda pubescens",
+        "id": "271247"
+      }
+    ],
+    "genes": []
+  },
+  "39625433": {
+    "species": [
+      {
+        "name": "Epstein-Barr virus",
+        "id": "10376"
+      }
+    ],
+    "genes": []
+  },
+  "39625532": {
+    "species": [
+      {
+        "name": "bees",
+        "id": "7460"
+      },
+      {
+        "name": "Cataglyphis",
+        "id": "47732"
+      }
+    ],
+    "genes": []
+  },
+  "39625542": {
+    "species": [
+      {
+        "name": "Haloarcula japonica",
+        "id": "29282"
+      }
+    ],
+    "genes": []
+  },
+  "39625561": {
+    "species": [
+      {
+        "name": "cat",
+        "id": "9685"
+      },
+      {
+        "name": "cats",
+        "id": "9685"
+      }
+    ],
+    "genes": []
+  },
+  "39625738": {
+    "species": [
+      {
+        "name": "Pst",
+        "id": "12354"
+      }
+    ],
+    "genes": []
+  },
+  "39625754": {
+    "species": [
+      {
+        "name": "Baboons",
+        "id": "9557"
+      },
+      {
+        "name": "baboons",
+        "id": "9557"
+      }
+    ],
+    "genes": []
+  },
+  "39625864": {
+    "species": [
+      {
+        "name": "Cryptosporidium",
+        "id": "5806"
+      },
+      {
+        "name": "norovirus",
+        "id": "142786"
+      }
+    ],
+    "genes": []
+  },
+  "39625875": {
+    "species": [
+      {
+        "name": "dogs",
+        "id": "9615"
+      },
+      {
+        "name": "canine",
+        "id": "9615"
+      }
+    ],
+    "genes": []
+  },
+  "39625887": {
+    "species": [
+      {
+        "name": "Plasmodium",
+        "id": "418103"
+      },
+      {
+        "name": "Culex pipiens s.l",
+        "id": "2874183"
+      },
+      {
+        "name": "Plasmodium cathemerium",
+        "id": "255879"
+      },
+      {
+        "name": "Plasmodium relictum",
+        "id": "85471"
+      },
+      {
+        "name": "P. cathemerium",
+        "id": "255879"
+      },
+      {
+        "name": "P. relictum",
+        "id": "85471"
+      }
+    ],
+    "genes": []
+  },
+  "39625913": {
+    "species": [
+      {
+        "name": "Strongyloides",
+        "id": "6248"
+      },
+      {
+        "name": "Strongyloides stercoralis",
+        "id": "6248"
+      },
+      {
+        "name": "S. ratti",
+        "id": "34506"
+      }
+    ],
+    "genes": []
+  },
+  "39625917": {
+    "species": [
+      {
+        "name": "Staphylococcus aureus",
+        "id": "1280"
+      }
+    ],
+    "genes": []
+  },
+  "39625918": {
+    "species": [
+      {
+        "name": "hazelnuts",
+        "id": "13450"
+      },
+      {
+        "name": "Corylus heterophylla",
+        "id": "80754"
+      }
+    ],
+    "genes": []
+  },
+  "39625927": {
+    "species": [
+      {
+        "name": "bacteria",
+        "id": "629395"
+      }
+    ],
+    "genes": []
+  },
+  "39625948": {
+    "species": [
+      {
+        "name": "Nicotiana benthamiana",
+        "id": "4100"
+      },
+      {
+        "name": "N. benthamiana",
+        "id": "4100"
+      },
+      {
+        "name": "Nicotiana tabacum",
+        "id": "4097"
+      }
+    ],
+    "genes": []
+  },
+  "39625961": {
+    "species": [
+      {
+        "name": "honey bee",
+        "id": "7460"
+      },
+      {
+        "name": "Apis mellifera",
+        "id": "7460"
+      },
+      {
+        "name": "bees",
+        "id": "7460"
+      },
+      {
+        "name": "Bidens pilosa",
+        "id": "42337"
+      }
+    ],
+    "genes": []
+  },
+  "39625967": {
+    "species": [
+      {
+        "name": "norovirus",
+        "id": "142786"
+      }
+    ],
+    "genes": []
+  },
+  "39625973": {
+    "species": [
+      {
+        "name": "bacteria",
+        "id": "629395"
+      },
+      {
+        "name": "bacteriophage",
+        "id": "38018"
+      }
+    ],
+    "genes": []
+  },
+  "39625994": {
+    "species": [
+      {
+        "name": "King bird-of-paradise",
+        "id": "36263"
+      },
+      {
+        "name": "Cicinnurus regius",
+        "id": "36263"
+      },
+      {
+        "name": "C. magnificus",
+        "id": "156157"
+      },
+      {
+        "name": "bird-of-paradise",
+        "id": "255355"
+      }
+    ],
+    "genes": []
+  },
+  "39626007": {
+    "species": [
+      {
+        "name": "Massilia timonae",
+        "id": "47229"
+      }
+    ],
+    "genes": []
+  },
+  "39626055": {
+    "species": [
+      {
+        "name": "chickpea",
+        "id": "3827"
+      }
+    ],
+    "genes": []
+  }
+}

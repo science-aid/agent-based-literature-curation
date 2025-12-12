@@ -1,0 +1,26 @@
+Top 20 Organisms Coverage Statistics
+==================================================
+
+Total papers: 108,635
+Coverage: 92.21%
+Top organisms:
+   1. Homo sapiens                        63,078
+   2. Mus musculus                        20,332
+   3. Danio rerio                          4,263
+   4. Rattus norvegicus                    2,412
+   5. Drosophila melanogaster              1,585
+   6. Arabidopsis thaliana                 1,504
+   7. Sus scrofa                           1,188
+   8. Escherichia coli                       833
+   9. Saccharomyces cerevisiae               649
+  10. Solanum lycopersicum                   635
+  11. Caenorhabditis elegans                 633
+  12. Bos taurus                             631
+  13. Gallus gallus                          501
+  14. Oryza sativa                           432
+  15. Glycine max                            337
+  16. Severe acute respiratory syndrome coronavirus 2    299
+  17. Zea mays subsp. mays                   276
+  18. Bombyx mori                            248
+  19. Ovis aries                             175
+  20. Streptococcus pyogenes                 162

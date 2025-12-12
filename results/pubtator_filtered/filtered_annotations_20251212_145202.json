@@ -1,0 +1,1352 @@
+{
+  "39614998": {
+    "species": [
+      {
+        "name": "HIV",
+        "id": "11676"
+      }
+    ],
+    "genes": [
+      {
+        "name": "CD8",
+        "id": "925"
+      }
+    ]
+  },
+  "39615322": {
+    "species": [
+      {
+        "name": "turkey",
+        "id": "9103"
+      }
+    ],
+    "genes": [
+      {
+        "name": "FAM107B",
+        "id": "100539851"
+      },
+      {
+        "name": "MSTN",
+        "id": "100303659"
+      },
+      {
+        "name": "PDZRN4",
+        "id": "100549341"
+      },
+      {
+        "name": "HSF2",
+        "id": "100549458"
+      },
+      {
+        "name": "GJA1",
+        "id": "100548233"
+      }
+    ]
+  },
+  "39616195": {
+    "species": [
+      {
+        "name": "Tick-borne encephalitis virus",
+        "id": "11084"
+      },
+      {
+        "name": "TBEV",
+        "id": "11084"
+      }
+    ],
+    "genes": [
+      {
+        "name": "NS5",
+        "id": "5894"
+      },
+      {
+        "name": "SIRT1",
+        "id": "23411"
+      },
+      {
+        "name": "KAP1",
+        "id": "10155"
+      },
+      {
+        "name": "Ku70",
+        "id": "2547"
+      },
+      {
+        "name": "prM",
+        "id": null
+      },
+      {
+        "name": "AKT1",
+        "id": "207"
+      },
+      {
+        "name": "VPS11",
+        "id": "55823"
+      }
+    ]
+  },
+  "39616385": {
+    "species": [
+      {
+        "name": "coronavirus",
+        "id": "694013"
+      },
+      {
+        "name": "Human coronaviruses",
+        "id": "2501931"
+      },
+      {
+        "name": "coronaviruses",
+        "id": "694013"
+      }
+    ],
+    "genes": [
+      {
+        "name": "NF-kappaB",
+        "id": "4790"
+      },
+      {
+        "name": "HOIL-1-interacting protein",
+        "id": "55072"
+      },
+      {
+        "name": "HOIP",
+        "id": "55072"
+      },
+      {
+        "name": "NEMO",
+        "id": "8517"
+      }
+    ]
+  },
+  "39617947": {
+    "species": [
+      {
+        "name": "hepatitis B virus",
+        "id": "10407"
+      }
+    ],
+    "genes": [
+      {
+        "name": "-2",
+        "id": null
+      }
+    ]
+  },
+  "39618424": {
+    "species": [
+      {
+        "name": "Adeno-associated virus",
+        "id": "272636"
+      }
+    ],
+    "genes": [
+      {
+        "name": "topoisomerase",
+        "id": null
+      },
+      {
+        "name": "type II topoisomerases",
+        "id": null
+      },
+      {
+        "name": "topoisomerase II",
+        "id": "7153"
+      }
+    ]
+  },
+  "39618538": {
+    "species": [
+      {
+        "name": "HEPATITIS B VIRUS",
+        "id": "10407"
+      },
+      {
+        "name": "Hepatitis B virus",
+        "id": "10407"
+      },
+      {
+        "name": "HBV",
+        "id": "10407"
+      }
+    ],
+    "genes": [
+      {
+        "name": "HERBAL",
+        "id": null
+      }
+    ]
+  },
+  "39618551": {
+    "species": [
+      {
+        "name": "Candida antarctica",
+        "id": "84753"
+      }
+    ],
+    "genes": [
+      {
+        "name": "lipase",
+        "id": "26302740"
+      }
+    ]
+  },
+  "39619054": {
+    "species": [
+      {
+        "name": "rabbits",
+        "id": "9986"
+      }
+    ],
+    "genes": [
+      {
+        "name": "SP7",
+        "id": "100356871"
+      },
+      {
+        "name": "Osteoprotegerin",
+        "id": "100348133"
+      },
+      {
+        "name": "OPG",
+        "id": "100348133"
+      },
+      {
+        "name": "runt-related transcription factor 2",
+        "id": "103349766"
+      },
+      {
+        "name": "RUNX2",
+        "id": "100008943"
+      }
+    ]
+  },
+  "39619188": {
+    "species": [
+      {
+        "name": "licorice",
+        "id": "46347"
+      },
+      {
+        "name": "Glycyrrhiza",
+        "id": "46347"
+      }
+    ],
+    "genes": [
+      {
+        "name": "NAC",
+        "id": "7504"
+      },
+      {
+        "name": "MYB",
+        "id": "4602"
+      }
+    ]
+  },
+  "39619189": {
+    "species": [
+      {
+        "name": "HPV",
+        "id": "10566"
+      },
+      {
+        "name": "human papilloma virus",
+        "id": "10566"
+      }
+    ],
+    "genes": [
+      {
+        "name": "CK7",
+        "id": "3855"
+      },
+      {
+        "name": "CK19",
+        "id": "3880"
+      },
+      {
+        "name": "p16",
+        "id": "1029"
+      }
+    ]
+  },
+  "39619201": {
+    "species": [
+      {
+        "name": "dogs",
+        "id": "9615"
+      },
+      {
+        "name": "canine",
+        "id": "9615"
+      }
+    ],
+    "genes": [
+      {
+        "name": "CD28",
+        "id": "403646"
+      },
+      {
+        "name": "CD80",
+        "id": "403765"
+      },
+      {
+        "name": "CD86",
+        "id": "403764"
+      },
+      {
+        "name": "CTLA4",
+        "id": "403696"
+      }
+    ]
+  },
+  "39619284": {
+    "species": [
+      {
+        "name": "Bifidobacterium longum",
+        "id": "216816"
+      },
+      {
+        "name": "Enterococcus faecium",
+        "id": "1352"
+      },
+      {
+        "name": "Lactobacillus rhamnosus",
+        "id": "47715"
+      },
+      {
+        "name": "Bacteroides fragilis",
+        "id": "817"
+      }
+    ],
+    "genes": [
+      {
+        "name": "LL-37",
+        "id": "820"
+      }
+    ]
+  },
+  "39619289": {
+    "species": [
+      {
+        "name": "Coccinella",
+        "id": "41138"
+      },
+      {
+        "name": "C.transversalis Fabricius, 1781",
+        "id": "419959"
+      },
+      {
+        "name": "C.septempunctata Linnaeus, 1758",
+        "id": "41139"
+      },
+      {
+        "name": "C.undecimpunctata Linnaeus, 1758",
+        "id": "185878"
+      }
+    ],
+    "genes": [
+      {
+        "name": "COI",
+        "id": "4512"
+      },
+      {
+        "name": "cytochrome-c-oxidase subunit I",
+        "id": "4512"
+      }
+    ]
+  },
+  "39619478": {
+    "species": [
+      {
+        "name": "Rhyacophilatristis",
+        "id": "591986"
+      },
+      {
+        "name": "Rhyacophilapubescens",
+        "id": "579061"
+      }
+    ],
+    "genes": [
+      {
+        "name": "cytochrome c oxidase subunit I",
+        "id": "4512"
+      }
+    ]
+  },
+  "39619610": {
+    "species": [
+      {
+        "name": "Poria cocos",
+        "id": "81056"
+      }
+    ],
+    "genes": [
+      {
+        "name": "TRPC6",
+        "id": "7225"
+      },
+      {
+        "name": "NLRP3",
+        "id": "114548"
+      }
+    ]
+  },
+  "39619666": {
+    "species": [
+      {
+        "name": "Ceratostomella",
+        "id": "337454"
+      },
+      {
+        "name": "Xylomelasma",
+        "id": "417002"
+      },
+      {
+        "name": "Barbatosphaeria",
+        "id": "1629392"
+      }
+    ],
+    "genes": [
+      {
+        "name": "rpb2",
+        "id": "5431"
+      }
+    ]
+  },
+  "39619692": {
+    "species": [
+      {
+        "name": "H. pylori",
+        "id": "210"
+      },
+      {
+        "name": "Helicobacter pylori",
+        "id": "210"
+      }
+    ],
+    "genes": [
+      {
+        "name": "urease",
+        "id": null
+      },
+      {
+        "name": "Urease",
+        "id": null
+      }
+    ]
+  },
+  "39619767": {
+    "species": [
+      {
+        "name": "tobacco",
+        "id": "4097"
+      }
+    ],
+    "genes": [
+      {
+        "name": "P16",
+        "id": "1029"
+      },
+      {
+        "name": "CDH1",
+        "id": "999"
+      }
+    ]
+  },
+  "39619927": {
+    "species": [
+      {
+        "name": "canine parvovirus 2",
+        "id": "246878"
+      },
+      {
+        "name": "dogs",
+        "id": "9615"
+      },
+      {
+        "name": "canines",
+        "id": "9615"
+      },
+      {
+        "name": "CPV-2",
+        "id": "246878"
+      },
+      {
+        "name": "canine parvovirus",
+        "id": "10788"
+      },
+      {
+        "name": "canine",
+        "id": "9615"
+      },
+      {
+        "name": "canine distemper virus",
+        "id": "11232"
+      },
+      {
+        "name": "canine coronavirus",
+        "id": "11153"
+      },
+      {
+        "name": "canine astrovirus",
+        "id": "1157338"
+      }
+    ],
+    "genes": [
+      {
+        "name": "VP2",
+        "id": "1489588"
+      }
+    ]
+  },
+  "39619931": {
+    "species": [
+      {
+        "name": "cats",
+        "id": "9685"
+      }
+    ],
+    "genes": [
+      {
+        "name": "CD79alpha",
+        "id": "101083127"
+      },
+      {
+        "name": "paired box 5",
+        "id": "101089303"
+      },
+      {
+        "name": "PAX5",
+        "id": "101089303"
+      },
+      {
+        "name": "CD20",
+        "id": "494216"
+      }
+    ]
+  },
+  "39619937": {
+    "species": [
+      {
+        "name": "cats",
+        "id": "9685"
+      },
+      {
+        "name": "Cats",
+        "id": "9685"
+      }
+    ],
+    "genes": [
+      {
+        "name": "galectin-3",
+        "id": "101081472"
+      },
+      {
+        "name": "titin",
+        "id": "751825"
+      },
+      {
+        "name": "Gal-3",
+        "id": "101081472"
+      },
+      {
+        "name": "myosin-binding protein C3",
+        "id": "101094698"
+      },
+      {
+        "name": "MYBPC3",
+        "id": "101094698"
+      },
+      {
+        "name": "Titin",
+        "id": "751825"
+      }
+    ]
+  },
+  "39620226": {
+    "species": [
+      {
+        "name": "Bacillus",
+        "id": "55087"
+      }
+    ],
+    "genes": [
+      {
+        "name": "CD38",
+        "id": "952"
+      }
+    ]
+  },
+  "39620500": {
+    "species": [
+      {
+        "name": "cyanobacteria",
+        "id": "1117"
+      }
+    ],
+    "genes": [
+      {
+        "name": "Sec61",
+        "id": "29927"
+      }
+    ]
+  },
+  "39621694": {
+    "species": [
+      {
+        "name": "Leishmania",
+        "id": "38568"
+      },
+      {
+        "name": "L. equatorensis",
+        "id": "209438"
+      }
+    ],
+    "genes": [
+      {
+        "name": "coI",
+        "id": "4512"
+      },
+      {
+        "name": "CoI",
+        "id": "4512"
+      }
+    ]
+  },
+  "39621795": {
+    "species": [
+      {
+        "name": "Zika virus",
+        "id": "64320"
+      }
+    ],
+    "genes": [
+      {
+        "name": "signal recognition particle",
+        "id": null
+      },
+      {
+        "name": "SRP",
+        "id": null
+      },
+      {
+        "name": "SRP receptor",
+        "id": null
+      },
+      {
+        "name": "NS3",
+        "id": null
+      },
+      {
+        "name": "SRP54",
+        "id": "6729"
+      }
+    ]
+  },
+  "39621796": {
+    "species": [
+      {
+        "name": "Newcastle Disease Virus",
+        "id": "11176"
+      },
+      {
+        "name": "NDV",
+        "id": "11176"
+      }
+    ],
+    "genes": [
+      {
+        "name": "caspase",
+        "id": null
+      },
+      {
+        "name": "Apoptosis-inducing Factor",
+        "id": null
+      },
+      {
+        "name": "AIF",
+        "id": "9131"
+      }
+    ]
+  },
+  "39622000": {
+    "species": [
+      {
+        "name": "Novosphingobium",
+        "id": "1874826"
+      },
+      {
+        "name": "Sphingobium sp.",
+        "id": "1912891"
+      },
+      {
+        "name": "Novosphingobium sp.",
+        "id": "1874826"
+      }
+    ],
+    "genes": [
+      {
+        "name": "PHP",
+        "id": "29085"
+      }
+    ]
+  },
+  "39622867": {
+    "species": [
+      {
+        "name": "Staphylococcus aureus",
+        "id": "1280"
+      }
+    ],
+    "genes": [
+      {
+        "name": "catalase",
+        "id": "28381092"
+      }
+    ]
+  },
+  "39622869": {
+    "species": [
+      {
+        "name": "Bacillus subtilis",
+        "id": "1423"
+      }
+    ],
+    "genes": [
+      {
+        "name": "bslA",
+        "id": "51993415"
+      }
+    ]
+  },
+  "39622982": {
+    "species": [
+      {
+        "name": "Aspergillus fumigatus",
+        "id": "746128"
+      }
+    ],
+    "genes": [
+      {
+        "name": "Ndk",
+        "id": "4833"
+      }
+    ]
+  },
+  "39623322": {
+    "species": [
+      {
+        "name": "rainbow trout",
+        "id": "8022"
+      },
+      {
+        "name": "Oncorhynchus mykiss",
+        "id": "8022"
+      },
+      {
+        "name": "Rainbow trout",
+        "id": "8022"
+      }
+    ],
+    "genes": [
+      {
+        "name": "VEGF",
+        "id": "100136118"
+      },
+      {
+        "name": "glut1a",
+        "id": "100135909"
+      }
+    ]
+  },
+  "39623353": {
+    "species": [
+      {
+        "name": "HIV",
+        "id": "11676"
+      }
+    ],
+    "genes": [
+      {
+        "name": "VL",
+        "id": "23209"
+      }
+    ]
+  },
+  "39623412": {
+    "species": [
+      {
+        "name": "equine",
+        "id": "9796"
+      }
+    ],
+    "genes": [
+      {
+        "name": "IL-10",
+        "id": "100034187"
+      },
+      {
+        "name": "IL-1beta",
+        "id": "100034237"
+      },
+      {
+        "name": "TNF-alpha",
+        "id": "100033834"
+      },
+      {
+        "name": "IL-8",
+        "id": "100037400"
+      },
+      {
+        "name": "MMP-13",
+        "id": "100009711"
+      },
+      {
+        "name": "ADAMTS5",
+        "id": "100066005"
+      },
+      {
+        "name": "IL-6",
+        "id": "100034196"
+      }
+    ]
+  },
+  "39623490": {
+    "species": [
+      {
+        "name": "canine",
+        "id": "9615"
+      },
+      {
+        "name": "dogs",
+        "id": "9615"
+      }
+    ],
+    "genes": [
+      {
+        "name": "B2M",
+        "id": "478284"
+      },
+      {
+        "name": "PD-L1",
+        "id": "484186"
+      }
+    ]
+  },
+  "39623505": {
+    "species": [
+      {
+        "name": "Xenopus",
+        "id": "8355"
+      }
+    ],
+    "genes": [
+      {
+        "name": "beta-catenin",
+        "id": "399274"
+      },
+      {
+        "name": "Beta-catenin",
+        "id": "399274"
+      }
+    ]
+  },
+  "39623585": {
+    "species": [
+      {
+        "name": "Amphalius",
+        "id": "507005"
+      }
+    ],
+    "genes": [
+      {
+        "name": "cox1",
+        "id": "4512"
+      }
+    ]
+  },
+  "39624060": {
+    "species": [
+      {
+        "name": "donkeys",
+        "id": "9793"
+      }
+    ],
+    "genes": [
+      {
+        "name": "renin",
+        "id": "106822997"
+      },
+      {
+        "name": "catalase",
+        "id": "106837498"
+      },
+      {
+        "name": "CAT",
+        "id": "106837498"
+      }
+    ]
+  },
+  "39624127": {
+    "species": [
+      {
+        "name": "potato",
+        "id": "4113"
+      },
+      {
+        "name": "Solanum tuberosum L.",
+        "id": "4113"
+      }
+    ],
+    "genes": [
+      {
+        "name": "SIP1",
+        "id": "102593135"
+      }
+    ]
+  },
+  "39624241": {
+    "species": [
+      {
+        "name": "Tobacco",
+        "id": "4097"
+      },
+      {
+        "name": "Isatis",
+        "id": "161755"
+      },
+      {
+        "name": "tobacco",
+        "id": "4097"
+      },
+      {
+        "name": "Nicotiana tabacum L.",
+        "id": "4097"
+      },
+      {
+        "name": "Isatis tinctoria L.",
+        "id": "161756"
+      },
+      {
+        "name": "Acidobacteriota",
+        "id": "57723"
+      },
+      {
+        "name": "Chloroflexi",
+        "id": "200795"
+      },
+      {
+        "name": "Planctomycetota",
+        "id": "203682"
+      },
+      {
+        "name": "Nitrospirota",
+        "id": "40117"
+      },
+      {
+        "name": "Verrucomicrobiota",
+        "id": "74201"
+      }
+    ],
+    "genes": [
+      {
+        "name": "urease",
+        "id": "107771310"
+      },
+      {
+        "name": "catalase",
+        "id": "107799583"
+      }
+    ]
+  },
+  "39624264": {
+    "species": [
+      {
+        "name": "HIV-1",
+        "id": "11676"
+      },
+      {
+        "name": "HIV",
+        "id": "11676"
+      }
+    ],
+    "genes": [
+      {
+        "name": "USP15",
+        "id": "9958"
+      },
+      {
+        "name": "YY1",
+        "id": "7528"
+      },
+      {
+        "name": "ubiquitin ligase",
+        "id": null
+      },
+      {
+        "name": "deubiquitinase",
+        "id": null
+      },
+      {
+        "name": "ubiquitin",
+        "id": null
+      },
+      {
+        "name": "ubiquitin-specific protease 15",
+        "id": null
+      }
+    ]
+  },
+  "39624274": {
+    "species": [
+      {
+        "name": "Bacillus amyloliquefaciens",
+        "id": "1390"
+      },
+      {
+        "name": "nile tilapia",
+        "id": "8128"
+      },
+      {
+        "name": "Oreochromis niloticus",
+        "id": "8128"
+      },
+      {
+        "name": "Aeromonas hydrophila",
+        "id": "644"
+      },
+      {
+        "name": "Nile tilapia",
+        "id": "8128"
+      },
+      {
+        "name": "A. hydrophila",
+        "id": "644"
+      },
+      {
+        "name": "B. amyloliquefaciens",
+        "id": "1390"
+      }
+    ],
+    "genes": [
+      {
+        "name": "amylase",
+        "id": "100534494"
+      },
+      {
+        "name": "growth hormone",
+        "id": "100534452"
+      },
+      {
+        "name": "catalase",
+        "id": "100712286"
+      }
+    ]
+  },
+  "39624363": {
+    "species": [
+      {
+        "name": "dog",
+        "id": "9615"
+      },
+      {
+        "name": "dogs",
+        "id": "9615"
+      }
+    ],
+    "genes": [
+      {
+        "name": "C-reactive protein",
+        "id": "488629"
+      }
+    ]
+  },
+  "39624492": {
+    "species": [
+      {
+        "name": "Epstein-Barr Virus",
+        "id": "10376"
+      }
+    ],
+    "genes": [
+      {
+        "name": "type I interferon",
+        "id": null
+      }
+    ]
+  },
+  "39624516": {
+    "species": [
+      {
+        "name": "Moringa oleifera",
+        "id": "3735"
+      },
+      {
+        "name": "Bacillus amyloliquefaciens",
+        "id": "1390"
+      },
+      {
+        "name": "Nile Tilapia",
+        "id": "8128"
+      },
+      {
+        "name": "Oreochromis niloticus",
+        "id": "8128"
+      },
+      {
+        "name": "Nile tilapia",
+        "id": "8128"
+      },
+      {
+        "name": "B. amyloliquefaciens",
+        "id": "1390"
+      }
+    ],
+    "genes": [
+      {
+        "name": "IL-10",
+        "id": "100694754"
+      }
+    ]
+  },
+  "39624599": {
+    "species": [
+      {
+        "name": "Culex hutchinsoni",
+        "id": "345742"
+      },
+      {
+        "name": "Culex hutchinsoni Barraud, 1924",
+        "id": "345742"
+      },
+      {
+        "name": "Lophoceraomyia",
+        "id": "308715"
+      }
+    ],
+    "genes": [
+      {
+        "name": "COX1",
+        "id": "4512"
+      },
+      {
+        "name": "ND1",
+        "id": "4535"
+      },
+      {
+        "name": "ND5",
+        "id": "4540"
+      },
+      {
+        "name": "COX2",
+        "id": "4513"
+      },
+      {
+        "name": "COX3",
+        "id": "4514"
+      },
+      {
+        "name": "ND3",
+        "id": "4537"
+      },
+      {
+        "name": "ND4",
+        "id": "4538"
+      },
+      {
+        "name": "CYTB",
+        "id": "4519"
+      }
+    ]
+  },
+  "39624842": {
+    "species": [
+      {
+        "name": "Vitex doniana",
+        "id": "479623"
+      }
+    ],
+    "genes": [
+      {
+        "name": "bcl2",
+        "id": "596"
+      },
+      {
+        "name": "caspase-3",
+        "id": "836"
+      },
+      {
+        "name": "cdk1",
+        "id": "983"
+      },
+      {
+        "name": "p53",
+        "id": "7157"
+      },
+      {
+        "name": "caspase 3",
+        "id": "836"
+      }
+    ]
+  },
+  "39625117": {
+    "species": [
+      {
+        "name": "Synechocystis 6803",
+        "id": "1148"
+      },
+      {
+        "name": "B. subtilis",
+        "id": "1423"
+      }
+    ],
+    "genes": [
+      {
+        "name": "RNA binding protein",
+        "id": "27303"
+      }
+    ]
+  },
+  "39625374": {
+    "species": [
+      {
+        "name": "dogs",
+        "id": "9615"
+      }
+    ],
+    "genes": [
+      {
+        "name": "parathyroid hormone",
+        "id": "403986"
+      },
+      {
+        "name": "PTH",
+        "id": "403986"
+      }
+    ]
+  },
+  "39625835": {
+    "species": [
+      {
+        "name": "canine",
+        "id": "9615"
+      }
+    ],
+    "genes": [
+      {
+        "name": "c-Kit",
+        "id": "403811"
+      }
+    ]
+  },
+  "39625836": {
+    "species": [
+      {
+        "name": "dogs",
+        "id": "9615"
+      },
+      {
+        "name": "Dogs",
+        "id": "9615"
+      }
+    ],
+    "genes": [
+      {
+        "name": "IL-1beta",
+        "id": "403974"
+      },
+      {
+        "name": "IL-6",
+        "id": "403985"
+      },
+      {
+        "name": "TNF-alpha",
+        "id": "403922"
+      }
+    ]
+  },
+  "39625894": {
+    "species": [
+      {
+        "name": "Leishmania tropica",
+        "id": "5666"
+      },
+      {
+        "name": "Leishmania",
+        "id": "5666"
+      }
+    ],
+    "genes": [
+      {
+        "name": "MAPK1",
+        "id": "5594"
+      }
+    ]
+  },
+  "39625902": {
+    "species": [
+      {
+        "name": "dogs",
+        "id": "9615"
+      },
+      {
+        "name": "rabies virus",
+        "id": "11292"
+      },
+      {
+        "name": "RABV",
+        "id": "11292"
+      }
+    ],
+    "genes": [
+      {
+        "name": "glycoprotein",
+        "id": null
+      },
+      {
+        "name": "G",
+        "id": null
+      },
+      {
+        "name": "RABV G",
+        "id": null
+      }
+    ]
+  },
+  "39625993": {
+    "species": [
+      {
+        "name": "guinea pigs",
+        "id": "10141"
+      }
+    ],
+    "genes": [
+      {
+        "name": "CHRNA7",
+        "id": "100720640"
+      },
+      {
+        "name": "LPCAT1",
+        "id": "100731890"
+      },
+      {
+        "name": "NOS2",
+        "id": "100135576"
+      }
+    ]
+  },
+  "39626075": {
+    "species": [
+      {
+        "name": "Shewanella oneidensis MR-1",
+        "id": "211586"
+      }
+    ],
+    "genes": [
+      {
+        "name": "MtrCAB",
+        "id": "1169552"
+      }
+    ]
+  }
+}

@@ -19,12 +19,14 @@ from tqdm import tqdm
 
 # Add the parent directory to the path so we can import the bioagentos package
 sys.path.append("../../")
-from biomni.agent.env_collection import PaperTaskExtractor
+from Biomni.agent.env_collection import PaperTaskExtractor
 
 
 def parse_arguments():
     """Parse command line arguments."""
-    parser = argparse.ArgumentParser(description="Extract tasks from bioRxiv papers in a specific subject area.")
+    parser = argparse.ArgumentParser(
+        description="Extract tasks from bioRxiv papers in a specific subject area."
+    )
     parser.add_argument(
         "--subject",
         type=str,
@@ -73,7 +75,9 @@ def parse_arguments():
         default=200000,
         help="Maximum paper length in characters (default: 200000)",
     )
-    parser.add_argument("--save-pdfs", action="store_true", help="Save downloaded PDFs (default: False)")
+    parser.add_argument(
+        "--save-pdfs", action="store_true", help="Save downloaded PDFs (default: False)"
+    )
     parser.add_argument(
         "--random-sample",
         action="store_true",
@@ -82,7 +86,9 @@ def parse_arguments():
     return parser.parse_args()
 
 
-def load_papers_from_csv(metadata_path: str, subject: str, limit: int, random_sample: bool) -> pd.DataFrame:
+def load_papers_from_csv(
+    metadata_path: str, subject: str, limit: int, random_sample: bool
+) -> pd.DataFrame:
     """Load papers from bioRxiv metadata CSV file.
 
     Args:
@@ -104,12 +110,17 @@ def load_papers_from_csv(metadata_path: str, subject: str, limit: int, random_sa
             filtered_df = df_biorxiv[df_biorxiv.published != "NA"]
         else:
             filtered_df = df_biorxiv[
-                (df_biorxiv.published != "NA") & (df_biorxiv.category.str.lower() == subject.lower())
+                (df_biorxiv.published != "NA")
+                & (df_biorxiv.category.str.lower() == subject.lower())
             ]
 
         # Sample papers
         if len(filtered_df) > limit:
-            filtered_df = filtered_df.sample(limit, random_state=42) if random_sample else filtered_df.head(limit)
+            filtered_df = (
+                filtered_df.sample(limit, random_state=42)
+                if random_sample
+                else filtered_df.head(limit)
+            )
 
         print(f"Loaded {len(filtered_df)} papers in subject: {subject}")
         return filtered_df
@@ -220,11 +231,15 @@ def process_papers(papers_df: pd.DataFrame, args) -> list[dict[str, Any]]:
 
     """
     # Initialize the task extractor
-    extractor = PaperTaskExtractor(llm=args.model, chunk_size=args.chunk_size, chunk_overlap=args.chunk_overlap)
+    extractor = PaperTaskExtractor(
+        llm=args.model, chunk_size=args.chunk_size, chunk_overlap=args.chunk_overlap
+    )
 
     results = []
 
-    for _, paper in tqdm(papers_df.iterrows(), total=len(papers_df), desc="Processing papers"):
+    for _, paper in tqdm(
+        papers_df.iterrows(), total=len(papers_df), desc="Processing papers"
+    ):
         paper_doi = paper.get("doi")
         if not paper_doi:
             continue
@@ -234,9 +249,13 @@ def process_papers(papers_df: pd.DataFrame, args) -> list[dict[str, Any]]:
         # Create paths
         pdf_path = None
         if args.save_pdfs:
-            pdf_path = os.path.join(args.output_dir, "pdfs", f"{paper_doi.replace('/', '_')}.pdf")
+            pdf_path = os.path.join(
+                args.output_dir, "pdfs", f"{paper_doi.replace('/', '_')}.pdf"
+            )
 
-        result_path = os.path.join(args.output_dir, "results", f"{paper_doi.replace('/', '_')}.json")
+        result_path = os.path.join(
+            args.output_dir, "results", f"{paper_doi.replace('/', '_')}.json"
+        )
 
         # Skip if already processed
         if os.path.exists(result_path):
@@ -256,7 +275,9 @@ def process_papers(papers_df: pd.DataFrame, args) -> list[dict[str, Any]]:
         if len(pdf_text) > args.max_paper_length:
             original_length = len(pdf_text)
             pdf_text = truncate_text(pdf_text, args.max_paper_length)
-            print(f"Truncated paper from {original_length} to {len(pdf_text)} characters")
+            print(
+                f"Truncated paper from {original_length} to {len(pdf_text)} characters"
+            )
 
         # Extract tasks, databases, and software
         try:
@@ -385,7 +406,9 @@ def main():
 
     # Load papers from CSV
     print(f"Loading papers from {args.metadata_path} in subject area: {args.subject}")
-    papers_df = load_papers_from_csv(args.metadata_path, args.subject, args.limit, args.random_sample)
+    papers_df = load_papers_from_csv(
+        args.metadata_path, args.subject, args.limit, args.random_sample
+    )
 
     if len(papers_df) == 0:
         print(f"No papers found for subject: {args.subject}")

@@ -1,0 +1,1037 @@
+[
+  {
+    "pmid": "39616518",
+    "species_gene_list": [
+      {
+        "species_name": "Staphylococcus aureus",
+        "species_id": "1280",
+        "species_class": "Bacilli",
+        "gene_name": "rpoB",
+        "gene_id": "3920377"
+      }
+    ],
+    "gene_research_type": [
+      "Functional Validation"
+    ]
+  },
+  {
+    "pmid": "39619927",
+    "species_gene_list": [
+      {
+        "species_name": "Canis lupus familiaris",
+        "species_id": "9615",
+        "species_class": "Mammalia",
+        "gene_name": "",
+        "gene_id": ""
+      },
+      {
+        "species_name": "Carnivore protoparvovirus 1",
+        "species_id": "3052707",
+        "species_class": "",
+        "gene_name": "VP2",
+        "gene_id": "1489588"
+      }
+    ],
+    "gene_research_type": [
+      "Gene Expression Analysis",
+      "Functional Validation"
+    ]
+  },
+  {
+    "pmid": "39620500",
+    "species_gene_list": [
+      {
+        "species_name": "Cyanobacteriota",
+        "species_id": "1117",
+        "species_class": "",
+        "gene_name": "Sec61",
+        "gene_id": ""
+      }
+    ],
+    "gene_research_type": [
+      "Gene Identification analysis",
+      "Functional annotation",
+      "Functional Validation"
+    ]
+  },
+  {
+    "pmid": "39622655",
+    "species_gene_list": [
+      {
+        "species_name": "Canis lupus familiaris",
+        "species_id": "9615",
+        "species_class": "Mammalia",
+        "gene_name": "",
+        "gene_id": ""
+      },
+      {
+        "species_name": "Giardia duodenalis",
+        "species_id": "5741",
+        "species_class": "",
+        "gene_name": "gdh",
+        "gene_id": ""
+      },
+      {
+        "species_name": "Giardia duodenalis",
+        "species_id": "5741",
+        "species_class": "",
+        "gene_name": "18S rRNA",
+        "gene_id": ""
+      },
+      {
+        "species_name": "Cryptosporidium canis",
+        "species_id": "195482",
+        "species_class": "Conoidasida",
+        "gene_name": "18S rRNA",
+        "gene_id": ""
+      }
+    ],
+    "gene_research_type": [
+      "Gene Identification analysis"
+    ]
+  },
+  {
+    "pmid": "39622982",
+    "species_gene_list": [
+      {
+        "species_name": "Aspergillus fumigatus",
+        "species_id": "746128",
+        "species_class": "Eurotiomycetes",
+        "gene_name": "Ndk",
+        "gene_id": ""
+      }
+    ],
+    "gene_research_type": [
+      "Functional annotation",
+      "Functional Validation"
+    ]
+  },
+  {
+    "pmid": "39624127",
+    "species_gene_list": [
+      {
+        "species_name": "Solanum tuberosum",
+        "species_id": "4113",
+        "species_class": "Magnoliopsida",
+        "gene_name": "SIP1",
+        "gene_id": "102593135"
+      }
+    ],
+    "gene_research_type": [
+      "Gene Identification analysis",
+      "Gene Expression Analysis",
+      "Phylogenetic and Evolutionary Analysis",
+      "Functional annotation"
+    ]
+  },
+  {
+    "pmid": "39624483",
+    "species_gene_list": [
+      {
+        "species_name": "human gammaherpesvirus 4",
+        "species_id": "10376",
+        "species_class": "Herviviricetes",
+        "gene_name": "p18",
+        "gene_id": ""
+      },
+      {
+        "species_name": "human gammaherpesvirus 4",
+        "species_id": "10376",
+        "species_class": "Herviviricetes",
+        "gene_name": "EBNA-1",
+        "gene_id": "3783709"
+      }
+    ],
+    "gene_research_type": [
+      "Functional Validation",
+      "Gene Expression Analysis"
+    ]
+  },
+  {
+    "pmid": "39624535",
+    "species_gene_list": [
+      {
+        "species_name": "Enterococcus",
+        "species_id": "1350",
+        "species_class": "Bacilli",
+        "gene_name": "vanA",
+        "gene_id": "86909417"
+      },
+      {
+        "species_name": "Enterococcus",
+        "species_id": "1350",
+        "species_class": "Bacilli",
+        "gene_name": "vanB",
+        "gene_id": "16505101"
+      },
+      {
+        "species_name": "Enterococcus",
+        "species_id": "1350",
+        "species_class": "Bacilli",
+        "gene_name": "vanC",
+        "gene_id": "91576960"
+      }
+    ],
+    "gene_research_type": [
+      "Functional Validation",
+      "Gene Identification analysis"
+    ]
+  },
+  {
+    "pmid": "39625906",
+    "species_gene_list": [
+      {
+        "species_name": "Flavivirus",
+        "species_id": "11051",
+        "species_class": "Flasuviricetes",
+        "gene_name": "NS2B3",
+        "gene_id": ""
+      },
+      {
+        "species_name": "Aedes aegypti",
+        "species_id": "7159",
+        "species_class": "Insecta",
+        "gene_name": "NS2B3",
+        "gene_id": ""
+      }
+    ],
+    "gene_research_type": [
+      "Functional Validation",
+      "Functional annotation",
+      "Gene Expression Analysis"
+    ]
+  },
+  {
+    "pmid": "39619054",
+    "species_gene_list": [
+      {
+        "species_name": "Oryctolagus cuniculus",
+        "species_id": "9986",
+        "species_class": "Mammalia",
+        "gene_name": "SP7",
+        "gene_id": "100356871"
+      }
+    ],
+    "gene_research_type": [
+      "Functional Validation"
+    ]
+  },
+  {
+    "pmid": "39619201",
+    "species_gene_list": [
+      {
+        "species_name": "Canis lupus familiaris",
+        "species_id": "9615",
+        "species_class": "Mammalia",
+        "gene_name": "CD80",
+        "gene_id": "403765"
+      },
+      {
+        "species_name": "Canis lupus familiaris",
+        "species_id": "9615",
+        "species_class": "Mammalia",
+        "gene_name": "CD86",
+        "gene_id": "403764"
+      },
+      {
+        "species_name": "Canis lupus familiaris",
+        "species_id": "9615",
+        "species_class": "Mammalia",
+        "gene_name": "CTLA4",
+        "gene_id": "403696"
+      },
+      {
+        "species_name": "Canis lupus familiaris",
+        "species_id": "9615",
+        "species_class": "Mammalia",
+        "gene_name": "CD28",
+        "gene_id": "403646"
+      }
+    ],
+    "gene_research_type": [
+      "Gene Expression Analysis",
+      "Functional Validation",
+      "Functional annotation"
+    ]
+  },
+  {
+    "pmid": "39620069",
+    "species_gene_list": [
+      {
+        "species_name": "Human immunodeficiency virus 1",
+        "species_id": "11676",
+        "species_class": "Revtraviricetes",
+        "gene_name": "gp120",
+        "gene_id": ""
+      }
+    ],
+    "gene_research_type": [
+      "Functional Validation",
+      "Functional annotation"
+    ]
+  },
+  {
+    "pmid": "39621770",
+    "species_gene_list": [
+      {
+        "species_name": "",
+        "species_id": "3827",
+        "species_class": "",
+        "gene_name": "NCR13",
+        "gene_id": ""
+      },
+      {
+        "species_name": "",
+        "species_id": "4922",
+        "species_class": "",
+        "gene_name": "NCR13",
+        "gene_id": ""
+      },
+      {
+        "species_name": "",
+        "species_id": "40559",
+        "species_class": "",
+        "gene_name": "NCR13",
+        "gene_id": ""
+      }
+    ],
+    "gene_research_type": [
+      "Functional Validation",
+      "Functional Annotation"
+    ]
+  },
+  {
+    "pmid": "39623322",
+    "species_gene_list": [
+      {
+        "species_name": "Oncorhynchus mykiss",
+        "species_id": "8022",
+        "species_class": "Actinopteri",
+        "gene_name": "vegf",
+        "gene_id": "100136118"
+      }
+    ],
+    "gene_research_type": [
+      "Gene Expression Analysis",
+      "Functional Validation"
+    ]
+  },
+  {
+    "pmid": "39624134",
+    "species_gene_list": [
+      {
+        "species_name": "Gossypium hirsutum",
+        "species_id": "3635",
+        "species_class": "Magnoliopsida",
+        "gene_name": "Cinnamyl alcohol dehydrogenase",
+        "gene_id": ""
+      }
+    ],
+    "gene_research_type": [
+      "Gene Identification Analysis",
+      "Gene Expression Analysis",
+      "Phylogenetic and Evolutionary Analysis"
+    ]
+  },
+  {
+    "pmid": "39624274",
+    "species_gene_list": [
+      {
+        "species_name": "Bacillus amyloliquefaciens",
+        "species_id": "1390",
+        "species_class": "Bacilli",
+        "gene_name": "LOC100534494",
+        "gene_id": "100534494"
+      }
+    ],
+    "gene_research_type": [
+      "Functional Validation"
+    ]
+  },
+  {
+    "pmid": "39625835",
+    "species_gene_list": [
+      {
+        "species_name": "Canis lupus familiaris",
+        "species_id": "9615",
+        "species_class": "Mammalia",
+        "gene_name": "KIT",
+        "gene_id": "403811"
+      }
+    ],
+    "gene_research_type": [
+      "Functional Validation"
+    ]
+  },
+  {
+    "pmid": "39617958",
+    "species_gene_list": [
+      {
+        "species_name": "Sclerotinia sclerotiorum",
+        "species_id": "5180",
+        "species_class": "Leotiomycetes",
+        "gene_name": "SsPtc3",
+        "gene_id": ""
+      },
+      {
+        "species_name": "Sclerotinia sclerotiorum",
+        "species_id": "5180",
+        "species_class": "Leotiomycetes",
+        "gene_name": "SsSmk1",
+        "gene_id": ""
+      },
+      {
+        "species_name": "Sclerotinia sclerotiorum",
+        "species_id": "5180",
+        "species_class": "Leotiomycetes",
+        "gene_name": "SsAtg1",
+        "gene_id": ""
+      }
+    ],
+    "gene_research_type": [
+      "Functional annotation",
+      "Gene Expression Analysis",
+      "Functional Validation"
+    ]
+  },
+  {
+    "pmid": "39622944",
+    "species_gene_list": [
+      {
+        "species_name": "Lipoptena axis",
+        "species_id": "3367142",
+        "species_class": "Insecta",
+        "gene_name": "cytochrome c oxidase subunit I",
+        "gene_id": ""
+      }
+    ],
+    "gene_research_type": [
+      "Gene Identification analysis",
+      "Phylogenetic and Evolutionary Analysis"
+    ]
+  },
+  {
+    "pmid": "39623585",
+    "species_gene_list": [
+      {
+        "species_name": "Amphalius",
+        "species_id": "507005",
+        "species_class": "Insecta",
+        "gene_name": "cox1",
+        "gene_id": ""
+      }
+    ],
+    "gene_research_type": [
+      "Gene Identification analysis",
+      "Phylogenetic and Evolutionary Analysis",
+      "Functional annotation"
+    ]
+  },
+  {
+    "pmid": "39614978",
+    "species_gene_list": [
+      {
+        "species_name": "Komagataella phaffii",
+        "species_id": "460519",
+        "species_class": "Pichiomycetes",
+        "gene_name": "xylD-HL",
+        "gene_id": ""
+      },
+      {
+        "species_name": "Komagataella phaffii",
+        "species_id": "460519",
+        "species_class": "Pichiomycetes",
+        "gene_name": "xylD-CC",
+        "gene_id": ""
+      }
+    ],
+    "gene_research_type": [
+      "Functional Validation and Applied Research"
+    ]
+  },
+  {
+    "pmid": "39615687",
+    "species_gene_list": [
+      {
+        "species_name": "Thermus thermophilus",
+        "species_id": "274",
+        "species_class": "Deinococci",
+        "gene_name": "pilF",
+        "gene_id": "2774631"
+      },
+      {
+        "species_name": "Vibrio cholerae",
+        "species_id": "666",
+        "species_class": "Gammaproteobacteria",
+        "gene_name": "",
+        "gene_id": ""
+      }
+    ],
+    "gene_research_type": [
+      "Functional annotation",
+      "Functional Validation"
+    ]
+  },
+  {
+    "pmid": "39617772",
+    "species_gene_list": [
+      {
+        "species_name": "Brassica juncea",
+        "species_id": "3707",
+        "species_class": "Magnoliopsida",
+        "gene_name": "BjGRF03",
+        "gene_id": ""
+      },
+      {
+        "species_name": "Brassica juncea",
+        "species_id": "3707",
+        "species_class": "Magnoliopsida",
+        "gene_name": "BjGRF32",
+        "gene_id": ""
+      }
+    ],
+    "gene_research_type": [
+      "Gene Identification Analysis",
+      "Functional annotation",
+      "Gene Expression Analysis",
+      "Phylogenetic and Evolutionary Analysis",
+      "Functional Validation"
+    ]
+  },
+  {
+    "pmid": "39617959",
+    "species_gene_list": [
+      {
+        "species_name": "Streptomyces scabiei",
+        "species_id": "1930",
+        "species_class": "Actinomycetes",
+        "gene_name": "txtR",
+        "gene_id": "24311140"
+      },
+      {
+        "species_name": "Streptomyces scabiei",
+        "species_id": "1930",
+        "species_class": "Actinomycetes",
+        "gene_name": "SCAB_Lrp2",
+        "gene_id": ""
+      },
+      {
+        "species_name": "Streptomyces scabiei",
+        "species_id": "1930",
+        "species_class": "Actinomycetes",
+        "gene_name": "SCAB_Lrp",
+        "gene_id": ""
+      }
+    ],
+    "gene_research_type": [
+      "Gene Expression Analysis",
+      "Functional Validation",
+      "Functional annotation"
+    ]
+  },
+  {
+    "pmid": "39618122",
+    "species_gene_list": [
+      {
+        "species_name": "Serratia",
+        "species_id": "2985502",
+        "species_class": "Gammaproteobacteria",
+        "gene_name": "ser4",
+        "gene_id": ""
+      },
+      {
+        "species_name": "Serratia",
+        "species_id": "2985502",
+        "species_class": "Gammaproteobacteria",
+        "gene_name": "ser5",
+        "gene_id": ""
+      }
+    ],
+    "gene_research_type": [
+      "Functional annotation",
+      "Functional validation"
+    ]
+  },
+  {
+    "pmid": "39619692",
+    "species_gene_list": [
+      {
+        "species_name": "Helicobacter pylori",
+        "species_id": "210",
+        "species_class": "Epsilonproteobacteria",
+        "gene_name": "urease",
+        "gene_id": ""
+      }
+    ],
+    "gene_research_type": [
+      "Functional Validation"
+    ]
+  },
+  {
+    "pmid": "39623490",
+    "species_gene_list": [
+      {
+        "species_name": "Canis lupus familiaris",
+        "species_id": "9615",
+        "species_class": "Mammalia",
+        "gene_name": "B2M",
+        "gene_id": "100855741"
+      },
+      {
+        "species_name": "Canis lupus familiaris",
+        "species_id": "9615",
+        "species_class": "Mammalia",
+        "gene_name": "CD274",
+        "gene_id": "484186"
+      }
+    ],
+    "gene_research_type": [
+      "Functional Validation"
+    ]
+  },
+  {
+    "pmid": "39624363",
+    "species_gene_list": [
+      {
+        "species_name": "Canis lupus familiaris",
+        "species_id": "9615",
+        "species_class": "Mammalia",
+        "gene_name": "CRP",
+        "gene_id": "488629"
+      }
+    ],
+    "gene_research_type": [
+      "Gene Expression Analysis",
+      "Functional Validation"
+    ]
+  },
+  {
+    "pmid": "39624599",
+    "species_gene_list": [
+      {
+        "species_name": "Culex hutchinsoni",
+        "species_id": "345742",
+        "species_class": "Insecta",
+        "gene_name": "COX1",
+        "gene_id": "87717462"
+      }
+    ],
+    "gene_research_type": [
+      "Phylogenetic and Evolutionary Analysis",
+      "Functional annotation"
+    ]
+  },
+  {
+    "pmid": "39625117",
+    "species_gene_list": [
+      {
+        "species_name": "Synechocystis sp. PCC 6803",
+        "species_id": "1148",
+        "species_class": "Cyanophyceae",
+        "gene_name": "ssr1238",
+        "gene_id": "12253905"
+      }
+    ],
+    "gene_research_type": [
+      "Functional Validation",
+      "Functional Annotation via Ortholog/Homolog Comparison",
+      "Gene Expression Analysis"
+    ]
+  },
+  {
+    "pmid": "39615039",
+    "species_gene_list": [
+      {
+        "species_name": "Sorghum bicolor",
+        "species_id": "4558",
+        "species_class": "Magnoliopsida",
+        "gene_name": "WRINKLED1",
+        "gene_id": ""
+      },
+      {
+        "species_name": "Sorghum bicolor",
+        "species_id": "4558",
+        "species_class": "Magnoliopsida",
+        "gene_name": "DGAT",
+        "gene_id": ""
+      }
+    ],
+    "gene_research_type": [
+      "Functional Validation",
+      "Gene Expression Analysis",
+      "Functional Annotation via Ortholog/Homolog Comparison"
+    ]
+  },
+  {
+    "pmid": "39615322",
+    "species_gene_list": [
+      {
+        "species_name": "Meleagris gallopavo",
+        "species_id": "9103",
+        "species_class": "Aves",
+        "gene_name": "FAM107B",
+        "gene_id": "100539851"
+      }
+    ],
+    "gene_research_type": [
+      "Gene Identification Analysis",
+      "Functional Annotation via Ortholog/Homolog Comparison",
+      "Phylogenetic and Evolutionary Analysis"
+    ]
+  },
+  {
+    "pmid": "39615327",
+    "species_gene_list": [
+      {
+        "species_name": "Muscovy ducks",
+        "species_id": "8835",
+        "species_class": "Aves",
+        "gene_name": "miR-317",
+        "gene_id": ""
+      },
+      {
+        "species_name": "Muscovy ducks",
+        "species_id": "8835",
+        "species_class": "Aves",
+        "gene_name": "VIPR1",
+        "gene_id": "137852041"
+      }
+    ],
+    "gene_research_type": [
+      "Gene Expression Analysis",
+      "Functional Validation"
+    ]
+  },
+  {
+    "pmid": "39619931",
+    "species_gene_list": [
+      {
+        "species_name": "Felis catus",
+        "species_id": "9685",
+        "species_class": "Mammalia",
+        "gene_name": "PAX5",
+        "gene_id": "101089303"
+      },
+      {
+        "species_name": "Felis catus",
+        "species_id": "9685",
+        "species_class": "Mammalia",
+        "gene_name": "MS4A1",
+        "gene_id": "494216"
+      },
+      {
+        "species_name": "Felis catus",
+        "species_id": "9685",
+        "species_class": "Mammalia",
+        "gene_name": "CD79A",
+        "gene_id": "101083127"
+      }
+    ],
+    "gene_research_type": [
+      "Gene Expression Analysis",
+      "Functional Validation"
+    ]
+  },
+  {
+    "pmid": "39622791",
+    "species_gene_list": [
+      {
+        "species_name": "Helicobacter pylori",
+        "species_id": "210",
+        "species_class": "Epsilonproteobacteria",
+        "gene_name": "cagA",
+        "gene_id": "93236896"
+      },
+      {
+        "species_name": "Helicobacter pylori",
+        "species_id": "210",
+        "species_class": "Epsilonproteobacteria",
+        "gene_name": "vacA",
+        "gene_id": "66522103"
+      },
+      {
+        "species_name": "Helicobacter pylori",
+        "species_id": "210",
+        "species_class": "Epsilonproteobacteria",
+        "gene_name": "napA",
+        "gene_id": "15321348"
+      },
+      {
+        "species_name": "Helicobacter pylori",
+        "species_id": "210",
+        "species_class": "Epsilonproteobacteria",
+        "gene_name": "sodB",
+        "gene_id": "93237805"
+      },
+      {
+        "species_name": "Helicobacter pylori",
+        "species_id": "210",
+        "species_class": "Epsilonproteobacteria",
+        "gene_name": "gGT",
+        "gene_id": "93237752"
+      },
+      {
+        "species_name": "Helicobacter pylori",
+        "species_id": "210",
+        "species_class": "Epsilonproteobacteria",
+        "gene_name": "oipA",
+        "gene_id": "93237089"
+      }
+    ],
+    "gene_research_type": [
+      "Functional annotation",
+      "Gene Expression Analysis"
+    ]
+  },
+  {
+    "pmid": "39623442",
+    "species_gene_list": [
+      {
+        "species_name": "Canis lupus familiaris",
+        "species_id": "9615",
+        "species_class": "Mammalia",
+        "gene_name": "PARP3",
+        "gene_id": "484745"
+      }
+    ],
+    "gene_research_type": [
+      "Gene Expression Analysis",
+      "Functional Validation and Applied Research"
+    ]
+  },
+  {
+    "pmid": "39623505",
+    "species_gene_list": [
+      {
+        "species_name": "Xenopus laevis",
+        "species_id": "8355",
+        "species_class": "Amphibia",
+        "gene_name": "ctnnb1.L",
+        "gene_id": "399274"
+      }
+    ],
+    "gene_research_type": [
+      "Phylogenetic and Evolutionary Analysis",
+      "Functional Validation",
+      "Functional annotation"
+    ]
+  },
+  {
+    "pmid": "39624516",
+    "species_gene_list": [
+      {
+        "species_name": "Oreochromis niloticus",
+        "species_id": "8128",
+        "species_class": "Actinopteri",
+        "gene_name": "IL10",
+        "gene_id": "100694754"
+      }
+    ],
+    "gene_research_type": [
+      "Gene Expression Analysis",
+      "Functional Validation"
+    ]
+  },
+  {
+    "pmid": "39625374",
+    "species_gene_list": [
+      {
+        "species_name": "Canis lupus familiaris",
+        "species_id": "9615",
+        "species_class": "Mammalia",
+        "gene_name": "PTH",
+        "gene_id": "403986"
+      }
+    ],
+    "gene_research_type": [
+      "Functional Validation"
+    ]
+  },
+  {
+    "pmid": "39626055",
+    "species_gene_list": [
+      {
+        "species_name": "Cicer arietinum",
+        "species_id": "3827",
+        "species_class": "Magnoliopsida",
+        "gene_name": "CaELF3a",
+        "gene_id": "101489432"
+      },
+      {
+        "species_name": "Cicer arietinum",
+        "species_id": "3827",
+        "species_class": "Magnoliopsida",
+        "gene_name": "FT",
+        "gene_id": ""
+      },
+      {
+        "species_name": "Cicer arietinum",
+        "species_id": "3827",
+        "species_class": "Magnoliopsida",
+        "gene_name": "GIGANTEA",
+        "gene_id": ""
+      }
+    ],
+    "gene_research_type": [
+      "Gene Identification analysis",
+      "Functional annotation"
+    ]
+  },
+  {
+    "pmid": "39615800",
+    "species_gene_list": [
+      {
+        "species_name": "Amblyseius swirskii",
+        "species_id": "759916",
+        "species_class": "Arachnida",
+        "gene_name": "Antp",
+        "gene_id": ""
+      },
+      {
+        "species_name": "Amblyseius swirskii",
+        "species_id": "759916",
+        "species_class": "Arachnida",
+        "gene_name": "SLC25A38",
+        "gene_id": ""
+      },
+      {
+        "species_name": "Amblyseius swirskii",
+        "species_id": "759916",
+        "species_class": "Arachnida",
+        "gene_name": "white",
+        "gene_id": ""
+      },
+      {
+        "species_name": "Phytoseiulus persimilis",
+        "species_id": "44414",
+        "species_class": "Arachnida",
+        "gene_name": "Antp",
+        "gene_id": ""
+      },
+      {
+        "species_name": "Phytoseiulus persimilis",
+        "species_id": "44414",
+        "species_class": "Arachnida",
+        "gene_name": "SLC25A38",
+        "gene_id": ""
+      },
+      {
+        "species_name": "Phytoseiulus persimilis",
+        "species_id": "44414",
+        "species_class": "Arachnida",
+        "gene_name": "white",
+        "gene_id": ""
+      },
+      {
+        "species_name": "Bemisia tabaci",
+        "species_id": "7038",
+        "species_class": "Insecta",
+        "gene_name": "Antp",
+        "gene_id": "109037973"
+      },
+      {
+        "species_name": "Bemisia tabaci",
+        "species_id": "7038",
+        "species_class": "Insecta",
+        "gene_name": "SLC25A38",
+        "gene_id": ""
+      },
+      {
+        "species_name": "Bemisia tabaci",
+        "species_id": "7038",
+        "species_class": "Insecta",
+        "gene_name": "white",
+        "gene_id": ""
+      },
+      {
+        "species_name": "Nezara viridula",
+        "species_id": "85310",
+        "species_class": "Insecta",
+        "gene_name": "Antp",
+        "gene_id": ""
+      },
+      {
+        "species_name": "Nezara viridula",
+        "species_id": "85310",
+        "species_class": "Insecta",
+        "gene_name": "SLC25A38",
+        "gene_id": ""
+      },
+      {
+        "species_name": "Nezara viridula",
+        "species_id": "85310",
+        "species_class": "Insecta",
+        "gene_name": "white",
+        "gene_id": ""
+      }
+    ],
+    "gene_research_type": [
+      "Functional Validation",
+      "Functional annotation",
+      "Gene Identification analysis"
+    ]
+  },
+  {
+    "pmid": "39620216",
+    "species_gene_list": [
+      {
+        "species_name": "Felis catus",
+        "species_id": "9685",
+        "species_class": "",
+        "gene_name": "CD4",
+        "gene_id": "493775"
+      },
+      {
+        "species_name": "Canis lupus familiaris",
+        "species_id": "",
+        "species_class": "",
+        "gene_name": "CD4",
+        "gene_id": ""
+      }
+    ],
+    "gene_research_type": [
+      "Gene Expression Analysis",
+      "Phylogenetic and Evolutionary Analysis",
+      "Functional annotation"
+    ]
+  },
+  {
+    "pmid": "39623412",
+    "species_gene_list": [
+      {
+        "species_name": "Equus caballus",
+        "species_id": "9796",
+        "species_class": "Mammalia",
+        "gene_name": "IL10",
+        "gene_id": "100034187"
+      }
+    ],
+    "gene_research_type": [
+      "Gene Expression Analysis",
+      "Functional Validation"
+    ]
+  },
+  {
+    "pmid": "39625902",
+    "species_gene_list": [
+      {
+        "species_name": "Canis lupus familiaris",
+        "species_id": "9615",
+        "species_class": "Mammalia",
+        "gene_name": "glycoprotein",
+        "gene_id": ""
+      },
+      {
+        "species_name": "Lyssavirus rabies",
+        "species_id": "11292",
+        "species_class": "Monjiviricetes",
+        "gene_name": "glycoprotein",
+        "gene_id": ""
+      }
+    ],
+    "gene_research_type": [
+      "Functional Validation and Applied Research",
+      "Functional Annotation via Ortholog/Homolog Comparison"
+    ]
+  }
+]

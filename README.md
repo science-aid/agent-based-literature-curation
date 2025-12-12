@@ -9,7 +9,7 @@ This repository contains code and data for curation of scientific literature usi
 ## Key Features
 
 - **AI Agent-based Curation**: Automated literature screening using large language model agents
-- **Precision Comparison**: Benchmark of multiple NER systems (BioMNI, Custom BioMNI, PubTator)
+- **Precision Comparison**: Benchmark of multiple NER systems (Biomni, Custom Biomni, PubTator)
 - **Focus Area**: Non-model organism genetics research papers
 
 ## Methods Compared
@@ -41,6 +41,32 @@ docker build -f setup/Dockerfile -t res-agent .
 ```
 
 This will create a Docker image named `res-agent` with all necessary dependencies for running the AI agent.
+
+## Key Scripts
+
+### Literature Collection and Filtering
+
+- **`scripts/wf_pre_agent.py`**: Collects papers from PubMed and performs initial filtering to identify candidate non-model organism papers used in our evaluation
+
+- **`scripts/filter_pubtator_annotations.py`**: Retrieves PubTator annotations and filters papers to create the PubTator baseline dataset
+
+### AI Agent-based Curation
+
+- **`scripts/run_Biomni_batch_experiment.py`**: Orchestrates batch processing of papers using Biomni agents (supports both Default and Custom configurations)
+
+- **`scripts/Biomni_experiment_worker.py`**: Worker script that processes individual papers with the Biomni agent
+
+- **`scripts/filter_paper_default_Biomni.py`**: Parses heterogeneous outputs from Default Biomni logs to extract structured annotations (required due to inconsistent output format)
+
+### Data Preparation
+
+- **`scripts/select_model_species.py`**: Identifies top 20 model organisms from genome editing meta-database (`results/gem/20251008_ge_metadata_all.csv`) and generates visualization (`figures/model_species/top20_organisms_bar_chart.png`)
+
+### Evaluation and Analysis
+
+- **`scripts/calculate_precision.py`**: Calculates precision metrics for Default Biomni and Custom Biomni results against manually curated ground truth
+
+- **`scripts/calculate_precision_pubtator.py`**: Calculates precision metrics for PubTator baseline results
 
 ## Data Availability
 

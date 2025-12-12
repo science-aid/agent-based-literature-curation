@@ -2,7 +2,7 @@ import json
 
 import numpy as np
 
-from biomni.task.base_task import base_task
+from Biomni.task.base_task import base_task
 
 
 class CustomBenchmark(base_task):

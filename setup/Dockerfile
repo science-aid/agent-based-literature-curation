@@ -17,7 +17,7 @@ COPY setup/customized_bio_env.yml /app/
 # conda環境を作成してパッケージをインストール
 RUN conda env create -f environment.yml && \
     conda run -n res-agent conda env update -f customized_bio_env.yml && \
-    conda run -n res-agent pip install biomni --upgrade
+    conda run -n res-agent pip install Biomni --upgrade
 
 # conda環境をアクティベート
 SHELL ["conda", "run", "-n", "res-agent", "/bin/bash", "-c"]  

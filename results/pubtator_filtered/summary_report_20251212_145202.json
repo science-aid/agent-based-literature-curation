@@ -1,0 +1,10 @@
+{
+  "input_file": "results/wf_pre_agent/FINAL_20251117_172057_20241201_20241203.csv",
+  "total_input_pmids": 531,
+  "pmids_with_annotations": 531,
+  "pmids_excluded_by_model_organism": 185,
+  "pmids_excluded_by_no_species": 0,
+  "pmids_excluded_by_no_genes": 291,
+  "final_filtered_pmids": 55,
+  "timestamp": "20251212_145202"
+}

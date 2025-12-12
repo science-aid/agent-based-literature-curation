@@ -1,0 +1,4864 @@
+{
+  "39614764": {
+    "species": [
+      {
+        "name": "cocoa",
+        "id": "3641"
+      },
+      {
+        "name": "murine",
+        "id": "10090"
+      }
+    ],
+    "genes": []
+  },
+  "39614978": {
+    "species": [
+      {
+        "name": "Komagataella phaffii",
+        "id": "460519"
+      },
+      {
+        "name": "Escherichia coli",
+        "id": "562"
+      },
+      {
+        "name": "Enterobacter cloacae",
+        "id": "550"
+      },
+      {
+        "name": "yeast",
+        "id": "4932"
+      },
+      {
+        "name": "Saccharomyces cerevisiae",
+        "id": "4932"
+      }
+    ],
+    "genes": []
+  },
+  "39615083": {
+    "species": [
+      {
+        "name": "mice",
+        "id": "10090"
+      },
+      {
+        "name": "Bartonella henselae",
+        "id": "38323"
+      },
+      {
+        "name": "B. henselae",
+        "id": "38323"
+      }
+    ],
+    "genes": []
+  },
+  "39615251": {
+    "species": [
+      {
+        "name": "Kingella kingae",
+        "id": "504"
+      },
+      {
+        "name": "woman",
+        "id": "9606"
+      },
+      {
+        "name": "patient",
+        "id": "9606"
+      },
+      {
+        "name": "women",
+        "id": "9606"
+      }
+    ],
+    "genes": []
+  },
+  "39615325": {
+    "species": [
+      {
+        "name": "goose",
+        "id": "8847"
+      },
+      {
+        "name": "chickens",
+        "id": "9031"
+      },
+      {
+        "name": "LD",
+        "id": "66972"
+      },
+      {
+        "name": "geese",
+        "id": "8842"
+      }
+    ],
+    "genes": []
+  },
+  "39615460": {
+    "species": [
+      {
+        "name": "monkeypox virus",
+        "id": "10244"
+      },
+      {
+        "name": "MPXV",
+        "id": "10244"
+      },
+      {
+        "name": "human",
+        "id": "9606"
+      },
+      {
+        "name": "monkey",
+        "id": "9527"
+      }
+    ],
+    "genes": [
+      {
+        "name": "mpox",
+        "id": null
+      }
+    ]
+  },
+  "39615486": {
+    "species": [
+      {
+        "name": "Staphylococcus aureus",
+        "id": "1280"
+      },
+      {
+        "name": "human",
+        "id": "9606"
+      },
+      {
+        "name": "Homo sapiens",
+        "id": "9606"
+      },
+      {
+        "name": "Galleria mellonella",
+        "id": "7137"
+      },
+      {
+        "name": "zebrafish",
+        "id": "7955"
+      },
+      {
+        "name": "murine",
+        "id": "10090"
+      }
+    ],
+    "genes": [
+      {
+        "name": "ClpP",
+        "id": "8192"
+      }
+    ]
+  },
+  "39615800": {
+    "species": [
+      {
+        "name": "stinkbugs",
+        "id": "57298"
+      },
+      {
+        "name": "spider mites",
+        "id": "32262"
+      },
+      {
+        "name": "thrips",
+        "id": "45057"
+      },
+      {
+        "name": "Amblyseius swirskii",
+        "id": "759916"
+      },
+      {
+        "name": "Phytoseiulus persimilis",
+        "id": "44414"
+      },
+      {
+        "name": "Bemisia tabaci",
+        "id": "7038"
+      },
+      {
+        "name": "Nezara viridula",
+        "id": "85310"
+      },
+      {
+        "name": "Drosophila melanogaster",
+        "id": "7227"
+      },
+      {
+        "name": "B. tabaci",
+        "id": "7038"
+      },
+      {
+        "name": "N. viridula",
+        "id": "85310"
+      },
+      {
+        "name": "A. swirskii",
+        "id": "759916"
+      },
+      {
+        "name": "Tetranychus urticae",
+        "id": "32264"
+      },
+      {
+        "name": "D. melanogaster",
+        "id": "7227"
+      }
+    ],
+    "genes": []
+  },
+  "39616212": {
+    "species": [
+      {
+        "name": "Chikungunya virus",
+        "id": "37124"
+      },
+      {
+        "name": "chikungunya virus",
+        "id": "37124"
+      },
+      {
+        "name": "CHIKV",
+        "id": "37124"
+      },
+      {
+        "name": "Camelia sinensis",
+        "id": "4442"
+      },
+      {
+        "name": "human",
+        "id": "9606"
+      }
+    ],
+    "genes": [
+      {
+        "name": "nsP2",
+        "id": null
+      }
+    ]
+  },
+  "39616342": {
+    "species": [
+      {
+        "name": "Acinetobacter ursingii",
+        "id": "108980"
+      },
+      {
+        "name": "patient",
+        "id": "9606"
+      },
+      {
+        "name": "Acinetobacter",
+        "id": "108980"
+      }
+    ],
+    "genes": []
+  },
+  "39616349": {
+    "species": [
+      {
+        "name": "chickens",
+        "id": "9031"
+      },
+      {
+        "name": "Infectious bursal disease virus",
+        "id": "10995"
+      },
+      {
+        "name": "IBDV",
+        "id": "10995"
+      },
+      {
+        "name": "chicken",
+        "id": "9031"
+      },
+      {
+        "name": "VV4",
+        "id": "386562"
+      },
+      {
+        "name": "VV5",
+        "id": "386563"
+      },
+      {
+        "name": "VV6",
+        "id": "386564"
+      },
+      {
+        "name": "VV2",
+        "id": "386560"
+      }
+    ],
+    "genes": [
+      {
+        "name": "VP2",
+        "id": null
+      },
+      {
+        "name": "VV10",
+        "id": null
+      },
+      {
+        "name": "VV16",
+        "id": null
+      }
+    ]
+  },
+  "39616391": {
+    "species": [
+      {
+        "name": "Fasciola",
+        "id": "6191"
+      },
+      {
+        "name": "patients",
+        "id": "9606"
+      }
+    ],
+    "genes": []
+  },
+  "39616681": {
+    "species": [
+      {
+        "name": "Mycoplasma gallisepticum",
+        "id": "2096"
+      },
+      {
+        "name": "Escherichia coli",
+        "id": "562"
+      },
+      {
+        "name": "MG",
+        "id": "2096"
+      },
+      {
+        "name": "E. coli",
+        "id": "562"
+      }
+    ],
+    "genes": []
+  },
+  "39616749": {
+    "species": [
+      {
+        "name": "Echinococcus granulosus",
+        "id": "6210"
+      },
+      {
+        "name": "dog",
+        "id": "9615"
+      },
+      {
+        "name": "sheep",
+        "id": "9940"
+      },
+      {
+        "name": "humans",
+        "id": "9606"
+      },
+      {
+        "name": "patient",
+        "id": "9606"
+      }
+    ],
+    "genes": []
+  },
+  "39617438": {
+    "species": [
+      {
+        "name": "porcine reproductive and respiratory syndrome virus",
+        "id": "28344"
+      },
+      {
+        "name": "Porcine reproductive and respiratory syndrome virus",
+        "id": "28344"
+      },
+      {
+        "name": "PRRSV",
+        "id": "28344"
+      },
+      {
+        "name": "swine",
+        "id": "9823"
+      }
+    ],
+    "genes": [
+      {
+        "name": "NADC34",
+        "id": null
+      },
+      {
+        "name": "glycoprotein 5",
+        "id": "2814"
+      }
+    ]
+  },
+  "39617796": {
+    "species": [
+      {
+        "name": "Pseudomonas aeruginosa",
+        "id": "287"
+      },
+      {
+        "name": "Klebsiella pneumonia",
+        "id": "573"
+      },
+      {
+        "name": "Escherichia coli",
+        "id": "562"
+      },
+      {
+        "name": "Staphylococcus aureus",
+        "id": "1280"
+      },
+      {
+        "name": "Acinetobacter baumannii",
+        "id": "470"
+      },
+      {
+        "name": "Candida parapsilosis",
+        "id": "5480"
+      },
+      {
+        "name": "Candida tropicalis",
+        "id": "5482"
+      },
+      {
+        "name": "Candida albicans",
+        "id": "5476"
+      }
+    ],
+    "genes": [
+      {
+        "name": "dihydrofolate reductase",
+        "id": "103223875"
+      },
+      {
+        "name": "DHFR",
+        "id": "103223875"
+      },
+      {
+        "name": "DHFR",
+        "id": "1719"
+      }
+    ]
+  },
+  "39617946": {
+    "species": [
+      {
+        "name": "Streptococcus suis",
+        "id": "1307"
+      },
+      {
+        "name": "swine",
+        "id": "9823"
+      },
+      {
+        "name": "S. suis",
+        "id": "1307"
+      },
+      {
+        "name": "Actinobacillus pleuropneumoniae",
+        "id": "715"
+      },
+      {
+        "name": "Glaesserella parasuis",
+        "id": "738"
+      },
+      {
+        "name": "Pasteurella multocida",
+        "id": "747"
+      },
+      {
+        "name": "Staphylococcus hyicus",
+        "id": "1284"
+      },
+      {
+        "name": "P. multocida",
+        "id": "747"
+      }
+    ],
+    "genes": []
+  },
+  "39618117": {
+    "species": [
+      {
+        "name": "anthrax",
+        "id": "1392"
+      },
+      {
+        "name": "Bacillus anthracis",
+        "id": "1392"
+      },
+      {
+        "name": "human",
+        "id": "9606"
+      }
+    ],
+    "genes": []
+  },
+  "39618401": {
+    "species": [
+      {
+        "name": "dog",
+        "id": "9615"
+      },
+      {
+        "name": "human",
+        "id": "9606"
+      },
+      {
+        "name": "dogs",
+        "id": "9615"
+      }
+    ],
+    "genes": []
+  },
+  "39618425": {
+    "species": [
+      {
+        "name": "AAV",
+        "id": "272636"
+      },
+      {
+        "name": "rat",
+        "id": "10116"
+      },
+      {
+        "name": "mouse",
+        "id": "10090"
+      },
+      {
+        "name": "Adeno-associated virus",
+        "id": "272636"
+      },
+      {
+        "name": "patients",
+        "id": "9606"
+      },
+      {
+        "name": "rats",
+        "id": "10116"
+      },
+      {
+        "name": "mice",
+        "id": "10090"
+      }
+    ],
+    "genes": [
+      {
+        "name": "UGT1A1",
+        "id": "54658"
+      },
+      {
+        "name": "Ugt1a",
+        "id": "394431"
+      },
+      {
+        "name": "hUGT1A1",
+        "id": null
+      },
+      {
+        "name": "Gs",
+        "id": "14645"
+      }
+    ]
+  },
+  "39618498": {
+    "species": [
+      {
+        "name": "Staphylococcus aureus",
+        "id": "1280"
+      },
+      {
+        "name": "murine",
+        "id": "10090"
+      },
+      {
+        "name": "humans",
+        "id": "9606"
+      },
+      {
+        "name": "mice",
+        "id": "10090"
+      }
+    ],
+    "genes": []
+  },
+  "39618506": {
+    "species": [
+      {
+        "name": "mice",
+        "id": "10090"
+      },
+      {
+        "name": "Trypanosoma cruzi",
+        "id": "5693"
+      },
+      {
+        "name": "Patients",
+        "id": "9606"
+      },
+      {
+        "name": "T. cruzi",
+        "id": "5693"
+      }
+    ],
+    "genes": [
+      {
+        "name": "TRPV1",
+        "id": "7442"
+      },
+      {
+        "name": "Trpv1",
+        "id": "7442"
+      },
+      {
+        "name": "CGRP",
+        "id": "796"
+      }
+    ]
+  },
+  "39618544": {
+    "species": [
+      {
+        "name": "HIV",
+        "id": "11676"
+      },
+      {
+        "name": "infants",
+        "id": "9606"
+      }
+    ],
+    "genes": []
+  },
+  "39618561": {
+    "species": [
+      {
+        "name": "Serratia marcescens",
+        "id": "615"
+      },
+      {
+        "name": "patient",
+        "id": "9606"
+      }
+    ],
+    "genes": []
+  },
+  "39618591": {
+    "species": [
+      {
+        "name": "Mycobacterium avium-intracellulare",
+        "id": "55883"
+      },
+      {
+        "name": "Mycobacterium",
+        "id": "55883"
+      },
+      {
+        "name": "patients",
+        "id": "9606"
+      }
+    ],
+    "genes": []
+  },
+  "39618602": {
+    "species": [
+      {
+        "name": "Mycoplasma genitalium",
+        "id": "2097"
+      },
+      {
+        "name": "M. genitalium",
+        "id": "2097"
+      },
+      {
+        "name": "patients",
+        "id": "9606"
+      },
+      {
+        "name": "outpatient",
+        "id": "9606"
+      },
+      {
+        "name": "Ureaplasma",
+        "id": "2129"
+      }
+    ],
+    "genes": []
+  },
+  "39618607": {
+    "species": [
+      {
+        "name": "enterovirus",
+        "id": "12059"
+      },
+      {
+        "name": "patient",
+        "id": "9606"
+      },
+      {
+        "name": "outpatient",
+        "id": "9606"
+      }
+    ],
+    "genes": []
+  },
+  "39618618": {
+    "species": [
+      {
+        "name": "Nocardia otitidiscaviarum",
+        "id": "1823"
+      },
+      {
+        "name": "Woman",
+        "id": "9606"
+      },
+      {
+        "name": "woman",
+        "id": "9606"
+      },
+      {
+        "name": "patient",
+        "id": "9606"
+      },
+      {
+        "name": "Nocardia",
+        "id": "1823"
+      }
+    ],
+    "genes": []
+  },
+  "39618654": {
+    "species": [
+      {
+        "name": "Candida auris",
+        "id": "498019"
+      },
+      {
+        "name": "Candida",
+        "id": "1535326"
+      },
+      {
+        "name": "C. auris",
+        "id": "498019"
+      },
+      {
+        "name": "patients",
+        "id": "9606"
+      },
+      {
+        "name": "Patient",
+        "id": "9606"
+      },
+      {
+        "name": "patient",
+        "id": "9606"
+      }
+    ],
+    "genes": []
+  },
+  "39618774": {
+    "species": [
+      {
+        "name": "Patient",
+        "id": "9606"
+      },
+      {
+        "name": "human T-lymphotropic virus type 1",
+        "id": "11908"
+      },
+      {
+        "name": "HTLV-1",
+        "id": "11908"
+      },
+      {
+        "name": "patient",
+        "id": "9606"
+      },
+      {
+        "name": "patients",
+        "id": "9606"
+      }
+    ],
+    "genes": []
+  },
+  "39618822": {
+    "species": [
+      {
+        "name": "HIV",
+        "id": "11676"
+      },
+      {
+        "name": "mice",
+        "id": "10090"
+      },
+      {
+        "name": "HIV-1",
+        "id": "11676"
+      }
+    ],
+    "genes": [
+      {
+        "name": "CD8",
+        "id": "925"
+      },
+      {
+        "name": "ovalbumin",
+        "id": null
+      },
+      {
+        "name": "Gag",
+        "id": "155030"
+      },
+      {
+        "name": "CD4",
+        "id": "920"
+      }
+    ]
+  },
+  "39618850": {
+    "species": [
+      {
+        "name": "Bacteroides thetaiotaomicron",
+        "id": "818"
+      },
+      {
+        "name": "mice",
+        "id": "10090"
+      },
+      {
+        "name": "Bacteroides spp",
+        "id": "29523"
+      }
+    ],
+    "genes": []
+  },
+  "39618921": {
+    "species": [
+      {
+        "name": "patients",
+        "id": "9606"
+      },
+      {
+        "name": "Dengue virus",
+        "id": "12637"
+      },
+      {
+        "name": "DENV",
+        "id": "12637"
+      }
+    ],
+    "genes": [
+      {
+        "name": "IL-13",
+        "id": "3596"
+      }
+    ]
+  },
+  "39618968": {
+    "species": [
+      {
+        "name": "Staphylococcus aureus",
+        "id": "1280"
+      },
+      {
+        "name": "Escherichia coli",
+        "id": "562"
+      }
+    ],
+    "genes": []
+  },
+  "39619078": {
+    "species": [
+      {
+        "name": "Staphylococcus saccharolyticus",
+        "id": "33028"
+      },
+      {
+        "name": "human",
+        "id": "9606"
+      },
+      {
+        "name": "patient",
+        "id": "9606"
+      }
+    ],
+    "genes": []
+  },
+  "39619089": {
+    "species": [
+      {
+        "name": "cat",
+        "id": "9685"
+      },
+      {
+        "name": "patient",
+        "id": "9606"
+      },
+      {
+        "name": "cats",
+        "id": "9685"
+      }
+    ],
+    "genes": []
+  },
+  "39619162": {
+    "species": [
+      {
+        "name": "HIV",
+        "id": "12721"
+      },
+      {
+        "name": "Human Immunodeficiency Virus",
+        "id": "12721"
+      },
+      {
+        "name": "people",
+        "id": "9606"
+      },
+      {
+        "name": "participants",
+        "id": "9606"
+      },
+      {
+        "name": "Participants",
+        "id": "9606"
+      },
+      {
+        "name": "Patient",
+        "id": "9606"
+      },
+      {
+        "name": "men",
+        "id": "9606"
+      },
+      {
+        "name": "women",
+        "id": "9606"
+      }
+    ],
+    "genes": []
+  },
+  "39619172": {
+    "species": [
+      {
+        "name": "tobacco",
+        "id": "4097"
+      },
+      {
+        "name": "patients",
+        "id": "9606"
+      }
+    ],
+    "genes": []
+  },
+  "39619294": {
+    "species": [
+      {
+        "name": "Silbaadipata",
+        "id": "198647"
+      },
+      {
+        "name": "S.adipata",
+        "id": "198647"
+      },
+      {
+        "name": "fruit flies",
+        "id": "7227"
+      },
+      {
+        "name": "Zaprionusindianus",
+        "id": "76712"
+      },
+      {
+        "name": "Anastrephaludens",
+        "id": "28586"
+      }
+    ],
+    "genes": []
+  },
+  "39619319": {
+    "species": [
+      {
+        "name": "Staphylococcus aureus",
+        "id": "1280"
+      },
+      {
+        "name": "patient",
+        "id": "9606"
+      },
+      {
+        "name": "patients",
+        "id": "9606"
+      }
+    ],
+    "genes": []
+  },
+  "39619369": {
+    "species": [
+      {
+        "name": "Candida",
+        "id": "1535326"
+      },
+      {
+        "name": "patients",
+        "id": "9606"
+      }
+    ],
+    "genes": []
+  },
+  "39619370": {
+    "species": [
+      {
+        "name": "Aspergillus",
+        "id": "5052"
+      },
+      {
+        "name": "humans",
+        "id": "9606"
+      },
+      {
+        "name": "patients",
+        "id": "9606"
+      }
+    ],
+    "genes": []
+  },
+  "39619416": {
+    "species": [
+      {
+        "name": "Plasmodium knowlesi",
+        "id": "5850"
+      },
+      {
+        "name": "human",
+        "id": "9606"
+      },
+      {
+        "name": "humans",
+        "id": "9606"
+      },
+      {
+        "name": "Plasmodium",
+        "id": "5850"
+      },
+      {
+        "name": "Matryoshka RNA virus 1",
+        "id": "2683728"
+      },
+      {
+        "name": "P. knowlesi",
+        "id": "5850"
+      },
+      {
+        "name": "mammal",
+        "id": "9606"
+      }
+    ],
+    "genes": []
+  },
+  "39619499": {
+    "species": [
+      {
+        "name": "equine",
+        "id": "9796"
+      },
+      {
+        "name": "human",
+        "id": "9606"
+      },
+      {
+        "name": "dogs",
+        "id": "9615"
+      },
+      {
+        "name": "outpatient",
+        "id": "9606"
+      },
+      {
+        "name": "horses",
+        "id": "9796"
+      },
+      {
+        "name": "participants",
+        "id": "9606"
+      },
+      {
+        "name": "Equine",
+        "id": "9796"
+      },
+      {
+        "name": "Horse",
+        "id": "9796"
+      },
+      {
+        "name": "horse",
+        "id": "9796"
+      },
+      {
+        "name": "participant",
+        "id": "9606"
+      }
+    ],
+    "genes": []
+  },
+  "39619539": {
+    "species": [
+      {
+        "name": "Alhagi graecorum",
+        "id": "264980"
+      },
+      {
+        "name": "human",
+        "id": "9606"
+      },
+      {
+        "name": "A. graecorum",
+        "id": "264980"
+      }
+    ],
+    "genes": [
+      {
+        "name": "tyrosinase",
+        "id": "7299"
+      }
+    ]
+  },
+  "39619562": {
+    "species": [
+      {
+        "name": "Rice",
+        "id": "4530"
+      },
+      {
+        "name": "Trichoderma sp.",
+        "id": "1715253"
+      },
+      {
+        "name": "rice",
+        "id": "4530"
+      }
+    ],
+    "genes": []
+  },
+  "39619618": {
+    "species": [
+      {
+        "name": "Ganoderma lucidum",
+        "id": "5315"
+      },
+      {
+        "name": "G. lucidum",
+        "id": "5315"
+      },
+      {
+        "name": "human",
+        "id": "9606"
+      },
+      {
+        "name": "rats",
+        "id": "10116"
+      }
+    ],
+    "genes": [
+      {
+        "name": "CYP 1A2",
+        "id": "1544"
+      }
+    ]
+  },
+  "39619672": {
+    "species": [
+      {
+        "name": "patients",
+        "id": "9606"
+      },
+      {
+        "name": "Eubacterium rectale",
+        "id": "39491"
+      },
+      {
+        "name": "Desulfovibrio",
+        "id": "872"
+      },
+      {
+        "name": "Lachnospiraceae",
+        "id": "186803"
+      },
+      {
+        "name": "Eubacterium coprostanoligenes",
+        "id": "290054"
+      },
+      {
+        "name": "Parasutterella",
+        "id": "577310"
+      },
+      {
+        "name": "Clostridium innocuum",
+        "id": "1522"
+      },
+      {
+        "name": "Anaerotruncus",
+        "id": "244127"
+      },
+      {
+        "name": "Eubacterium brachy",
+        "id": "35517"
+      }
+    ],
+    "genes": []
+  },
+  "39619684": {
+    "species": [
+      {
+        "name": "Actinomyces israelii",
+        "id": "1659"
+      },
+      {
+        "name": "patient",
+        "id": "9606"
+      }
+    ],
+    "genes": []
+  },
+  "39619695": {
+    "species": [
+      {
+        "name": "patients",
+        "id": "9606"
+      },
+      {
+        "name": "mice",
+        "id": "10090"
+      },
+      {
+        "name": "uncultured_bacterium",
+        "id": "77133"
+      },
+      {
+        "name": "Rikenellaceae",
+        "id": "171550"
+      },
+      {
+        "name": "RC9",
+        "id": "1463658"
+      },
+      {
+        "name": "Bacillus",
+        "id": "55087"
+      },
+      {
+        "name": "Marvinbryantia",
+        "id": "248744"
+      },
+      {
+        "name": "Roseburia",
+        "id": "841"
+      },
+      {
+        "name": "Angelakisella",
+        "id": "1935176"
+      },
+      {
+        "name": "Enterorhabdus",
+        "id": "580024"
+      },
+      {
+        "name": "Bacteroides",
+        "id": "816"
+      },
+      {
+        "name": "Muribaculum",
+        "id": "1918540"
+      },
+      {
+        "name": "Xanthobacteraceae",
+        "id": "335928"
+      },
+      {
+        "name": "Lachnospiraceae",
+        "id": "186803"
+      },
+      {
+        "name": "Ruminococcaceae",
+        "id": "541000"
+      },
+      {
+        "name": "Eubacterium",
+        "id": "1730"
+      }
+    ],
+    "genes": [
+      {
+        "name": "ACE",
+        "id": "163"
+      },
+      {
+        "name": "TXNRD1",
+        "id": "7296"
+      },
+      {
+        "name": "HIF-1alpha",
+        "id": "3091"
+      },
+      {
+        "name": "IGF-1",
+        "id": "3479"
+      },
+      {
+        "name": "BIRC5",
+        "id": "332"
+      },
+      {
+        "name": "CDK8",
+        "id": "1024"
+      },
+      {
+        "name": "HDAC2",
+        "id": "3066"
+      },
+      {
+        "name": "EGFR",
+        "id": "1956"
+      },
+      {
+        "name": "CTSL",
+        "id": "1514"
+      },
+      {
+        "name": "IRF5",
+        "id": "3663"
+      }
+    ]
+  },
+  "39619696": {
+    "species": [
+      {
+        "name": "macaques",
+        "id": "9539"
+      },
+      {
+        "name": "macaque",
+        "id": "9539"
+      },
+      {
+        "name": "human",
+        "id": "9606"
+      }
+    ],
+    "genes": [
+      {
+        "name": "insulin",
+        "id": "3630"
+      },
+      {
+        "name": "C-peptide",
+        "id": "3630"
+      },
+      {
+        "name": "alanine aminotransferase",
+        "id": "2875"
+      }
+    ]
+  },
+  "39619697": {
+    "species": [
+      {
+        "name": "Aspergillus parasiticus",
+        "id": "5067"
+      },
+      {
+        "name": "Staphylococcus aureus",
+        "id": "1280"
+      },
+      {
+        "name": "A. parasiticus",
+        "id": "5067"
+      },
+      {
+        "name": "mice",
+        "id": "10090"
+      }
+    ],
+    "genes": []
+  },
+  "39619715": {
+    "species": [
+      {
+        "name": "Streptococcus mutans",
+        "id": "1309"
+      },
+      {
+        "name": "Escherichia coli",
+        "id": "562"
+      },
+      {
+        "name": "Enterococcus faecalis",
+        "id": "1351"
+      },
+      {
+        "name": "Staphylococcus aureus",
+        "id": "1280"
+      },
+      {
+        "name": "Candida albicans",
+        "id": "5476"
+      }
+    ],
+    "genes": []
+  },
+  "39619731": {
+    "species": [
+      {
+        "name": "Patient",
+        "id": "9606"
+      },
+      {
+        "name": "Rickettsia felis",
+        "id": "42862"
+      },
+      {
+        "name": "R. felis",
+        "id": "42862"
+      },
+      {
+        "name": "humans",
+        "id": "9606"
+      },
+      {
+        "name": "Clonorchis sinensis",
+        "id": "79923"
+      },
+      {
+        "name": "patient",
+        "id": "9606"
+      }
+    ],
+    "genes": []
+  },
+  "39619846": {
+    "species": [
+      {
+        "name": "sunflower",
+        "id": "4232"
+      },
+      {
+        "name": "soybean",
+        "id": "3847"
+      },
+      {
+        "name": "flax",
+        "id": "4006"
+      },
+      {
+        "name": "safflower",
+        "id": "4222"
+      },
+      {
+        "name": "olive",
+        "id": "4146"
+      },
+      {
+        "name": "camelia",
+        "id": "1525258"
+      }
+    ],
+    "genes": []
+  },
+  "39619849": {
+    "species": [
+      {
+        "name": "bamboo",
+        "id": "147376"
+      },
+      {
+        "name": "Phyllostachys edulis",
+        "id": "38705"
+      },
+      {
+        "name": "Bambusa emeiensis",
+        "id": "280850"
+      },
+      {
+        "name": "Phyllostachys violascens",
+        "id": "1903417"
+      },
+      {
+        "name": "Escherichia coli",
+        "id": "562"
+      },
+      {
+        "name": "B. emeiensis",
+        "id": "280850"
+      },
+      {
+        "name": "Staphylococcus aureus",
+        "id": "1280"
+      },
+      {
+        "name": "Bacillus subtilis",
+        "id": "1423"
+      },
+      {
+        "name": "Candida albicans",
+        "id": "5476"
+      },
+      {
+        "name": "S. cremoris",
+        "id": "1359"
+      }
+    ],
+    "genes": []
+  },
+  "39619868": {
+    "species": [
+      {
+        "name": "Salmonella Typhimurium",
+        "id": "90371"
+      },
+      {
+        "name": "chickens",
+        "id": "9031"
+      },
+      {
+        "name": "Salmonella",
+        "id": "90371"
+      },
+      {
+        "name": "hens",
+        "id": "9031"
+      },
+      {
+        "name": "chicken",
+        "id": "9031"
+      }
+    ],
+    "genes": []
+  },
+  "39619869": {
+    "species": [
+      {
+        "name": "Treponema pallidum",
+        "id": "160"
+      },
+      {
+        "name": "patient",
+        "id": "9606"
+      },
+      {
+        "name": "T pallidum",
+        "id": "160"
+      }
+    ],
+    "genes": []
+  },
+  "39619911": {
+    "species": [
+      {
+        "name": "Leishmania",
+        "id": "38568"
+      },
+      {
+        "name": "patients",
+        "id": "9606"
+      }
+    ],
+    "genes": []
+  },
+  "39619921": {
+    "species": [
+      {
+        "name": "H9N2",
+        "id": "102796"
+      },
+      {
+        "name": "chickens",
+        "id": "9031"
+      }
+    ],
+    "genes": []
+  },
+  "39619926": {
+    "species": [
+      {
+        "name": "bacteria",
+        "id": "629395"
+      },
+      {
+        "name": "chickens",
+        "id": "9031"
+      },
+      {
+        "name": "Newcastle disease virus",
+        "id": "11176"
+      },
+      {
+        "name": "NDV",
+        "id": "11176"
+      },
+      {
+        "name": "Escherichia coli O157:H7",
+        "id": "83334"
+      },
+      {
+        "name": "EOH",
+        "id": "83334"
+      },
+      {
+        "name": "E. coli",
+        "id": "562"
+      },
+      {
+        "name": "chicken",
+        "id": "9031"
+      }
+    ],
+    "genes": []
+  },
+  "39619928": {
+    "species": [
+      {
+        "name": "Aedes aegypti",
+        "id": "7159"
+      },
+      {
+        "name": "Culex pipiens",
+        "id": "7175"
+      },
+      {
+        "name": "humans",
+        "id": "9606"
+      },
+      {
+        "name": "C. pipiens",
+        "id": "7175"
+      },
+      {
+        "name": "A. aegypti",
+        "id": "7159"
+      }
+    ],
+    "genes": []
+  },
+  "39619933": {
+    "species": [
+      {
+        "name": "bovine herpesvirus type 4",
+        "id": "10385"
+      },
+      {
+        "name": "cows",
+        "id": "9913"
+      },
+      {
+        "name": "bovine herpesvirus 4",
+        "id": "10385"
+      },
+      {
+        "name": "BoHV-4",
+        "id": "10385"
+      }
+    ],
+    "genes": [
+      {
+        "name": "BoHV-4 glycoprotein B",
+        "id": null
+      }
+    ]
+  },
+  "39619941": {
+    "species": [
+      {
+        "name": "humans",
+        "id": "9606"
+      },
+      {
+        "name": "Rhipicephalus microplus",
+        "id": "6941"
+      },
+      {
+        "name": "Babesia",
+        "id": "5864"
+      },
+      {
+        "name": "R. microplus",
+        "id": "6941"
+      }
+    ],
+    "genes": []
+  },
+  "39619948": {
+    "species": [
+      {
+        "name": "carrots",
+        "id": "4039"
+      },
+      {
+        "name": "human",
+        "id": "9606"
+      },
+      {
+        "name": "Carrots",
+        "id": "4039"
+      }
+    ],
+    "genes": []
+  },
+  "39619950": {
+    "species": [
+      {
+        "name": "kawakawa",
+        "id": "8227"
+      },
+      {
+        "name": "Piper excelsum",
+        "id": "286065"
+      },
+      {
+        "name": "Kawakawa",
+        "id": "8227"
+      },
+      {
+        "name": "human",
+        "id": "9606"
+      }
+    ],
+    "genes": [
+      {
+        "name": "MTOR",
+        "id": "2475"
+      },
+      {
+        "name": "IL-8",
+        "id": "3576"
+      },
+      {
+        "name": "IL-6",
+        "id": "3569"
+      },
+      {
+        "name": "PPAR-gamma",
+        "id": "5468"
+      }
+    ]
+  },
+  "39619964": {
+    "species": [
+      {
+        "name": "licorice",
+        "id": "46347"
+      },
+      {
+        "name": "Glycyrrhiza glabra",
+        "id": "49827"
+      },
+      {
+        "name": "Matricaria chamomilla",
+        "id": "98504"
+      },
+      {
+        "name": "olive",
+        "id": "4146"
+      },
+      {
+        "name": "Olea europaea",
+        "id": "4146"
+      },
+      {
+        "name": "pomegranate",
+        "id": "22663"
+      },
+      {
+        "name": "Punica granatum",
+        "id": "22663"
+      },
+      {
+        "name": "Aloe vera",
+        "id": "34199"
+      },
+      {
+        "name": "Nigella sativa",
+        "id": "555479"
+      },
+      {
+        "name": "humans",
+        "id": "9606"
+      }
+    ],
+    "genes": []
+  },
+  "39619976": {
+    "species": [
+      {
+        "name": "dragon fruit",
+        "id": "176265"
+      },
+      {
+        "name": "B. cereus",
+        "id": "1396"
+      },
+      {
+        "name": "E. coli",
+        "id": "562"
+      },
+      {
+        "name": "L. monocytogenes",
+        "id": "1639"
+      },
+      {
+        "name": "S. enterica",
+        "id": "28901"
+      }
+    ],
+    "genes": []
+  },
+  "39619981": {
+    "species": [
+      {
+        "name": "Shigella",
+        "id": "620"
+      },
+      {
+        "name": "E. coli",
+        "id": "562"
+      },
+      {
+        "name": "Klebsiella pneumoniae",
+        "id": "573"
+      },
+      {
+        "name": "Salmonella",
+        "id": "590"
+      },
+      {
+        "name": "Campylobacter",
+        "id": "194"
+      }
+    ],
+    "genes": []
+  },
+  "39619983": {
+    "species": [
+      {
+        "name": "Propionibacterium shermanii",
+        "id": "1752"
+      },
+      {
+        "name": "Pseudomonas denitrificans",
+        "id": "43306"
+      },
+      {
+        "name": "humans",
+        "id": "9606"
+      },
+      {
+        "name": "P. shermanii",
+        "id": "1752"
+      }
+    ],
+    "genes": []
+  },
+  "39619987": {
+    "species": [
+      {
+        "name": "Ecklonia radiata",
+        "id": "309355"
+      },
+      {
+        "name": "Durvillaea potatorum",
+        "id": "91052"
+      },
+      {
+        "name": "Sargassum fallax",
+        "id": "129343"
+      },
+      {
+        "name": "Cystophora siliquosa",
+        "id": "698725"
+      },
+      {
+        "name": "yeast",
+        "id": "4932"
+      },
+      {
+        "name": "C. siliquosa",
+        "id": "698725"
+      },
+      {
+        "name": "E. radiata",
+        "id": "87679"
+      }
+    ],
+    "genes": []
+  },
+  "39619991": {
+    "species": [
+      {
+        "name": "Pseudomonas",
+        "id": "306"
+      },
+      {
+        "name": "Virgibacillus",
+        "id": "202260"
+      },
+      {
+        "name": "yeasts",
+        "id": "4932"
+      },
+      {
+        "name": "Zygosaccharomyces",
+        "id": "4956"
+      },
+      {
+        "name": "Pseudomonas sp",
+        "id": "306"
+      },
+      {
+        "name": "Virgibacillus sediminis",
+        "id": "202260"
+      },
+      {
+        "name": "Zygosaccharomyces rouxii",
+        "id": "4956"
+      },
+      {
+        "name": "Symmetrospora marina",
+        "id": "106013"
+      }
+    ],
+    "genes": []
+  },
+  "39620004": {
+    "species": [
+      {
+        "name": "LAB",
+        "id": "103236"
+      },
+      {
+        "name": "yeast",
+        "id": "4932"
+      }
+    ],
+    "genes": []
+  },
+  "39620069": {
+    "species": [
+      {
+        "name": "HIV",
+        "id": "11676"
+      },
+      {
+        "name": "Human immunodeficiency virus-1",
+        "id": "11676"
+      },
+      {
+        "name": "HIV-1",
+        "id": "11676"
+      },
+      {
+        "name": "humans",
+        "id": "9606"
+      },
+      {
+        "name": "mice",
+        "id": "10090"
+      },
+      {
+        "name": "human",
+        "id": "9606"
+      },
+      {
+        "name": "apes",
+        "id": "4456"
+      },
+      {
+        "name": "monkeys",
+        "id": "9527"
+      }
+    ],
+    "genes": [
+      {
+        "name": "gp120",
+        "id": "3700"
+      },
+      {
+        "name": "CD4",
+        "id": "920"
+      },
+      {
+        "name": "CCR5",
+        "id": "1234"
+      }
+    ]
+  },
+  "39620113": {
+    "species": [
+      {
+        "name": "African swine fever virus",
+        "id": "10497"
+      },
+      {
+        "name": "pigs",
+        "id": "9823"
+      },
+      {
+        "name": "wild boar",
+        "id": "9823"
+      },
+      {
+        "name": "Sus scrofa",
+        "id": "9823"
+      },
+      {
+        "name": "ASFV",
+        "id": "10497"
+      },
+      {
+        "name": "pig",
+        "id": "9823"
+      },
+      {
+        "name": "fly",
+        "id": "7227"
+      },
+      {
+        "name": "L. sericata",
+        "id": "13632"
+      },
+      {
+        "name": "S. calcitrans",
+        "id": "35570"
+      }
+    ],
+    "genes": []
+  },
+  "39620128": {
+    "species": [
+      {
+        "name": "Helicobacter pylori",
+        "id": "210"
+      },
+      {
+        "name": "H. pylori",
+        "id": "210"
+      },
+      {
+        "name": "mouse",
+        "id": "10090"
+      },
+      {
+        "name": "patients",
+        "id": "9606"
+      }
+    ],
+    "genes": [
+      {
+        "name": "SLFN4",
+        "id": "20558"
+      },
+      {
+        "name": "IFN-alpha",
+        "id": "111654"
+      },
+      {
+        "name": "JAK2",
+        "id": "16452"
+      },
+      {
+        "name": "STAT1",
+        "id": "20846"
+      },
+      {
+        "name": "IFN-alpha",
+        "id": "3439"
+      },
+      {
+        "name": "STAT1",
+        "id": "6772"
+      },
+      {
+        "name": "tuberous sclerosis complex 1",
+        "id": "7248"
+      },
+      {
+        "name": "TSC1",
+        "id": "7248"
+      },
+      {
+        "name": "miR-130b-3p",
+        "id": null
+      },
+      {
+        "name": "Shh",
+        "id": "6469"
+      }
+    ]
+  },
+  "39620132": {
+    "species": [
+      {
+        "name": "chimpanzees",
+        "id": "9598"
+      },
+      {
+        "name": "Human",
+        "id": "9606"
+      },
+      {
+        "name": "human",
+        "id": "9606"
+      },
+      {
+        "name": "chimpanzee",
+        "id": "9598"
+      },
+      {
+        "name": "humans",
+        "id": "9606"
+      }
+    ],
+    "genes": []
+  },
+  "39620216": {
+    "species": [
+      {
+        "name": "domestic cat",
+        "id": "9685"
+      },
+      {
+        "name": "Felis catus",
+        "id": "9685"
+      },
+      {
+        "name": "cats",
+        "id": "9685"
+      },
+      {
+        "name": "mouse",
+        "id": "10090"
+      },
+      {
+        "name": "horse",
+        "id": "9796"
+      },
+      {
+        "name": "dog",
+        "id": "9615"
+      },
+      {
+        "name": "pig",
+        "id": "9823"
+      },
+      {
+        "name": "humans",
+        "id": "9606"
+      },
+      {
+        "name": "cat",
+        "id": "9685"
+      }
+    ],
+    "genes": [
+      {
+        "name": "CD5",
+        "id": "101083293"
+      },
+      {
+        "name": "CD4",
+        "id": "493775"
+      },
+      {
+        "name": "TRG",
+        "id": "101092254"
+      }
+    ]
+  },
+  "39620281": {
+    "species": [
+      {
+        "name": "Salmonella",
+        "id": "590"
+      },
+      {
+        "name": "swine",
+        "id": "9823"
+      },
+      {
+        "name": "human",
+        "id": "9606"
+      }
+    ],
+    "genes": []
+  },
+  "39620377": {
+    "species": [
+      {
+        "name": "Hepatitis B Virus",
+        "id": "10407"
+      },
+      {
+        "name": "patients",
+        "id": "9606"
+      },
+      {
+        "name": "human",
+        "id": "9606"
+      }
+    ],
+    "genes": [
+      {
+        "name": "HBVpol",
+        "id": null
+      }
+    ]
+  },
+  "39620581": {
+    "species": [
+      {
+        "name": "Helicobacter Pylori",
+        "id": "210"
+      },
+      {
+        "name": "Helicobacter pylori",
+        "id": "210"
+      },
+      {
+        "name": "H. pylori",
+        "id": "210"
+      },
+      {
+        "name": "patients",
+        "id": "9606"
+      },
+      {
+        "name": "outpatient",
+        "id": "9606"
+      },
+      {
+        "name": "patient",
+        "id": "9606"
+      }
+    ],
+    "genes": []
+  },
+  "39620694": {
+    "species": [
+      {
+        "name": "Lycosa coelestis",
+        "id": "93699"
+      },
+      {
+        "name": "mammalian",
+        "id": "9606"
+      }
+    ],
+    "genes": []
+  },
+  "39620906": {
+    "species": [
+      {
+        "name": "Japanese Quail",
+        "id": "93934"
+      },
+      {
+        "name": "Coturnix coturnix japonica",
+        "id": "93934"
+      },
+      {
+        "name": "Japanese quail",
+        "id": "93934"
+      },
+      {
+        "name": "hens",
+        "id": "9031"
+      },
+      {
+        "name": "quail",
+        "id": "9091"
+      }
+    ],
+    "genes": []
+  },
+  "39620911": {
+    "species": [
+      {
+        "name": "Dogs",
+        "id": "9615"
+      },
+      {
+        "name": "CSP",
+        "id": "1964372"
+      },
+      {
+        "name": "dogs",
+        "id": "9615"
+      },
+      {
+        "name": "yeasts",
+        "id": "4932"
+      }
+    ],
+    "genes": []
+  },
+  "39621234": {
+    "species": [
+      {
+        "name": "HIV",
+        "id": "11676"
+      },
+      {
+        "name": "persons",
+        "id": "9606"
+      }
+    ],
+    "genes": []
+  },
+  "39621546": {
+    "species": [
+      {
+        "name": "lizard",
+        "id": "8524"
+      },
+      {
+        "name": "mammal",
+        "id": "9606"
+      },
+      {
+        "name": "rabbit",
+        "id": "9986"
+      }
+    ],
+    "genes": []
+  },
+  "39621587": {
+    "species": [
+      {
+        "name": "Aspergillus",
+        "id": "746128"
+      },
+      {
+        "name": "Aspergillus fumigatus",
+        "id": "746128"
+      },
+      {
+        "name": "A. fumigatus",
+        "id": "746128"
+      },
+      {
+        "name": "A. flavus",
+        "id": "315677"
+      },
+      {
+        "name": "A. brasiliensis",
+        "id": "488498"
+      },
+      {
+        "name": "patients",
+        "id": "9606"
+      }
+    ],
+    "genes": []
+  },
+  "39621599": {
+    "species": [
+      {
+        "name": "Spodoptera frugiperda",
+        "id": "7108"
+      },
+      {
+        "name": "fall armyworm",
+        "id": "7108"
+      },
+      {
+        "name": "FAW",
+        "id": "7108"
+      },
+      {
+        "name": "soybean",
+        "id": "3847"
+      },
+      {
+        "name": "peanuts",
+        "id": "3818"
+      },
+      {
+        "name": "cassava",
+        "id": "3983"
+      }
+    ],
+    "genes": []
+  },
+  "39621646": {
+    "species": [
+      {
+        "name": "human papillomavirus",
+        "id": "10566"
+      },
+      {
+        "name": "Human papillomavirus",
+        "id": "10566"
+      },
+      {
+        "name": "women",
+        "id": "9606"
+      },
+      {
+        "name": "E. coli",
+        "id": "562"
+      }
+    ],
+    "genes": [
+      {
+        "name": "Toll-like receptors",
+        "id": null
+      },
+      {
+        "name": "TLR2",
+        "id": "7097"
+      },
+      {
+        "name": "TLR4",
+        "id": "7099"
+      }
+    ]
+  },
+  "39621736": {
+    "species": [
+      {
+        "name": "Plasmodium falciparum",
+        "id": "5833"
+      },
+      {
+        "name": "M. ferrea L.",
+        "id": "210380"
+      },
+      {
+        "name": "mouse",
+        "id": "10090"
+      }
+    ],
+    "genes": []
+  },
+  "39621751": {
+    "species": [
+      {
+        "name": "Pseudomonas aeruginosa",
+        "id": "287"
+      },
+      {
+        "name": "P. aeruginosa",
+        "id": "287"
+      },
+      {
+        "name": "murine",
+        "id": "10090"
+      }
+    ],
+    "genes": []
+  },
+  "39621753": {
+    "species": [
+      {
+        "name": "zebrafish",
+        "id": "7955"
+      },
+      {
+        "name": "women",
+        "id": "9606"
+      },
+      {
+        "name": "Zika virus",
+        "id": "64320"
+      },
+      {
+        "name": "ZIKV",
+        "id": "64320"
+      }
+    ],
+    "genes": [
+      {
+        "name": "vglut1",
+        "id": "795293"
+      },
+      {
+        "name": "NS4A",
+        "id": null
+      }
+    ]
+  },
+  "39621768": {
+    "species": [
+      {
+        "name": "Vibrio cholerae",
+        "id": "666"
+      },
+      {
+        "name": "bacteria",
+        "id": "629395"
+      },
+      {
+        "name": "human",
+        "id": "9606"
+      },
+      {
+        "name": "V. cholerae",
+        "id": "666"
+      },
+      {
+        "name": "Vibrio coralliilyticus",
+        "id": "190893"
+      }
+    ],
+    "genes": []
+  },
+  "39621769": {
+    "species": [
+      {
+        "name": "Aedes aegypti",
+        "id": "7159"
+      },
+      {
+        "name": "human",
+        "id": "9606"
+      }
+    ],
+    "genes": []
+  },
+  "39621770": {
+    "species": [
+      {
+        "name": "Chickpea",
+        "id": "3827"
+      },
+      {
+        "name": "chickpea",
+        "id": "3827"
+      },
+      {
+        "name": "Pichia pastoris",
+        "id": "4922"
+      },
+      {
+        "name": "tomato",
+        "id": "4081"
+      },
+      {
+        "name": "PFV1",
+        "id": "1805492"
+      },
+      {
+        "name": "Botrytis cinerea",
+        "id": "40559"
+      }
+    ],
+    "genes": []
+  },
+  "39621794": {
+    "species": [
+      {
+        "name": "Ascaris suum",
+        "id": "6253"
+      },
+      {
+        "name": "murine",
+        "id": "10090"
+      },
+      {
+        "name": "mice",
+        "id": "10090"
+      }
+    ],
+    "genes": []
+  },
+  "39621798": {
+    "species": [
+      {
+        "name": "B. melitensis",
+        "id": "29459"
+      },
+      {
+        "name": "B. abortus",
+        "id": "235"
+      },
+      {
+        "name": "Brucella",
+        "id": "234"
+      },
+      {
+        "name": "Brucella melitensis",
+        "id": "29459"
+      },
+      {
+        "name": "human",
+        "id": "9606"
+      }
+    ],
+    "genes": []
+  },
+  "39621802": {
+    "species": [
+      {
+        "name": "goats",
+        "id": "9925"
+      },
+      {
+        "name": "sheep",
+        "id": "9940"
+      }
+    ],
+    "genes": []
+  },
+  "39621907": {
+    "species": [
+      {
+        "name": "peas",
+        "id": "3888"
+      },
+      {
+        "name": "soybeans",
+        "id": "3847"
+      }
+    ],
+    "genes": []
+  },
+  "39622093": {
+    "species": [
+      {
+        "name": "chicken",
+        "id": "9031"
+      },
+      {
+        "name": "CB",
+        "id": "2169854"
+      }
+    ],
+    "genes": []
+  },
+  "39622385": {
+    "species": [
+      {
+        "name": "Syrian hamsters",
+        "id": "10036"
+      },
+      {
+        "name": "Mesocricetus auratus",
+        "id": "10036"
+      },
+      {
+        "name": "Yellow Fever virus",
+        "id": "11089"
+      },
+      {
+        "name": "YFV",
+        "id": "11089"
+      },
+      {
+        "name": "Syrian hamster",
+        "id": "10036"
+      },
+      {
+        "name": "howler monkeys",
+        "id": "9503"
+      },
+      {
+        "name": "humans",
+        "id": "9606"
+      },
+      {
+        "name": "mammalian",
+        "id": "9606"
+      }
+    ],
+    "genes": []
+  },
+  "39622501": {
+    "species": [
+      {
+        "name": "tobacco etch virus",
+        "id": "12227"
+      },
+      {
+        "name": "TEV",
+        "id": "12227"
+      },
+      {
+        "name": "Potyvirus",
+        "id": "12195"
+      },
+      {
+        "name": "Nicotiana benthamiana",
+        "id": "4100"
+      },
+      {
+        "name": "potato virus X",
+        "id": "12183"
+      },
+      {
+        "name": "PVX",
+        "id": "12183"
+      },
+      {
+        "name": "SARS-CoV-2",
+        "id": "2697049"
+      }
+    ],
+    "genes": [
+      {
+        "name": "CP",
+        "id": "1356"
+      },
+      {
+        "name": "CPs",
+        "id": null
+      },
+      {
+        "name": "F2A",
+        "id": null
+      }
+    ]
+  },
+  "39622635": {
+    "species": [
+      {
+        "name": "C. elegans",
+        "id": "328850"
+      },
+      {
+        "name": "Caenorhabditis elegans",
+        "id": "6239"
+      },
+      {
+        "name": "mice",
+        "id": "10090"
+      }
+    ],
+    "genes": [
+      {
+        "name": "RDE-1",
+        "id": "179393"
+      },
+      {
+        "name": "ALG-1",
+        "id": "181504"
+      },
+      {
+        "name": "ALG-2",
+        "id": "173468"
+      }
+    ]
+  },
+  "39622651": {
+    "species": [
+      {
+        "name": "Naegleria fowleri",
+        "id": "5763"
+      },
+      {
+        "name": "humans",
+        "id": "9606"
+      },
+      {
+        "name": "N. fowleri",
+        "id": "5763"
+      },
+      {
+        "name": "mice",
+        "id": "10090"
+      }
+    ],
+    "genes": []
+  },
+  "39622653": {
+    "species": [
+      {
+        "name": "Toxoplasma gondii",
+        "id": "5811"
+      },
+      {
+        "name": "T. gondii",
+        "id": "5811"
+      },
+      {
+        "name": "human",
+        "id": "9606"
+      },
+      {
+        "name": "mice",
+        "id": "10090"
+      },
+      {
+        "name": "Intestinimonas massiliensis",
+        "id": "1673721"
+      },
+      {
+        "name": "Lawsonibacter asaccharolyticus",
+        "id": "2108523"
+      }
+    ],
+    "genes": []
+  },
+  "39622659": {
+    "species": [
+      {
+        "name": "Enterocytozoon bieneusi",
+        "id": "31281"
+      },
+      {
+        "name": "deer",
+        "id": "9850"
+      },
+      {
+        "name": "humans",
+        "id": "9606"
+      }
+    ],
+    "genes": []
+  },
+  "39622791": {
+    "species": [
+      {
+        "name": "Helicobacter pylori",
+        "id": "210"
+      },
+      {
+        "name": "H. pylori",
+        "id": "210"
+      },
+      {
+        "name": "patients",
+        "id": "9606"
+      }
+    ],
+    "genes": [
+      {
+        "name": "cytotoxin-associated gene A",
+        "id": null
+      },
+      {
+        "name": "CagA",
+        "id": "48200769"
+      },
+      {
+        "name": "vacuolating cytotoxin A",
+        "id": null
+      },
+      {
+        "name": "VacA",
+        "id": "48201093"
+      },
+      {
+        "name": "neutrophil-activating protein A",
+        "id": null
+      },
+      {
+        "name": "NapA",
+        "id": "8775"
+      },
+      {
+        "name": "gamma-glutamyl transpeptidase",
+        "id": "102724197"
+      },
+      {
+        "name": "gGT",
+        "id": "102724197"
+      }
+    ]
+  },
+  "39622806": {
+    "species": [
+      {
+        "name": "Cryptococcus neoformans",
+        "id": "5207"
+      },
+      {
+        "name": "human",
+        "id": "9606"
+      },
+      {
+        "name": "patient",
+        "id": "9606"
+      },
+      {
+        "name": "mouse",
+        "id": "10090"
+      },
+      {
+        "name": "ST93",
+        "id": "2799681"
+      }
+    ],
+    "genes": [
+      {
+        "name": "IFNgamma",
+        "id": "15978"
+      }
+    ]
+  },
+  "39622833": {
+    "species": [
+      {
+        "name": "Candida albicans",
+        "id": "5476"
+      },
+      {
+        "name": "human",
+        "id": "9606"
+      },
+      {
+        "name": "mice",
+        "id": "10090"
+      },
+      {
+        "name": "C. albicans",
+        "id": "5476"
+      }
+    ],
+    "genes": [
+      {
+        "name": "TYK2",
+        "id": "7297"
+      },
+      {
+        "name": "Tyrosine kinase 2",
+        "id": "7297"
+      }
+    ]
+  },
+  "39622871": {
+    "species": [
+      {
+        "name": "bacteria",
+        "id": "629395"
+      },
+      {
+        "name": "E.coli",
+        "id": "562"
+      }
+    ],
+    "genes": []
+  },
+  "39622881": {
+    "species": [
+      {
+        "name": "Staphylococcus aureus",
+        "id": "1280"
+      },
+      {
+        "name": "Escherichia coli",
+        "id": "562"
+      },
+      {
+        "name": "Candida albicans",
+        "id": "5476"
+      }
+    ],
+    "genes": []
+  },
+  "39622904": {
+    "species": [
+      {
+        "name": "chimpanzee",
+        "id": "9598"
+      },
+      {
+        "name": "human",
+        "id": "9606"
+      },
+      {
+        "name": "chimpanzees",
+        "id": "9598"
+      }
+    ],
+    "genes": []
+  },
+  "39622944": {
+    "species": [
+      {
+        "name": "Lipoptena",
+        "id": "170902"
+      },
+      {
+        "name": "human",
+        "id": "9606"
+      },
+      {
+        "name": "louse flies",
+        "id": "81710"
+      }
+    ],
+    "genes": [
+      {
+        "name": "cytochrome c oxidase subunit I",
+        "id": "19893533"
+      }
+    ]
+  },
+  "39622973": {
+    "species": [
+      {
+        "name": "Bacillus cereus",
+        "id": "1396"
+      },
+      {
+        "name": "humans",
+        "id": "9606"
+      }
+    ],
+    "genes": []
+  },
+  "39622992": {
+    "species": [
+      {
+        "name": "HIV",
+        "id": "11676"
+      },
+      {
+        "name": "people",
+        "id": "9606"
+      }
+    ],
+    "genes": [
+      {
+        "name": "TNF-A",
+        "id": "7124"
+      },
+      {
+        "name": "IL-5",
+        "id": "3567"
+      },
+      {
+        "name": "MCP-3",
+        "id": "6354"
+      }
+    ]
+  },
+  "39623035": {
+    "species": [
+      {
+        "name": "Chlamydia trachomatis",
+        "id": "813"
+      },
+      {
+        "name": "CT",
+        "id": "365345"
+      },
+      {
+        "name": "Escherichia coli",
+        "id": "562"
+      }
+    ],
+    "genes": []
+  },
+  "39623045": {
+    "species": [
+      {
+        "name": "Staphylococcus aureus",
+        "id": "1280"
+      },
+      {
+        "name": "Pseudomonas aeruginosa",
+        "id": "287"
+      },
+      {
+        "name": "P. stutzeri",
+        "id": "316"
+      },
+      {
+        "name": "Bacillus cereus",
+        "id": "1396"
+      },
+      {
+        "name": "Acinetobacter schindleri",
+        "id": "108981"
+      },
+      {
+        "name": "Proteus vulgaris",
+        "id": "585"
+      },
+      {
+        "name": "B. subtilis",
+        "id": "1423"
+      },
+      {
+        "name": "Escherichia coli",
+        "id": "562"
+      },
+      {
+        "name": "B. aerius",
+        "id": "50041"
+      }
+    ],
+    "genes": []
+  },
+  "39623066": {
+    "species": [
+      {
+        "name": "DMR",
+        "id": "545892"
+      },
+      {
+        "name": "Fukomys damarensis",
+        "id": "885580"
+      },
+      {
+        "name": "naked mole-rat",
+        "id": "10181"
+      },
+      {
+        "name": "NMR",
+        "id": "10181"
+      },
+      {
+        "name": "mice",
+        "id": "10090"
+      }
+    ],
+    "genes": [
+      {
+        "name": "RIPK3",
+        "id": "101719112"
+      },
+      {
+        "name": "mixed lineage kinase domain-like",
+        "id": "101720516"
+      },
+      {
+        "name": "MLKL",
+        "id": "101720516"
+      }
+    ]
+  },
+  "39623068": {
+    "species": [
+      {
+        "name": "H5N1",
+        "id": "102793"
+      },
+      {
+        "name": "influenza viruses",
+        "id": "11308"
+      },
+      {
+        "name": "ferrets",
+        "id": "9669"
+      },
+      {
+        "name": "mammalian",
+        "id": "9606"
+      }
+    ],
+    "genes": []
+  },
+  "39623086": {
+    "species": [
+      {
+        "name": "Klebsiella pneumoniae",
+        "id": "573"
+      },
+      {
+        "name": "K. pneumoniae",
+        "id": "573"
+      },
+      {
+        "name": "patients",
+        "id": "9606"
+      }
+    ],
+    "genes": [
+      {
+        "name": "KPC-2",
+        "id": "13914015"
+      }
+    ]
+  },
+  "39623137": {
+    "species": [
+      {
+        "name": "HIV-1",
+        "id": "11676"
+      },
+      {
+        "name": "patients",
+        "id": "9606"
+      }
+    ],
+    "genes": [
+      {
+        "name": "cGAS",
+        "id": "115004"
+      }
+    ]
+  },
+  "39623362": {
+    "species": [
+      {
+        "name": "Plasmodium Falciparum",
+        "id": "5833"
+      },
+      {
+        "name": "outpatient",
+        "id": "9606"
+      },
+      {
+        "name": "patients",
+        "id": "9606"
+      },
+      {
+        "name": "P. falciparum",
+        "id": "5833"
+      }
+    ],
+    "genes": []
+  },
+  "39623364": {
+    "species": [
+      {
+        "name": "potatoes",
+        "id": "4113"
+      },
+      {
+        "name": "potato",
+        "id": "4113"
+      },
+      {
+        "name": "Arabidopsis",
+        "id": "3702"
+      }
+    ],
+    "genes": []
+  },
+  "39623375": {
+    "species": [
+      {
+        "name": "Mycobacterium abscessus",
+        "id": "36809"
+      },
+      {
+        "name": "M. abscessus",
+        "id": "36809"
+      },
+      {
+        "name": "patients",
+        "id": "9606"
+      }
+    ],
+    "genes": []
+  },
+  "39623416": {
+    "species": [
+      {
+        "name": "Pseudomonas aeruginosa",
+        "id": "287"
+      },
+      {
+        "name": "P. aeruginosa",
+        "id": "287"
+      },
+      {
+        "name": "human",
+        "id": "9606"
+      },
+      {
+        "name": "mouse",
+        "id": "10090"
+      },
+      {
+        "name": "patients",
+        "id": "9606"
+      }
+    ],
+    "genes": [
+      {
+        "name": "IL-8",
+        "id": "3576"
+      },
+      {
+        "name": "IL-6",
+        "id": "3569"
+      }
+    ]
+  },
+  "39623442": {
+    "species": [
+      {
+        "name": "canine",
+        "id": "9615"
+      },
+      {
+        "name": "dogs",
+        "id": "9615"
+      },
+      {
+        "name": "human",
+        "id": "9606"
+      }
+    ],
+    "genes": [
+      {
+        "name": "PARP3",
+        "id": "484745"
+      },
+      {
+        "name": "DNMT1",
+        "id": "476715"
+      },
+      {
+        "name": "FGF19",
+        "id": "483681"
+      },
+      {
+        "name": "FGF23",
+        "id": "611773"
+      },
+      {
+        "name": "RET",
+        "id": "403494"
+      },
+      {
+        "name": "KIT",
+        "id": "403811"
+      },
+      {
+        "name": "FGFR2",
+        "id": "415125"
+      },
+      {
+        "name": "FGF21",
+        "id": "484395"
+      }
+    ]
+  },
+  "39623473": {
+    "species": [
+      {
+        "name": "Toxoplasma gondii",
+        "id": "5811"
+      },
+      {
+        "name": "cats",
+        "id": "9685"
+      },
+      {
+        "name": "cat",
+        "id": "9685"
+      },
+      {
+        "name": "T. gondii",
+        "id": "5811"
+      },
+      {
+        "name": "human",
+        "id": "9606"
+      }
+    ],
+    "genes": []
+  },
+  "39623488": {
+    "species": [
+      {
+        "name": "Eubacterium",
+        "id": "35518"
+      },
+      {
+        "name": "mouse",
+        "id": "10090"
+      },
+      {
+        "name": "Eubacterium nodatum",
+        "id": "35518"
+      },
+      {
+        "name": "EN",
+        "id": "35518"
+      },
+      {
+        "name": "Eubacterium ventriosum",
+        "id": "39496"
+      },
+      {
+        "name": "EV",
+        "id": "39496"
+      },
+      {
+        "name": "Eubacterium",
+        "id": "39496"
+      },
+      {
+        "name": "mice",
+        "id": "10090"
+      }
+    ],
+    "genes": []
+  },
+  "39623493": {
+    "species": [
+      {
+        "name": "Anopheles sp",
+        "id": "38782"
+      },
+      {
+        "name": "rice",
+        "id": "4530"
+      }
+    ],
+    "genes": []
+  },
+  "39623498": {
+    "species": [
+      {
+        "name": "rabbit",
+        "id": "9986"
+      },
+      {
+        "name": "rabbits",
+        "id": "9986"
+      },
+      {
+        "name": "bovine",
+        "id": "9913"
+      }
+    ],
+    "genes": []
+  },
+  "39623721": {
+    "species": [
+      {
+        "name": "Myzus persicae",
+        "id": "13164"
+      },
+      {
+        "name": "turnip yellows virus",
+        "id": "131083"
+      },
+      {
+        "name": "TuYV",
+        "id": "131083"
+      },
+      {
+        "name": "Arabidopsis thaliana",
+        "id": "3702"
+      },
+      {
+        "name": "A. thaliana",
+        "id": "3702"
+      }
+    ],
+    "genes": []
+  },
+  "39623958": {
+    "species": [
+      {
+        "name": "hepatitis C virus",
+        "id": "11103"
+      },
+      {
+        "name": "HCV",
+        "id": "11103"
+      },
+      {
+        "name": "people",
+        "id": "9606"
+      }
+    ],
+    "genes": []
+  },
+  "39623971": {
+    "species": [
+      {
+        "name": "human papillomavirus",
+        "id": "10566"
+      },
+      {
+        "name": "HPV",
+        "id": "10566"
+      },
+      {
+        "name": "patients",
+        "id": "9606"
+      },
+      {
+        "name": "men",
+        "id": "9606"
+      }
+    ],
+    "genes": []
+  },
+  "39624024": {
+    "species": [
+      {
+        "name": "Enterobacterales",
+        "id": "91347"
+      },
+      {
+        "name": "patient",
+        "id": "9606"
+      }
+    ],
+    "genes": []
+  },
+  "39624034": {
+    "species": [
+      {
+        "name": "Staphylococcus aureus",
+        "id": "1280"
+      },
+      {
+        "name": "patients",
+        "id": "9606"
+      },
+      {
+        "name": "patient",
+        "id": "9606"
+      }
+    ],
+    "genes": []
+  },
+  "39624039": {
+    "species": [
+      {
+        "name": "Aeromonas dhakensis",
+        "id": "196024"
+      },
+      {
+        "name": "human",
+        "id": "9606"
+      },
+      {
+        "name": "patient",
+        "id": "9606"
+      }
+    ],
+    "genes": []
+  },
+  "39624045": {
+    "species": [
+      {
+        "name": "Lactobacillus rhamnosus",
+        "id": "47715"
+      },
+      {
+        "name": "Streptococcus mutans",
+        "id": "1309"
+      },
+      {
+        "name": "human",
+        "id": "9606"
+      },
+      {
+        "name": "S. mutans",
+        "id": "1309"
+      },
+      {
+        "name": "L. rhamnosus",
+        "id": "47715"
+      }
+    ],
+    "genes": []
+  },
+  "39624050": {
+    "species": [
+      {
+        "name": "bacteria",
+        "id": "629395"
+      },
+      {
+        "name": "mice",
+        "id": "10090"
+      }
+    ],
+    "genes": [
+      {
+        "name": "CCL21",
+        "id": "6366"
+      },
+      {
+        "name": "thioredoxin",
+        "id": "7295"
+      },
+      {
+        "name": "Trx",
+        "id": "7295"
+      }
+    ]
+  },
+  "39624051": {
+    "species": [
+      {
+        "name": "human",
+        "id": "9606"
+      },
+      {
+        "name": "SC",
+        "id": "544725"
+      },
+      {
+        "name": "rats",
+        "id": "10116"
+      }
+    ],
+    "genes": []
+  },
+  "39624084": {
+    "species": [
+      {
+        "name": "Streptococcus suis",
+        "id": "1307"
+      },
+      {
+        "name": "S. suis",
+        "id": "1307"
+      },
+      {
+        "name": "mice",
+        "id": "10090"
+      },
+      {
+        "name": "pigs",
+        "id": "9823"
+      }
+    ],
+    "genes": [
+      {
+        "name": "IgM",
+        "id": "102167096"
+      }
+    ]
+  },
+  "39624090": {
+    "species": [
+      {
+        "name": "Plasmodium falciparum",
+        "id": "5833"
+      },
+      {
+        "name": "patients",
+        "id": "9606"
+      },
+      {
+        "name": "P. falciparum",
+        "id": "5833"
+      }
+    ],
+    "genes": [
+      {
+        "name": "PfRh5",
+        "id": null
+      },
+      {
+        "name": "reticulocyte binding protein homolog 5",
+        "id": null
+      },
+      {
+        "name": "pfrh5",
+        "id": null
+      }
+    ]
+  },
+  "39624097": {
+    "species": [
+      {
+        "name": "Mycobacterium tuberculosis",
+        "id": "1773"
+      },
+      {
+        "name": "human",
+        "id": "9606"
+      },
+      {
+        "name": "mouse",
+        "id": "10090"
+      }
+    ],
+    "genes": [
+      {
+        "name": "Fas",
+        "id": "355"
+      },
+      {
+        "name": "beta-defensin 3",
+        "id": "55894"
+      },
+      {
+        "name": "HBD3",
+        "id": "55894"
+      }
+    ]
+  },
+  "39624099": {
+    "species": [
+      {
+        "name": "Porcine deltacoronavirus",
+        "id": "1586324"
+      },
+      {
+        "name": "pigs",
+        "id": "9823"
+      }
+    ],
+    "genes": [
+      {
+        "name": "FBXW8",
+        "id": "100156796"
+      }
+    ]
+  },
+  "39624134": {
+    "species": [
+      {
+        "name": "Gossypium hirsutum",
+        "id": "3635"
+      },
+      {
+        "name": "Arabidopsis thaliana",
+        "id": "3702"
+      }
+    ],
+    "genes": [
+      {
+        "name": "Cinnamyl alcohol dehydrogenase",
+        "id": "107950586"
+      },
+      {
+        "name": "catalase",
+        "id": "107917962"
+      },
+      {
+        "name": "CAT",
+        "id": "107917962"
+      }
+    ]
+  },
+  "39624150": {
+    "species": [
+      {
+        "name": "Rotavirus",
+        "id": "10912"
+      },
+      {
+        "name": "rotavirus",
+        "id": "10912"
+      },
+      {
+        "name": "Patients",
+        "id": "9606"
+      },
+      {
+        "name": "patients",
+        "id": "9606"
+      },
+      {
+        "name": "girls",
+        "id": "9606"
+      },
+      {
+        "name": "infants",
+        "id": "9606"
+      }
+    ],
+    "genes": []
+  },
+  "39624190": {
+    "species": [
+      {
+        "name": "Staphylococcus aureus",
+        "id": "1280"
+      },
+      {
+        "name": "cattle",
+        "id": "9913"
+      },
+      {
+        "name": "bovine",
+        "id": "9913"
+      },
+      {
+        "name": "bovines",
+        "id": "9913"
+      }
+    ],
+    "genes": []
+  },
+  "39624191": {
+    "species": [
+      {
+        "name": "human",
+        "id": "9606"
+      },
+      {
+        "name": "dogs",
+        "id": "9615"
+      },
+      {
+        "name": "canine",
+        "id": "9615"
+      },
+      {
+        "name": "patients",
+        "id": "9606"
+      }
+    ],
+    "genes": []
+  },
+  "39624194": {
+    "species": [
+      {
+        "name": "Pseudomonas aeruginosa",
+        "id": "287"
+      },
+      {
+        "name": "chickens",
+        "id": "9031"
+      },
+      {
+        "name": "P. aeruginosa",
+        "id": "287"
+      }
+    ],
+    "genes": []
+  },
+  "39624197": {
+    "species": [
+      {
+        "name": "Clostridium perfringens",
+        "id": "1502"
+      },
+      {
+        "name": "C. perfringens",
+        "id": "1502"
+      },
+      {
+        "name": "chickens",
+        "id": "9031"
+      }
+    ],
+    "genes": []
+  },
+  "39624198": {
+    "species": [
+      {
+        "name": "humans",
+        "id": "9606"
+      },
+      {
+        "name": "cattle",
+        "id": "9913"
+      },
+      {
+        "name": "sheep",
+        "id": "9940"
+      },
+      {
+        "name": "goats",
+        "id": "9925"
+      },
+      {
+        "name": "bovine",
+        "id": "9913"
+      },
+      {
+        "name": "Brucella",
+        "id": "234"
+      },
+      {
+        "name": "B. melitensis",
+        "id": "29459"
+      },
+      {
+        "name": "B. abortus",
+        "id": "235"
+      }
+    ],
+    "genes": []
+  },
+  "39624209": {
+    "species": [
+      {
+        "name": "Anopheles",
+        "id": "139045"
+      },
+      {
+        "name": "human",
+        "id": "9606"
+      },
+      {
+        "name": "Anopheles pharoensis",
+        "id": "221566"
+      },
+      {
+        "name": "s.l",
+        "id": "1046293"
+      },
+      {
+        "name": "Anopheles coustani",
+        "id": "139045"
+      }
+    ],
+    "genes": []
+  },
+  "39624224": {
+    "species": [
+      {
+        "name": "human",
+        "id": "9606"
+      },
+      {
+        "name": "fish",
+        "id": "7898"
+      }
+    ],
+    "genes": []
+  },
+  "39624253": {
+    "species": [
+      {
+        "name": "Escherichia coli",
+        "id": "562"
+      },
+      {
+        "name": "Klebsiella pneumoniae",
+        "id": "573"
+      },
+      {
+        "name": "Pseudomonas aeruginosa",
+        "id": "287"
+      },
+      {
+        "name": "P. aeruginosa",
+        "id": "287"
+      },
+      {
+        "name": "E. coli",
+        "id": "562"
+      },
+      {
+        "name": "K. pneumoniae",
+        "id": "573"
+      }
+    ],
+    "genes": []
+  },
+  "39624255": {
+    "species": [
+      {
+        "name": "Hagenia abyssinica",
+        "id": "57921"
+      },
+      {
+        "name": "Rosa abyssinica",
+        "id": "136997"
+      },
+      {
+        "name": "Cucumis ficifolius",
+        "id": "131071"
+      },
+      {
+        "name": "Biomphalaria",
+        "id": "6525"
+      },
+      {
+        "name": "Bulinus",
+        "id": "157969"
+      },
+      {
+        "name": "H. abyssinica",
+        "id": "317138"
+      },
+      {
+        "name": "R. abyssinica",
+        "id": "244361"
+      },
+      {
+        "name": "C. ficifolius",
+        "id": "131071"
+      },
+      {
+        "name": "mice",
+        "id": "10090"
+      }
+    ],
+    "genes": []
+  },
+  "39624263": {
+    "species": [
+      {
+        "name": "Streptococcus suis",
+        "id": "1307"
+      },
+      {
+        "name": "SS",
+        "id": "1307"
+      },
+      {
+        "name": "pig",
+        "id": "9823"
+      },
+      {
+        "name": "Escherichia coli",
+        "id": "562"
+      },
+      {
+        "name": "Pasteurella multocida",
+        "id": "747"
+      },
+      {
+        "name": "Staphylococcus aureus",
+        "id": "1280"
+      },
+      {
+        "name": "Streptococcus agalactiae",
+        "id": "1311"
+      },
+      {
+        "name": "Streptococcus pneumoniae",
+        "id": "1313"
+      }
+    ],
+    "genes": []
+  },
+  "39624268": {
+    "species": [
+      {
+        "name": "hepatitis B virus",
+        "id": "10407"
+      },
+      {
+        "name": "patient",
+        "id": "9606"
+      },
+      {
+        "name": "HBV",
+        "id": "10407"
+      },
+      {
+        "name": "patients",
+        "id": "9606"
+      }
+    ],
+    "genes": [
+      {
+        "name": "KIF20A",
+        "id": "10112"
+      },
+      {
+        "name": "GATA2",
+        "id": "2624"
+      },
+      {
+        "name": "HBx",
+        "id": "944566"
+      },
+      {
+        "name": "PLK1",
+        "id": "5347"
+      },
+      {
+        "name": "KIF20A.",
+        "id": "10112"
+      }
+    ]
+  },
+  "39624285": {
+    "species": [
+      {
+        "name": "Catha edulis",
+        "id": "123405"
+      },
+      {
+        "name": "human",
+        "id": "9606"
+      }
+    ],
+    "genes": []
+  },
+  "39624307": {
+    "species": [
+      {
+        "name": "HIV",
+        "id": "12721"
+      },
+      {
+        "name": "people",
+        "id": "9606"
+      },
+      {
+        "name": "human immunodeficiency virus",
+        "id": "12721"
+      },
+      {
+        "name": "HIV-1",
+        "id": "11676"
+      },
+      {
+        "name": "HIV-2",
+        "id": "11709"
+      }
+    ],
+    "genes": []
+  },
+  "39624334": {
+    "species": [
+      {
+        "name": "Klebsiella pneumoniae",
+        "id": "573"
+      },
+      {
+        "name": "K. pneumoniae",
+        "id": "573"
+      },
+      {
+        "name": "patient",
+        "id": "9606"
+      },
+      {
+        "name": "patients",
+        "id": "9606"
+      }
+    ],
+    "genes": []
+  },
+  "39624354": {
+    "species": [
+      {
+        "name": "Japanese encephalitis virus (",
+        "id": "11072"
+      },
+      {
+        "name": "humans",
+        "id": "9606"
+      }
+    ],
+    "genes": []
+  },
+  "39624438": {
+    "species": [
+      {
+        "name": "Varicella Zoster Virus",
+        "id": "10335"
+      },
+      {
+        "name": "VZV",
+        "id": "10335"
+      },
+      {
+        "name": "patients",
+        "id": "9606"
+      },
+      {
+        "name": "West Nile virus",
+        "id": "11082"
+      },
+      {
+        "name": "WNV",
+        "id": "11082"
+      },
+      {
+        "name": "enterovirus",
+        "id": "12059"
+      },
+      {
+        "name": "HSV 1",
+        "id": "10298"
+      },
+      {
+        "name": "mycoplasma",
+        "id": "2093"
+      }
+    ],
+    "genes": []
+  },
+  "39624483": {
+    "species": [
+      {
+        "name": "Epstein-Barr virus",
+        "id": "10376"
+      },
+      {
+        "name": "EBV",
+        "id": "10376"
+      },
+      {
+        "name": "women",
+        "id": "9606"
+      },
+      {
+        "name": "EBVs",
+        "id": "10376"
+      },
+      {
+        "name": "men",
+        "id": "9606"
+      }
+    ],
+    "genes": [
+      {
+        "name": "p18",
+        "id": "100689229"
+      }
+    ]
+  },
+  "39624484": {
+    "species": [
+      {
+        "name": "HCoV-OC43",
+        "id": "31631"
+      },
+      {
+        "name": "beta coronavirus",
+        "id": "694002"
+      },
+      {
+        "name": "OC43",
+        "id": "31631"
+      },
+      {
+        "name": "Mouse",
+        "id": "10090"
+      },
+      {
+        "name": "mouse",
+        "id": "10090"
+      },
+      {
+        "name": "betacoronaviruses",
+        "id": "694002"
+      }
+    ],
+    "genes": []
+  },
+  "39624547": {
+    "species": [
+      {
+        "name": "Salmonella Typhi",
+        "id": "90370"
+      },
+      {
+        "name": "S. Typhi",
+        "id": "90370"
+      },
+      {
+        "name": "patients",
+        "id": "9606"
+      }
+    ],
+    "genes": []
+  },
+  "39624549": {
+    "species": [
+      {
+        "name": "Phyllanthus emblica",
+        "id": "296036"
+      },
+      {
+        "name": "Mice",
+        "id": "10090"
+      },
+      {
+        "name": "patients",
+        "id": "9606"
+      },
+      {
+        "name": "amla",
+        "id": "296036"
+      },
+      {
+        "name": "mice",
+        "id": "10090"
+      }
+    ],
+    "genes": [
+      {
+        "name": "5-lipoxygenase",
+        "id": "240"
+      },
+      {
+        "name": "Interleukin-6",
+        "id": "3569"
+      },
+      {
+        "name": "IL-6",
+        "id": "3569"
+      }
+    ]
+  },
+  "39624569": {
+    "species": [
+      {
+        "name": "Providencia stuartii",
+        "id": "588"
+      },
+      {
+        "name": "bacteria",
+        "id": "629395"
+      },
+      {
+        "name": "Staphylococcus aureus",
+        "id": "1280"
+      },
+      {
+        "name": "Staphylococcus epidermidis",
+        "id": "1282"
+      },
+      {
+        "name": "patient",
+        "id": "9606"
+      },
+      {
+        "name": "P. stuartii",
+        "id": "588"
+      },
+      {
+        "name": "patients",
+        "id": "9606"
+      }
+    ],
+    "genes": []
+  },
+  "39624571": {
+    "species": [
+      {
+        "name": "Listeria monocytogenes",
+        "id": "1639"
+      },
+      {
+        "name": "woman",
+        "id": "9606"
+      },
+      {
+        "name": "patients",
+        "id": "9606"
+      }
+    ],
+    "genes": []
+  },
+  "39624577": {
+    "species": [
+      {
+        "name": "Red Raspberry",
+        "id": "32247"
+      },
+      {
+        "name": "Rubus idaeus L.",
+        "id": "32247"
+      },
+      {
+        "name": "Red raspberry",
+        "id": "32247"
+      },
+      {
+        "name": "human",
+        "id": "9606"
+      }
+    ],
+    "genes": []
+  },
+  "39624593": {
+    "species": [
+      {
+        "name": "Coxiella burnetii",
+        "id": "777"
+      },
+      {
+        "name": "C. burnetii",
+        "id": "777"
+      },
+      {
+        "name": "patient",
+        "id": "9606"
+      }
+    ],
+    "genes": []
+  },
+  "39624614": {
+    "species": [
+      {
+        "name": "Plasmodium berghei",
+        "id": "5821"
+      },
+      {
+        "name": "Mice",
+        "id": "10090"
+      },
+      {
+        "name": "Plasmodium",
+        "id": "5821"
+      },
+      {
+        "name": "Gnetum gnemon",
+        "id": "3382"
+      },
+      {
+        "name": "mice",
+        "id": "10090"
+      }
+    ],
+    "genes": []
+  },
+  "39624714": {
+    "species": [
+      {
+        "name": "bacteria",
+        "id": "629395"
+      },
+      {
+        "name": "Staphylococcus aureus",
+        "id": "1280"
+      },
+      {
+        "name": "Enterococcus faecalis",
+        "id": "1351"
+      },
+      {
+        "name": "Enterococcus faecium",
+        "id": "1352"
+      },
+      {
+        "name": "Klebsiella pneumoniae",
+        "id": "573"
+      },
+      {
+        "name": "Escherichia coli",
+        "id": "562"
+      },
+      {
+        "name": "Acinetobacter baumannii",
+        "id": "470"
+      },
+      {
+        "name": "E. faecalis",
+        "id": "1351"
+      },
+      {
+        "name": "E. faecium",
+        "id": "1352"
+      },
+      {
+        "name": "E. coli",
+        "id": "562"
+      },
+      {
+        "name": "K. pneumoniae",
+        "id": "573"
+      },
+      {
+        "name": "A. baumannii",
+        "id": "470"
+      }
+    ],
+    "genes": []
+  },
+  "39624837": {
+    "species": [
+      {
+        "name": "Coptis deltoidea",
+        "id": "261449"
+      },
+      {
+        "name": "mice",
+        "id": "10090"
+      },
+      {
+        "name": "Lactobacillus",
+        "id": "1578"
+      },
+      {
+        "name": "Ruminococcus",
+        "id": "1263"
+      },
+      {
+        "name": "Akkermansia",
+        "id": "239934"
+      }
+    ],
+    "genes": [
+      {
+        "name": "RelA",
+        "id": "5970"
+      },
+      {
+        "name": "p65",
+        "id": "5970"
+      },
+      {
+        "name": "NF-kappaB p65",
+        "id": "5970"
+      }
+    ]
+  },
+  "39624840": {
+    "species": [
+      {
+        "name": "rhubarbs",
+        "id": "3621"
+      },
+      {
+        "name": "rats",
+        "id": "10116"
+      }
+    ],
+    "genes": [
+      {
+        "name": "AKT1",
+        "id": "207"
+      },
+      {
+        "name": "EGFR",
+        "id": "1956"
+      },
+      {
+        "name": "PI3K",
+        "id": "5293"
+      },
+      {
+        "name": "AKT",
+        "id": "207"
+      }
+    ]
+  },
+  "39625092": {
+    "species": [
+      {
+        "name": "human immunodeficiency virus",
+        "id": "12721"
+      },
+      {
+        "name": "participants",
+        "id": "9606"
+      }
+    ],
+    "genes": []
+  },
+  "39625293": {
+    "species": [
+      {
+        "name": "Klebsiella pneumoniae",
+        "id": "573"
+      },
+      {
+        "name": "Escherichia coli",
+        "id": "562"
+      },
+      {
+        "name": "murine",
+        "id": "10090"
+      },
+      {
+        "name": "Galleria mellonella",
+        "id": "7137"
+      },
+      {
+        "name": "human",
+        "id": "9606"
+      }
+    ],
+    "genes": [
+      {
+        "name": "TNF-alpha",
+        "id": "21926"
+      },
+      {
+        "name": "IL-6",
+        "id": "16193"
+      },
+      {
+        "name": "IL-1beta",
+        "id": "16176"
+      }
+    ]
+  },
+  "39625663": {
+    "species": [
+      {
+        "name": "Meloidogyne javanica",
+        "id": "6303"
+      },
+      {
+        "name": "M. incognita",
+        "id": "6306"
+      },
+      {
+        "name": "Bacillus thuringiensis",
+        "id": "1428"
+      },
+      {
+        "name": "Bt",
+        "id": "1428"
+      },
+      {
+        "name": "cucumber",
+        "id": "3659"
+      },
+      {
+        "name": "tomato",
+        "id": "4081"
+      },
+      {
+        "name": "Cry21",
+        "id": "387925"
+      }
+    ],
+    "genes": []
+  },
+  "39625753": {
+    "species": [
+      {
+        "name": "watermelon",
+        "id": "260674"
+      },
+      {
+        "name": "Citrullus lanatus",
+        "id": "3654"
+      },
+      {
+        "name": "potato",
+        "id": "4113"
+      },
+      {
+        "name": "tobacco",
+        "id": "4097"
+      },
+      {
+        "name": "tomato",
+        "id": "4081"
+      },
+      {
+        "name": "Pseudomonas",
+        "id": "132476"
+      },
+      {
+        "name": "Pseudomonas kilonensis",
+        "id": "132476"
+      },
+      {
+        "name": "C. lanatus",
+        "id": "3654"
+      }
+    ],
+    "genes": []
+  },
+  "39625759": {
+    "species": [
+      {
+        "name": "Clostridium tetani",
+        "id": "1513"
+      },
+      {
+        "name": "patients",
+        "id": "9606"
+      },
+      {
+        "name": "C tetani",
+        "id": "1513"
+      },
+      {
+        "name": "dog",
+        "id": "9615"
+      }
+    ],
+    "genes": []
+  },
+  "39625773": {
+    "species": [
+      {
+        "name": "HIV",
+        "id": "11676"
+      },
+      {
+        "name": "patients",
+        "id": "9606"
+      },
+      {
+        "name": "participants",
+        "id": "9606"
+      },
+      {
+        "name": "Participants",
+        "id": "9606"
+      },
+      {
+        "name": "patient",
+        "id": "9606"
+      },
+      {
+        "name": "Patient",
+        "id": "9606"
+      }
+    ],
+    "genes": []
+  },
+  "39625861": {
+    "species": [
+      {
+        "name": "carrot",
+        "id": "4039"
+      },
+      {
+        "name": "mouse",
+        "id": "10090"
+      },
+      {
+        "name": "Carrots",
+        "id": "4039"
+      },
+      {
+        "name": "Mice",
+        "id": "10090"
+      },
+      {
+        "name": "mice",
+        "id": "10090"
+      },
+      {
+        "name": "carrots",
+        "id": "4039"
+      }
+    ],
+    "genes": [
+      {
+        "name": "peroxisome proliferator-activated receptor gamma",
+        "id": "19016"
+      },
+      {
+        "name": "Pparg",
+        "id": "19016"
+      }
+    ]
+  },
+  "39625876": {
+    "species": [
+      {
+        "name": "fungi",
+        "id": "4751"
+      },
+      {
+        "name": "Mycobacterium tuberculosis",
+        "id": "1773"
+      },
+      {
+        "name": "Mtb",
+        "id": "1773"
+      },
+      {
+        "name": "human",
+        "id": "9606"
+      }
+    ],
+    "genes": []
+  },
+  "39625906": {
+    "species": [
+      {
+        "name": "flavivirus",
+        "id": "11051"
+      },
+      {
+        "name": "Aedes aegypti",
+        "id": "7159"
+      },
+      {
+        "name": "dengue virus 2",
+        "id": "11060"
+      },
+      {
+        "name": "human",
+        "id": "9606"
+      },
+      {
+        "name": "dengue virus type 2",
+        "id": "11060"
+      },
+      {
+        "name": "Zika virus",
+        "id": "64320"
+      },
+      {
+        "name": "yellow fever virus",
+        "id": "11089"
+      },
+      {
+        "name": "Aedes flavivirus",
+        "id": "390845"
+      }
+    ],
+    "genes": [
+      {
+        "name": "NS2B3",
+        "id": null
+      }
+    ]
+  },
+  "39625969": {
+    "species": [
+      {
+        "name": "HIV",
+        "id": "11676"
+      },
+      {
+        "name": "women",
+        "id": "9606"
+      }
+    ],
+    "genes": []
+  },
+  "39625987": {
+    "species": [
+      {
+        "name": "Mammarenavirus",
+        "id": "1653394"
+      },
+      {
+        "name": "humans",
+        "id": "9606"
+      },
+      {
+        "name": "Mopeia virus",
+        "id": "11629"
+      }
+    ],
+    "genes": [
+      {
+        "name": "NMT1",
+        "id": "4836"
+      },
+      {
+        "name": "NMT2",
+        "id": "9397"
+      }
+    ]
+  },
+  "39626110": {
+    "species": [
+      {
+        "name": "Leishmania amazonensis",
+        "id": "5659"
+      },
+      {
+        "name": "L. braziliensis",
+        "id": "5660"
+      },
+      {
+        "name": "mammalian",
+        "id": "9606"
+      },
+      {
+        "name": "Leishmania",
+        "id": "5660"
+      },
+      {
+        "name": "murine",
+        "id": "10090"
+      },
+      {
+        "name": "mice",
+        "id": "10090"
+      }
+    ],
+    "genes": []
+  }
+}

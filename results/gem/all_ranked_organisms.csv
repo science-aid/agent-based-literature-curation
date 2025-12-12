@@ -1,0 +1,1665 @@
+rank,organism_name,count
+1,Homo sapiens,63078
+2,Mus musculus,20332
+3,Danio rerio,4263
+4,Rattus norvegicus,2412
+5,Drosophila melanogaster,1585
+6,Arabidopsis thaliana,1504
+7,Sus scrofa,1188
+8,Achromobacter sp. ATCC 35328,833
+9,baker's yeast,649
+10,Solanum lycopersicum,635
+11,Caenorhabditis elegans,633
+12,Bos taurus,631
+13,Gallus gallus,501
+14,Oryza sativa,432
+15,Glycine max,337
+16,2019-nCoV,299
+17,maize,276
+18,Bombyx mori,248
+19,Ovis aries,175
+20,Micrococcus scarlatinae Klein 1884,162
+21,African clawed frog,156
+22,Canis lupus familiaris,151
+23,Brassica napus,133
+24,AIDS virus,127
+25,Oryza L.,127
+26,Oryctolagus cuniculus,127
+27,Solanum tuberosum,123
+28,Bacillus aeruginosus (Schroeter 1872) Trevisan 1885,113
+29,Japanese medaka,109
+30,Nicotiana tabacum,107
+31,Micrococcus aureus (Rosenbach 1884) Zopf 1885,101
+32,Capra hircus,97
+33,Chlamydomonas reinhardtii,94
+34,Xenopus tropicalis,88
+35,Arthrobacter sp. CHR2P1B1-M,88
+36,malaria parasite P. falciparum,73
+37,Trypanosoma brucei brucei Plimmer & Bradford,73
+38,Nile tilapia,72
+39,Triticum aestivum,70
+40,Nicotiana L.,67
+41,bacteriophage,65
+42,poplar,65
+43,Pseudodictyosporium elegans,61
+44,Bacillus tuberculosis,60
+45,Streptococcus salivarius subsp. thermophilus (Orla-Jensen 1919) Farrow and Collins 1984,58
+46,Aspergillus lacticoffeatus Frisvad & Samson,56
+47,Arthrobacter sp. NCIB 9666,55
+48,Macaca mulatta,55
+49,Candida lipolytica,53
+50,Triticum L.,53
+51,Bacillus pneumoniae (Schroeter 1886) Flugge 1886,53
+52,Adeno-associated virus,47
+53,Bacteria,42
+54,Trypanosoma cruzi Chagas,41
+55,Actinopycnidium Krasil'nikov 1962,41
+56,cucumber,40
+57,Acinetobacter baumannii Bouvet and Grimont 1986,40
+58,HPV16,38
+59,Pyrococcus furiosus Fiala and Stetter 1986,38
+60,Candida albicans (C.P. Robin) Berkhout,37
+61,Bacillus difficilis Hall and O'Toole 1935,37
+62,Salmonella Lignieres 1900,34
+63,Toxoplasma gondii,34
+64,Gossypium L.,34
+65,HBV,34
+66,Citrus L.,33
+67,Nitzschia closterium f. minutissima,33
+68,Leishmania tarentolae,32
+69,Atlantic salmon,31
+70,Bacillo virgola del Koch,30
+71,Flavobacterium thermophilum Yoshida and Oshima 1971,30
+72,crab eating macaque,29
+73,barleys,28
+74,Bacillus typhimurium Loeffler 1892,28
+75,Nicotiana benthamiana Domin,28
+76,Saccharolobus solfataricus,28
+77,Sulfolobus islandicus,28
+78,HHV8,27
+79,Epstein Barr virus,26
+80,Cricetulus,26
+81,Albococcus epidermidis,26
+82,cabbage moth,25
+83,Arthrobacter siderocapsulatus Dubinina and Zhdanov 1975 (Approved Lists 1980),25
+84,Bombyx,25
+85,Ascidia intestinalis,25
+86,Komagataella pastoris (Guilliermond) Y.Yamada et al.,24
+87,Bacillus cereus var. thuringiensis Smith et al. 1952,24
+88,butterflies and moths,24
+89,African swine fever virus ASF,24
+90,Gossypium hirsutum,24
+91,barrel medic,23
+92,Halobacterium volcanii Mullakhanbhai and Larsen 1975 (Approved Lists 1980),23
+93,Enterococcus faecalis (Andrewes and Horder 1906) Schleifer and Kilpper-Balz 1984,22
+94,Candida kefyr (Beij.) Uden & H.R. Buckley ex S.A. Mey. & Ahearn,22
+95,Apis mellifera,22
+96,butterflies,22
+97,apple,21
+98,Vitis L.,21
+99,Agrobacterium Conn 1942 (Approved Lists 1980),21
+100,Microtus ochrogaster,21
+101,carrot,20
+102,Vaccinia virus,20
+103,Felis catus,20
+104,Bacterium monocytogenes hominis Nyfeldt 1932,19
+105,Alphaherpesvirus pseudorabies virus PRV,19
+106,Bacillus smegmatis,19
+107,Streptococcus mutans Clarke 1924,19
+108,Phytophthora megasperma f. sp. glycinea,19
+109,Bactrocera (Bactrocera) dorsalis,18
+110,Brassica oleracea L.,18
+111,fall armyworm,18
+112,banana,18
+113,Achromobacter anaerobium (sic) Shimwell 1937,18
+114,Ambystoma mexicanum,18
+115,Brassica rapa,18
+116,herpes simplex virus 1 HSV-1,18
+117,Aspergillus fumigates,17
+118,alfalfa,17
+119,Human Papilloma Virus,17
+120,Phytomonas Bergey et al. 1923,17
+121,Tilapia,16
+122,Adenoviridae,16
+123,Campylobacter pylori corrig. Marshall et al. 1985 emend. Fox et al. 1988,16
+124,Oncorhynchus mykiss,16
+125,Aspergillus flavus var. oryzae (Ahlb.) Kurtzman,16
+126,Japanese rice,15
+127,Euglena gracilis bacillaris,15
+128,Synechocystis sp.,15
+129,Diplococcus gonorrhoeae,15
+130,Hordeum vulgare,15
+131,Human papilloma virus type 18,15
+132,Anopheles,15
+133,Bacterium lactis Lister 1873,15
+134,archaea,15
+135,Komagataella phaffii Kurtzman,14
+136,Aedes,14
+137,Chinese salvia,14
+138,Beneckea parahaemolytica (Fujino et al. 1951) Baumann et al. 1971 (Approved Lists 1980),14
+139,Bos bubalis Linnaeus,14
+140,Aedes aegypti (Linnaeus,13
+141,Andropogon sorghum (L.) Brot.,13
+142,Phascum patens Hedw.,13
+143,Setaria viridis (L.) P.Beauv.,13
+144,Ceratitis capitata,13
+145,Campylobacter fetus subsp. jejuni Smibert 1974,13
+146,Oryzias,13
+147,Blastomyces neoformans,13
+148,Francisella novicida (Larson et al. 1955) Olsufiev et al. 1959 (Approved Lists 1980),13
+149,Trypanosoma brucei Plimmer & Bradford,13
+150,Toxoplasma Nicolle and Manceaux,13
+151,Arachis hypogaea,12
+152,Beneckea natriegens (Payne et al. 1961) Baumann et al. 1971 (Approved Lists 1980),12
+153,FLUAV,12
+154,monkey pox,12
+155,fission yeast,12
+156,Hypocrea jecorina Berk. & Broome,12
+157,Culicidae,12
+158,Lactiplantibacillus plantarum (Orla-Jensen 1919) Zheng et al. 2020,11
+159,Bacillus cholerae-suis Smith 1894,11
+160,Shewanella oneidensis,11
+161,African green monkey,11
+162,Aspergillus nidulans,11
+163,group B streptococcus,11
+164,Norovirus,11
+165,Vitis vinifera L.,11
+166,liverwort,10
+167,Agaricus ostreatus Jacq.,10
+168,Chenopodium quinoa,10
+169,Diplococcus pneumoniae (Klein 1884) Weichselbaum 1886,10
+170,Chaetochloa italica (L.) Scribn.,10
+171,Citrus sinensis,10
+172,Phytophthora capsici Leonian,10
+173,Filterable agent of primary atypical pneumonia Eaton et al. 1944,10
+174,Achromobacter radiobacter (Beijerinck and van Delden 1902) Bergey et al. 1934,10
+175,Clostridium ljungdahlii,10
+176,Chrysosporium thermophilum (Apinis) Klopotek,10
+177,Callithrix jacchus,10
+178,Mesocricetus auratus,10
+179,Actinomyces coelicolor (Muller 1908) Lieske 1921,10
+180,algae,10
+181,Diptera,10
+182,common sea urchin,10
+183,Chinese soft-shelled turtle,10
+184,Cucumis melo,9
+185,Leishmania brasiliensis,9
+186,Ciona robusta Hoshino & Tokioka,9
+187,PEDV,9
+188,Capsicum annuum L.,9
+189,Rhodosporidium toruloides Banno,9
+190,Bacillus,9
+191,Leishmania (Leishmania) mexicana,9
+192,Fusarium fujikuroi Nirenberg,9
+193,Gryllus bimaculatus De Geer,9
+194,Bacillus licheniformis,9
+195,Deleya Baumann et al. 1983,9
+196,petunia,9
+197,Myxococcus xanthus Beebe 1941,9
+198,Spodoptera,9
+199,Cichlidae,9
+200,Bacillus atrosepticus,9
+201,Listeria seeligeri Rocourt and Grimont 1983,8
+202,Bacillus solanacearum Smith 1896,8
+203,chickpea,8
+204,anthrax bacterium,8
+205,Candida auris Satoh & Makimura,8
+206,American bollworm,8
+207,Chrysanthemum L.,8
+208,Lactuca L.,8
+209,Nannochloropsis oceanica,8
+210,Pristionchus pacificus,8
+211,Leishmania,8
+212,Cercopithecidae,8
+213,Chlamydia trachomatis (Busacca 1935) Rake 1957 (Approved Lists 1980) emend. Everett et al. 1999,8
+214,actinians,8
+215,Shewanella oneidensis ATCC 700550,8
+216,Clostridium acetobutylicum McCoy et al. 1926 (Approved Lists 1980) emend. Keis et al. 2001,8
+217,Equidae,8
+218,Clostridium beijerinckii Donker 1926 (Approved Lists 1980) emend. Keis et al. 2001,8
+219,Clavaria militaris L.,7
+220,black-bellied hamster,7
+221,Aspergillus flavus Link 1809,7
+222,Escherichia coli K12,7
+223,Aurococcus,7
+224,Drosophila sp. DNAS-2C1-224666,7
+225,Carassius auratus (Linnaeus,7
+226,Lentivirinae,7
+227,murine parainfluenza virus 1,7
+228,Mycobacterium abcessus Moore and Frerichs 1953,7
+229,Cronobacter sakazakii (Farmer et al. 1980) Iversen et al. 2007,7
+230,Acetobacter aceti subsp. xylinum,7
+231,Streptoccocus de la mammite Nocard and Mollereau 1887,7
+232,Plasmodium berghei,7
+233,Embryophyta,7
+234,Brassica juncea (L.) Czern.,7
+235,Synechococcus sp.,7
+236,HHV-5,7
+237,African malaria mosquito,7
+238,Bacillus cereus Frankland and Frankland 1887 (Approved Lists 1980),7
+239,Thalassiosira pseudonana,7
+240,Botryotinia fuckeliana,7
+241,Manihot esculenta,7
+242,Leishmania donovani infantum,7
+243,Common quail,7
+244,red flour beetle,7
+245,porcine reproductive and respiratory syndrome virus PRRSV,7
+246,Fusarium graminearum Schwabe,7
+247,Caenorhabditis briggsae AF16,7
+248,Bacillus amyloliquefaciens (ex Fukomoto 1943) Priest et al. 1987,7
+249,Chinese tongue sole,7
+250,Burkholderia,7
+251,chicory,7
+252,citrus tristeza closterovirus CTV,7
+253,Clostridium cellulolyticum Petitdemange et al. 1984,7
+254,Aerobacillus polymyxa (Prazmowski 1880) Donker 1926,7
+255,HCV,7
+256,Giardia duodenalis,7
+257,Pyrococcus abyssi Erauso et al. 1993,7
+258,Acidaminococcus sp.,6
+259,Chinese white poplar,6
+260,Enterobacteraceae (ex Lapage 1979) Lapage 1982,6
+261,Cervidae,6
+262,Bacillus perfringens,6
+263,garden petunia,6
+264,aubergine,6
+265,Thermococcus onnurineus Bae et al. 2006,6
+266,Bacillus pestis (Lehmann and Neumann 1896) Migula 1900,6
+267,Amylobacter navicula (Reinke and Berthold 1879) Wehmer 1898,6
+268,bugs,6
+269,black tea,6
+270,Bacteroides limosus Eggerth 1935,6
+271,Poephila guttata,6
+272,Bacteroides gingivalis Coykendall et al. 1980,6
+273,Agrobacterium biovar 2,6
+274,Candida parapsilosis (Ashford) Langeron & Talice,6
+275,Leishmania (Leishmania) major,6
+276,Uredo maydis DC.,6
+277,Thermus thermophilus ATCC 27634,6
+278,Boletus lucidus Curtis,6
+279,Brassica L.,6
+280,carp,6
+281,domestic horse,6
+282,Coturnix coturnix japanica,6
+283,Actinomyces erythreus (sic) Waksman 1923,6
+284,Ciona,6
+285,Neospora caninum,6
+286,Decapodiformes,6
+287,Bacillus a,6
+288,Beneckea vulnifica Reichelt et al. 1979 (Approved Lists 1980),6
+289,lampreys,6
+290,Diplokokkus intracellularis meningitidis (sic) Weichselbaum 1887,6
+291,Avian avulavirus 1,6
+292,blue-green algae,6
+293,Thermobifida fusca (McCarthy and Cross 1984) Zhang et al. 1998,6
+294,Acetivibrio thermocellus,6
+295,Leishmania donovani Laveran et Mesnil,6
+296,Lepidosauria,5
+297,Moraxella anatipestifer (Hendrickson and Hilbert 1932) Bruner and Fabricant 1954 (AL 1980),5
+298,Clostridium cellulovorans,5
+299,Alcaligenes eutrophus 335,5
+300,Pseudomonas aeruginosa PA14,5
+301,human polyomavirus JCV,5
+302,Cephalochordata,5
+303,Xanthomonas axonopodis pv. citri,5
+304,Erianthus,5
+305,Chainia sp.,5
+306,Channa punctata (Bloch,5
+307,Hansenula polymorpha Morais & M.H. Maia,5
+308,Acremonium chrysogenum,5
+309,Vector,5
+310,Asterococcus,5
+311,Saccharopolyspora spinosa Mertz and Yao 1990,5
+312,Escherichia coli O157,5
+313,flax,5
+314,Asian corn borer,5
+315,Pseudomonas putida KT2440,5
+316,Bacillus pasteurianus,5
+317,abele,5
+318,Legionella pneumophila Brenner et al. 1979 (Approved Lists 1980),5
+319,transposons,5
+320,rodent,5
+321,Chrysonilia crassa,5
+322,Bacillus botulinus,5
+323,Methanosarcina acetivorans,5
+324,Astatotilapia burtoni,5
+325,Cannabis sativa L.,5
+326,Geobacter sulfurreducens Caccavo et al. 1995 emend. Viulu et al. 2013,5
+327,Leptospira icteroides Noguchi 1919,5
+328,annual false brome,5
+329,Archaeoglobus fulgidus,5
+330,Caudata,5
+331,Thermotoga maritima Huber et al. 1986,5
+332,Dictyostelium discoideum,5
+333,Cavia aperea porcellus,5
+334,Enterococcus faecium (Orla-Jensen 1919) Schleifer and Kilpper-Balz 1984,5
+335,Bambusaceae Nakai,5
+336,Natronobacterium gregoryi,5
+337,beechdrops,5
+338,Trichoderma reesei RUT C-30,4
+339,Binary,4
+340,Cricetinae,4
+341,jewel wasp,4
+342,Cydia molesta,4
+343,Cyphomandra,4
+344,balsam pear,4
+345,Cryptosporidium,4
+346,Halobacterium mediterranei Rodriguez-Valera et al. 1983,4
+347,Dabie bandavirus,4
+348,Bacillus fusiformis Veillon and Zuber 1898,4
+349,Enterobacter oryzendophyticus Hardoim et al. 2015,4
+350,Acetogenium kivuense,4
+351,Asiatic rice borer,4
+352,Cyprinidae,4
+353,Acipenser ruthenus Linnaeus,4
+354,Pneumocystis carinii f. sp. muris,4
+355,Anolis sagrei Dumeril & Bibron,4
+356,Taraxacum kok-saghyz L.E.Rodin,4
+357,Paramecium aurelia syngen 4,4
+358,Picochlorum celeri,4
+359,Byssochlamys spectabilis,4
+360,Citrullus lanatus subsp. vulgaris (Schrad.) Fursa,4
+361,Pectinidae,4
+362,Streptococcus anginosus Andrewes and Horder 1906,4
+363,Rotaviruses,4
+364,Vira,4
+365,Fragaria ananassa,4
+366,black cottonwood,4
+367,Lactobacillus Beijerinck 1901 (Approved Lists 1980),4
+368,Alternaria alternata (Fr.) Keissl.,4
+369,Saccharomyces boulardii,4
+370,Fusarium venenatum Nirenberg,4
+371,Fragaria L.,4
+372,Anacystis nidulans R2,4
+373,Beneckea Campbell 1957,4
+374,Actinoplanes sp.,4
+375,Characidae,4
+376,Ginkgo biloba f. epiphylla,4
+377,Bacillus typhi Schroeter 1886,4
+378,Proteus mirabilis Hauser 1885,4
+379,Escherichia virus T4,4
+380,avian influenza virus,4
+381,Lentinula edodes,4
+382,cultivated lettuce,4
+383,Secale x Triticum,4
+384,Daphnia magna,4
+385,Bacillus sp. BGSC W9A92,4
+386,Pseudomonas beteli corrig. (Ragunathan 1928) Savulescu 1947 (Approved Lists 1980),4
+387,crickets,4
+388,Tribolium,4
+389,Borrelia burgdorferi Johnson et al. 1984,4
+390,EHV-1,4
+391,fungal sp. ZZF51,4
+392,Ictalurus punctatus,4
+393,Shigella Castellani and Chalmers 1919,4
+394,Anabaena sp.,4
+395,African ass,4
+396,RCNMV,4
+397,bastard cress,4
+398,noble cane,4
+399,Dengue virus,4
+400,Verticillium dahliae Klebahn,4
+401,Ashbya gossypii (S.F. Ashby & W. Nowell) Guillierm.,4
+402,Chlorobacterium Guillebeau 1890,4
+403,Primata,4
+404,Bacterium tularense McCoy and Chapin 1912,4
+405,Heliobacterium modesticaldum Kimble et al. 1995,4
+406,Crithidia fasciculata Leger,4
+407,Methanosarcina mazei Go1,4
+408,Methanocaldococcus jannaschii (Jones et al. 1984) Whitman 2002,4
+409,Agaricus cinereus Schaeff.,4
+410,Gentiana L.,4
+411,beet,4
+412,Clostridium autoethanogenum Abrini et al. 1994,4
+413,Bryophyta,4
+414,Schistosoma mansoni,4
+415,black ferret,4
+416,Astyanax mexicanus (De Filippi,4
+417,Cereibacter sphaeroides,4
+418,Trichoderma aggressivum Samuels & W. Gams,3
+419,batate,3
+420,Carassius carassius (Linnaeus,3
+421,Tomato leaf curl New Delhi virus,3
+422,AcMNPV,3
+423,Goose parvovirus,3
+424,Felid alphaherpesvirus 1,3
+425,Rhizobium etli,3
+426,Thermus Brock and Freeze 1969 (Approved Lists 1980) emend. Nobre et al. 1996,3
+427,CCGMV,3
+428,Malus Mill.,3
+429,VEE,3
+430,Enterocytozoon bieneusi F. Desp.,3
+431,Camelina Crantz,3
+432,Hylurgus ligniperda,3
+433,Penicillium roqueforti,3
+434,alacrancillo,3
+435,Pararge aegeria (Linnaeus,3
+436,desert locust,3
+437,Streptococcus infantarius Schlegel et al. 2000,3
+438,Duck reovirus,3
+439,Aspergillus acidus Kozak. 1989,3
+440,bai cai,3
+441,Eleusine coracana (L.) Gaertn.,3
+442,Corallochytrium limacisporum,3
+443,Bifidobacterium breve Reuter 1963,3
+444,Bufo marinus (Linnaeus,3
+445,Syntrophomonas palmitatica Hatamoto et al. 2007,3
+446,Vaccinium darrowii Camp,3
+447,Nanoarchaeum equitans Huber et al. 2002,3
+448,Gonococcus Lindau 1898,3
+449,Mycoplasma genitalium,3
+450,Scleroderma guani,3
+451,Hansenula polymorpha DL-1,3
+452,European raspberry,3
+453,Huro salmoides,3
+454,Candida acidothermophilum,3
+455,Mucor circinelloides f. lusitanicus (Bruderl.) Schipper,3
+456,bluewings,3
+457,Achromobacter stationis,3
+458,Hypocrea atroviridis,3
+459,winged prickly-ash,3
+460,avian paramyxovirus 1,3
+461,Hydractinia,3
+462,Severe fever with thrombocytopenia syndrome bunyavirus,3
+463,Fagopyrum tataricum (L.) Gaertn.,3
+464,garden pea,3
+465,fungi,3
+466,Avena sativa L.,3
+467,Bacillus polymyxa group,3
+468,common buckwheat,3
+469,Alcaligenes eutropha H16,3
+470,Caulobacter crescentus,3
+471,Bactrocera cucurbitae (Coquillett,3
+472,Actinobacillus pleuropneumoniae,3
+473,Allium cepa L.,3
+474,Baculum extradentatum,3
+475,Edwardsiella piscicida Abayneh et al. 2013,3
+476,Ctenopharyngodon idella,3
+477,Exopalaemon carinicauda (Holthuis,3
+478,ear-cutting caterpillar,3
+479,Cajanus cajan (L.) Millsp.,3
+480,Seneca valley virus,3
+481,Acidibacillus sulfooxidans Holanda et al. 2015,3
+482,granado,3
+483,Pyrococcus kodadaraensis (sic),3
+484,Musa,3
+485,Escherichia coli Nissle 1917,3
+486,Mycobacterium bovis Karlson and Lessel 1970,3
+487,corn,3
+488,Botrytis infestans Mont.,3
+489,Acetobacter capsulatum (sic) Shimwell 1936,3
+490,Dendrobium officinale Kimura & Migo,3
+491,Bacillus enteritidis Gaertner 1888,3
+492,BmNPV,3
+493,Escherichia coli BL21,3
+494,Lacticaseibacillus paracasei (Collins et al. 1989) Zheng et al. 2020,3
+495,beet armyworm,3
+496,Metarhizium brunneum Petch,3
+497,Japanese encephalitis (JE) virus,3
+498,Monascus albidus,3
+499,Methanococcus deltae Corder et al. 1988,3
+500,Cell-associated subacute sclerosing panencephalitis,3
+501,Lacticaseibacillus rhamnosus (Hansen 1968) Zheng et al. 2020,3
+502,Bacillus carotovorus Jones 1901,3
+503,Manihot Mill.,3
+504,Candida sphaerica (B.W. Hammer & Cordes) S.A. Mey. & Yarrow,3
+505,Shewanella algae corrig. Simidu et al. 1990 emend. Nozue et al. 1992,3
+506,Spodoptera litura (Fabricius,3
+507,bastard halibut,3
+508,Rhodobacter capsulatus (Molisch 1907) Imhoff et al. 1984,3
+509,Desulfonema ishimotoi Fukui et al. 1999,3
+510,Macaca nemestrina (Linnaeus,3
+511,Lupinus L.,3
+512,Brassica oleracea subsp. acephala,3
+513,cacao,3
+514,Peziza sclerotiorum Lib.,3
+515,Circinomucor circinelloides,3
+516,Rhizopus arrhizus A. Fisch.,3
+517,Echinoidea,3
+518,Actinocladothrix Affanassieff and Schulz 1889,3
+519,Scytonema hofmanni,3
+520,Magnaporthe oryzae B.C. Couch,3
+521,Bifidibacterium Prevot 1938,3
+522,Bacillus sp. 28,3
+523,Atelosaccharomyces tropicalis,3
+524,Tomato spotted wilt orthotospovirus,3
+525,basil,3
+526,Mimivirus,3
+527,Bacillus casei g,3
+528,Panicum mosaic virus,3
+529,Sulfolobales,3
+530,Trypanoplasma borreli,3
+531,blackleg of canola fungus,3
+532,Serratia sp.,3
+533,Xanthomonas translucens (ex Jones et al. 1917) Vauterin et al. 1995,3
+534,Aphanocapsa sp. N-1,3
+535,Marinomonas mediterranea,3
+536,Burkholderia cocovenenans,3
+537,Penicillium chrysogenum,3
+538,Chinook salmon,3
+539,Locusta migratoria (Linnaeus,3
+540,Deinococcus radiidurans,3
+541,Bacillus amylovorus (Burrill 1882) Trevisan 1889,3
+542,Yersinia ruckeri Ewing et al. 1978,3
+543,Dumeril's clam worm,3
+544,Acinetobacter calcoaceticus (Beijerinck 1911) Baumann et al. 1968 (Approved Lists 1980) emend. Bouvet and Grimont 1986,3
+545,Clostridium sp. GPRE 4-2,3
+546,Actinidia Lindl.,3
+547,Mycobacterium complex,3
+548,Synechocystis Sauvageau 1892,3
+549,Cannabis L.,3
+550,HHV-3,3
+551,Thermoproteus tenax,3
+552,MCPyV isolate R17b,3
+553,Sulfolobus islandicus REY15A,3
+554,Lactobacillus gasseri Lauer and Kandler 1980,3
+555,beetles,3
+556,Eimeria tenella,3
+557,common sunflower,3
+558,Marchantia L.,3
+559,Bacteriophage lambda,3
+560,Acidithermus cellulolyticus,3
+561,red spider mite,3
+562,Paecilomyces lilacinum,3
+563,Aciduliprofundum boonei Reysenbach et al. 2006,3
+564,Eubacterium crispatum Brygoo and Aladame 1953,3
+565,Fistulifera solaris Mayama,2
+566,CMV,2
+567,Actinobacteria bacterium [class],2
+568,tobacco vein-banding mosaic virus,2
+569,Cobitis anguillicaudata Cantor,2
+570,Bactrocera (Bactrocera) zonata,2
+571,Yellow fever viruses,2
+572,Carica papaya L.,2
+573,Graphium sp. TN_22AU10,2
+574,Bacterium influenzae Lehmann and Neumann 1896,2
+575,Shewanella MacDonell and Colwell 1986,2
+576,BCTV,2
+577,Bacteriophage V,2
+578,Corynebacterium ulcerans (ex Gilbert and Stewart 1927) Riegel et al. 1995,2
+579,Achromobacter harveyi Johnson and Shunk 1936,2
+580,Sogatella furcifera (Horvath,2
+581,Aquilaria sinensis (Lour.) Spreng.,2
+582,Duck adenovirus 3,2
+583,Aspergillus fischerianus Samson & W. Gams,2
+584,Bacillus pseudomallei,2
+585,Bactrocera tryoni (Froggatt,2
+586,CCHFV,2
+587,Bacteroidaeota Oren et al. 2015,2
+588,Citellus tridecemlineatus,2
+589,Porcine rotavirus,2
+590,Brucella melitensis (Hughes 1893) Meyer and Shaw 1920 (Approved Lists 1980),2
+591,Lens culinaris Medik.,2
+592,Chryseobacterium indologenes,2
+593,Bacillus subtilis subsp. subtilis (Ehrenberg 1835) Cohn 1872,2
+594,Fagopyrum Mill.,2
+595,Powellomyces sp. EA,2
+596,Brucella melitensis biovar Ovis,2
+597,Acanthamoeba,2
+598,West Nile virus,2
+599,Semliki Forest virus,2
+600,Pachyma hoelen Rumph. ex Fr.,2
+601,Fusarium moniliforme J. Sheld.,2
+602,Atelocerata,2
+603,H1N1,2
+604,Simplexvirus,2
+605,Enterovirus 68,2
+606,Citrus chachiensis hort.,2
+607,Papillomaviridae,2
+608,Paeonia L.,2
+609,Canis dirus Leidy,2
+610,chub mackerel,2
+611,Areca catechu L.,2
+612,Liriodendron L.,2
+613,RHBV,2
+614,Campeiostachys nutans,2
+615,Apis mellifera filamentous virus,2
+616,Erwinia nulandii Schuster et al. 1981,2
+617,capuli,2
+618,Cladobotryum mycophilum,2
+619,Vibrio parahaemolyticus RIMD 2210633,2
+620,Clostridium formicaceticum corrig. Andreesen et al. 1970,2
+621,Anapsida,2
+622,Raoultella sp.,2
+623,Phytophthora pini Leonian 1925,2
+624,Alternaria sect. Alternaria,2
+625,Cordyceps cicadae,2
+626,Phytophthora agathidicida B.S. Weir,2
+627,Leishmania amazonensis,2
+628,FLUBV,2
+629,Streptomyces fungicidicus Okami et al.,2
+630,Crepidula atrasolea Collin,2
+631,Dinebra chinensis (L.) P.M.Peterson & N.Snow,2
+632,Pseudomonas sp. WO24,2
+633,Streptococcus suis (ex Elliott 1966) Kilpper-Balz and Schleifer 1987,2
+634,Andrographis paniculata (Burm.f.) Nees,2
+635,Listonella sp.,2
+636,Feline parvovirus,2
+637,MLV,2
+638,Candidatus Phytoplasma Firrao et al. 2004,2
+639,Achaearanea tepidariorum,2
+640,Mycobacterium Lehmann and Neumann 1896 (Approved Lists 1980) emend. Gupta et al. 2018,2
+641,Medicago L.,2
+642,Streptomyces bingchenggensis,2
+643,catfishes,2
+644,Vitis amurensis Rupr.,2
+645,Eimeria Schneider 1875,2
+646,giant tube worm,2
+647,Asian elephant,2
+648,Trichinella spiralis (Owen 1835),2
+649,abura-tsubaki,2
+650,Ziziphus Mill.,2
+651,French bean,2
+652,Bacteriophage T7,2
+653,Giardia,2
+654,Chlamydomonas,2
+655,Bacillus marcescens (Bizio 1823) Trevisan in de Toni and Trevisan 1889,2
+656,ALV-J,2
+657,bamboo,2
+658,Erysiphe necator Schwein.,2
+659,FCV,2
+660,Coccinella axyridis,2
+661,Nematostella vectensis,2
+662,mung bean,2
+663,Bacillus acidificans longissimus Lafar 1896,2
+664,Beauveria bassiana (Bals.-Criv.) Vuill.,2
+665,beniseed,2
+666,Anaerobacter sp.,2
+667,MMLV,2
+668,Listerella Pirie 1927 (nom. rej. Opin. 14),2
+669,Zika virus,2
+670,Acidithiobacillus ferrooxidans,2
+671,Glarea lozoyensis,2
+672,Capsicum L.,2
+673,FMDV,2
+674,Fluta alba,2
+675,Chinese hamster,2
+676,Aspergillus niger var. tubingensis,2
+677,Knufia chersonesos (Bogomo. & Minter) Tsuneda,2
+678,Bacillus subtilis 168,2
+679,Porcine deltacoronavirus,2
+680,Bacillus methanolicus Arfman et al. 1992,2
+681,Enterococcus (ex Thiercelin and Jouhaud 1903) Schleifer and Kilpper-Balz 1984,2
+682,GCRV,2
+683,Amphiprion ocellaris Cuvier,2
+684,Camelina sativa (L.) Crantz,2
+685,Bacterium multocidum Lehmann and Neumann 1899,2
+686,TMV,2
+687,Phytophthora cinnamomi,2
+688,Anseriformes,2
+689,Actinoplanes sp. ATCC 53771,2
+690,Angomonas deanei (Carvalho1973) Teixeira & Camargo 2011,2
+691,Cordylecladia lemanaeformis,2
+692,Diaporthe liquidambaris (C.Q. Chang,2
+693,Actinidia chinensis var. deliciosa,2
+694,Maize chlorotic mottle virus,2
+695,Methanopyrus kandleri Kurr et al. 1992,2
+696,Schizochytrium sp.,2
+697,Ceratocystis omanensis Al-Subhi,2
+698,Culex,2
+699,Citrullus Schrad.,2
+700,Lactobacillus fermentum biotype II,2
+701,Lactobacillus sp. Lact11,2
+702,Bacillus aminoglucosidicus Hamada and Umezawa,2
+703,Bacillus chauvaei (sic) (Arloing et al. 1887) Trevisan 1889,2
+704,Ensifer meliloti (Dangeard 1926) Young 2003,2
+705,Alcaligenes eutrophus CH34,2
+706,Callithrix,2
+707,Agrobacterium albilineans (Ashby 1929) Savulescu 1947,2
+708,Acropora convexa (Dana,2
+709,Crocus sativus L.,2
+710,Escherichia coli O157:H7,2
+711,retrovirus,2
+712,Rhizopus microsporus,2
+713,common water fleas,2
+714,Aspergillus sp. Ant4,2
+715,Clostridium phytofermentans,2
+716,PCV2,2
+717,Bacillus Buchneri Henneberg 1903,2
+718,perches and others,2
+719,GaHV-2,2
+720,Bodo saltans Ehrenberg,2
+721,Festuca perennis (L.) Columbus & J.P.Sm.,2
+722,Bacillus tetani Flugge 1886,2
+723,Acinetobacter Brisou and Prevot 1954,2
+724,Clostridium saccharoperbutylacetonicum ATCC 13564,2
+725,Hydractinia symbiolongicarpus Buss & Yund,2
+726,H7N9,2
+727,Lactobacillus bavaricus Stetter and Stetter 1980,2
+728,Aerobacter aerogenes Hormaeche and Edwards 1958,2
+729,grasshoppers,2
+730,Chrysaora quinquecirrha (Desor,2
+731,Heteroptera,2
+732,Chimpanzee immunodeficiency virus,2
+733,HTLV-1,2
+734,Flammulina filiformis,2
+735,Methanococcus frisius Blotevogel et al. 1986,2
+736,Streptomyces rimosus,2
+737,spider mites,2
+738,Ceriporiopsis subvermispora,2
+739,Synechococcus elongatus UTEX 2973,2
+740,Setaria,2
+741,Carp nephritis and gill necrosis virus,2
+742,nightshade family,2
+743,Apoidea,2
+744,Geobacillus Nazina et al. 2001 emend. Aiyu et al. 2016,2
+745,Bacillus casei e,2
+746,Campylobacter fetus,2
+747,Rhabditida,2
+748,Leptospira Noguchi 1917 (Approved Lists 1980) emend. Faine and Stallman 1982,2
+749,Atlantic killifish,2
+750,Nothobranchius furzeri Jubb,2
+751,Polyangium cellulosum (ex Imshenetski and Solntseva 1936) Brockman 1989,2
+752,Glycyrrhiza L.,2
+753,Panicum virgatum L.,2
+754,cucumber family,2
+755,Plasmodium yoelii,2
+756,Rhodococcus opacus PD630,2
+757,Bacterium curvatum,2
+758,Shorea almon Foxw.,2
+759,fireflies,2
+760,Candida glabrata (H.W. Anderson) S.A. Mey. & Yarrow,2
+761,Ailuropoda melanoleuca,2
+762,Aeromonas dourgesi,2
+763,Marinitoga piezophila Alain et al. 2002,2
+764,Leptomonas collosoma,2
+765,Claviceps purpurea,2
+766,Fundulidae,2
+767,Cyanobacterium Rippka & Cohen-Bazire,2
+768,annual rape,2
+769,Saccharopolyspora pogona,2
+770,Amorphonostoc,2
+771,Pyrobaculum Huber et al. 1988 emend. Chan et al. 2013,2
+772,thermal soil bacterium YNP1,2
+773,cowpea,2
+774,BoHV-1,2
+775,Asteroidea,2
+776,Shiraia bambusicola Henn.,2
+777,Mycobacterium neoaurum,2
+778,Desulfovibrio vulgaris Postgate and Campbell 1966,2
+779,Orthopoxvirus,2
+780,Epidermophyton rubrum Castell.,2
+781,potato virus Y PVY,2
+782,Amygdalus persica,2
+783,Akkermansia muciniphila Derrien et al. 2004 emend. Hahnke et al. 2016,2
+784,Phytomonas serpens,2
+785,Orthomyxoviridae,2
+786,Aleyrodes tabaci,2
+787,Escherichia coli BW25113,2
+788,Pyrrhocoris apterus (Linnaeus,2
+789,firebrat,2
+790,Anna's hummingbird,2
+791,Actinobacillus succinogenes Guettler et al. 1999,2
+792,ants,2
+793,Rift Valley fever virus,2
+794,Bacillus thetaiotaomicron Distaso 1912,2
+795,Salinibacter ruber Anton et al. 2002 emend. Makhdoumi-Kakhki et al. 2012,2
+796,Lactobacillus sp. SL-1,2
+797,SbMV,2
+798,Lithospermum erythrorhizon,2
+799,Chlorella vulgaris Beijerink IAM C-27 formerly Chlorella ellipsoidea Gerneck IAM C-27,2
+800,Leuconostoc amelibiosum Schillinger et al. 1989,2
+801,Haloarcula hispanica Juez et al. 1986,2
+802,Duck Tembusu virus,2
+803,radish,2
+804,Chromobacterium goianiensis,2
+805,Bacterium cichorii (Swingle 1925) Elliott 1930,2
+806,Vesicular stomatitis virus,2
+807,Bacteria bacterium,2
+808,Mycobacterium opacum den Dooren de Jong 1927,2
+809,Atropa belladonna L.,2
+810,Claviceps virens M. Sakurai ex Nakata 1934,2
+811,durum wheat,2
+812,panicgrasses,2
+813,Mycoplasma gallisepticum Edward and Kanarek 1960,2
+814,Methylococcus capsulatus,2
+815,Thialkalivibrio versutus,2
+816,Clytia,2
+817,Channa argus (Cantor,2
+818,Lolium L.,2
+819,Sulfolobus islandicus rod-shaped virus 2,2
+820,GLRaV3,2
+821,Synechococcus elongatus Nageli 1849,2
+822,Pestalotiopsis fici,2
+823,Salmonidae,2
+824,brown planthopper,2
+825,Foxtail mosaic virus,2
+826,Ceratocystis manginecans,2
+827,Cyamopsis DC.,2
+828,Phallusia mammillata (Cuvier,2
+829,Sulfolobus Brock et al. 1972,2
+830,Pedobacter,2
+831,newts,2
+832,Castanea sativa Mill.,2
+833,Penaeidae,2
+834,Sordaria macrospora Auerswald,2
+835,Bacillus diphtheriae Kruse in Flugge 1886,2
+836,Proterospongia sp. ATCC 50818,2
+837,SHFV,2
+838,Ebola-like viruses,2
+839,Asterococcus hominis (Freundt 1953) Prevot 1961,2
+840,Actinobacillus actinomycetemcomitans (Klinger 1912) Topley and Wilson 1929,2
+841,herpesvirus of turkey,2
+842,Nannochloropsis gaditana L.M.Lubin 1982,2
+843,Bradyrhizobium sp.,1
+844,Coronavirus,1
+845,Nostocales Borzi,1
+846,Allium fistulosum L.,1
+847,Erwinia proteamaculans (Paine and Stansfield 1919) Dye 1966,1
+848,Corynebacterium vaginale,1
+849,Entamoeba histolytica Schaudinn,1
+850,Barbarie duck parvovirus,1
+851,Gerrhopilus ceylonicus,1
+852,Tilapia lake virus,1
+853,Lawsonibacter sp.,1
+854,bollworm,1
+855,Wolfiporia Ryvarden & Gilb.,1
+856,Lacticaseibacillus paracasei ATCC 334,1
+857,FSME virus,1
+858,Peronophythora,1
+859,Human adenovirus,1
+860,Bdellovibrio bacteriovorus,1
+861,Acidithiobacillus caldus (Hallberg and Lindstrom 1995) Kelly and Wood 2000,1
+862,Bacillus hisashii Nishida et al. 2015,1
+863,Fraxinus mandshurica Rupr.,1
+864,Piper nigrum L.,1
+865,Plasmodiophora brassicae,1
+866,Acinetobacter baylyi ADP1,1
+867,crabgrass,1
+868,Corynebacteriales Goodfellow and Jones 2015,1
+869,Agrobacterium fabrum str. C58,1
+870,avian adenovirus EDS,1
+871,figwort,1
+872,rye,1
+873,Bacillus tertius Henry 1917,1
+874,Bacterium tussis-convulsivae Lehmann and Neumann 1927,1
+875,Nosema ceranae Fries,1
+876,Rhizoctonia praticola,1
+877,Decodes Obraztsov,1
+878,Haplomelitta,1
+879,Avian metapneumovirus,1
+880,11176,1
+881,bok-choy,1
+882,Brassica oleracea var. capitata L.,1
+883,Eucarya,1
+884,Rusa C. H. Smith,1
+885,Xanthomonas campestris pv. oryza (Ishiyama 1922) Dye 1978,1
+886,Phototrophic bacteria,1
+887,Chitinophagaceae bacterium STH-1-Y1,1
+888,Crassostrea gigas,1
+889,Reovirus,1
+890,Bacteroides Castellani and Chalmers 1919 (Approved Lists 1980) emend. Shah and Collins 1989,1
+891,Cordyceps sp. CRRI-67,1
+892,river trout,1
+893,Far Eastern brook lamprey,1
+894,Clavibacter Davis et al. 1984,1
+895,Agaricus bisporus (J.E. Lange) Imbach,1
+896,Psychrobacter sp.,1
+897,Phryma leptostachya L.,1
+898,BCV,1
+899,CyHV-2,1
+900,Actinomyces fradii (sic) Waksman and Curtis 1916,1
+901,Aspergillus pachycristatus,1
+902,Achromobacter lunatus,1
+903,Bactrocera tau,1
+904,Verrucomicrobaeota Oren et al. 2015,1
+905,Komagatabacter,1
+906,Bacillus amyloliquefaciens FZB42,1
+907,Komagataella kurtzmanii G.I. Naumov,1
+908,Trichomonas gallinae,1
+909,Salicibibacter cibi Oh et al. 2021,1
+910,Aegilops squarrosa subsp. squarrosa,1
+911,Liriodendron tulipifera L.,1
+912,Chroococcidiopsis (Geitler,1
+913,candidate division Waste Water of Evry 1,1
+914,Vitis armata Diels & Gilg,1
+915,Enterobacterales Adeolu et al. 2016,1
+916,Prevotella copri Hayashi et al. 2007 emend. Hahnke et al. 2016,1
+917,Gnathophyllidae,1
+918,broom millet,1
+919,Chikungunya virus,1
+920,Oxytricha Ehrenberg,1
+921,Bacillus tropicus Liu et al. 2017,1
+922,Achromobacter georgiopolitanum,1
+923,codling moth,1
+924,karamatsu,1
+925,Euphorbia lathyris L.,1
+926,Mandarin fish ranavirus,1
+927,Lactococcus cremoris (Orla-Jensen 1919) Li et al. 2021,1
+928,Cryptosporidium parvum,1
+929,Coxiella burnetii (Derrick 1939) Philip 1948,1
+930,Burkholderiales Garrity et al. 2006,1
+931,BLV,1
+932,SJNNV,1
+933,Graphosoma lineata,1
+934,Anopheles coluzzii Coetzee & Wilkerson,1
+935,Hydnum ochraceum Pers. ex J.F. Gmel.,1
+936,H9N2,1
+937,maize dwarf mosaic potyvirus,1
+938,Batrachochytrium salamandrivorans A. Martel,1
+939,Caenorhabditis nigoni Felix,1
+940,Polypogon fugax Nees ex Steud.,1
+941,Alopex lagopus,1
+942,Chrysaora pacifica (Goette,1
+943,Sphingomonas sp. DN1,1
+944,Phoma terrestris H.N. Hansen,1
+945,Columbidae,1
+946,Pantoea dispersa Gavini et al. 1989,1
+947,Drosophila eugracilis,1
+948,bed bug,1
+949,Descurainia sophia (L.) Webb ex Prantl,1
+950,Klebsiella ornithinolytica Sakazaki et al. 1989,1
+951,Episomus,1
+952,Arsenophonus Gherna et al. 1991,1
+953,Elizabethkingia anophelis Kampfer et al. 2011 emend. Dojad et al. 2016,1
+954,Mediterranean mussel,1
+955,Porcine parvovirus 7,1
+956,Transformation,1
+957,Colletotrichum gloeosporioides (Penz.) Penz. & Sacc.,1
+958,Paracoccus marginatus,1
+959,Lamiales Bromhead,1
+960,Dermacentroxenus rickettsii,1
+961,searobins,1
+962,European corn borer,1
+963,Loxodes magnus,1
+964,Euphrates poplar,1
+965,Hirame novirhabdovirus,1
+966,Pseudobutyrivibrio ruminis,1
+967,African rice,1
+968,Herpesviridae sp.,1
+969,Cotylorhiza tuberculata (Macri,1
+970,Avian leukemia virus,1
+971,Neisseria lactamica Hollis et al. 1969,1
+972,Bovine viral diarrhea virus 1b,1
+973,TuMV,1
+974,Nanorana pleskei Gunther,1
+975,SIG,1
+976,Klebsiella quasipneumoniae Brisse et al. 2014,1
+977,Echinocactus ingens,1
+978,Streptomyces coelicolor A3(2),1
+979,Bacillus ananas Serrano 1928,1
+980,Angelica L.,1
+981,Candidatus Dactylopiibacterium carminicum Ramirez-Puebla et al. 2010,1
+982,Phytopythium helicoides,1
+983,Acetobacter subgen. Acetobacter,1
+984,amphibians,1
+985,Perilla frutescens var. hirtella,1
+986,HMPV,1
+987,Achlamydospora indica,1
+988,bacterium DX120E,1
+989,Eupenicillium,1
+990,Ciboria fructicola G. Winter,1
+991,Galleria mellonella (Linnaeus,1
+992,Novirhabdovirus,1
+993,Echinococcus granulosus (Batsch,1
+994,Lactobacillus salivarius Rogosa et al. 1953 (Approved Lists 1980),1
+995,Actinopterygii,1
+996,Aedes albopictus,1
+997,Penicillium crustosum,1
+998,Bipolaris maydis,1
+999,Cryomyces antarcticus,1
+1000,Salvia hispanica L.,1
+1001,Pseudomonas syringae (PV. TOMATO),1
+1002,Selenomonas sp.,1
+1003,Ficus,1
+1004,lactic streptococci,1
+1005,Sugarcane yellow leaf luteovirus,1
+1006,lager yeast,1
+1007,LSDV,1
+1008,Prymnesium parvum Carter,1
+1009,Roseovarius nubinhibens Gonzalez et al. 2003,1
+1010,Akebia trifoliata,1
+1011,American mink,1
+1012,Auxenochlorella pyrenoidosa (H.Chick) Molinari & Calvo-Perez,1
+1013,Paenibacillus brasilensis,1
+1014,Orius strigicollis,1
+1015,Burkholderia cepacia complex,1
+1016,Ceratopteris richardii Brongn.,1
+1017,Ramazzottius varieornatus Bertolani & Kinchin,1
+1018,Pseudorinderpest virus,1
+1019,Chrysophrys major,1
+1020,aka,1
+1021,group A streptococci,1
+1022,Copidosoma floridanum,1
+1023,Eubacterium siraeum Moore et al. 1976,1
+1024,Escherichia coli BL21(DE3),1
+1025,Betapolyomavirus macacae,1
+1026,Davidia involucrata Baill.,1
+1027,Streptococcus phage Javan128,1
+1028,Prunella vulgaris L.,1
+1029,Hera,1
+1030,Acinetobacter sp.,1
+1031,Halomonas bluephagenesis Chen et al. 2017,1
+1032,Limonium bicolor (Bunge) Kuntze,1
+1033,Hypophthalmichthys molitrix,1
+1034,Glaesserella parasuis,1
+1035,Myxococcus xanthus DK 1622,1
+1036,Entamoeba moshkovskii Calaja,1
+1037,Agropyron elongatum (2n=70),1
+1038,Altermonas [macleodii] ATCC 43554,1
+1039,Brucella Meyer and Shaw 1920,1
+1040,Veillonella atypica (Rogosa 1965) Mays et al. 1982,1
+1041,BMV,1
+1042,agent of lymphatic filariasis,1
+1043,Camellia L.,1
+1044,Leuconostoc pseudomesenteroides Farrow et al. 1989,1
+1045,black-pod vetch,1
+1046,Cryptocaryon irritans,1
+1047,Phytophthora parasitica,1
+1048,Athelia rolfsii (Curzi) C.C.Tu et Kimbr.,1
+1049,Rhipidomys sp. 2,1
+1050,Hevea,1
+1051,myxoma virus MYX,1
+1052,Olea L.,1
+1053,Aspergillus chevalieri,1
+1054,Clostridium disporicum Horn 1987,1
+1055,Actinomyces viridochromogenes Krainsky 1914,1
+1056,Asterococcus mycoides Borrel et al. 1910,1
+1057,Dunaliella bardawii Ben-Amotz & Avron,1
+1058,Stevia rebaudiana (Bertoni) Bertoni,1
+1059,Asian white birch,1
+1060,Colletotrichum sansevieriae Miho Nakam. & Ohzono,1
+1061,Vigna Savi,1
+1062,Anser,1
+1063,Tetrahymena thermophila,1
+1064,Thioalkalivibrio sp. ALJ17,1
+1065,Fugu,1
+1066,Acidobacteria,1
+1067,HAV,1
+1068,Paramecium,1
+1069,Avena L.,1
+1070,Bacillus dysenteriae Shiga 1898,1
+1071,Abyssinian mustard,1
+1072,Cryptomeria japonica,1
+1073,Avian infectious laryngotracheitis virus,1
+1074,Aphanius dispar (Rueppell,1
+1075,Xenorhabdus,1
+1076,Desulfovibrio magneticus 700980,1
+1077,Xanthomonas campestris pv. Melonis Neto et al. 1984,1
+1078,Aeolidiella stephanieae,1
+1079,Bambusa edulis,1
+1080,Trypanosoma vivax,1
+1081,Maruca vitrata (Fabricius,1
+1082,Largemouth bass iridovirus,1
+1083,Japanese plum,1
+1084,Apis,1
+1085,Nitrosococcus oceani corrig. (Watson 1965) Watson 1971,1
+1086,Phyllanthus L.,1
+1087,Stevia Cav.,1
+1088,Penicillium marneffei Segretain,1
+1089,Colletotrichum orbiculare Damm,1
+1090,Pichia sp. D1R2,1
+1091,Pichia kudriavzevii,1
+1092,Plasmopara viticola,1
+1093,Tetraselmis sp.,1
+1094,Atlantic bottlenose dolphin,1
+1095,Strongyloides,1
+1096,Bacillus fragilis,1
+1097,polar bear,1
+1098,Bacillus oxytocus perniciosus Flugge 1886,1
+1099,Anas boschas,1
+1100,Citrus hindsii (Champ. ex Benth.) Govaerts,1
+1101,Achromobacter ichthyodermis,1
+1102,Methanobacterium wolfeii,1
+1103,Aspergillus wentii,1
+1104,Eochionelasmus coreana Chan,1
+1105,Proteus,1
+1106,Esox lucius Linnaeus,1
+1107,Streptomyces filamentosus Okami and Umezawa 1953 (Approved Lists 1980) emend. Lanoot et al. 2004,1
+1108,Trypanosoma (Herpetosoma) lewisi,1
+1109,Metamycoplasma hyosynoviae (Ross and Karmon 1970) Gupta et al. 2018,1
+1110,GLRaV-1,1
+1111,Lymnaea,1
+1112,Chlamydia sp.,1
+1113,Dichomitus squalens,1
+1114,Bedsonia Meyer 1953,1
+1115,Desulfonema magnum,1
+1116,bimli-jute,1
+1117,Candida guilliermondii var. nitratophila,1
+1118,WDV,1
+1119,Halomonas aff. campisalis 'campaniae',1
+1120,Madreporaria,1
+1121,Crithidia oncopelti (Noguchi & Tilden 1926) Gill & Vogel 1963,1
+1122,Botryodiplodia theobromae Pat.,1
+1123,Clytia hemisphaerica,1
+1124,Perkinsus marinus,1
+1125,Trichodesmium erythraeum Ehrenberg ex Gomont,1
+1126,Sarcophilus harrisii (Boitard,1
+1127,Azotobacter miscellum,1
+1128,Herpes simplex virus 2,1
+1129,Metamycoplasma salivarium (Edward 1955) Gupta et al. 2018,1
+1130,Conyza bonariensis (L.) Cronquist,1
+1131,Candidatus Accumulibacter Hesselmann et al. 1999,1
+1132,Aspergillus homomorphus,1
+1133,Mollicutes Edward and Freundt 1967,1
+1134,Beneckea alginolytica (Miyamoto et al. 1961) Baumann et al. 1971 (Approved Lists 1980),1
+1135,Vulcanolepas fijiensis Chan,1
+1136,Aeromonas caviae Eddy 1962,1
+1137,Camellia taliensis,1
+1138,Mangifera L.,1
+1139,Papaver L.,1
+1140,barley stripe mosaic virus,1
+1141,Clavibacter toxicus Riley and Ophel 1992,1
+1142,Helianthus L.,1
+1143,Humicola insolens Cooney & R. Emerson,1
+1144,Kluyveromyces,1
+1145,Crepidula fornicata (Linnaeus,1
+1146,Ruminococcus sp.,1
+1147,Bacteriophage P1,1
+1148,Methanosarcina acetivorans C2A,1
+1149,Pseudomonas mutabilis Ogino et al. 1975,1
+1150,Orchidaceae Juss.,1
+1151,Oscheius sp. CEW1,1
+1152,Cycloclasticus sp.,1
+1153,Turnip yellow mosaic virus,1
+1154,Streptococcus dysgalactiae subsp. equisimilis,1
+1155,Lassa mammarenavirus,1
+1156,beefsteak-mint,1
+1157,American comb jelly,1
+1158,Bacteroides buccae Holdeman et al. 1982,1
+1159,Chrysanthemum hortorum hort.,1
+1160,Sporomusa ovata Moller et al. 1985,1
+1161,PERV,1
+1162,Desulfomonas Moore et al. 1976,1
+1163,Christella dentata (Forssk.) Brownsey & Jermy,1
+1164,Bifidobacterium animalis (Mitsuoka 1969) Scardovi and Trovatelli 1974 emend. Masco et al. 2004,1
+1165,common water flea,1
+1166,bacillus Calmette-Guerin BCG,1
+1167,Aspergillus P. Micheli ex Haller,1
+1168,Bacillus fluorescens liquefaciens Flugge 1886,1
+1169,Exophiala dermatitidis (Kano) de Hoog,1
+1170,Candida lusitaniae,1
+1171,Aquifex aeolicus Huber and Stetter 2001,1
+1172,Schistosoma haematobium,1
+1173,Gardnerella vaginalis ATCC 14018 = JCM 11026,1
+1174,Campylobacter cinaedi,1
+1175,Convolvulus nil L.,1
+1176,Beta vulgaris cv. Saccharifera Alef.,1
+1177,Fructilactobacillus sanfranciscensis,1
+1178,Thalassolituus oleivorans,1
+1179,African cotton leafworm,1
+1180,PLRV,1
+1181,Methanihalophilus,1
+1182,Vibrio fluvialis Lee et al. 1981,1
+1183,Cereibacter sphaeroides 2.4.1,1
+1184,earthworms,1
+1185,Bacterium striatum Chester 1901,1
+1186,black nightshade,1
+1187,Microchloropsis salina (D.J.Hibbard) M.W.Fawley,1
+1188,Pinus tabulaeformis,1
+1189,Eucalyptus grandis,1
+1190,Pseudovibrio sp.,1
+1191,Grapevine virus A,1
+1192,Bacterium phlei (Lehmann and Neumann 1899) Grimme 1902,1
+1193,Aphididae,1
+1194,bellflower family,1
+1195,Miscanthus,1
+1196,Absidia corymbifera (Cohn) Sacc. & Trotter 1912,1
+1197,porcine circovirus-3,1
+1198,Legionella Brenner et al. 1979 (Approved Lists 1980),1
+1199,Australorbis glabratus,1
+1200,Bacterium enterocoliticum Schleifstein and Coleman 1939,1
+1201,Eragrostis,1
+1202,purple sea urchin,1
+1203,Macleaya cordata,1
+1204,Aspergillus aculeatus Iizuka,1
+1205,Gasterosteus aculeatus Linnaeus,1
+1206,Jatropha curcas L.,1
+1207,Pleocyemata fam. gen. sp.,1
+1208,Clostridioides difficile 630,1
+1209,puffer fishes,1
+1210,Streptococcus parauberis,1
+1211,Canadian poplar,1
+1212,Thermofilum pendens,1
+1213,Megalodesulfovibrio gigas (Le Gall 1963) Waite et al. 2020,1
+1214,crawling seals,1
+1215,caribou,1
+1216,amphioxus,1
+1217,Cytospora rhizophorae Kohlm. & E. Kohlm.,1
+1218,Chlorophyta sp. MBIC11204,1
+1219,Salmonella enterica serovar Gallinarum,1
+1220,archaeal virus,1
+1221,Staphylococcus argenteus,1
+1222,common cold viruses,1
+1223,Trichoderma harzianum Rifai,1
+1224,Penicillium aurantiogriseum var. polonicum,1
+1225,Cronobacter phage CR9,1
+1226,Tembusu virus,1
+1227,Marinitoga hydrogenitolerans Postec et al. 2005,1
+1228,Candidatus Liberibacter asiaticus Jagoueix et al. 1994,1
+1229,Candidatus Chloracidobacterium thermophilum B,1
+1230,Cytomegalovirus,1
+1231,Droseraceae Salisb.,1
+1232,Candida bombicola,1
+1233,Eliokarmos dubius F.M.Leight,1
+1234,Bifidobacterium pseudocatenulatum Scardovi et al. 1979,1
+1235,Proteus genomosp. 1,1
+1236,Agaricus eryngii DC.,1
+1237,Leptothrix buccalis Robin 1853,1
+1238,Cytophaga marina (ex Hikida et al. 1979) Reichenbach 1989,1
+1239,Macrohyporia cocos (Schwein.) I. Johans. & Ryvarden,1
+1240,Symbiodinium Freudenthal,1
+1241,Asian seabass,1
+1242,Emcibacter congregatus,1
+1243,Convolvulaceae Juss.,1
+1244,Bean yellow dwarf virus,1
+1245,purple osier,1
+1246,Burkholderia megapolitana,1
+1247,CAMV,1
+1248,Thermoascus aurantiacus Miehe,1
+1249,Allodiplogaster sudhausi (Furst von Lieven,1
+1250,Trichomonas vaginalis,1
+1251,Peronophythora litchii C.C. Chen,1
+1252,Chlorella sorokiniana,1
+1253,Aromatoleum aromaticum Rabus et al. 2019,1
+1254,Methylocystis sp.,1
+1255,Propionibacterium Orla-Jensen 1909 (Approved Lists 1980) emend. Charfreitag et al. 1988,1
+1256,Hemisorghum C.E.Hubb. ex Bor,1
+1257,Mimulus L.,1
+1258,HDV,1
+1259,Crassostrea virginica,1
+1260,Falco peregrinus,1
+1261,Coccomyxa,1
+1262,Pectobacterium parmentieri Khayi et al. 2016,1
+1263,Vibrio cholerae O1,1
+1264,Haloferax,1
+1265,Sulfolobus islandicus LAL14/1,1
+1266,Trypanosoma evansi,1
+1267,Backusia terricola,1
+1268,Streptomyces formicae Bai et al. 2016,1
+1269,Candida famata,1
+1270,Leuconostoc blayaisense,1
+1271,Haemophilus parainfluenzae Rivers 1922,1
+1272,Thermoanaerobacter ethanolicus,1
+1273,Streptococcus canis Devriese et al. 1986,1
+1274,Aurantiochytrium sp.,1
+1275,Mesocricetus,1
+1276,marmosets,1
+1277,Shewanella sp. S4,1
+1278,Ca. Methylacidiphilum kamchatkense,1
+1279,Phytophthora colocasiae,1
+1280,Lophiotrema sp.,1
+1281,Penicillium decumbens,1
+1282,Brassica campestris ssp. rapifera,1
+1283,Actinobacillus porcitonsillarum Gottschalk et al. 2003,1
+1284,blotched snakehead,1
+1285,Clostridium saccharoperbutylacetonicum Keis et al. 2001,1
+1286,Aspergillus leporis,1
+1287,Physarum polycephalum,1
+1288,lygus bug,1
+1289,Vibrio sp. SW3,1
+1290,Meiothermus ruber (Loginova et al. 1984) Nobre et al. 1996,1
+1291,Acidianus tailed spindle virus,1
+1292,Pseudomonas oryzae Uyeda and Ishiyama in Ishiyama 1926,1
+1293,Cephalosporium proliferatum Matsush.,1
+1294,Blauracke,1
+1295,Macrobrachium nipponense (De Haan,1
+1296,Tylenchoidea,1
+1297,Capsaspora owczarzaki Hertel,1
+1298,American blueberry,1
+1299,Caenorhabditis,1
+1300,Penicillium rubens Biourge,1
+1301,Bacille granuleux Jungano 1909,1
+1302,Aphelenchoides xylophilus Steiner & Buhrer,1
+1303,Alteromonas putrefaciens (ex Derby and Hammer) Lee et al. 1981,1
+1304,dwarf rainbowfish,1
+1305,Acyrthosiphon pisum (Harris,1
+1306,Moritella viscosa (Lunder et al. 2000) Benediktsdottir et al. 2000,1
+1307,Photorhabdus luminescens (Poinar and Thomas 1979) (sic) Boemare et al. 1993,1
+1308,Halanaerobium corrig. Zeikus et al. 1984,1
+1309,Collwelliaphage 9A,1
+1310,Hypsibius dujardini strain Z151,1
+1311,Perilla L.,1
+1312,avian infectious bronchitis coronavirus IBV,1
+1313,Chaetoceros muellerii,1
+1314,Anopheles farauti 1,1
+1315,Pelteobagrus fulvidraco (Richardson,1
+1316,Amycolatopsis sp.,1
+1317,Methaniculleus,1
+1318,Carrizo citrange,1
+1319,Poinsettia mosaic virus,1
+1320,Hydrotalea sp.,1
+1321,Pseudogymnoascus verrucosus A.V. Rice & Currah,1
+1322,Hollrungia K.Schum.,1
+1323,Wuhan nodavirus,1
+1324,Meriones unguiculatus,1
+1325,pears,1
+1326,Human rhinovirus,1
+1327,Campylobacter,1
+1328,Euglenida sp. AY-2011,1
+1329,Sanduri wheat,1
+1330,Desulfobacterota,1
+1331,K1gvirus,1
+1332,Closterium Nitzsch ex Ralfs,1
+1333,ornamental nightshade,1
+1334,Arthrobacter agilis (Ali-Cohen 1889) Koch et al. 1995,1
+1335,Aspergillus carbonarius (Bainier) Thom,1
+1336,Chorocaris variabilis,1
+1337,Bactrocera (Bactrocera) correcta,1
+1338,Gnorimoschema absoluta,1
+1339,Eragrostis tef,1
+1340,fathead minnow,1
+1341,Wolbachia Hertig 1936,1
+1342,Artemisia annua L.,1
+1343,Providencia sp. OP1,1
+1344,Lactobacillus ferintoshensis Simpson et al. 2002,1
+1345,Mytilidae,1
+1346,Aliarcobacter butzleri corrig. (Kiehlbauch et al. 1991) Perez-Cataluna et al. 2019,1
+1347,Human bocaparvovirus 1,1
+1348,Brassicaceae Burnett,1
+1349,Leptospira sp. AB,1
+1350,Synechococcus elongatus PCC 11801,1
+1351,Rummeliibacillus sp. G20,1
+1352,Riboviria,1
+1353,DNA viruses,1
+1354,Hofstenia miamia Correa,1
+1355,Penicillium funiculosum,1
+1356,Limosilactobacillus,1
+1357,Streptococcus mitis Andrewes and Horder 1906 (Approved Lists 1980) emend. Kilian et al. 1989,1
+1358,Nannochloropsis IMET1,1
+1359,bryophytes,1
+1360,creeping white clover,1
+1361,Chironomidae,1
+1362,Bacteroides symbiosus Stevens 1956,1
+1363,TBSV,1
+1364,Plasmodium,1
+1365,bats,1
+1366,Photobacter Beijerinck 1900,1
+1367,Actinobaculum schaalii Lawson et al. 1997,1
+1368,Leptomonas pyrrhocoris,1
+1369,Nodularia spumigena UHCC 0039,1
+1370,Aureobasidium melanogenum (Hermanides-Nijhof) Zalar,1
+1371,Calymmatobacterium Aragao and Vianna 1913,1
+1372,Serratia Bizio 1823,1
+1373,Lysobacter Christensen and Cook 1978 (Approved Lists 1980) emend. Park et al. 2008,1
+1374,Chrysanthemum cinerariaefolium,1
+1375,Panax L.,1
+1376,Stylonychia,1
+1377,abalone,1
+1378,Thlaspi arvense L.,1
+1379,Ignavibacterium Iino et al. 2010 emend. Podosokorskaya et al. 2013,1
+1380,lulo,1
+1381,Escherichia coli DH5[alpha],1
+1382,Anoxybacillus flavithermus Pikuta et al. 2000,1
+1383,Aspergillus oryzae RIB40,1
+1384,Aplanobacter michiganense (sic) (Smith 1910) Smith 1914,1
+1385,Bacillus acnes Gilchrist 1900,1
+1386,Human DNA virus,1
+1387,Psychodidae,1
+1388,Ectocarpus,1
+1389,Pomacea canaliculata (Lamarck,1
+1390,Bordetella Moreno-Lopez 1952 (Approved Lists 1980) emend. Von Wintzingerode et al. 2001,1
+1391,Enteromorpha prolifera,1
+1392,Anisakis,1
+1393,Bacillus coagulans Hammer 1915 (Approved Lists 1980),1
+1394,Wolffia australiana,1
+1395,Acanthamoeba castellanii (Douglas 1930),1
+1396,Magallana gigas,1
+1397,Escherichia flexneri,1
+1398,Lotus corniculatus var. japonicus Regel,1
+1399,Picea glauca (Moench) Voss,1
+1400,Flavobacterium okeanokoites (IFO 12536),1
+1401,Micropolyspora Lechevalier et al. 1961,1
+1402,Campylobacter coli (Doyle 1948) Veron and Chatelain 1973,1
+1403,Fusarium pseudograminearum O'Donnell & T. Aoki,1
+1404,Acetobacter sp. LMG 1524,1
+1405,Erwinia carotovora subsp. wasabiae Goto and Matsumoto 1987,1
+1406,Candida lodderae,1
+1407,Cheiranthus,1
+1408,Dendrolimus punctatus,1
+1409,classical swine fever virus CSFV,1
+1410,Japanese lawn grass,1
+1411,Salinarimonas Liu et al. 2010,1
+1412,Methanosarcina spherical virus,1
+1413,Acetivibrio thermocellus DSM 1313,1
+1414,Leptotrichia,1
+1415,Parazoa,1
+1416,Streptococcus thermophilus DGCC 7710,1
+1417,Ricinus L.,1
+1418,moutan peony,1
+1419,Lottia goshimai Nakayama,1
+1420,Bacterium acidi propionici a,1
+1421,Amoeba,1
+1422,Acidianus hospitalis strain W1,1
+1423,Canine parvovirus 2,1
+1424,Potexvirus,1
+1425,Clostridia Rainey 2010,1
+1426,Xanthomonas axonoperis (sic) Starr and Garces 1950,1
+1427,Anthracocystis flocculosa,1
+1428,respiratory syncytial virus RS,1
+1429,ginger,1
+1430,Penicillium dupontii Griffon & Maubl.,1
+1431,Lepeophtheirus salmonis (Kroyer,1
+1432,Bacillus pseudotuberculosis Buchanan 1911,1
+1433,Penicillium funiculosum NCIM1228,1
+1434,Saccharomyces eubayanus Sampaio,1
+1435,Aspergillus niger ATCC 1015,1
+1436,Epichloe festucae Leuchtm.,1
+1437,Aliioceanicola lipolyticus (Huang et al. 2018) Liang et al. 2021,1
+1438,Streptococcus Rosenbach 1884,1
+1439,Sedum L.,1
+1440,Leptospira interrogans serovar Lai,1
+1441,CDC Enteric Group 10,1
+1442,Euphorbia pulcherrima,1
+1443,Polypedilum vanderplanki Hinton,1
+1444,Clostridia bacterium RL80JIV,1
+1445,Opium poppies mosaic virus,1
+1446,Acidithiobacillia,1
+1447,Micromonospora echinospora Luedemann and Brodsky 1964 (Approved Lists 1980) emend. Kasai et al. 2000,1
+1448,Bacillus sporogenes var. A Metchnikoff 1908,1
+1449,Lycium ruthenicum Murray,1
+1450,Acidivorax citrulli,1
+1451,Brettanomyces bruxellensis Kufferath & Van Laer,1
+1452,blacklegged tick,1
+1453,Indian meal moth,1
+1454,Andropogon drummondii Steud.,1
+1455,Litchi,1
+1456,Ferroglobus placidus Hafenbradl et al. 1997,1
+1457,Bacteriophage T4,1
+1458,Cavia,1
+1459,Actinomyces eriksonii,1
+1460,Bacteroides denticola Shah and Collins 1982 emend. Holdeman and Johnson 1982,1
+1461,Shewanella sp.,1
+1462,Reichenbachia Nedashkovskaya et al. 2003,1
+1463,Euprosterna elaeasa virus,1
+1464,Ectromelia mousepox virus,1
+1465,Aspergillus novofumigatus S.B. Hong,1
+1466,Staphylococcus pseudintermedius Devriese et al. 2005,1
+1467,Ralstonia,1
+1468,anaerobic ammonium oxidizing bacterium BS5,1
+1469,chimpanzee,1
+1470,Acetigenium,1
+1471,Nibea mitsukurii (Jordan & Snyder,1
+1472,Pelargonium flower break carmovirus,1
+1473,pufferfishes and others,1
+1474,Allobaculum sp. Alo17,1
+1475,Penicillium brasilianum Batista,1
+1476,arabica coffee,1
+1477,Micraloa aeruginosa Kutzing,1
+1478,Escherichia coli MG1655,1
+1479,Schizophyllum commune Fr.,1
+1480,Anaerobacter Duda et al. 1996,1
+1481,Fromanvirus D29,1
+1482,Trypanosoma equiperdum,1
+1483,Jishengella,1
+1484,Capitella sp. I AF-2005,1
+1485,Panagrolaimus sp.,1
+1486,Enterovirus C,1
+1487,Erwinia,1
+1488,Methanosarcina barkerii (sic) Schnellen 1947,1
+1489,ferns,1
+1490,barnacles,1
+1491,larches,1
+1492,pear,1
+1493,Bacterium freundii Braak 1928,1
+1494,commercial sponge,1
+1495,Oceanimonas smirnovii Ivanova et al. 2005,1
+1496,Actinomyces bovis farcinicus Gasperini 1894,1
+1497,Afipia carboxidovorans (Meyer et al. 1994) Hordt et al. 2020,1
+1498,Haemophilus equigenitalis,1
+1499,Penicillium sp. 15.3,1
+1500,Bacillus acidophilus Moro 1900,1
+1501,Plasmodium knowlesi,1
+1502,Pea enation mosaic virus-2,1
+1503,Catomerus polymerus,1
+1504,Bryophyllum fedtschenkoi (Raym.-Hamet & H.Perrier) Lauz.-March.,1
+1505,Fusarium circinatum Nirenberg & O'Donnell,1
+1506,Dietzia sp.,1
+1507,Sulfurovum Inagaki et al. 2004 emend. Mino et al. 2014,1
+1508,Avibirnavirus,1
+1509,Dehalococcoides ethenogenes Maymo-Gatell et al. 1997,1
+1510,potato virus X,1
+1511,Alicyclobacillus acidoterrestris (Deinhard et al. 1988) Wisotzkey et al. 1992,1
+1512,Dendrocalamus latiflorus Munro,1
+1513,Cryptococcus deneoformans Hagen & Boekhout,1
+1514,Phytoconis purpurea Bory de Saint-Vincent,1
+1515,Chondrococcus columnaris (Davis 1922) Ordal and Rucker 1944,1
+1516,Faecalibacterium Duncan et al. 2002,1
+1517,Flavobacterium Bergey et al. 1923 (Approved Lists 1980) emend. Bernardet et al. 1996,1
+1518,Oceanisphaera sp.,1
+1519,Coxsackievirus,1
+1520,Companilactobacillus crustorum (Scheirlinck et al. 2007) Zheng et al. 2020,1
+1521,plum,1
+1522,Engraulis japonica,1
+1523,Contagious pustular dermatitis virus,1
+1524,Amphipoda,1
+1525,Ascosphaera apis (Maasen ex Claussen) L.S. Olive & Spiltoir,1
+1526,Blastocrithidia Laird,1
+1527,Avulavirus,1
+1528,Magnetospirillum magneticum AMB-1,1
+1529,Amycolatopsis keratiniphila Al-Musallam et al. 2003,1
+1530,Rhodosporidium kratochvilovae Hamam.,1
+1531,Leptotrichia shahii Eribe et al. 2004,1
+1532,Streptomyces lincolnensis Mason et al. 1963,1
+1533,Penicillium subrubescens Houbraken,1
+1534,Halorussus Cui et al. 2014,1
+1535,Bacillus sp. JP44SK2,1
+1536,Aspergillus niger SH-2,1
+1537,Thermococcus sp. OGL-20P,1
+1538,Astatotilapia calliptera (Gunther,1
+1539,Cupriavidus Makkar and Casida 1987 emend. Vandamme and Coenye 2004,1
+1540,Methanothermococcus,1
+1541,Thermoanaerobacterium aotearoense SCUT27,1
+1542,common lizard,1
+1543,Nitrospira,1
+1544,IHNV,1
+1545,methanogenic archaeon,1
+1546,TCV,1
+1547,Actinomyces hygroscopicus Jensen 1931,1
+1548,Mahella australiensis Bonilla Salinas et al. 2004,1
+1549,SSV1,1
+1550,Microcystis sp.,1
+1551,candidate division TM7,1
+1552,Asiatic ginseng,1
+1553,Porphyromonas gulae Fournier et al. 2001 emend. Hahnke et al. 2016,1
+1554,Nannochloropsis salina CCMP1776,1
+1555,Puccinia striiformis,1
+1556,Atractylodes DC.,1
+1557,Plantago asiatica mosaic potexvirus,1
+1558,Aphanizomenon flos-aquae Ralfs ex Bornet and Flahault,1
+1559,Branhamella Catlin 1970 (Approved Lists 1980),1
+1560,Beet yellow stunt virus,1
+1561,Arthrospira platensis Gomont,1
+1562,sages,1
+1563,Candidatus Nitrososphaera gargensis Hatzenpichler et al. 2008,1
+1564,Colletotrichopsis graminicola,1
+1565,Bifidobacterium longum Reuter 1963,1
+1566,Amycolatopsis mediterranei (Margalith and Beretta 1960) Lechevalier et al. 1986,1
+1567,Acetobacter oboediens Sokollek et al. 1998,1
+1568,Bifidobacterium longum subsp. longum Reuter 1963,1
+1569,Talaromyces atroroseus N. Yilmaz,1
+1570,Ectropis grisescens,1
+1571,Paenarthrobacter Busse 2016,1
+1572,Listeria monocytogenes serotype 4c,1
+1573,Actinomyces griseus Krainsky 1914,1
+1574,Thymus mandschuricus Ronning,1
+1575,Platynereis,1
+1576,Caeoma trichophorum Link,1
+1577,Lutzomyia longipalpis (Lutz & Neiva,1
+1578,Cavendish banana,1
+1579,Apocrita,1
+1580,Litopenaeus vannamei (Boone,1
+1581,Salmonella enterica serovar Newport,1
+1582,Festuca arundinacea Schreb.,1
+1583,Cotton leaf crumple geminivirus,1
+1584,Bacillus mucosus anaerobius Prausnitz 1922,1
+1585,Chlorella kessleri Fott & Novakova,1
+1586,Halolamina sp.,1
+1587,Botrytis virus F,1
+1588,Andrias davidianus (Blanchard,1
+1589,Chaetomium globosum Kunze ex Fr. 1829,1
+1590,Uncaria rhynchophylla Miq.,1
+1591,Alcaligenes sp. BR60,1
+1592,Lyssavirus rabies,1
+1593,Lupinus angustifolius L.,1
+1594,Actinomadura sp. ATCC 39727,1
+1595,Pseudomonas aeruginosa F8-like bacteriophage S,1
+1596,Rubella virus,1
+1597,Rickettsia parkeri Lackman et al. 1965,1
+1598,asparagus broccoli,1
+1599,Cicer L.,1
+1600,Acetimonas aceti (Pasteur 1864) Orla-Jensen 1909,1
+1601,B19 virus,1
+1602,Azotobacter Beijerinck 1901,1
+1603,Arcoscalpellum epeeum Chan,1
+1604,Cytosporina septospora Dorogin,1
+1605,Oenanthe javanica (Blume) DC.,1
+1606,Cardamine hirsuta L.,1
+1607,Alicyclobacillus,1
+1608,Methylosinus trichosporium OB3b,1
+1609,Aphelenchoides besseyi Christie,1
+1610,Stylonychia lemnae,1
+1611,Goatpox virus,1
+1612,Fabaceae Lindl.,1
+1613,Chinese licorice,1
+1614,SCMV,1
+1615,Methanococcus thermolithotrophicus Huber et al. 1984,1
+1616,Culex fatigans,1
+1617,Bicyclus anynana (Butler,1
+1618,Mentha cablin Blanco,1
+1619,northern bluefin tuna,1
+1620,Symbiodinium microadriaticum Freudenthal 1962,1
+1621,Aspergillus luchuensis,1
+1622,Brassica alboglabra L.H.Bailey,1
+1623,Selachii,1
+1624,Hydrotalea Kampfer et al. 2011 emend. Albuquerque et al. 2012,1
+1625,Rhodanobacter denitrificans Prakash et al. 2012,1
+1626,African oil palm,1
+1627,Asteraceae Bercht. & J.Presl,1
+1628,Spodoptera depravata (Butler,1
+1629,Ostreidae,1
+1630,Acidivorax avenae,1
+1631,croceine croaker,1
+1632,Chenggangzhangella methanolivorans,1
+1633,Stenotrophomonas sp. O,1
+1634,Toxoplasma gondii RH,1
+1635,baboon,1
+1636,Ruegeria sp. K2,1
+1637,Amphimonas caudatus Dujardin,1
+1638,Human betaherpesvirus 6A,1
+1639,Bilamista grandiflora Raf.,1
+1640,Columbiformes,1
+1641,Ophidia,1
+1642,ALV,1
+1643,Populus davidiana Dode,1
+1644,Deinococcus wulumuqiensis DSM 28115,1
+1645,Anabaena raciborskii,1
+1646,Betula L.,1
+1647,Sulfolobus spindle-shaped virus,1
+1648,Enterocytozoon hepatopenaei,1
+1649,Bacillus choshinensis,1
+1650,Rhodococcus sp.,1
+1651,duckweed,1
+1652,Photuris,1
+1653,Citrus leaf blotch virus,1
+1654,Tylenchida,1
+1655,Streptococcus infantarius subsp. coli Schlegel et al. 2000,1
+1656,holly oak,1
+1657,Leucania inferens,1
+1658,Achromobacter sewerinii Bergey et al. 1923,1
+1659,Pyrococcus Fiala and Stetter 1986,1
+1660,Pseudomonas oleovorans Lee and Chandler 1941 emend. Saha et al. 2010,1
+1661,Volvox carteri F.Stein,1
+1662,Nocardia cyriacigeorgica corrig. Yassin et al. 2001,1
+1663,Oscillatoria agardhii Gomont,1
+1664,Candidatus Nanoclepta minutus,1

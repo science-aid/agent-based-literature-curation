@@ -2,9 +2,9 @@
 
 ## What is this?
 
-**AIエージェント（BioMNI）を使ったノイズの少ない論文セット取得の検証**
+**AIエージェント（Biomni）を使ったノイズの少ない論文セット取得の検証**
 
-This research validates a method for obtaining high-quality, low-noise literature sets using AI agents (BioMNI) for scientific paper curation.
+This research validates a method for obtaining high-quality, low-noise literature sets using AI agents (Biomni) for scientific paper curation.
 
 ---
 
@@ -12,8 +12,8 @@ This research validates a method for obtaining high-quality, low-noise literatur
 
 We tested **three different approaches** for literature curation and validated their performance by comparing **Precision** scores:
 
-- **Default BioMNI**: Standard biological entity recognition
-- **Custom BioMNI**: Domain-optimized configuration
+- **Default Biomni**: Standard biological entity recognition
+- **Custom Biomni**: Domain-optimized configuration
 - **PubTator**: NCBI's annotation system
 
 !!! note "Performance Metrics"

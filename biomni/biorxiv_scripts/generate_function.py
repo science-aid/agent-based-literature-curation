@@ -5,13 +5,16 @@ import argparse
 import json
 import os
 
-from biomni.agent.function_generator import FunctionGenerator
 from tqdm import tqdm
+
+from Biomni.agent.function_generator import FunctionGenerator
 
 
 def main():
     """Main function for the command-line tool."""
-    parser = argparse.ArgumentParser(description="Generate Python functions given task descriptions")
+    parser = argparse.ArgumentParser(
+        description="Generate Python functions given task descriptions"
+    )
     parser.add_argument(
         "--task",
         "-t",
@@ -55,7 +58,13 @@ def main():
         print("No tasks found.")
     else:
         # tqdm shows a progress bar, file names as description
-        for _i, desc in enumerate(tqdm(task_descriptions, desc="Generating Python scripts given task descriptions"), 1):
+        for _i, desc in enumerate(
+            tqdm(
+                task_descriptions,
+                desc="Generating Python scripts given task descriptions",
+            ),
+            1,
+        ):
             generated_script_name, generated_codes = function_generator.go(desc)
 
             # Save results
