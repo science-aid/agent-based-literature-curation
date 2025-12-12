@@ -26,6 +26,22 @@ Our custom Biomni approach achieved higher precision in identifying relevant non
 
 Presented at the 48th Annual Meeting of the Molecular Biology Society of Japan (第48回日本分子生物学会年会), December 3-6, 2025
 
+## Getting Started
+
+### Prerequisites
+
+- Docker installed on your system
+
+### Setup
+
+#### 1. Build the Docker Image
+
+```bash
+docker build -f setup/Dockerfile -t res-agent .
+```
+
+This will create a Docker image named `res-agent` with all necessary dependencies for running the AI agent.
+
 ## Data Availability
 
 **Note**: Full dataset and analysis code will be made available shortly after the conference presentation.

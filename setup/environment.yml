@@ -1,0 +1,29 @@
+name: res-agent
+channels:  
+  - conda-forge  
+  - defaults  
+dependencies:  
+  - python=3.11  
+  - pip  
+  - pip:  
+      - numpy==2.1  
+      - pandas  
+      - matplotlib  
+      - scipy  
+      - scikit-learn  
+      - langchain  
+      - langgraph==0.3.18  
+      - langchain_openai  
+      - langchain_anthropic  
+      - langchain_community  
+      - langchain-ollama
+      - openai  
+      - beautifulsoup4  
+      - tqdm  
+      - requests  
+      - pyyaml  
+      - jupyter  
+      - notebook  
+      - ipykernel  
+      - python-dotenv  
+      - mcp

@@ -1,0 +1,34 @@
+name: res-agent
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - pip:
+    - biopython
+    - biopandas
+    - opencv-python
+    - rdkit
+    # - pymc3  # ARM64互換性確認が必要
+    # - cryosparc-tools  # ARM64互換性確認が必要
+    # - scikit-image
+    - googlesearch-python
+    - PyPDF2
+    - gget
+    - faiss-cpu
+    # - scikit-bio  # biom-format依存でARM64ビルドエラー
+    - pymed
+    - arxiv
+    # - scholarly
+    - harmony-pytorch
+    - pytdc==0.4.0
+    # - openmm  # ARM64で利用不可
+    # - pystan  # ARM64で利用不可
+    - igraph
+    - cooler
+    - trackpy
+    - flowcytometrytools
+    - python-libsbml
+    - cobra
+    - reportlab
+    - community

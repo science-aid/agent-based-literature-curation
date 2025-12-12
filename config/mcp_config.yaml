@@ -1,0 +1,28 @@
+# MCP Server Config
+mcp_servers:
+  # PaperAnnotator MCP Server
+  paper_annotator:
+    command: ["python", "-m", "servers.PaperAnnotator-MCP-Server.server"]
+    working_directory: "/app"
+    enabled: true
+    tools:
+      - biomni_name: query_ncbi_taxonomy
+        description: "Convert between taxonomy ID and species name. CRITICAL: To get taxonomic class (Mammalia, Actinopterygii, etc.), you MUST use taxonomy ID as input. Two-step workflow for class: (1) species_name → taxonomy_id with query_type='name_to_id', (2) taxonomy_id → species_name + class with query_type='id_to_name'. MUST use keyword arguments."
+        parameters:
+          query: {type: string, required: true, description: "Taxonomy ID (e.g., '9606') or species name (e.g., 'Homo sapiens'). Use keyword argument: query='9606'"}
+          query_type: {type: string, required: false, default: "auto", enum: ["auto", "id_to_name", "name_to_id"], description: "Query type. Use keyword argument: query_type='id_to_name'. 'id_to_name' returns dict with species_name and class. 'name_to_id' returns taxonomy_id string."}
+
+      - biomni_name: query_ncbi_gene
+        description: "Get gene information from NCBI Gene database. CRITICAL: To get gene ID from gene name, you MUST provide species_id (taxonomy ID) + gene_name with query_type='species_and_name_to_id'. Workflow: (species_id='9606' + gene_name='TP53') → gene_id='7157'. MUST use keyword arguments."
+        parameters:
+          query: {type: string, required: true, description: "Gene ID (e.g., '7157') or gene name (e.g., 'TP53'). Use keyword argument: query='7157'"}
+          query_type: {type: string, required: false, default: "auto", enum: ["auto", "id_to_info", "id_to_name", "species_and_name_to_id"], description: "Query type. Use keyword argument: query_type='id_to_info'. 'id_to_info' returns full gene info. 'id_to_name' returns gene symbol. 'species_and_name_to_id' requires species_id parameter."}
+          species_id: {type: string, required: false, description: "Taxonomy ID (e.g., '9606'). Use keyword argument: species_id='9606'. REQUIRED when query_type='species_and_name_to_id' or when using gene name with auto mode."}
+
+      - biomni_name: save_confirmed_paper_annotation
+        description: "Save verified paper annotation to papers_database.json. MUST call this tool IMMEDIATELY AFTER completing annotation verification for EACH PAPER using query_ncbi_taxonomy and query_ncbi_gene. CRITICAL: species_gene_list is a list of dicts where EACH dict represents ONE (species, gene) PAIR. If a paper has 2 species and 3 genes, create 6 dicts (2×3 Cartesian product). If no genes found, use empty gene_name and gene_id. If no species found, use empty species fields."
+        parameters:
+          pmid: {type: string, required: true, description: "Paper ID (e.g., '12345678')"}
+          species_gene_list: {type: array, required: true, description: "List of dicts (list[dict]). EACH dict = ONE (species, gene) pair: {species_name: str, species_id: str, species_class: str, gene_name: str, gene_id: str}. CRITICAL EXAMPLES: (1) Paper with 1 species + 2 genes → 2 dicts. (2) Paper with 2 species + 1 gene → 2 dicts. (3) Paper with 2 species + 0 genes → 2 dicts with empty gene fields. (4) Paper with 0 species + 1 gene → 1 dict with empty species fields. Example: [{\"species_name\": \"Homo sapiens\", \"species_id\": \"9606\", \"species_class\": \"Mammalia\", \"gene_name\": \"TP53\", \"gene_id\": \"7157\"}, {\"species_name\": \"Homo sapiens\", \"species_id\": \"9606\", \"species_class\": \"Mammalia\", \"gene_name\": \"MDM2\", \"gene_id\": \"4193\"}]"}
+          gene_research_types: {type: array, required: true, description: "List of strings (list[str]). Each string is a research type. Example: [\"Gene Expression Analysis\"]. Valid: Gene Identification Analysis, Functional Annotation via Ortholog/Homolog Comparison, Gene Expression Analysis, Phylogenetic and Evolutionary Analysis, Functional Validation and Applied Research"}
+          output_path: {type: string, required: false, default: "papers_database.json", description: "Output JSON file path"}

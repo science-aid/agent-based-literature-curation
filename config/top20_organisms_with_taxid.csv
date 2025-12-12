@@ -1,0 +1,21 @@
+species_name,english_name,NCBI_taxonomy_id,rank,count
+Homo sapiens,human,9606,1,63078
+Mus musculus,house mouse,10090,2,20332
+Danio rerio,zebrafish,7955,3,4263
+Rattus norvegicus,Norway rat,10116,4,2412
+Drosophila melanogaster,fruit fly,7227,5,1585
+Arabidopsis thaliana,thale cress,3702,6,1504
+Sus scrofa,pig,9823,7,1188
+Escherichia coli,E. coli,562,8,833
+Saccharomyces cerevisiae,brewer's yeast,4932,9,649
+Solanum lycopersicum,tomato,4081,10,635
+Caenorhabditis elegans,NotFound,6239,11,633
+Bos taurus,domestic cattle,9913,12,631
+Gallus gallus,chicken,9031,13,501
+Oryza sativa,Asian cultivated rice,4530,14,432
+Glycine max,soybean,3847,15,337
+Severe acute respiratory syndrome coronavirus 2,NotFound,2697049,16,299
+Zea mays subsp. mays,maize,381124,17,276
+Bombyx mori,domestic silkworm,7091,18,248
+Ovis aries,sheep,9940,19,175
+Streptococcus pyogenes,NotFound,1314,20,162
