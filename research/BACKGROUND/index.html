@@ -1,0 +1,551 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="AI agent-based system for precision literature curation for non-model organism genetics research">
+      
+      
+        <meta name="author" content="Takayuki Suzuki">
+      
+      
+        <link rel="canonical" href="https://science-aid.github.io/agent-based-literature-curation/research/BACKGROUND/">
+      
+      
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.0">
+    
+    
+      
+        <title>Background - Agent-based Literature Curation</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.618322db.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#background" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Agent-based Literature Curation" class="md-header__button md-logo" aria-label="Agent-based Literature Curation" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Agent-based Literature Curation
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Background
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Agent-based Literature Curation" class="md-nav__button md-logo" aria-label="Agent-based Literature Curation" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Agent-based Literature Curation
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#research-context" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Research Context
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Research Context">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#scientific-importance-of-non-model-organism-genetics" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Scientific Importance of Non-Model Organism Genetics
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#problem-statement" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Problem Statement
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Problem Statement">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#current-limitations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Current Limitations
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#motivation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Motivation
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Motivation">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#hypothesis" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Hypothesis
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#validation-of-species-recognition-performance" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Validation of Species Recognition Performance
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ai-agent-based-approach" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        AI Agent-Based Approach
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#related-work" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Related Work
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Related Work">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#existing-literature-annotation-systems" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Existing Literature Annotation Systems
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#gap-in-current-approaches" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Gap in Current Approaches
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="background">Background</h1>
+<h2 id="research-context">Research Context</h2>
+<p>The systematic identification and curation of genetic research literature on non-model organisms represents a critical challenge in modern biological sciences. While model organisms such as <em>Escherichia coli</em>, <em>Drosophila melanogaster</em>, and <em>Mus musculus</em> have historically dominated genetic research, non-model organisms harbor essential biological insights that cannot be fully captured through model species alone.</p>
+<h3 id="scientific-importance-of-non-model-organism-genetics">Scientific Importance of Non-Model Organism Genetics</h3>
+<p>Non-model organisms are crucial for advancing multiple domains of biological research:</p>
+<p><strong>Biodiversity and Functional Diversity</strong>: Non-model organisms frequently exhibit metabolic pathways, adaptation mechanisms, and protein diversity that are absent in conventional model systems. These unique features are essential for comprehensive understanding in evolutionary biology and ecology.</p>
+<p><strong>Applied Biotechnology Potential</strong>: Non-model organisms serve as repositories for novel enzymes, natural product biosynthesis pathways, and stress resistance mechanisms (e.g., salt tolerance, drought resistance, disease resistance), offering substantial biotechnological applications.</p>
+<p><strong>Phylogenetics and Comparative Genomics</strong>: Robust phylogenetic positioning and gene family evolution analyses require broad taxonomic sampling that extends beyond model organisms.</p>
+<p><strong>Addressing Taxonomic Bias</strong>: Over-reliance on model organisms introduces systematic biases in biological research. Incorporating non-model organisms enables validation of generalizable biological principles and mitigates taxonomic bias in the literature.</p>
+<h2 id="problem-statement">Problem Statement</h2>
+<p>Despite their scientific value, identifying relevant genetic research on non-model organisms presents substantial challenges:</p>
+<h3 id="current-limitations">Current Limitations</h3>
+<p><strong>Labor-Intensive Manual Curation</strong>: To our knowledge, no automated or systematic method exists for efficiently identifying non-model organism genetics papers from large literature databases. Current approaches require extensive manual review of:</p>
+<ul>
+<li>Individual examination of titles, abstracts, and MeSH terms across thousands of publications (e.g., 4,940 papers)</li>
+<li>Strategic database queries requiring expert knowledge of biological nomenclature</li>
+<li>Iterative searches across multiple databases (e.g., NCBI Gene, NCBI Taxonomy)</li>
+<li>Structured extraction of gene names, gene IDs, species names, taxonomy IDs, taxonomic classifications (class level), and research types</li>
+</ul>
+<p><strong>Complexity Beyond Traditional Workflows</strong>: Literature screening for non-model organism genetics requires:</p>
+<ul>
+<li>Multiple decision points requiring domain expertise</li>
+<li>Autonomous task execution with adaptive query formulation</li>
+<li>Integration of information across heterogeneous biological databases</li>
+<li>Contextual understanding that cannot be captured by rule-based or simple keyword-matching approaches</li>
+</ul>
+<p>These characteristics make traditional mechanical workflows insufficient, necessitating more sophisticated AI-based solutions.</p>
+<h2 id="motivation">Motivation</h2>
+<h3 id="hypothesis">Hypothesis</h3>
+<p>We hypothesize that existing automated literature annotation systems, particularly PubTator, exhibit high false-negative rates for gene annotations in non-model organisms. While PubTator demonstrates robust performance for species recognition (evidenced by high Named Entity Recognition and Linking performance in PubTator3 evaluations), its gene annotation capabilities for non-model organisms remain questionable.</p>
+<h3 id="validation-of-species-recognition-performance">Validation of Species Recognition Performance</h3>
+<p>To validate our hypothesis, we examined PubTator's species recognition performance on non-model organisms:</p>
+<ul>
+<li>PubTator3 evaluation dataset analysis revealed that <strong>85.93% (104/635) of test cases represented non-model organisms</strong> (AIONER test data: https://github.com/ncbi/AIONER/blob/main/data/pubtator/SPECIES_Test.PubTator)</li>
+<li>Species NER and entity linking showed high performance metrics in these evaluations</li>
+<li>Results are documented in <code>data/species_match</code> (validation performed using <code>scripts/check_species_match.py</code>)</li>
+</ul>
+<p><strong>Working Assumption</strong>: Based on this evidence, we proceed under the assumption that PubTator's species recognition is reliable, and focus our investigation on potential limitations in gene annotation for non-model organisms.</p>
+<h3 id="ai-agent-based-approach">AI Agent-Based Approach</h3>
+<p>Given the complexity of multi-step decision-making, database integration, and contextual interpretation required for literature curation, we propose an <strong>AI agent-based approach</strong> as the appropriate solution. AI agents can:</p>
+<ul>
+<li>Autonomously navigate complex decision trees for literature evaluation</li>
+<li>Perform iterative database queries with adaptive query refinement</li>
+<li>Integrate information across multiple biological databases</li>
+<li>Extract and structure relevant metadata (gene names/IDs, species information, taxonomic classifications, research types)</li>
+<li>Scale to large literature corpora with consistent evaluation criteria</li>
+</ul>
+<h2 id="related-work">Related Work</h2>
+<h3 id="existing-literature-annotation-systems">Existing Literature Annotation Systems</h3>
+<p><strong>PubTator</strong>: The NCBI's PubTator system provides automated bioconcept annotation for biomedical literature. While effective for many annotation tasks, its performance on non-model organism gene annotation has not been systematically evaluated.</p>
+<p><strong>Manual Curation</strong>: Gold-standard annotations rely on expert manual curation, which remains prohibitively time-consuming for large-scale literature databases.</p>
+<p><strong>Rule-based Systems</strong>: Traditional keyword-matching and rule-based approaches lack the flexibility and contextual understanding necessary for accurate identification of non-model organism genetics research.</p>
+<h3 id="gap-in-current-approaches">Gap in Current Approaches</h3>
+<p>No existing system combines:
+1. High-precision identification of non-model organism genetics papers
+2. Automated, scalable processing for large literature corpora
+3. Structured extraction of relevant genetic and taxonomic information
+4. Domain-aware decision-making for ambiguous cases</p>
+<p>This research addresses these gaps through the development and evaluation of AI agent-based literature curation systems specifically designed for non-model organism genetics research.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+        
+<div class="md-social">
+  
+    
+    
+    
+    
+    <a href="mailto:takayuki.suzuki@science-aid.com" target="_blank" rel="noopener" title="" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4l208 156a48 48 0 0 0 57.6 0l208-156c12.1-9.1 19.2-23.3 19.2-38.4 0-26.5-21.5-48-48-48zM0 196v188c0 35.3 28.7 64 64 64h384c35.3 0 64-28.7 64-64V196L313.6 344.8c-34.1 25.6-81.1 25.6-115.2 0z"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.instant", "navigation.top", "content.code.copy"], "search": "../../assets/javascripts/workers/search.7a47a382.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.e71a0d61.min.js"></script>
+      
+    
+  </body>
+</html>
