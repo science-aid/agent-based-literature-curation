@@ -1,0 +1,36 @@
+site_name: Agent-based Literature Curation
+site_description: AI agent-based system for precision literature curation for non-model organism genetics research
+site_author: Takayuki Suzuki
+site_url: https://science-aid.github.io/agent-based-literature-curation/
+
+theme:
+  name: material
+  palette:
+    primary: indigo
+    accent: indigo
+  font:
+    text: Roboto
+    code: Roboto Mono
+  features:
+    - navigation.instant
+    - navigation.top
+    - content.code.copy
+
+extra:
+  social:
+    - icon: fontawesome/solid/envelope
+      link: mailto:takayuki.suzuki@science-aid.com
+
+markdown_extensions:
+  - admonition
+  - codehilite
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - attr_list
+  - md_in_html
+
+nav:
+  - Home: index.md
