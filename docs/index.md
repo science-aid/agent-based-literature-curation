@@ -24,13 +24,20 @@ We tested **three different approaches** for literature curation and validated t
 ## Conference Presentation
 
 **Presented at:** The 48th Annual Meeting of the Molecular Biology Society of Japan
-**Date:** December 3-6, 2025
+**Date:** December 3, 2025
 
 ### Presentation Materials
 
-Figures and posters from the conference presentation will be added here shortly.
+**Conference Poster (2024/12/02)**
 
-*Coming soon...*
+<div style="text-align: center; margin: 20px 0;">
+  <a href="20251202_poster.pdf" target="_blank">
+    <embed src="20251202_poster.pdf" type="application/pdf" width="600" height="850" style="border: 1px solid #ccc; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+  </a>
+  <p style="margin-top: 10px; font-size: 0.9em; color: #666;">
+    Click on the poster or <a href="20251202_poster.pdf" download>download the PDF</a> to view in full size.
+  </p>
+</div>
 
 ---
 

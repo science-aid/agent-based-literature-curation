@@ -22,6 +22,7 @@ This study compares three approaches for identifying non-model organism genetics
 - The top 20 model organisms accounted for **92.21%** of all papers in the database
 - Results documented in `config/top20_organisms_with_taxid.csv`
 - Visualization available in `figures/model_species/top20_organisms_bar_chart.png`
+- coverage statistics available in `figures/model_species/coverage_statistics.txt`
 
 **Reference Sources**:
 - NIH Model Organisms FAQ: https://public.csr.nih.gov/FAQs/ReviewersFAQs/ModelOrganisms
