@@ -12,12 +12,20 @@ This research validates a method for obtaining high-quality, low-noise literatur
 
 We tested **three different approaches** for literature curation and validated their performance by comparing **Precision** scores:
 
-- **Default Biomni**: Standard biological entity recognition
-- **Custom Biomni**: Domain-optimized configuration
+- **Default Biomni**: A Biomni AI agent with default configuration
+- **Custom Biomni**: A Biomni AI agent with custom enhancements
 - **PubTator**: NCBI's annotation system
 
 !!! note "Performance Metrics"
     Currently validated using **Precision** only. Other metrics such as Accuracy and F1-score are not yet evaluated.
+
+**For detailed research documentation**, please refer to:
+
+- [BACKGROUND](research/BACKGROUND.md) - Research context and motivation
+- [METHODS](research/METHODS.md) - Detailed methodology and operational definitions
+- [RESULTS](research/RESULTS.md) - Performance comparison and metrics
+- [DISCUSSION](research/DISCUSSION.md) - Analysis of false positives/negatives
+- [LIMITATIONS](research/LIMITATIONS.md) - Study constraints and future work
 
 ---
 
