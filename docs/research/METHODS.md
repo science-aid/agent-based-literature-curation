@@ -2,18 +2,18 @@
 
 ## Overview
 
-This study compares three approaches for identifying non-model organism genetics papers: (1) PubTator-based annotation filtering, (2) Biomni AI agent with default configuration, and (3) Biomni AI agent with custom enhancements. We evaluated these methods on a corpus of open-access journal articles published over a three-day period, assessing their precision in identifying relevant literature.
+This study compares three approaches for constructing a high-precision corpus of genetic research articles on non-model organisms: (1) PubTator-based annotation filtering, (2) a Biomni AI agent with default configuration, and (3) a Biomni AI agent with custom enhancements. We evaluated these methods on a corpus of open-access journal articles published over a three-day period, assessing their precision in identifying relevant literature.
 
 ## Operational Definitions
 
 ### Model vs. Non-Model Organisms
 
-**Model Organism Definition**: We operationally defined model organisms as the top 20 most frequently studied species in genetic research, based on annotation frequency in genome editing databases.
+**Model Organism Definition**: We operationally defined model organisms as the top 20 most frequently studied species in genetic research, based on annotation frequency in genome editing meta-database (https://doi.org/10.1016/j.ggedit.2022.100024).
 
-**Data Source**: Genome editing meta-database (`data/20251008_ge_metadata_all.csv`)
+**Data Source**: Genome editing meta-database (`data/20251008_ge_metadata_all.csv`) (downloaded from https://github.com/szktkyk/gem_api)
 
 **Selection Criteria**:
-- Analyzed species frequency in genetic mutation studies
+- Analyzed species frequency in studies using genome editing tools since 2000
 - Top 20 species classified as "model organisms"
 - All other species classified as "non-model organisms"
 - Implementation: `scripts/select_model_species.py`
@@ -30,9 +30,11 @@ This study compares three approaches for identifying non-model organism genetics
 
 ### Genetics Research Classification
 
-**Scope Limitation**: This study focused exclusively on papers investigating genetics **within non-model organisms**, excluding studies examining non-model organisms' effects on model organism genomes (e.g., bacterial effects on human genomes).
+**Scope Definition**: The scope of this study was operationally defined to focus on genetic research conducted within non-model organisms. Given the lack of a widely accepted definition of “non-model organism genetics research” in the literature, we adopted a pragmatic scope tailored to the objectives of this analysis. Specifically, we excluded studies in which non-model organisms were primarily investigated in the context of their effects on model organism genomes or biology (e.g., bacterial effects on human genomes), as such studies are centered on model organisms rather than on the genetics of non-model species themselves.
 
-**Classification System**: In the absence of standardized classification systems for non-model organism genetics research, we developed a six-category framework informed by expert consultation (ChatGPT and iterative curation):
+**Classification Framework*: In the absence of standardized taxonomies for classifying genetic research in non-model organisms, we developed a six-category classification framework to capture the major types of genetic studies observed in the literature. 
+
+The six genetics research categories used in this study are as follows:
 
 1. **Genomic Sequencing & Identification**: Genome sequencing and novel gene identification
 2. **Comparative Analysis & Annotation**: Ortholog/homolog analysis for functional inference through sequence homology
@@ -53,7 +55,7 @@ This study compares three approaches for identifying non-model organism genetics
 
 **Date Range**: December 1-3, 2024 (3-day window)
 
-**Initial Corpus Size**: 4,959 articles (retrieved in late October 2024; noted as 4,960 in November 2024 verification)
+**Initial Corpus Size**: 4,959 articles 
 
 **Limitation**: The narrow 3-day sampling window represents a methodological limitation. Ideally, a 1-month window with random sampling would provide more representative coverage. See [LIMITATIONS.md](LIMITATIONS.md) for detailed discussion.
 
@@ -116,7 +118,7 @@ config = WorkflowConfig(
 
 ### Default Biomni Agent
 
-**Framework**: Biomni (Biology-focused Multi-agent Natural Intelligence) with CodeAct architecture
+**Framework**: Biomni (https://biomni.stanford.edu/) with CodeAct architecture
 
 **Model**: GPT-4.1-mini (selected over GPT-5-mini due to 20-40 second latency reduction)
 
@@ -188,17 +190,17 @@ Conducted six rounds of agent behavior validation and prompt refinement:
 $$\text{Precision} = \frac{\text{True Positives}}{\text{True Positives + False Positives}}$$
 
 **Rationale for Focus on Precision**:
-- In literature curation, minimizing false positives (irrelevant papers incorrectly classified as relevant) is critical
+- For this project, minimizing false positives (irrelevant papers incorrectly classified as relevant) has been mostly paid attention
 - High precision ensures curated sets contain primarily relevant papers
 - Recall (sensitivity) and F1-score evaluation deferred to future work
 
-**Ground Truth Establishment**: Manual expert curation of sampled papers to establish true positive classifications
+**Ground Truth Establishment**: Manual curation of sampled papers to establish true positive classifications
 
 **Evaluation Scope**: This study reports precision only. Comprehensive evaluation including accuracy, recall, and F1-score remains for future investigation (see [LIMITATIONS.md](LIMITATIONS.md)).
 
 ## Implementation Details
 
-**Programming Language**: Python 3.x
+**Programming Language**: Python 3.11.14
 
 **Key Dependencies**:
 - Biomni framework

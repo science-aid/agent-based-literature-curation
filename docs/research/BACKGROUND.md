@@ -2,19 +2,19 @@
 
 ## Research Context
 
-The systematic identification and curation of genetic research literature on non-model organisms represents a critical challenge in modern biological sciences. While model organisms such as *Escherichia coli*, *Drosophila melanogaster*, and *Mus musculus* have historically dominated genetic research, non-model organisms harbor essential biological insights that cannot be fully captured through model species alone.
+The systematic identification and curation of genetic research literature on non-model organisms presents certain practical challenges. Although model organisms such as Escherichia coli, Drosophila melanogaster, and Mus musculus have been widely used in genetic research, non-model organisms may contribute additional biological perspectives that are not fully represented by model species alone.
 
 ### Scientific Importance of Non-Model Organism Genetics
 
-Non-model organisms are crucial for advancing multiple domains of biological research:
+Non-model organisms play a critical role across multiple domains of biological research:
 
-**Biodiversity and Functional Diversity**: Non-model organisms frequently exhibit metabolic pathways, adaptation mechanisms, and protein diversity that are absent in conventional model systems. These unique features are essential for comprehensive understanding in evolutionary biology and ecology.
+**Biodiversity and Functional Diversity**: Non-model organisms frequently possess unique metabolic pathways, adaptive strategies, and protein repertoires that are absent from conventional model systems. These features are indispensable for advancing evolutionary biology, ecology, and systems-level understanding of life.
 
-**Applied Biotechnology Potential**: Non-model organisms serve as repositories for novel enzymes, natural product biosynthesis pathways, and stress resistance mechanisms (e.g., salt tolerance, drought resistance, disease resistance), offering substantial biotechnological applications.
+**Applied Biotechnology Potential**: Many non-model organisms represent untapped reservoirs of biotechnologically valuable traits, including novel enzymes, natural product biosynthesis pathways, and mechanisms of stress tolerance (e.g., salinity, drought, and disease resistance).
 
-**Phylogenetics and Comparative Genomics**: Robust phylogenetic positioning and gene family evolution analyses require broad taxonomic sampling that extends beyond model organisms.
+**Phylogenetics and Comparative Genomics**: Accurate inference of phylogenetic relationships and gene family evolution requires broad taxonomic sampling. Reliance on model organisms alone limits the resolution and generalizability of comparative genomic analyses.
 
-**Addressing Taxonomic Bias**: Over-reliance on model organisms introduces systematic biases in biological research. Incorporating non-model organisms enables validation of generalizable biological principles and mitigates taxonomic bias in the literature.
+**Addressing Taxonomic Bias**: The disproportionate focus on model organisms introduces systematic taxonomic bias into the scientific literature. Incorporating non-model organisms enables validation of general biological principles and promotes a more representative understanding of biological systems.
 
 ## Problem Statement
 
@@ -24,7 +24,7 @@ Despite their scientific value, identifying relevant genetic research on non-mod
 
 **Labor-Intensive Manual Curation**: To our knowledge, no automated or systematic method exists for efficiently identifying non-model organism genetics papers from large literature databases. Current approaches require extensive manual review of:
 
-- Individual examination of titles, abstracts, and MeSH terms across thousands of publications (e.g., 4,940 papers)
+- Individual examination of titles, abstracts, and MeSH terms across thousands of publications (e.g., 4,940 papers in my case)
 - Strategic database queries requiring expert knowledge of biological nomenclature
 - Iterative searches across multiple databases (e.g., NCBI Gene, NCBI Taxonomy)
 - Structured extraction of gene names, gene IDs, species names, taxonomy IDs, taxonomic classifications (class level), and research types
@@ -42,11 +42,11 @@ These characteristics make traditional mechanical workflows insufficient, necess
 
 ### Hypothesis
 
-We hypothesize that existing automated literature annotation systems, particularly PubTator, exhibit high false-negative rates for gene annotations in non-model organisms. While PubTator demonstrates robust performance for species recognition (evidenced by high Named Entity Recognition and Linking performance in PubTator3 evaluations), its gene annotation capabilities for non-model organisms remain questionable.
+While PubTator demonstrates strong performance in species recognition and gene annotation for model organisms, we hypothesize that gene annotation for non-model organisms remains more challenging, in part due to heterogeneous gene nomenclature, which may lead to suboptimal annotation performance.
 
 ### Validation of Species Recognition Performance
 
-To validate our hypothesis, we examined PubTator's species recognition performance on non-model organisms:
+We analyzed the composition of PubTator’s species recognition evaluation datasets to determine the extent to which non-model organisms are represented alongside model organisms.:
 
 - PubTator3 evaluation dataset analysis revealed that **85.93% (104/635) of test cases represented non-model organisms** (AIONER test data: https://github.com/ncbi/AIONER/blob/main/data/pubtator/SPECIES_Test.PubTator)
 - Species NER and entity linking showed high performance metrics in these evaluations
@@ -68,7 +68,7 @@ Given the complexity of multi-step decision-making, database integration, and co
 
 ### Existing Literature Annotation Systems
 
-**PubTator**: The NCBI's PubTator system provides automated bioconcept annotation for biomedical literature. While effective for many annotation tasks, its performance on non-model organism gene annotation has not been systematically evaluated.
+**PubTator**: The NCBI's PubTator system provides automated bioconcept annotation for biomedical literature. While effective for many annotation tasks, its performance on non-model organism gene annotation has not been extensively assessed.
 
 **Manual Curation**: Gold-standard annotations rely on expert manual curation, which remains prohibitively time-consuming for large-scale literature databases.
 
