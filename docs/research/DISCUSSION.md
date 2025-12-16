@@ -2,378 +2,265 @@
 
 ## Overview
 
-This study demonstrates that AI agent-based approaches, particularly when enhanced with structured database integration, can significantly outperform existing automated literature annotation systems for identifying non-model organism genetics research. Custom Biomni achieved 90.91% precision, representing a 30.91 percentage point improvement over PubTator (60.00%) and a 10.91 percentage point improvement over Default Biomni (80.00%).
+This study demonstrates that AI agent–based approaches, particularly when combined with database-aware reasoning, can substantially outperform existing automated literature annotation systems in constructing high-precision corpora of genetic research articles on non-model organisms. Custom Biomni achieved 90.91% precision, representing a 30.91 percentage point improvement over PubTator (60.00%) and a 10.91 percentage point improvement over Default Biomni (80.00%).
+
+Beyond performance differences, our analysis reveals how agentic tool use, prompt design, and database coverage collectively shape the observed precision–recall trade-offs.
 
 ## Comparative Performance Analysis
 
 ### Why Custom Biomni Outperforms Other Methods
 
-**Three Key Innovations Drive Superior Performance**:
+Three primary factors account for Custom Biomni’s superior precision.
 
 #### 1. Enhanced Entity Linking via Database Integration
 
-**Custom Biomni's MCP Server Integration** provides real-time access to NCBI Gene and Taxonomy databases, enabling:
+Custom Biomni integrates external biomedical databases through an MCP server, enabling real-time access to NCBI Gene and Taxonomy resources. This allows:
 
-- **Gene Validation**: Cross-reference gene names with official NCBI Gene records and synonyms
-- **Species Verification**: Validate taxonomy IDs and scientific names against authoritative sources
-- **Consistency Checking**: Ensure gene-species pairs are biologically valid (e.g., confirm a gene actually belongs to the claimed species)
+* **Gene validation** against official records and synonyms
+* **Species verification** using authoritative taxonomy identifiers
+* **Species–gene consistency checks** to confirm biological plausibility
 
-**Impact**: This structured validation reduces false positives from ambiguous entity mentions. For example, distinguishing between a biomarker protein (CRP) and a gene encoding that protein, or correctly attributing genes to their actual species rather than misassigning human genes to bacterial species (see FP analysis below).
+**Impact**:
+By autonomously querying MCP-connected databases during inference, Custom Biomni performs context-aware entity grounding rather than static post-processing. This agentic tool use enables disambiguation of gene and species mentions based on biological plausibility—for example, distinguishing biomarker proteins from genes or rejecting invalid gene–species associations. As a result, false positives arising from superficial or ambiguous co-mentions are substantially reduced.
 
-**Contrast with PubTator**: PubTator relies on pre-computed text-mining annotations without context-aware validation. It cannot dynamically verify whether a gene mention in a paper genuinely represents genetic research or merely incidental discussion.
+**Contrast with PubTator**:
+PubTator relies on pre-computed NER annotations and rule-based filtering, without the ability to dynamically verify whether a gene mention represents the focus of genetic investigation or merely incidental background information.
 
-**Contrast with Default Biomni**: Default Biomni lacks direct database access, relying on LLM knowledge alone (subject to hallucination and outdated information).
+**Contrast with Default Biomni**:
+Default Biomni can access some external databases, including NCBI Gene and Taxonomy, but such access is intermittent and not reliably integrated into the inference process, limiting consistent context-aware validation.
 
 #### 2. Structured Output Generation
 
-**Incremental Data Persistence**: Custom Biomni's structured output tools append validated annotations to external files in real-time, providing:
+Custom Biomni employs structured output tools that incrementally persist validated annotations to external files. This provides:
 
-- **Reliability**: Data captured even if agent processing is interrupted
-- **Consistency**: Enforced data schema ensures uniform output format
-- **Auditability**: Complete record of agent decisions for quality control
+* **Reliability**, preserving outputs even when agent execution is interrupted
+* **Consistency**, through enforced output schemas
+* **Auditability**, enabling traceability of agent decisions
 
-**Default Biomni Challenge**: Outputs were heterogeneous and required manual extraction from log files. Out of 531 papers, only 387 produced parseable outputs, with remaining data lost or requiring labor-intensive log file mining.
+By contrast, Default Biomni produced heterogeneous outputs requiring manual extraction from logs. Of 531 processed papers, only 387 yielded readily parseable outputs, increasing post-processing effort and reducing practical usability.
 
 #### 3. Contextual Understanding via LLM Reasoning
 
-Both Biomni variants leverage GPT-4.1-mini's contextual reasoning capabilities, enabling:
+Both Biomni variants leverage LLM-based reasoning to interpret document-level context, enabling:
 
-- **Intent Recognition**: Distinguish primary research focus from background mentions
-- **Research Type Classification**: Identify whether a paper conducts genetic research vs. merely discussing genes
-- **Multi-Step Validation**: Perform iterative queries to resolve ambiguities
+* Identification of primary research intent
+* Discrimination between genetic research and incidental gene mentions
+* Iterative resolution of ambiguous cases
 
-**Advantage over PubTator**: Rule-based systems cannot perform this nuanced contextual interpretation. PubTator's false positives frequently involved papers that *mentioned* genes but did not *study* them genetically (see FP analysis below).
+This capability explains why both Biomni variants eliminated entire classes of false positives that were frequent in PubTator outputs.
 
 ## False Positive Analysis
 
-### Custom Biomni False Positives (4 cases)
+### Custom Biomni
 
-Despite 90.91% precision, Custom Biomni produced 4 false positives, revealing specific error modes:
+Despite high precision, Custom Biomni produced four false positives, revealing two dominant error modes:
 
-#### Case 1: PMID 39620069 - HIV-Human Evolutionary Research
-**Paper Content**: HIV *gp120* gene evolution in human populations
+1. **Gene vs. gene product ambiguity**, where proteins, biomarkers, or peptide hormones were incorrectly treated as genetic research targets
+2. **Model organism contamination**, particularly in multi-organism studies where human genes were expressed or discussed in non-model systems
 
-**Error**: Correctly identified gene (*gp120*) but failed to exclude due to human (model organism) involvement
+These cases highlight semantic boundaries that remain challenging even for expert curators.
 
-**Root Cause**: Multi-organism studies where both model (human) and non-model (HIV) organisms are studied. Current filtering focused on primary species annotation, missing secondary model organism involvement.
+### Default Biomni
 
-**Lesson**: Requires enhanced model organism contamination detection for multi-species studies.
+Default Biomni produced 15 false positives, reflecting broader and more systematic issues:
 
-#### Case 2: PMID 39624363 - Canine Disease Biomarker Review
-**Paper Content**: Review of C-reactive protein (CRP) as disease biomarker in dogs
+* Inclusion of papers with no substantive genetic content
+* Insufficient filtering of model organisms
+* Acceptance of tangential enzyme or gene mentions
 
-**Error**: Classified CRP (a protein biomarker) as a gene and paper as genetic research
+These errors stem largely from overly inclusive classification criteria rather than misidentification of specific entities.
 
-**Root Cause**: **Gene vs. Biomarker Ambiguity**. CRP is encoded by a gene, but paper discussed CRP as a clinical biomarker, not genetic research on the *CRP* gene itself. This represents a subtle conceptual boundary: when does protein discussion constitute genetic research?
+### PubTator
 
-**Lesson**: Requires additional classification step to distinguish:
-- **Genetic Research**: Studying gene sequences, expression, regulation, function
-- **Biomarker Research**: Measuring protein levels as disease indicators (not genetic research)
+PubTator produced 22 false positives, dominated by two patterns:
 
-#### Case 3: PMID 39620500 - Cyanobacteria-Based Medical Methods
-**Paper Content**: Using cyanobacteria for medical applications involving human genes
+1. **Human gene misclassification**, where papers primarily focused on human genetics but mentioned non-model organisms
+2. **False gene annotations**, including biomarkers, metabolites, and non-genetic entities labeled as genes
 
-**Error**: Misattributed human genes to cyanobacteria
-
-**Root Cause**: **Species-Gene Misattribution**. Paper discussed engineering cyanobacteria to produce human proteins, but agent incorrectly classified human genes as cyanobacterial genes.
-
-**Lesson**: Multi-organism genetic engineering studies require careful attention to which organism's genes are being studied. Human genes expressed in non-model organisms should be classified as human (model organism) research.
-
-#### Case 4: PMID 39625374 - Canine Endocrinology
-**Paper Content**: Parathyroid hormone (PTH) in canine endocrine disorders
-
-**Error**: Classified PTH (peptide hormone) as genetic research focus
-
-**Root Cause**: **Gene vs. Gene Product Ambiguity**. Similar to CRP case—PTH is encoded by a gene, but paper focused on hormone physiology, not genetics.
-
-**Lesson**: Peptide hormone studies occupy a gray zone. Unless explicitly studying gene regulation, expression, or mutations, should be classified as physiological rather than genetic research.
-
-### Common Patterns in Custom Biomni False Positives
-
-**Two Primary Error Modes**:
-
-1. **Biomarker/Peptide vs. Gene Confusion** (2/4 cases): Difficulty distinguishing genetic research from clinical/physiological studies mentioning gene products
-2. **Model Organism Contamination** (2/4 cases): Incomplete filtering of papers involving both model and non-model organisms, or misattribution of genes between species
-
-**Quantitative Context**: Despite these 4 errors across 44 retrieved papers, Custom Biomni still achieved 90.91% precision—demonstrating that these edge cases are relatively rare.
-
-### Default Biomni False Positives (15 cases)
-
-**Default Biomni's 15 false positives revealed more systematic issues**:
-
-#### Pattern 1: No Genetic Content (6/15 cases)
-
-Papers with no gene mentions incorrectly classified as genetics research:
-
-- **PMID 39618424**: AAV vector methodology development (methods paper, not genetics research)
-- **PMID 39624307**: HIV diagnostic methods (not genetic research)
-- **PMID 39619696**: Primate fecal ecology (no genetic content)
-- **PMID 39619731**: Metagenomic community analysis (no specific gene research)
-- **PMID 39625927**: Nanopore sequencing methodology (methods, not genetics)
-- **PMID 39624060**: Donkey nutrition study (no genetic content)
-
-**Root Cause**: Overly broad classification criteria. Default Biomni appeared to classify any paper *mentioning* sequencing, molecular methods, or biological organisms as potential genetics research, even without actual gene-focused investigation.
-
-#### Pattern 2: Model Organism Contamination (3/15 cases)
-
-Papers primarily about model organisms incorrectly retained:
-
-- **PMID 39622501**: Tobacco (*Nicotiana tabacum*, often considered a model plant) methodology
-- **PMID 39619950**: Ethnobotany with substantial human microRNA content
-- **PMID 39624050**: *E. coli* and human genetics (both model organisms)
-
-**Root Cause**: Insufficient model organism filtering. Default Biomni did not rigorously check whether primary species were model organisms.
-
-#### Pattern 3: Ambiguous Gene Mentions (2/15 cases)
-
-Papers with tangential enzyme/gene mentions:
-
-- **PMID 39618551**: Chemical compound isolation mentioning lipase (enzyme, not genetic research)
-- **PMID 39624241**: Co-cultivation study mentioning enzymes (not genetic research focus)
-
-**Root Cause**: Inability to distinguish genetic research from biochemical research mentioning enzymes/genes in passing.
-
-#### Pattern 4: Remaining Cases (4/15 cases)
-
-Other classification errors spanning multiple categories.
-
-### PubTator False Positives (22 cases)
-
-**PubTator's 22 false positives demonstrated systematic limitations of rule-based annotation**:
-
-#### Pattern 1: Human Gene Misclassification (10/22 cases)
-
-**Most Frequent Error**: Papers primarily about human genetics incorrectly classified as non-model organism research.
-
-**Examples**:
-- Papers investigating human disease genetics with incidental mentions of microbes or pathogens
-- Human population genetics studies
-- Clinical studies of human gene variants
-
-**Root Cause**: PubTator's filtering rules (exclude papers with model organism annotations) were insufficient to catch papers where human genetics was the primary focus but non-model organism mentions also appeared.
-
-**Mechanism**: If a paper mentioned both human genes and bacterial species, PubTator's simple rule-based filtering could not determine which organism was the primary research subject.
-
-#### Pattern 2: False Gene Annotations (10/22 cases)
-
-**Second Most Frequent Error**: Entities annotated as "genes" that were not genes or not relevant to genetic research.
-
-**Examples**:
-- Biomarkers annotated as genes (similar to Custom Biomni's CRP error)
-- Metabolites or chemical compounds mis-tagged as genes
-- Gene names mentioned in non-genetic contexts (e.g., as protein names in biochemical assays)
-
-**Root Cause**: PubTator's NER system tags entities based on string matching against gene databases, without contextual understanding of whether the mention represents genetic research.
-
-**Comparison to Biomni**: This is precisely where LLM-based contextual reasoning provides advantage—Biomni agents can read the paper and determine whether a gene mention represents genetic research or incidental discussion.
-
-#### Pattern 3: Irrelevant Papers (2/22 cases)
-
-Papers with no substantive biological research content incorrectly annotated.
-
-**Root Cause**: Spurious annotations from PubTator's automated pipeline.
-
-### Comparative Error Analysis Summary
-
-| Error Type | PubTator | Default Biomni | Custom Biomni |
-|------------|----------|----------------|---------------|
-| **No genetic content** | 2/22 (9%) | 6/15 (40%) | 0/4 (0%) |
-| **Model organism contamination** | 10/22 (45%) | 3/15 (20%) | 2/4 (50%) |
-| **False gene annotations** | 10/22 (45%) | 0/15 (0%) | 0/4 (0%) |
-| **Gene vs. biomarker/peptide** | (included in false annotations) | 2/15 (13%) | 2/4 (50%) |
-| **Ambiguous gene mentions** | (included in false annotations) | 2/15 (13%) | 0/4 (0%) |
-| **Species-gene misattribution** | 0/22 (0%) | 2/15 (13%) | 1/4 (25%) |
-
-**Key Insights**:
-
-1. **Custom Biomni eliminated entire error classes**: No false gene annotations, no papers with zero genetic content, no ambiguous enzyme mentions
-2. **Remaining Custom Biomni errors are sophisticated edge cases**: Gene vs. biomarker distinction and multi-organism studies—challenges requiring deeper semantic understanding
-3. **PubTator's errors were more fundamental**: Inability to distinguish primary research focus, rampant false gene annotations
-4. **Default Biomni improved over PubTator**: Eliminated false gene annotations but introduced new error mode (classifying non-genetic papers as genetic)
+These errors reflect fundamental limitations of entity-level annotation without document-level reasoning.
 
 ## False Negative Analysis
 
-While this study focused on precision, analysis of retrieval patterns provides insights into recall trade-offs:
+### Conservative Classification in Custom Biomni
 
-### Custom Biomni's Conservative Classification
+Custom Biomni retrieved fewer papers overall (44) than Default Biomni (75), indicating reduced recall. This difference arises from two interacting factors.
 
-**Papers Retrieved**:
-- Custom Biomni: 44 papers
-- Default Biomni: 75 papers
-- PubTator: 55 papers
+First, the precision-oriented design introduces an inherent trade-off. More importantly, prompt design amplified this effect. The instruction to *always verify species–gene consistency using NCBI databases* imposed an overly strict constraint for non-model organisms, whose genes are often absent from curated databases. Consequently, legitimate genetic studies lacking registered NCBI Gene entries were systematically excluded.
 
-**Overlap Analysis**:
-- **34 papers detected by both Biomni variants** (shared core)
-- **26 papers detected by Default but not Custom Biomni** (potential Custom false negatives)
-- **6 papers detected by Custom but not Default Biomni** (potential Default false negatives)
+Second, Custom Biomni applied a stricter interpretation of what constitutes “genetic research,” excluding borderline studies that Default Biomni retained. Some of these cases likely represent genuine classification ambiguities rather than clear errors.
 
-### Papers Missed by Custom Biomni (26 cases)
+### Implications
 
-**Systematic Analysis of the 26 papers retrieved by Default but not Custom Biomni**:
-
-#### Primary Pattern 1: Missing NCBI Gene IDs (Most Common)
-
-**Examples**:
-- **PMID 39621769**: Mosquito insecticide resistance genes (validated genetic research, no gene IDs in NCBI Gene)
-- **PMID 39621768**: *Vibrio cholerae* functional genomics (gene function study, no gene IDs)
-- **PMID 39621904**: Magnetotactic bacteria *MamP* gene functional analysis (clear genetic research, no gene IDs)
-- **PMID 39621923**: *Chlamydomonas* *CraCRY* DNA repair gene function (legitimate genetic research, no gene IDs)
-
-**Root Cause**: Custom Biomni's prompt emphasized "verify species-gene consistency" using NCBI databases. For non-model organisms, many genes lack NCBI Gene database entries, making validation impossible.
-
-**Design Trade-off**: The instruction "always verify consistency" was interpreted strictly, leading to rejection of papers discussing genes not found in NCBI Gene—even when the genetic research was valid.
-
-**Quantitative Impact**: This systematic issue likely explains a substantial portion of the 26 missed papers, suggesting Custom Biomni's recall may be significantly lower than Default Biomni's.
-
-**Irony**: Custom Biomni's *strength* (database validation) became a *weakness* for non-model organisms specifically because non-model organism gene annotation is incomplete in databases—the very problem motivating this research.
-
-#### Primary Pattern 2: Classification Boundary Ambiguity
-
-**Examples**:
-- Taxonomic classification studies mentioning marker genes
-- Ecological/physiological studies with incidental genetic content
-- Papers at the boundary of the six-category genetics research framework
-
-**Root Cause**: Custom Biomni applied stricter interpretation of "genetics research," requiring substantive genetic investigation. Default Biomni accepted papers with more tangential genetic content.
-
-**Interpretation**: Many of these 26 papers likely represent **true ambiguous cases** where expert curators might disagree on classification. Default Biomni's more inclusive approach captured these edge cases; Custom Biomni's conservative approach excluded them.
-
-**Curation Context**: Without comprehensive manual evaluation of all 26 papers, we cannot definitively state how many were legitimate false negatives vs. correctly excluded low-priority papers. This ambiguity underscores the challenge of defining "genetics research" boundaries.
-
-### Papers Missed by Default Biomni (6 cases)
-
-**Papers detected by Custom but not Default Biomni** (6 cases) also included plants, fungi, and some mammalian species (dogs, turkeys).
-
-**Hypothesis**: Default Biomni may have applied overly conservative filtering in certain cases, while Custom Biomni's database validation successfully confirmed these as valid non-model organism genetics papers.
-
-**Lower Frequency**: Only 6 papers vs. 26 in the reverse direction, suggesting Default Biomni generally had higher recall but lower precision.
-
-### Precision-Recall Trade-off
-
-**Clear Trade-off Observed**:
-
-- **Custom Biomni**: Higher precision (90.91%), likely lower recall due to strict database validation requirement
-- **Default Biomni**: Lower precision (80.00%), likely higher recall due to more inclusive classification
-- **PubTator**: Lowest precision (60.00%), recall unknown but likely variable depending on annotation coverage
-
-**Optimal Method Selection Depends on Use Case**:
-
-- **High-precision curation** (systematic reviews, curated databases): Custom Biomni preferred despite recall limitations
-- **Exploratory discovery** (broad literature scanning): Default Biomni may be preferable to maximize coverage
-- **Cost-constrained screening**: PubTator provides free baseline, accepting higher false positive rate
+These findings indicate that Custom Biomni’s false negatives are driven not only by model limitations but also by design choices—particularly prompt constraints that do not fully account for incomplete database coverage in non-model organism research.
 
 ## Mechanistic Insights
 
 ### Why Database Integration Improves Precision
 
-**Three Validation Mechanisms**:
+Database integration improves precision through synonym resolution, species–gene consistency checks, and increased confidence in established genetic entities. However, these benefits depend on database completeness—an assumption that does not hold uniformly for non-model organisms.
 
-1. **Synonym Resolution**: NCBI Gene provides official gene names and synonyms, reducing ambiguity from informal or deprecated gene names
+### Why LLM Reasoning Outperforms Traditional NER Pipelines
 
-2. **Species-Gene Consistency**: Cross-referencing gene records with taxonomy IDs catches errors where:
-   - Genes are misattributed to wrong species
-   - Human/model organism genes are incorrectly claimed as non-model organism genes
+**PubTator’s Fundamental Constraint**:
+PubTator employs dedicated machine learning–based NER models trained on curated biomedical corpora. These datasets could be biased toward human and other model organism genes, with limited representation of non-model organism genetics. As a result, performance degrades in non-model contexts, and annotations are often driven by string-level matches rather than research relevance.
 
-3. **Annotation Confidence**: Genes with well-documented database entries are more likely to represent established genetic research vs. spurious mentions
+More fundamentally, PubTator’s pipeline lacks document-level reasoning and cannot assess whether a recognized gene mention constitutes the focus of genetic investigation or merely incidental context. This limitation explains the high frequency of false positives observed in this study.
 
-**Limitation**: This mechanism *assumes* database coverage, which is precisely the gap for non-model organisms. This creates the precision-recall trade-off observed.
+In contrast, LLM-based agents integrate entity recognition with contextual interpretation, enabling intent recognition and research-type classification that are critical for high-precision curation.
 
-### Why LLM Contextual Reasoning Outperforms Rule-Based Systems
+## Precision–Recall Trade-off and Design Implications
 
-**PubTator's Fundamental Constraint**: Rule-based NER systems assign labels based on pattern matching:
-- If a string matches a gene name in a database → annotate as gene
-- Cannot assess whether that gene mention represents genetic research
+A clear trade-off emerges:
 
-**Biomni's Advantage**: LLM reasoning enables:
-- **Intent Recognition**: "Is this paper *about* this gene, or just mentioning it?"
-- **Research Type Classification**: "Does this paper conduct genetic investigation, or discuss genes in another context?"
-- **Contextual Disambiguation**: "Is CRP being discussed as a gene or as a clinical biomarker?"
+* **Custom Biomni**: Highest precision, lower recall due to strict validation requirements
+* **Default Biomni**: Moderate precision with higher recall
+* **PubTator**: Lowest precision, with recall dependent on annotation coverage
 
-**Evidence**: PubTator's 10 false gene annotations directly resulted from inability to perform these contextual judgments. Both Biomni variants eliminated this error class entirely.
-
-### Why Custom Biomni Reduces But Doesn't Eliminate Errors
-
-**Remaining Challenges Require Even Deeper Semantic Understanding**:
-
-1. **Gene vs. Gene Product Distinction**: Requires understanding the difference between:
-   - Studying a gene (sequence, regulation, mutations) → genetics research
-   - Measuring a protein (biomarker, hormone levels) → clinical/physiological research
-
-   This distinction is non-trivial even for human experts in some cases.
-
-2. **Multi-Organism Studies**: Requires tracking which organism's genes are being studied when multiple species appear in the same paper.
-
-3. **Research Categorization**: Determining primary vs. secondary research focus when papers span multiple domains.
-
-**Implication**: Achieving >95% precision likely requires:
-- More sophisticated prompting strategies
-- Multi-step reasoning workflows
-- Possibly more powerful LLMs (GPT-5-pro, etc.)
-- Or domain-specific fine-tuning
+Optimal method selection therefore depends on use case, ranging from high-precision curation to exploratory literature discovery.
 
 ## Broader Implications
 
-### AI Agents for Scientific Literature Curation
+This study demonstrates that AI agent–based literature curation can approach manual-level precision while retaining scalability. At the same time, it highlights challenges specific to non-model organism research, particularly incomplete database coverage and ambiguous research boundaries.
 
-**This Study Demonstrates Feasibility**: AI agent-based curation can achieve precision levels (90.91%) approaching manual curation quality, with substantial efficiency gains over existing automated systems.
-
-**Remaining Gap to Production**: The ~10% error rate and recall trade-offs mean Custom Biomni is not yet ready for fully autonomous deployment, but is suitable for:
-- **Human-in-the-loop curation**: Agent pre-screens papers, expert performs final validation
-- **High-priority curation**: Where cost of manual review is justified
-- **Iterative refinement**: Use current version while continuing to improve
-
-### Progression Pathway
-
-**Clear Performance Trajectory**:
-- PubTator (2020s rule-based NER): 60% precision
-- Default Biomni (LLM reasoning): 80% precision
-- Custom Biomni (LLM + database integration): 90.91% precision
-
-**Extrapolation**: Continued improvements (better models, refined prompts, expanded databases) could plausibly reach 95-98% precision, enabling more autonomous deployment.
-
-### Non-Model Organism Research Enablement
-
-**Current Barrier**: Lack of systematic literature organization for non-model organisms limits:
-- Comparative genomics at scale
-- Discovery of novel genetic mechanisms
-- Biodiversity informatics
-
-**Vision**: If AI agent-based curation achieves >95% precision with acceptable recall:
-- Comprehensive, automated literature mapping for all species
-- Gene-level literature organization across the tree of life
-- Real-time integration of new findings into structured knowledge bases
-
-**Current Status**: This study demonstrates progress toward this vision but highlights remaining challenges (especially database coverage for non-model organisms).
-
-## Prompt Engineering Insights
-
-### Over-Constraint in Custom Biomni
-
-**"Always verify species-gene consistency"** instruction was too strict for non-model organisms.
-
-**Lesson**: Prompts must account for data availability. For non-model organisms:
-- Database coverage is incomplete by definition
-- Strict validation requirements inadvertently filter out legitimate papers
-- Prompts should balance "verify when possible" vs. "require verification"
-
-**Potential Revision**: "Verify species-gene consistency using NCBI databases when available. If gene IDs are not found but genetic research is clearly described, proceed with classification based on paper content."
-
-### Simplification Opportunity
-
-**Current Prompt Complexity**: Custom Biomni prompt included:
-- Six-category genetics research framework
-- Species-gene validation requirements
-- Structured output formatting instructions
-- Database query workflows
-
-**Hypothesis**: Simpler prompts may improve consistency by reducing cognitive load on the LLM.
-
-**Testing Needed**: Systematic A/B testing of prompt variants to identify optimal complexity-performance balance.
+Importantly, the observed limitations point to clear improvement pathways: relaxed validation prompts, expanded non-model organism gene databases, and more capable reasoning models. Together, these advances could plausibly push precision beyond 95% while improving recall.
 
 ## Conclusion
 
-This study demonstrates that **AI agent-based literature curation with database integration significantly outperforms existing automated systems**, achieving 90.91% precision compared to 60% for PubTator. However, **precision-recall trade-offs and database coverage limitations** highlight remaining challenges for non-model organism genetics research specifically.
+AI agent–based literature curation with database integration substantially outperforms existing automated systems for identifying genetic research on non-model organisms. While Custom Biomni achieves high precision, its limitations underscore the importance of prompt design and database coverage in shaping performance. Overall, this work establishes both the feasibility of agent-based curation and a concrete roadmap toward more comprehensive, high-precision literature organization across the tree of life.
 
-The **mechanistic analysis reveals clear improvement pathways**: prompt refinement to relax over-constrained validation requirements, more powerful LLM models, and expanded non-model organism gene databases would likely push precision above 95% while improving recall.
+---
 
-Most importantly, this work establishes **feasibility and provides a concrete roadmap** for automated, high-precision literature curation at scale—a critical capability for advancing non-model organism genetics research and biodiversity informatics.
+# Supplementary Information
+
+## Supplementary Note 1: Detailed False Positive Analysis
+
+### S1.1 Custom Biomni False Positives (4 cases)
+
+Despite achieving high precision, Custom Biomni produced four false positives, revealing specific edge-case error modes.
+
+#### Case S1.1.1: PMID 39620069 — HIV–Human Evolutionary Study
+
+**Description**: Evolutionary analysis of the HIV *gp120* gene in human populations.
+**Error Type**: Model organism contamination.
+**Explanation**: Although the agent correctly identified a gene-level study, it failed to exclude the paper due to primary involvement of a model organism (human). The presence of a non-model organism (HIV) led to misclassification.
+
+#### Case S1.1.2: PMID 39624363 — Canine CRP Biomarker Review
+
+**Description**: Review of C-reactive protein (CRP) as a disease biomarker in dogs.
+**Error Type**: Gene vs. biomarker ambiguity.
+**Explanation**: CRP is encoded by a gene, but the paper focused on protein-level clinical measurements rather than genetic investigation.
+
+#### Case S1.1.3: PMID 39620500 — Cyanobacteria-Based Medical Applications
+
+**Description**: Engineering cyanobacteria to express human genes for medical use.
+**Error Type**: Species–gene misattribution.
+**Explanation**: Human genes were incorrectly attributed to cyanobacteria, illustrating the difficulty of multi-organism genetic engineering contexts.
+
+#### Case S1.1.4: PMID 39625374 — Canine Endocrinology
+
+**Description**: Study of parathyroid hormone (PTH) in canine endocrine disorders.
+**Error Type**: Gene vs. gene product ambiguity.
+**Explanation**: The focus was physiological rather than genetic, despite the presence of gene-encoded peptides.
+
+---
+
+### S1.2 Common Error Patterns in Custom Biomni
+
+Across these cases, two dominant error modes were observed:
+
+1. **Confusion between genes and gene products** (biomarkers, hormones, peptides)
+2. **Incomplete filtering of model organism involvement in multi-species studies**
+
+These errors highlight semantic boundaries that remain challenging even for expert human curators.
+
+---
+
+## Supplementary Note 2: Default Biomni False Positive Breakdown (15 cases)
+
+Default Biomni’s false positives exhibited more systematic classification issues.
+
+### S2.1 No Genetic Content (6 cases)
+
+Papers incorrectly classified as genetic research despite lacking gene-focused investigation, including methodological, ecological, or nutritional studies.
+
+### S2.2 Model Organism Contamination (3 cases)
+
+Studies primarily focused on recognized model organisms (e.g., *E. coli*, tobacco, humans) that were insufficiently filtered.
+
+### S2.3 Ambiguous or Tangential Gene Mentions (2 cases)
+
+Papers mentioning enzymes or genes incidentally within biochemical or cultivation contexts, without genetic analysis.
+
+### S2.4 Other Cases (4 cases)
+
+Remaining errors spanned multiple categories and reflected inconsistent application of classification criteria.
+
+---
+
+## Supplementary Note 3: PubTator False Positive Analysis (22 cases)
+
+### S3.1 Human Gene Misclassification (10 cases)
+
+Human genetics papers incorrectly retained due to incidental mentions of non-model organisms.
+
+### S3.2 False Gene Annotations (10 cases)
+
+Entities annotated as genes despite representing biomarkers, metabolites, or non-genetic concepts.
+
+### S3.3 Irrelevant Papers (2 cases)
+
+Papers lacking substantive biological research content but spuriously annotated.
+
+---
+
+## Supplementary Note 4: Comparative Error Statistics
+
+| Error Type                   | PubTator | Default Biomni | Custom Biomni |
+| ---------------------------- | -------- | -------------- | ------------- |
+| No genetic content           | 2/22     | 6/15           | 0/4           |
+| Model organism contamination | 10/22    | 3/15           | 2/4           |
+| False gene annotations       | 10/22    | 0/15           | 0/4           |
+| Gene vs. biomarker/peptide   | included | 2/15           | 2/4           |
+| Species–gene misattribution  | 0/22     | 2/15           | 1/4           |
+
+---
+
+## Supplementary Note 5: False Negative Analysis
+
+### S5.1 Papers Missed by Custom Biomni (26 cases)
+
+#### S5.1.1 Missing NCBI Gene Entries
+
+Many legitimate non-model organism genetic studies lacked registered NCBI Gene IDs, preventing database-based validation.
+
+**Representative examples** include studies on insecticide resistance genes, bacterial functional genomics, and algal DNA repair genes.
+
+#### S5.1.2 Classification Boundary Ambiguity
+
+Several missed papers occupied gray zones between genetics, taxonomy, ecology, or physiology, where expert judgment may vary.
+
+---
+
+### S5.2 Papers Missed by Default Biomni (6 cases)
+
+Papers retrieved exclusively by Custom Biomni included studies on plants, fungi, and some domesticated animals, suggesting that Default Biomni may have applied overly conservative filtering in specific contexts.
+
+---
+
+## Supplementary Note 6: Prompt Design Considerations
+
+### S6.1 Over-Constraint in Custom Biomni
+
+The instruction to *always verify species–gene consistency using NCBI databases* disproportionately penalized non-model organism research, where gene annotation coverage is incomplete by definition.
+
+### S6.2 Prompt Simplification Hypothesis
+
+Reducing prompt complexity may improve agent consistency by lowering cognitive load and allowing flexible reasoning when database evidence is unavailable.
+
+---
+
+## Supplementary Note 7: Implications for Future System Design
+
+These supplementary analyses underscore that remaining errors arise primarily from semantic ambiguity, database incompleteness, and prompt design choices rather than fundamental model incapability. Addressing these factors represents a clear pathway toward further performance gains.
+
+---

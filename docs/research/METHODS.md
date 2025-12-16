@@ -219,3 +219,6 @@ $$\text{Precision} = \frac{\text{True Positives}}{\text{True Positives + False P
 - Environment specifications: `setup/environment.yml`, `setup/customized_bio_env.yml`
 
 **Reproducibility**: All code, configurations, and processed data are available in this repository to enable full reproduction of results.
+
+**Default Biomni Configuration**:
+In this study, Default Biomni refers to a configuration in which a subset of the standard Biomni tools was manually selected based on their relevance to the target task. This setting reflects a realistic, task-oriented use of Biomni rather than an unconstrained or fully enabled tool suite, and was intended to provide a fair and practical baseline for comparison.
