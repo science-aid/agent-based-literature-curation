@@ -20,11 +20,19 @@ This repository contains code and data for curation of scientific literature usi
 
 ## Results
 
-Our custom Biomni approach achieved higher precision in identifying relevant non-model organism genetics papers compared to existing methods.
+Our custom Biomni approach achieved **90.91% precision** in constructing a corpus of genetic research articles on non-model organisms, substantially outperforming Default Biomni (80.00%) and PubTator (60.00%).
+
+**For detailed research documentation**, please visit our [GitHub Pages](https://science-aid.github.io/agent-based-literature-curation/) or see:
+
+- [docs/research/BACKGROUND.md](docs/research/BACKGROUND.md) - Research context and motivation
+- [docs/research/METHODS.md](docs/research/METHODS.md) - Detailed methodology and operational definitions
+- [docs/research/RESULTS.md](docs/research/RESULTS.md) - Performance comparison and metrics
+- [docs/research/DISCUSSION.md](docs/research/DISCUSSION.md) - Analysis of false positives/negatives
+- [docs/research/LIMITATIONS.md](docs/research/LIMITATIONS.md) - Study constraints and future work
 
 ## Publication
 
-Presented at the 48th Annual Meeting of the Molecular Biology Society of Japan (第48回日本分子生物学会年会), December 3-6, 2025
+Presented at the 48th Annual Meeting of the Molecular Biology Society of Japan (第48回日本分子生物学会年会), December 3, 2025
 
 ## Getting Started
 
@@ -41,6 +49,35 @@ docker build -f setup/Dockerfile -t res-agent .
 ```
 
 This will create a Docker image named `res-agent` with all necessary dependencies for running the AI agent.
+
+#### 2. Run the Docker Container
+
+To use the scripts in this repository, you need to run them inside the Docker container:
+
+```bash
+docker run -it --rm -v $(pwd):/workspace res-agent /bin/bash
+```
+
+This command:
+- `-it`: Runs the container in interactive mode with a terminal
+- `--rm`: Automatically removes the container when you exit
+- `-v $(pwd):/workspace`: Mounts the current directory to `/workspace` in the container
+- `res-agent`: Uses the image you built
+- `/bin/bash`: Starts a bash shell
+
+#### 3. Run Scripts Inside the Container
+
+Once inside the container, you can run any Python script:
+
+```bash
+# Example: Calculate precision for Biomni results
+python scripts/calculate_precision.py
+
+# Example: Analyze model organisms
+python scripts/select_model_species.py
+```
+
+**Note**: All Python scripts must be run inside the Docker container, as they require specific dependencies installed in the container environment.
 
 ## Key Scripts
 
