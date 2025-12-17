@@ -2,9 +2,18 @@
 
 ## What is this?
 
-**AIエージェント（Biomni）を使ったノイズの少ない論文セット取得の検証**
+**Validation of AI Agent-Based Curation for Low-Noise Literature Set Construction**
 
-This research validates a method for obtaining high-quality, low-noise literature sets using AI agents (Biomni) for scientific paper curation.
+This repository provides complete research materials for validating AI agent-based literature curation methods, including:
+
+- Comprehensive research documentation and findings
+- Full analysis scripts and implementation code
+- Experimental datasets and evaluation results
+- Docker environment for reproducibility
+
+**Built with Biomni**: This research is built upon [Biomni](https://biomni.stanford.edu/), an open-source AI agent framework developed at Stanford University for biological and biomedical research.
+
+> Huang, K., Zhang, S., Wang, H., et al. (2025). Biomni: A General-Purpose Biomedical AI Agent. *bioRxiv*. https://doi.org/10.1101/2025.05.30.656746
 
 ---
 
@@ -35,7 +44,7 @@ We tested **three different approaches** for literature curation and validated t
 
 **Date:** December 3, 2025
 
-### Presentation Materials
+### Presention Material
 
 ![Conference Poster](20251202_poster.png)
 
@@ -57,3 +66,4 @@ Feel free to reference and use these materials for your own research.
 
 **Takayuki Suzuki**
 📧 [takayuki.suzuki@science-aid.com](mailto:takayuki.suzuki@science-aid.com)
+𝕏 [@sci_aid_tszk](https://x.com/sci_aid_tszk)

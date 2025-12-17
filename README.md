@@ -1,10 +1,14 @@
 # Agent-based Literature Curation
 
-AI agent-based system for precision literature curation for papers of genetic research of non-model species.
+Validation of AI Agent-Based Curation for Low-Noise Literature Set Construction.
 
 ## Overview
 
-This repository contains code and data for curation of scientific literature using AI agents. We compare three approaches for identifying non-model organism genetics papers.
+This repository contains code and data for curation of scientific literature sets using AI agents (Biomni). We compare three approaches for identifying non-model organism genetics literature set.
+
+**Built with Biomni**: This research is built upon [Biomni](https://biomni.stanford.edu/), an open-source AI agent framework developed at Stanford University for biological and biomedical research.
+
+> Huang, K., Zhang, S., Wang, H., et al. (2025). Biomni: A General-Purpose Biomedical AI Agent. *bioRxiv*. https://doi.org/10.1101/2025.05.30.656746
 
 ## Key Features
 
@@ -113,11 +117,25 @@ python scripts/select_model_species.py
 
 name: Takayuki Suzuki
 email: takayuki.suzuki@science-aid.com
+X: [@sci_aid_tszk](https://x.com/sci_aid_tszk)
 
 ## License
 
-[To be determined]
+### Code
 
----
+The code in this repository is licensed under the **Apache License 2.0**. See the [LICENSE](LICENSE) file for details.
 
-*This repository is under active development. Full documentation and data will be released soon.*
+This project is built upon [Biomni](https://github.com/snap-stanford/biomni), which is also licensed under Apache License 2.0.
+
+### Documentation and Data
+
+The documentation and research data are licensed under the **Creative Commons Attribution 4.0 International License (CC BY 4.0)**.
+
+You are free to:
+- Share — copy and redistribute the material in any medium or format
+- Adapt — remix, transform, and build upon the material for any purpose, even commercially
+
+Under the following terms:
+- **Attribution** — You must give appropriate credit, provide a link to the license, and indicate if changes were made
+
+For more information, see https://creativecommons.org/licenses/by/4.0/
