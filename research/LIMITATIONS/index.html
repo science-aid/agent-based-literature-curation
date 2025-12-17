@@ -1,0 +1,753 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="AI agent-based system for precision literature curation for non-model organism genetics research">
+      
+      
+        <meta name="author" content="Takayuki Suzuki">
+      
+      
+        <link rel="canonical" href="https://science-aid.github.io/agent-based-literature-curation/research/LIMITATIONS/">
+      
+      
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.0">
+    
+    
+      
+        <title>Limitations - Agent-based Literature Curation</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.618322db.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#limitations" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Agent-based Literature Curation" class="md-header__button md-logo" aria-label="Agent-based Literature Curation" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Agent-based Literature Curation
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Limitations
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Agent-based Literature Curation" class="md-nav__button md-logo" aria-label="Agent-based Literature Curation" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Agent-based Literature Curation
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#scope-and-evaluation-metrics" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Scope and Evaluation Metrics
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#entity-level-annotation-limitations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Entity-Level Annotation Limitations
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#data-limitations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Data Limitations
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Data Limitations">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#temporal-sampling-bias" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Temporal Sampling Bias
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sample-size" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Sample Size
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#methodological-limitations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Methodological Limitations
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Methodological Limitations">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ground-truth-ambiguity" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ground Truth Ambiguity
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#classification-framework" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Classification Framework
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#database-coverage-constraints" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Database Coverage Constraints
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#performance-and-practical-limitations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Performance and Practical Limitations
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#generalizability" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Generalizability
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#comparison-constraints" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Comparison Constraints
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#summary" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Summary
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#supplementary-note-extended-limitations-and-context" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Supplementary Note : Extended Limitations and Context
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#s1-evaluation-scope" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        S1. Evaluation Scope
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="S1. Evaluation Scope">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#precision-centered-design" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Precision-Centered Design
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#entity-level-annotation-uncertainty" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Entity-Level Annotation Uncertainty
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#s2-data-and-sampling-constraints" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        S2. Data and Sampling Constraints
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="S2. Data and Sampling Constraints">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#temporal-window" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Temporal Window
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#corpus-size" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Corpus Size
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#s3-methodological-considerations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        S3. Methodological Considerations
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="S3. Methodological Considerations">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ground-truth-subjectivity" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ground Truth Subjectivity
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#classification-framework_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Classification Framework
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#database-coverage-paradox" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Database Coverage Paradox
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#s4-computational-and-generalization-limits" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        S4. Computational and Generalization Limits
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="S4. Computational and Generalization Limits">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#cost-and-reliability" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cost and Reliability
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#model-and-prompt-dependency" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Model and Prompt Dependency
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#supplementary-summary" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Supplementary Summary
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="limitations">Limitations</h1>
+<h2 id="scope-and-evaluation-metrics">Scope and Evaluation Metrics</h2>
+<p>This study focused on evaluating <strong>precision</strong> in constructing a corpus of genetic research articles on non-model organisms, reflecting the primary requirement of high-precision literature curation workflows. Other performance metrics, including recall, accuracy, and F1-score, were not comprehensively assessed.</p>
+<p>This limitation was driven by practical constraints. Establishing complete ground truth for all 531 papers would require extensive expert manual curation, which was not feasible within the project timeline. Consequently, we prioritized rigorous precision evaluation over broader metric coverage. As a result, we cannot make definitive claims regarding recall or overall classification accuracy, although preliminary insights into false negatives are discussed based on retrieval overlap patterns.</p>
+<h2 id="entity-level-annotation-limitations">Entity-Level Annotation Limitations</h2>
+<p>Manual curation primarily targeted paper-level classification (i.e., whether a paper constitutes non-model organism genetics research). While gene and species annotations were reviewed, entity-level validation was not performed with equivalent rigor. Some ambiguity therefore remains in the ground truth for entity annotations, and reported entity-level precision values should be interpreted as indicative rather than definitive.</p>
+<h2 id="data-limitations">Data Limitations</h2>
+<h3 id="temporal-sampling-bias">Temporal Sampling Bias</h3>
+<p>The corpus was sampled from a narrow three-day window (December 1–3, 2024), introducing potential temporal bias. Publication patterns may vary seasonally, and related studies may cluster temporally. While a longer sampling window would provide more representative coverage, the selected window enabled computationally feasible method development. Importantly, all methods were evaluated on the identical corpus, preserving the validity of comparative analysis.</p>
+<h3 id="sample-size">Sample Size</h3>
+<p>The 531-paper corpus was sufficient for initial method comparison but limits statistical power, coverage of rare research subtypes, and taxonomic diversity. Larger-scale evaluations would be necessary to assess performance robustness, particularly for uncommon species and niche research areas.</p>
+<h2 id="methodological-limitations">Methodological Limitations</h2>
+<h3 id="ground-truth-ambiguity">Ground Truth Ambiguity</h3>
+<p>Classifying “non-model organism genetics research” involves subjective judgment, particularly for studies at the boundary between genetics and related domains (e.g., ecology or physiology). To ensure internal consistency, all evaluations were conducted by a single domain expert. However, formal inter-rater reliability assessment was not performed, which limits confidence in edge-case classifications.</p>
+<h3 id="classification-framework">Classification Framework</h3>
+<p>In the absence of established taxonomies for non-model organism genetics research, we developed an ad hoc six-category classification framework. While applied consistently across all methods, this framework has not been externally validated, and boundary cases may be inconsistently categorized.</p>
+<h3 id="database-coverage-constraints">Database Coverage Constraints</h3>
+<p>Custom Biomni relies on NCBI Gene and Taxonomy databases for validation. However, gene annotation for non-model organisms is often incomplete, creating a structural limitation. Strict database-based validation may therefore exclude legitimate genetic studies lacking registered gene entries, contributing to reduced recall. This paradox highlights how incomplete annotation of non-model organisms—one of the motivations for this study—also constrains database-driven approaches.</p>
+<h2 id="performance-and-practical-limitations">Performance and Practical Limitations</h2>
+<p>Custom Biomni required higher computational cost and processing time than baseline method. While acceptable for targeted, high-value curation tasks, these costs may limit applicability to large-scale or real-time monitoring. Batch-based processing further introduces engineering complexity, although structured output mechanisms mitigated data loss risks.</p>
+<p>Results are also model-specific, reflecting performance of GPT-4.1-mini at the time of evaluation. Performance, cost, and error characteristics may change with future model updates or alternative LLMs.</p>
+<h2 id="generalizability">Generalizability</h2>
+<p>This study is specific to non-model organism genetics literature. Generalization to other biological domains, model organism research, or non-biological fields remains untested. Moreover, the evaluation represents a snapshot of AI capabilities in 2025; rapid advances in LLM technology may alter both performance and limitations over time.</p>
+<p>Custom Biomni’s performance is also sensitive to prompt design. Prompt optimization was not systematic, and small prompt variations may lead to different outcomes, limiting reproducibility.</p>
+<h2 id="comparison-constraints">Comparison Constraints</h2>
+<p>PubTator represents a free, pre-computed annotation baseline with no customization or per-query cost, whereas Biomni agents required computational cost and leverage modern LLMs. Despite these structural differences, PubTator remains the most practical large-scale automated baseline and therefore an appropriate comparator.</p>
+<p>“Default Biomni” was defined as Biomni without custom database integration. Alternative default configurations or prompt designs may yield different results, although both Biomni variants shared similar base settings to enable fair comparison.</p>
+<h2 id="summary">Summary</h2>
+<p>These limitations reflect the exploratory nature of this study and highlight key challenges in automated curation for non-model organism genetics, including incomplete databases, subjective classification boundaries, and precision–recall trade-offs. While these constraints limit generalization and recall assessment, they also delineate clear directions for future methodological refinement and large-scale validation.</p>
+<hr />
+<h2 id="supplementary-note-extended-limitations-and-context">Supplementary Note : Extended Limitations and Context</h2>
+<p>This supplementary note provides methodological details and extended context for the limitations briefly described in the main text. It is intended to support transparency and reproducibility without duplicating the main discussion.</p>
+<hr />
+<h2 id="s1-evaluation-scope">S1. Evaluation Scope</h2>
+<h3 id="precision-centered-design">Precision-Centered Design</h3>
+<p>Evaluation focused exclusively on precision, reflecting the primary requirement of literature curation workflows. Comprehensive recall estimation was infeasible due to the lack of complete ground truth for the full 531-paper corpus. Preliminary insights into false negatives were derived from retrieval overlap patterns but are not quantitatively reported.</p>
+<h3 id="entity-level-annotation-uncertainty">Entity-Level Annotation Uncertainty</h3>
+<p>Manual curation prioritized paper-level classification. Gene and species annotations were reviewed but not exhaustively curated, particularly for non-model organisms with inconsistent nomenclature. Reported entity-level precision should therefore be interpreted as indicative.</p>
+<hr />
+<h2 id="s2-data-and-sampling-constraints">S2. Data and Sampling Constraints</h2>
+<h3 id="temporal-window">Temporal Window</h3>
+<p>The corpus was sampled from a three-day publication window (December 1–3, 2024), which may introduce temporal bias and topic clustering. The window was chosen for computational feasibility, and all methods were evaluated on the identical corpus, preserving valid relative comparison.</p>
+<h3 id="corpus-size">Corpus Size</h3>
+<p>The 531-paper corpus is sufficient to detect large performance differences but limits statistical power and taxonomic coverage. Larger, temporally diverse corpora are needed for robust evaluation.</p>
+<hr />
+<h2 id="s3-methodological-considerations">S3. Methodological Considerations</h2>
+<h3 id="ground-truth-subjectivity">Ground Truth Subjectivity</h3>
+<p>Classification of non-model organism genetics research involves subjective boundary cases (e.g., genetic markers vs. genetics-focused studies). All annotations were performed by a single expert curator, and no formal inter-rater reliability analysis was conducted.</p>
+<h3 id="classification-framework_1">Classification Framework</h3>
+<p>A six-category, ad hoc classification framework was developed in the absence of standardized taxonomies. While consistently applied, it has not been externally validated and may be ambiguous for multi-category papers.</p>
+<h3 id="database-coverage-paradox">Database Coverage Paradox</h3>
+<p>Custom Biomni relies on NCBI Gene and Taxonomy validation, which is incomplete for non-model organisms. This improves precision but likely reduces recall by excluding legitimate studies lacking database support.</p>
+<hr />
+<h2 id="s4-computational-and-generalization-limits">S4. Computational and Generalization Limits</h2>
+<h3 id="cost-and-reliability">Cost and Reliability</h3>
+<p>Custom Biomni incurs higher computational cost and requires batch-based processing, increasing engineering complexity. These constraints may limit applicability to large-scale or real-time monitoring.</p>
+<h3 id="model-and-prompt-dependency">Model and Prompt Dependency</h3>
+<p>Results are specific to GPT-4.1-mini and to the chosen prompt design. Model updates or prompt variations may alter performance, and transferability to other domains remains untested.</p>
+<hr />
+<h3 id="supplementary-summary">Supplementary Summary</h3>
+<p>These limitations reflect structural challenges in non-model organism literature and early-stage AI agent development. While they constrain absolute performance claims, they do not affect the validity of comparative conclusions, which are based on consistent evaluation across identical corpora.</p>
+<hr />
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+        
+<div class="md-social">
+  
+    
+    
+    
+    
+    <a href="mailto:takayuki.suzuki@science-aid.com" target="_blank" rel="noopener" title="" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4l208 156a48 48 0 0 0 57.6 0l208-156c12.1-9.1 19.2-23.3 19.2-38.4 0-26.5-21.5-48-48-48zM0 196v188c0 35.3 28.7 64 64 64h384c35.3 0 64-28.7 64-64V196L313.6 344.8c-34.1 25.6-81.1 25.6-115.2 0z"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.instant", "navigation.top", "content.code.copy"], "search": "../../assets/javascripts/workers/search.7a47a382.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.e71a0d61.min.js"></script>
+      
+    
+  </body>
+</html>

@@ -1,0 +1,740 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="AI agent-based system for precision literature curation for non-model organism genetics research">
+      
+      
+        <meta name="author" content="Takayuki Suzuki">
+      
+      
+        <link rel="canonical" href="https://science-aid.github.io/agent-based-literature-curation/research/METHODS/">
+      
+      
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.0">
+    
+    
+      
+        <title>Methods - Agent-based Literature Curation</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.618322db.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#methods" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Agent-based Literature Curation" class="md-header__button md-logo" aria-label="Agent-based Literature Curation" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Agent-based Literature Curation
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Methods
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Agent-based Literature Curation" class="md-nav__button md-logo" aria-label="Agent-based Literature Curation" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Agent-based Literature Curation
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#overview" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Overview
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#operational-definitions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Operational Definitions
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Operational Definitions">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#model-vs-non-model-organisms" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Model vs. Non-Model Organisms
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#genetics-research-classification" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Genetics Research Classification
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#data-collection" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Data Collection
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Data Collection">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#literature-corpus" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Literature Corpus
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#workflow-for-ai-agent-input-selection" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Workflow for AI Agent Input Selection
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#workflow-for-pubtator-baseline" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Workflow for PubTator Baseline
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#experimental-setup" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Experimental Setup
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Experimental Setup">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#pubtator-baseline" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        PubTator Baseline
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#default-biomni-agent" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Default Biomni Agent
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#custom-biomni-agent" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Custom Biomni Agent
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Custom Biomni Agent">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-mcp-server-integration" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. MCP Server Integration
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-iterative-development-and-validation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Iterative Development and Validation
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-batch-processing-architecture" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Batch Processing Architecture
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#performance-and-cost-analysis" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Performance and Cost Analysis
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#evaluation-metrics" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Evaluation Metrics
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Evaluation Metrics">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#precision" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Precision
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#implementation-details" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Implementation Details
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="methods">Methods</h1>
+<h2 id="overview">Overview</h2>
+<p>This study compares three approaches for constructing a high-precision corpus of genetic research articles on non-model organisms: (1) PubTator-based annotation filtering, (2) a Biomni AI agent with default configuration, and (3) a Biomni AI agent with custom enhancements. We evaluated these methods on a corpus of open-access journal articles published over a three-day period, assessing their precision in identifying relevant literature.</p>
+<h2 id="operational-definitions">Operational Definitions</h2>
+<h3 id="model-vs-non-model-organisms">Model vs. Non-Model Organisms</h3>
+<p><strong>Model Organism Definition</strong>: We operationally defined model organisms as the top 20 most frequently studied species in genetic research, based on annotation frequency in genome editing meta-database (https://doi.org/10.1016/j.ggedit.2022.100024).</p>
+<p><strong>Data Source</strong>: Genome editing meta-database (<code>data/20251008_ge_metadata_all.csv</code>) (downloaded from https://github.com/szktkyk/gem_api)</p>
+<p><strong>Selection Criteria</strong>:
+- Analyzed species frequency in studies using genome editing tools since 2000
+- Top 20 species classified as "model organisms"
+- All other species classified as "non-model organisms"
+- Implementation: <code>scripts/select_model_species.py</code></p>
+<p><strong>Coverage Analysis</strong>:
+- The top 20 model organisms accounted for <strong>92.21%</strong> of all papers in the database
+- Results documented in <code>config/top20_organisms_with_taxid.csv</code>
+- Visualization available in <code>figures/model_species/top20_organisms_bar_chart.png</code>
+- coverage statistics available in <code>figures/model_species/coverage_statistics.txt</code></p>
+<p><strong>Reference Sources</strong>:
+- NIH Model Organisms FAQ: https://public.csr.nih.gov/FAQs/ReviewersFAQs/ModelOrganisms
+- Howe et al. (2017). The Model Organism as a System: Integrating 'Omics' Data Sets. <em>BMC Biology</em>, 15:45. https://doi.org/10.1186/s12915-017-0391-5</p>
+<h3 id="genetics-research-classification">Genetics Research Classification</h3>
+<p><strong>Scope Definition</strong>: The scope of this study was operationally defined to focus on genetic research conducted within non-model organisms. Given the lack of a widely accepted definition of “non-model organism genetics research” in the literature, we adopted a pragmatic scope tailored to the objectives of this analysis. Specifically, we excluded studies in which non-model organisms were primarily investigated in the context of their effects on model organism genomes or biology (e.g., bacterial effects on human genomes), as such studies are centered on model organisms rather than on the genetics of non-model species themselves.</p>
+<p>*<em>Classification Framework</em>: In the absence of standardized taxonomies for classifying genetic research in non-model organisms, we developed a six-category classification framework to capture the major types of genetic studies observed in the literature. </p>
+<p>The six genetics research categories used in this study are as follows:</p>
+<ol>
+<li><strong>Genomic Sequencing &amp; Identification</strong>: Genome sequencing and novel gene identification</li>
+<li><strong>Comparative Analysis &amp; Annotation</strong>: Ortholog/homolog analysis for functional inference through sequence homology</li>
+<li><strong>Gene Expression Profiling</strong>: Expression analysis across conditions, tissues, or developmental stages</li>
+<li><strong>Phylogenetic and Evolutionary Analysis</strong>: Gene family expansion/contraction and evolutionary adaptation signatures</li>
+<li><strong>Functional Validation &amp; Bioengineering</strong>: Experimental validation using techniques such as CRISPR or RNAi</li>
+<li><strong>Methodological Development &amp; Diagnostics</strong>: Development of genetic diagnostic techniques and methodological advances</li>
+</ol>
+<p><strong>Inclusion Criteria</strong>: Papers satisfying at least one of the above six categories were classified as genetics research.</p>
+<p><strong>Note</strong>: This classification system represents an initial framework. More refined categorization may be possible upon completion of comprehensive literature annotation.</p>
+<h2 id="data-collection">Data Collection</h2>
+<h3 id="literature-corpus">Literature Corpus</h3>
+<p><strong>Search Query</strong>: <code>all[filter] AND pubmed pmc open access[filter] AND journal article[pt]</code></p>
+<p><strong>Date Range</strong>: December 1-3, 2024 (3-day window)</p>
+<p><strong>Initial Corpus Size</strong>: 4,959 articles </p>
+<p><strong>Limitation</strong>: The narrow 3-day sampling window represents a methodological limitation. Ideally, a 1-month window with random sampling would provide more representative coverage. See <a href="../LIMITATIONS/">LIMITATIONS.md</a> for detailed discussion.</p>
+<h3 id="workflow-for-ai-agent-input-selection">Workflow for AI Agent Input Selection</h3>
+<p><strong>Implementation</strong>: <code>wf_pre_agent.py</code></p>
+<p><strong>Configuration Parameters</strong>:
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="n">config</span> <span class="o">=</span> <span class="n">WorkflowConfig</span><span class="p">(</span>
+<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>    <span class="n">date_start</span><span class="o">=</span><span class="s2">&quot;20241201&quot;</span><span class="p">,</span>
+<a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>    <span class="n">date_end</span><span class="o">=</span><span class="s2">&quot;20241203&quot;</span><span class="p">,</span>
+<a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>    <span class="n">days_per_chunk_step1</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span>
+<a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>    <span class="n">chunk_size_step2</span><span class="o">=</span><span class="mi">900</span><span class="p">,</span>
+<a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a>    <span class="n">chunk_size_step3</span><span class="o">=</span><span class="mi">400</span><span class="p">,</span>
+<a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a>    <span class="n">max_retries</span><span class="o">=</span><span class="mi">3</span><span class="p">,</span>
+<a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a>    <span class="n">retry_delay</span><span class="o">=</span><span class="mi">10</span><span class="p">,</span>
+<a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a>    <span class="n">model_species_config</span><span class="o">=</span><span class="s2">&quot;config/top20_organisms_with_taxid.csv&quot;</span><span class="p">,</span>
+<a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a>    <span class="n">output_dir</span><span class="o">=</span><span class="s2">&quot;data/pre_agent&quot;</span>
+<a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a><span class="p">)</span>
+</code></pre></div></p>
+<p><strong>Filtering Criteria</strong>:
+- Used PubTator annotations on titles and abstracts
+- Selected papers where the most frequently mentioned species was a non-model organism
+- <strong>Filtered Corpus Size</strong>: 531 papers</p>
+<p><strong>Quality Control</strong>:
+- Manual validation of <code>main()</code> function
+- Unit tests implemented in <code>test_wf_pre_agent.py</code>
+- Venn diagram visualization generated using <code>create_venn_diagram.py</code> (output: <code>figures/wf_filtering/</code>)</p>
+<h3 id="workflow-for-pubtator-baseline">Workflow for PubTator Baseline</h3>
+<p><strong>Implementation</strong>: <code>filter_pubtator_annotations.py</code></p>
+<p><strong>Input</strong>: 531-paper corpus from AI agent workflow</p>
+<p><strong>Filtering Criteria</strong>:
+1. Retrieved all PubTator annotations (species and genes) from titles and abstracts
+2. Excluded papers with any model organism annotations
+3. Excluded papers lacking both species and gene annotations</p>
+<p><strong>Filtered Corpus Size</strong>: 55 papers (10.4% of 531-paper corpus)</p>
+<p><strong>Stability Check</strong>: Replication in November 2024 yielded identical 55-paper result, confirming reproducibility.</p>
+<h2 id="experimental-setup">Experimental Setup</h2>
+<h3 id="pubtator-baseline">PubTator Baseline</h3>
+<p><strong>Approach</strong>: Rule-based filtering using existing PubTator annotations</p>
+<p><strong>Rationale</strong>: Establishes baseline performance of current state-of-the-art automated annotation systems</p>
+<p><strong>Process</strong>:
+1. Extract species and gene annotations from PubTator API
+2. Apply filtering rules (exclude model organisms, require gene annotations)
+3. No manual intervention or AI-based decision making</p>
+<h3 id="default-biomni-agent">Default Biomni Agent</h3>
+<p><strong>Framework</strong>: Biomni (https://biomni.stanford.edu/) with CodeAct architecture</p>
+<p><strong>Model</strong>: GPT-4.1-mini (selected over GPT-5-mini due to 20-40 second latency reduction)</p>
+<p><strong>Tools Available</strong>: Standard Biomni toolkit for literature analysis and database queries</p>
+<p><strong>Limitations of Batch Processing</strong>:
+- Initial attempts to process all 531 papers in a single agent session failed
+- CodeAct architecture generated loop-based code that applied uniform processing to all PMIDs
+- This prevented the desired "organic processing" (identify gene → query database → validate → compare with species → query alternative candidates)
+- <strong>Solution</strong>: Implemented paper-by-paper processing approach</p>
+<h3 id="custom-biomni-agent">Custom Biomni Agent</h3>
+<p><strong>Enhancements over Default Biomni</strong>:</p>
+<h4 id="1-mcp-server-integration">1. MCP Server Integration</h4>
+<p><strong>NCBI Gene Database Access</strong> (Enhanced Entity Linking):
+- Query NCBI Gene database for gene information
+- Retrieve gene names, IDs, and synonyms
+- Validate consistency by cross-referencing gene name with species taxonomy ID</p>
+<p><strong>NCBI Taxonomy Database Access</strong> (Enhanced Entity Linking):
+- Query NCBI Taxonomy database for species information
+- Retrieve taxonomy IDs, scientific names, and taxonomic classifications (class level)
+- Enable precise species identification and validation</p>
+<p><strong>Structured Data Generation</strong> (Robust Data Capture):
+- Incrementally append validated annotations to structured output files
+- Ensure data persistence in case of agent interruption
+- Enable resumable processing for large batches</p>
+<h4 id="2-iterative-development-and-validation">2. Iterative Development and Validation</h4>
+<p>Conducted six rounds of agent behavior validation and prompt refinement:
+- [Trial 1-6 documentation links preserved for internal reference]
+- Final prompt design and paper-level processing approach determined in Trial 6
+- Implementation: <code>run_agent_20251030.py</code></p>
+<h4 id="3-batch-processing-architecture">3. Batch Processing Architecture</h4>
+<p><strong>Challenge</strong>: Memory accumulation from repeated <code>agent.go()</code> calls
+- Accumulated message history and MCP connections
+- All log_messages retained in memory
+- Memory exhaustion (OOM Killer) after ~76 papers</p>
+<p><strong>Solution</strong>: Subprocess-based batch processing
+- Implementation: <code>run_agent_batch_subprocess.py</code> (orchestrator) + <code>run_agent_worker.py</code> (worker)
+- Process papers in small batches with agent restart between batches
+- Achieved stable processing of 419 papers without interruption</p>
+<h2 id="performance-and-cost-analysis">Performance and Cost Analysis</h2>
+<p><strong>Processing Volume</strong>: 419 papers (manual termination; system remained stable)</p>
+<p><strong>Results</strong>: 62 papers identified as non-model organism genetics research (14.8% hit rate)</p>
+<p><strong>Computational Cost</strong> (300-paper subset):
+- Total Cost: $3.76
+- Total Processing Time: 11,182.65 seconds (3.11 hours)
+- Average Time per Paper: 37.3 seconds
+- Average Cost per Paper: $0.0125</p>
+<h2 id="evaluation-metrics">Evaluation Metrics</h2>
+<h3 id="precision">Precision</h3>
+<p><strong>Definition</strong>:
+$$\text{Precision} = \frac{\text{True Positives}}{\text{True Positives + False Positives}}$$</p>
+<p><strong>Rationale for Focus on Precision</strong>:
+- For this project, minimizing false positives (irrelevant papers incorrectly classified as relevant) has been mostly paid attention
+- High precision ensures curated sets contain primarily relevant papers
+- Recall (sensitivity) and F1-score evaluation deferred to future work</p>
+<p><strong>Ground Truth Establishment</strong>: Manual curation of sampled papers to establish true positive classifications</p>
+<p><strong>Evaluation Scope</strong>: This study reports precision only. Comprehensive evaluation including accuracy, recall, and F1-score remains for future investigation (see <a href="../LIMITATIONS/">LIMITATIONS.md</a>).</p>
+<h2 id="implementation-details">Implementation Details</h2>
+<p><strong>Programming Language</strong>: Python 3.11.14</p>
+<p><strong>Key Dependencies</strong>:
+- Biomni framework
+- OpenAI API (GPT-4.1-mini)
+- NCBI E-utilities
+- PubTator API</p>
+<p><strong>Code Availability</strong>:
+- Workflow implementations: <code>wf_pre_agent.py</code>, <code>filter_pubtator_annotations.py</code>
+- Agent implementations: <code>run_agent_batch_subprocess.py</code>, <code>run_agent_worker.py</code>
+- Analysis scripts: <code>scripts/select_model_species.py</code>, <code>scripts/check_species_match.py</code>
+- Configuration files: <code>config/top20_organisms_with_taxid.csv</code>, <code>config/mcp_config.yaml</code></p>
+<p><strong>Docker Environment</strong>:
+- Dockerfile: <code>setup/Dockerfile</code>
+- Environment specifications: <code>setup/environment.yml</code>, <code>setup/customized_bio_env.yml</code></p>
+<p><strong>Reproducibility</strong>: All code, configurations, and processed data are available in this repository to enable full reproduction of results.</p>
+<p><strong>Default Biomni Configuration</strong>:
+In this study, Default Biomni refers to a configuration in which a subset of the standard Biomni tools was manually selected based on their relevance to the target task. This setting reflects a realistic, task-oriented use of Biomni rather than an unconstrained or fully enabled tool suite, and was intended to provide a fair and practical baseline for comparison.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+        
+<div class="md-social">
+  
+    
+    
+    
+    
+    <a href="mailto:takayuki.suzuki@science-aid.com" target="_blank" rel="noopener" title="" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4l208 156a48 48 0 0 0 57.6 0l208-156c12.1-9.1 19.2-23.3 19.2-38.4 0-26.5-21.5-48-48-48zM0 196v188c0 35.3 28.7 64 64 64h384c35.3 0 64-28.7 64-64V196L313.6 344.8c-34.1 25.6-81.1 25.6-115.2 0z"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.instant", "navigation.top", "content.code.copy"], "search": "../../assets/javascripts/workers/search.7a47a382.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.e71a0d61.min.js"></script>
+      
+    
+  </body>
+</html>

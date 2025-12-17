@@ -1,0 +1,786 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="AI agent-based system for precision literature curation for non-model organism genetics research">
+      
+      
+        <meta name="author" content="Takayuki Suzuki">
+      
+      
+        <link rel="canonical" href="https://science-aid.github.io/agent-based-literature-curation/research/DISCUSSION/">
+      
+      
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.0">
+    
+    
+      
+        <title>Discussion - Agent-based Literature Curation</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.618322db.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#discussion" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Agent-based Literature Curation" class="md-header__button md-logo" aria-label="Agent-based Literature Curation" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Agent-based Literature Curation
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Discussion
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Agent-based Literature Curation" class="md-nav__button md-logo" aria-label="Agent-based Literature Curation" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Agent-based Literature Curation
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#overview" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Overview
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#comparative-performance-analysis" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Comparative Performance Analysis
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Comparative Performance Analysis">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#why-custom-biomni-outperforms-other-methods" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Why Custom Biomni Outperforms Other Methods
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Why Custom Biomni Outperforms Other Methods">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-enhanced-entity-linking-via-database-integration" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Enhanced Entity Linking via Database Integration
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-structured-output-generation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Structured Output Generation
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-contextual-understanding-via-llm-reasoning" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Contextual Understanding via LLM Reasoning
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#false-positive-analysis" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        False Positive Analysis
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="False Positive Analysis">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#custom-biomni" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Custom Biomni
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#default-biomni" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Default Biomni
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pubtator" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        PubTator
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#false-negative-analysis" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        False Negative Analysis
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="False Negative Analysis">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#conservative-classification-in-custom-biomni" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Conservative Classification in Custom Biomni
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#implications" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Implications
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mechanistic-insights" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Mechanistic Insights
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Mechanistic Insights">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#why-database-integration-improves-precision" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Why Database Integration Improves Precision
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#why-llm-reasoning-outperforms-traditional-ner-pipelines" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Why LLM Reasoning Outperforms Traditional NER Pipelines
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#precisionrecall-trade-off-and-design-implications" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Precision–Recall Trade-off and Design Implications
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#broader-implications" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Broader Implications
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#conclusion" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Conclusion
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="discussion">Discussion</h1>
+<h2 id="overview">Overview</h2>
+<p>This study demonstrates that AI agent–based approaches, particularly when combined with database-aware reasoning, can substantially outperform existing automated literature annotation systems in constructing high-precision corpora of genetic research articles on non-model organisms. Custom Biomni achieved 90.91% precision, representing a 30.91 percentage point improvement over PubTator (60.00%) and a 10.91 percentage point improvement over Default Biomni (80.00%).</p>
+<p>Beyond performance differences, our analysis reveals how agentic tool use, prompt design, and database coverage collectively shape the observed precision–recall trade-offs.</p>
+<h2 id="comparative-performance-analysis">Comparative Performance Analysis</h2>
+<h3 id="why-custom-biomni-outperforms-other-methods">Why Custom Biomni Outperforms Other Methods</h3>
+<p>Three primary factors account for Custom Biomni’s superior precision.</p>
+<h4 id="1-enhanced-entity-linking-via-database-integration">1. Enhanced Entity Linking via Database Integration</h4>
+<p>Custom Biomni integrates external biomedical databases through an MCP server, enabling real-time access to NCBI Gene and Taxonomy resources. This allows:</p>
+<ul>
+<li><strong>Gene validation</strong> against official records and synonyms</li>
+<li><strong>Species verification</strong> using authoritative taxonomy identifiers</li>
+<li><strong>Species–gene consistency checks</strong> to confirm biological plausibility</li>
+</ul>
+<p><strong>Impact</strong>:
+By autonomously querying MCP-connected databases during inference, Custom Biomni performs context-aware entity grounding rather than static post-processing. This agentic tool use enables disambiguation of gene and species mentions based on biological plausibility—for example, distinguishing biomarker proteins from genes or rejecting invalid gene–species associations. As a result, false positives arising from superficial or ambiguous co-mentions are substantially reduced.</p>
+<p><strong>Contrast with PubTator</strong>:
+PubTator relies on pre-computed NER annotations and rule-based filtering, without the ability to dynamically verify whether a gene mention represents the focus of genetic investigation or merely incidental background information.</p>
+<p><strong>Contrast with Default Biomni</strong>:
+Default Biomni can access some external databases, including NCBI Gene and Taxonomy, but such access is intermittent and not reliably integrated into the inference process, limiting consistent context-aware validation.</p>
+<h4 id="2-structured-output-generation">2. Structured Output Generation</h4>
+<p>Custom Biomni employs structured output tools that incrementally persist validated annotations to external files. This provides:</p>
+<ul>
+<li><strong>Reliability</strong>, preserving outputs even when agent execution is interrupted</li>
+<li><strong>Consistency</strong>, through enforced output schemas</li>
+<li><strong>Auditability</strong>, enabling traceability of agent decisions</li>
+</ul>
+<p>By contrast, Default Biomni produced heterogeneous outputs requiring manual extraction from logs. Of 531 processed papers, only 387 yielded readily parseable outputs, increasing post-processing effort and reducing practical usability.</p>
+<h4 id="3-contextual-understanding-via-llm-reasoning">3. Contextual Understanding via LLM Reasoning</h4>
+<p>Both Biomni variants leverage LLM-based reasoning to interpret document-level context, enabling:</p>
+<ul>
+<li>Identification of primary research intent</li>
+<li>Discrimination between genetic research and incidental gene mentions</li>
+<li>Iterative resolution of ambiguous cases</li>
+</ul>
+<p>This capability explains why both Biomni variants eliminated entire classes of false positives that were frequent in PubTator outputs.</p>
+<h2 id="false-positive-analysis">False Positive Analysis</h2>
+<h3 id="custom-biomni">Custom Biomni</h3>
+<p>Despite high precision, Custom Biomni produced four false positives, revealing two dominant error modes:</p>
+<ol>
+<li><strong>Gene vs. gene product ambiguity</strong>, where proteins, biomarkers, or peptide hormones were incorrectly treated as genetic research targets</li>
+<li><strong>Model organism contamination</strong>, particularly in multi-organism studies where human genes were expressed or discussed in non-model systems</li>
+</ol>
+<p>These cases highlight semantic boundaries that remain challenging even for expert curators.</p>
+<h3 id="default-biomni">Default Biomni</h3>
+<p>Default Biomni produced 15 false positives, reflecting broader and more systematic issues:</p>
+<ul>
+<li>Inclusion of papers with no substantive genetic content</li>
+<li>Insufficient filtering of model organisms</li>
+<li>Acceptance of tangential enzyme or gene mentions</li>
+</ul>
+<p>These errors stem largely from overly inclusive classification criteria rather than misidentification of specific entities.</p>
+<h3 id="pubtator">PubTator</h3>
+<p>PubTator produced 22 false positives, dominated by two patterns:</p>
+<ol>
+<li><strong>Human gene misclassification</strong>, where papers primarily focused on human genetics but mentioned non-model organisms</li>
+<li><strong>False gene annotations</strong>, including biomarkers, metabolites, and non-genetic entities labeled as genes</li>
+</ol>
+<p>These errors reflect fundamental limitations of entity-level annotation without document-level reasoning.</p>
+<h2 id="false-negative-analysis">False Negative Analysis</h2>
+<h3 id="conservative-classification-in-custom-biomni">Conservative Classification in Custom Biomni</h3>
+<p>Custom Biomni retrieved fewer papers overall (44) than Default Biomni (75), indicating reduced recall. This difference arises from two interacting factors.</p>
+<p>First, the precision-oriented design introduces an inherent trade-off. More importantly, prompt design amplified this effect. The instruction to <em>always verify species–gene consistency using NCBI databases</em> imposed an overly strict constraint for non-model organisms, whose genes are often absent from curated databases. Consequently, legitimate genetic studies lacking registered NCBI Gene entries were systematically excluded.</p>
+<p>Second, Custom Biomni applied a stricter interpretation of what constitutes “genetic research,” excluding borderline studies that Default Biomni retained. Some of these cases likely represent genuine classification ambiguities rather than clear errors.</p>
+<h3 id="implications">Implications</h3>
+<p>These findings indicate that Custom Biomni’s false negatives are driven not only by model limitations but also by design choices—particularly prompt constraints that do not fully account for incomplete database coverage in non-model organism research.</p>
+<h2 id="mechanistic-insights">Mechanistic Insights</h2>
+<h3 id="why-database-integration-improves-precision">Why Database Integration Improves Precision</h3>
+<p>Database integration improves precision through synonym resolution, species–gene consistency checks, and increased confidence in established genetic entities. However, these benefits depend on database completeness—an assumption that does not hold uniformly for non-model organisms.</p>
+<h3 id="why-llm-reasoning-outperforms-traditional-ner-pipelines">Why LLM Reasoning Outperforms Traditional NER Pipelines</h3>
+<p><strong>PubTator’s Fundamental Constraint</strong>:
+PubTator employs dedicated machine learning–based NER models trained on curated biomedical corpora. These datasets could be biased toward human and other model organism genes, with limited representation of non-model organism genetics. As a result, performance degrades in non-model contexts, and annotations are often driven by string-level matches rather than research relevance.</p>
+<p>More fundamentally, PubTator’s pipeline lacks document-level reasoning and cannot assess whether a recognized gene mention constitutes the focus of genetic investigation or merely incidental context. This limitation explains the high frequency of false positives observed in this study.</p>
+<p>In contrast, LLM-based agents integrate entity recognition with contextual interpretation, enabling intent recognition and research-type classification that are critical for high-precision curation.</p>
+<h2 id="precisionrecall-trade-off-and-design-implications">Precision–Recall Trade-off and Design Implications</h2>
+<p>A clear trade-off emerges:</p>
+<ul>
+<li><strong>Custom Biomni</strong>: Highest precision, lower recall due to strict validation requirements</li>
+<li><strong>Default Biomni</strong>: Moderate precision with higher recall</li>
+<li><strong>PubTator</strong>: Lowest precision, with recall dependent on annotation coverage</li>
+</ul>
+<p>Optimal method selection therefore depends on use case, ranging from high-precision curation to exploratory literature discovery.</p>
+<h2 id="broader-implications">Broader Implications</h2>
+<p>This study demonstrates that AI agent–based literature curation can approach manual-level precision while retaining scalability. At the same time, it highlights challenges specific to non-model organism research, particularly incomplete database coverage and ambiguous research boundaries.</p>
+<p>Importantly, the observed limitations point to clear improvement pathways: relaxed validation prompts, expanded non-model organism gene databases, and more capable reasoning models. Together, these advances could plausibly push precision beyond 95% while improving recall.</p>
+<h2 id="conclusion">Conclusion</h2>
+<p>AI agent–based literature curation with database integration substantially outperforms existing automated systems for identifying genetic research on non-model organisms. While Custom Biomni achieves high precision, its limitations underscore the importance of prompt design and database coverage in shaping performance. Overall, this work establishes both the feasibility of agent-based curation and a concrete roadmap toward more comprehensive, high-precision literature organization across the tree of life.</p>
+<hr />
+<h1 id="supplementary-information">Supplementary Information</h1>
+<h2 id="supplementary-note-1-detailed-false-positive-analysis">Supplementary Note 1: Detailed False Positive Analysis</h2>
+<h3 id="s11-custom-biomni-false-positives-4-cases">S1.1 Custom Biomni False Positives (4 cases)</h3>
+<p>Despite achieving high precision, Custom Biomni produced four false positives, revealing specific edge-case error modes.</p>
+<h4 id="case-s111-pmid-39620069-hivhuman-evolutionary-study">Case S1.1.1: PMID 39620069 — HIV–Human Evolutionary Study</h4>
+<p><strong>Description</strong>: Evolutionary analysis of the HIV <em>gp120</em> gene in human populations.
+<strong>Error Type</strong>: Model organism contamination.
+<strong>Explanation</strong>: Although the agent correctly identified a gene-level study, it failed to exclude the paper due to primary involvement of a model organism (human). The presence of a non-model organism (HIV) led to misclassification.</p>
+<h4 id="case-s112-pmid-39624363-canine-crp-biomarker-review">Case S1.1.2: PMID 39624363 — Canine CRP Biomarker Review</h4>
+<p><strong>Description</strong>: Review of C-reactive protein (CRP) as a disease biomarker in dogs.
+<strong>Error Type</strong>: Gene vs. biomarker ambiguity.
+<strong>Explanation</strong>: CRP is encoded by a gene, but the paper focused on protein-level clinical measurements rather than genetic investigation.</p>
+<h4 id="case-s113-pmid-39620500-cyanobacteria-based-medical-applications">Case S1.1.3: PMID 39620500 — Cyanobacteria-Based Medical Applications</h4>
+<p><strong>Description</strong>: Engineering cyanobacteria to express human genes for medical use.
+<strong>Error Type</strong>: Species–gene misattribution.
+<strong>Explanation</strong>: Human genes were incorrectly attributed to cyanobacteria, illustrating the difficulty of multi-organism genetic engineering contexts.</p>
+<h4 id="case-s114-pmid-39625374-canine-endocrinology">Case S1.1.4: PMID 39625374 — Canine Endocrinology</h4>
+<p><strong>Description</strong>: Study of parathyroid hormone (PTH) in canine endocrine disorders.
+<strong>Error Type</strong>: Gene vs. gene product ambiguity.
+<strong>Explanation</strong>: The focus was physiological rather than genetic, despite the presence of gene-encoded peptides.</p>
+<hr />
+<h3 id="s12-common-error-patterns-in-custom-biomni">S1.2 Common Error Patterns in Custom Biomni</h3>
+<p>Across these cases, two dominant error modes were observed:</p>
+<ol>
+<li><strong>Confusion between genes and gene products</strong> (biomarkers, hormones, peptides)</li>
+<li><strong>Incomplete filtering of model organism involvement in multi-species studies</strong></li>
+</ol>
+<p>These errors highlight semantic boundaries that remain challenging even for expert human curators.</p>
+<hr />
+<h2 id="supplementary-note-2-default-biomni-false-positive-breakdown-15-cases">Supplementary Note 2: Default Biomni False Positive Breakdown (15 cases)</h2>
+<p>Default Biomni’s false positives exhibited more systematic classification issues.</p>
+<h3 id="s21-no-genetic-content-6-cases">S2.1 No Genetic Content (6 cases)</h3>
+<p>Papers incorrectly classified as genetic research despite lacking gene-focused investigation, including methodological, ecological, or nutritional studies.</p>
+<h3 id="s22-model-organism-contamination-3-cases">S2.2 Model Organism Contamination (3 cases)</h3>
+<p>Studies primarily focused on recognized model organisms (e.g., <em>E. coli</em>, tobacco, humans) that were insufficiently filtered.</p>
+<h3 id="s23-ambiguous-or-tangential-gene-mentions-2-cases">S2.3 Ambiguous or Tangential Gene Mentions (2 cases)</h3>
+<p>Papers mentioning enzymes or genes incidentally within biochemical or cultivation contexts, without genetic analysis.</p>
+<h3 id="s24-other-cases-4-cases">S2.4 Other Cases (4 cases)</h3>
+<p>Remaining errors spanned multiple categories and reflected inconsistent application of classification criteria.</p>
+<hr />
+<h2 id="supplementary-note-3-pubtator-false-positive-analysis-22-cases">Supplementary Note 3: PubTator False Positive Analysis (22 cases)</h2>
+<h3 id="s31-human-gene-misclassification-10-cases">S3.1 Human Gene Misclassification (10 cases)</h3>
+<p>Human genetics papers incorrectly retained due to incidental mentions of non-model organisms.</p>
+<h3 id="s32-false-gene-annotations-10-cases">S3.2 False Gene Annotations (10 cases)</h3>
+<p>Entities annotated as genes despite representing biomarkers, metabolites, or non-genetic concepts.</p>
+<h3 id="s33-irrelevant-papers-2-cases">S3.3 Irrelevant Papers (2 cases)</h3>
+<p>Papers lacking substantive biological research content but spuriously annotated.</p>
+<hr />
+<h2 id="supplementary-note-4-comparative-error-statistics">Supplementary Note 4: Comparative Error Statistics</h2>
+<table>
+<thead>
+<tr>
+<th>Error Type</th>
+<th>PubTator</th>
+<th>Default Biomni</th>
+<th>Custom Biomni</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>No genetic content</td>
+<td>2/22</td>
+<td>6/15</td>
+<td>0/4</td>
+</tr>
+<tr>
+<td>Model organism contamination</td>
+<td>10/22</td>
+<td>3/15</td>
+<td>2/4</td>
+</tr>
+<tr>
+<td>False gene annotations</td>
+<td>10/22</td>
+<td>0/15</td>
+<td>0/4</td>
+</tr>
+<tr>
+<td>Gene vs. biomarker/peptide</td>
+<td>included</td>
+<td>2/15</td>
+<td>2/4</td>
+</tr>
+<tr>
+<td>Species–gene misattribution</td>
+<td>0/22</td>
+<td>2/15</td>
+<td>1/4</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="supplementary-note-5-false-negative-analysis">Supplementary Note 5: False Negative Analysis</h2>
+<h3 id="s51-papers-missed-by-custom-biomni-26-cases">S5.1 Papers Missed by Custom Biomni (26 cases)</h3>
+<h4 id="s511-missing-ncbi-gene-entries">S5.1.1 Missing NCBI Gene Entries</h4>
+<p>Many legitimate non-model organism genetic studies lacked registered NCBI Gene IDs, preventing database-based validation.</p>
+<p><strong>Representative examples</strong> include studies on insecticide resistance genes, bacterial functional genomics, and algal DNA repair genes.</p>
+<h4 id="s512-classification-boundary-ambiguity">S5.1.2 Classification Boundary Ambiguity</h4>
+<p>Several missed papers occupied gray zones between genetics, taxonomy, ecology, or physiology, where expert judgment may vary.</p>
+<hr />
+<h3 id="s52-papers-missed-by-default-biomni-6-cases">S5.2 Papers Missed by Default Biomni (6 cases)</h3>
+<p>Papers retrieved exclusively by Custom Biomni included studies on plants, fungi, and some domesticated animals, suggesting that Default Biomni may have applied overly conservative filtering in specific contexts.</p>
+<hr />
+<h2 id="supplementary-note-6-prompt-design-considerations">Supplementary Note 6: Prompt Design Considerations</h2>
+<h3 id="s61-over-constraint-in-custom-biomni">S6.1 Over-Constraint in Custom Biomni</h3>
+<p>The instruction to <em>always verify species–gene consistency using NCBI databases</em> disproportionately penalized non-model organism research, where gene annotation coverage is incomplete by definition.</p>
+<h3 id="s62-prompt-simplification-hypothesis">S6.2 Prompt Simplification Hypothesis</h3>
+<p>Reducing prompt complexity may improve agent consistency by lowering cognitive load and allowing flexible reasoning when database evidence is unavailable.</p>
+<hr />
+<h2 id="supplementary-note-7-implications-for-future-system-design">Supplementary Note 7: Implications for Future System Design</h2>
+<p>These supplementary analyses underscore that remaining errors arise primarily from semantic ambiguity, database incompleteness, and prompt design choices rather than fundamental model incapability. Addressing these factors represents a clear pathway toward further performance gains.</p>
+<hr />
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+        
+<div class="md-social">
+  
+    
+    
+    
+    
+    <a href="mailto:takayuki.suzuki@science-aid.com" target="_blank" rel="noopener" title="" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4l208 156a48 48 0 0 0 57.6 0l208-156c12.1-9.1 19.2-23.3 19.2-38.4 0-26.5-21.5-48-48-48zM0 196v188c0 35.3 28.7 64 64 64h384c35.3 0 64-28.7 64-64V196L313.6 344.8c-34.1 25.6-81.1 25.6-115.2 0z"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.instant", "navigation.top", "content.code.copy"], "search": "../../assets/javascripts/workers/search.7a47a382.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.e71a0d61.min.js"></script>
+      
+    
+  </body>
+</html>
